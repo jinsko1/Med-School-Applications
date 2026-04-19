@@ -1,0 +1,32 @@
+# Brown University Warren Alpert Medical School - Prompt 02
+
+## Prompt Metadata
+- Title: Unique Attributes
+- Limit: 2000 characters
+- Cycle used in this repo: 2024 archive on Admit.org
+- Source: https://med.admit.org/secondary-essays/the-warren-alpert-medical-school-of-brown-university
+- Shared themes:
+- `../../../essays/shared/diversity-equity.md`
+- Local notes file: `prompt-02.local.md`
+
+## Prompt Text
+How will your unique attributes, life experiences, and interests add to the Alpert Medical School community?
+
+## Synced Backbone
+# Diversity / Equity Backbone
+
+## Experience
+Choose one concrete experience rather than listing identities or values.
+
+## Reflection
+- What did the experience teach you?
+- What bias, blind spot, or system did it reveal?
+- How did it change how you show up for others?
+
+## Forward-Looking Contribution
+- What will you contribute to classmates?
+- What will you contribute to patients?
+- How will you keep learning?
+
+## School-Specific Tailoring
+Read `../research.md` and `prompt-02.local.md` before drafting a final version.
