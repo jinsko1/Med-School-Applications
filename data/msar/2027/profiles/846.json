@@ -1,0 +1,1273 @@
+{
+  "medicalSchoolId": 27254,
+  "msarYear": 2027,
+  "instId": 846,
+  "profileStatus": "PUBLISHED",
+  "shortName": "Geisinger Commonwealth School of Medicine",
+  "countryCd": "USA",
+  "imageUrl": "846_image_2017.01.09.15.27.40.jpeg",
+  "crestUrl": "846_crest_2017.01.19.14.02.08.jpeg",
+  "activeFlag": "Y",
+  "admUrl": "https://www.geisinger.edu/gchs/education/gcsom",
+  "medschUrl": "http://www.tcmc.edu/",
+  "facebookUrl": "https://www.facebook.com/GeisingerCommonwealth",
+  "linkedinUrl": "https://www.linkedin.com/school/gcsom",
+  "instagramUrl": "https://www.instagram.com/geisingerhealthsciences/?hl=en",
+  "youtubeUrl": "https://www.youtube.com/user/CommonwealthMedical",
+  "twitterUrl": "https://twitter.com/GeisingerCwlth",
+  "finUrl": "http://www.tcmc.edu/financialaid",
+  "lastEditorUserName": null,
+  "lastEditorEmail": null,
+  "lastEditTime": "2026-02-25T13:05:41.978",
+  "currentProfileStatusDate": "2026-02-25T15:06:36.488",
+  "usCourseworkText": null,
+  "additionalCoursework": "Pre-requisite coursework for applications to Geisinger Commonwealth School of Medicine is recommended, not required. ",
+  "usMatDataText": null,
+  "medSchoolStudLife": {
+    "medicalSchoolId": 27254,
+    "diversity": "The Center for Student Well-being promotes and fosters student growth through leadership, engagement and wellness programs.\nhttps://www.geisinger.edu/gchs/education/departments/student-life/student-wellness",
+    "leaveOfAbsence": "Student may request a leave of absence (LOA) by working with the Associate Dean of Admissions and Student Affairs. LOA status can be granted for a minimum of one month and maximum of one year. Students who do not return to full-time status at the end of the leave and who have not reapplied for renewal of the leave are considered to have withdrawn from TCMC and need to reapply through the Associate Deans of Academic Affairs and Student Affairs if they wish to return at some future date.",
+    "organizationActivities": "Geisinger Commonwealth School of Medicine recognizes the contributions of student clubs and organizations that enhance the quality of student life and the college community. Clubs and organizations offer students the opportunity to participate in academic, cultural, social and athletic activities consistent with the development of knowledge, skills, values and attitudes expected from healthcare professionals. Numerous standing clubs exist; however, the Office of Student Affairs is always interested in meeting student needs and works collaboratively with the Medical Student Council, the governing board, to welcome suggestions for starting new clubs.\n",
+    "setting": "The Medical Science Building (MSB) is home to Geisinger College of Health Science's academic programs. Opened in April 2011 and dedicated in October 2011, the 185,000-square-foot MSB occupies a three-acre parcel of land in downtown Scranton, PA. The space includes a Clinical Skills and Simulation Center, Gross Anatomy Laboratory, our 95% digital library, lounge and study space, and educational space. This building in downtown Scranton is easily accessible to all Scranton hospitals.",
+    "housing": "Students have access to a variety of housing options on the North campus (Scranton) for phase 1 and on the clinical campuses for phases 2 and 3.  Housing is not provided by Geisinger Commonwealth School of Medicine.",
+    "supportSystems": "Center for Community Engagement and College Culture \nhttps://www.geisinger.edu/gchs/education/departments/center-community-engagement-college-culture ",
+    "supportSystemsForDisabilities": "The Center for Learning Excellence (CLE) supports the Division of Student Affairs' mission by providing academic support to enhance your interpersonal and educational experiences.  \nhttps://www.geisinger.edu/gchs/education/gcsom/student-life/center-learning-excellence ",
+    "wellnessPrograms": "https://www.geisinger.edu/gchs/education/gcsom/student-life",
+    "campusCulture": "The learning environment at Geisinger Commonwealth School of Medicine cultivates a supportive environment and minimizes competition among students. Faculty and staff are attentive to students' needs and will work together to ensure success. ",
+    "transportationDriverLicense": "Required",
+    "transportationVehicle": "Required",
+    "transportationAdditionalInfo": "Students are responsible for arranging and funding their own transportation to and from all assigned clinical sites, including those located off-campus or outside the immediate vicinity of \nthe Medical Sciences Building (Scranton) This includes travel for required clerkships, electives, intern or externships, and other clinical learning experiences.",
+    "additionalSupportProgrameName": "The Center for Student Well-Being has resources related to every aspect of well-being, including: physical, emotional, social, spiritual, intellectual, occupational, environmental and financial. "
+  },
+  "medSchoolCurriculum": {
+    "medicalSchoolId": 27254,
+    "dressCode": "Professional",
+    "tutoringPrograms": "Geisinger Commonwealth School of Medicine has an integrated advising system, coordinated through the Office of Student Affairs, which leverages faculty and staff as advisors.",
+    "globalExperience": 8,
+    "patientInteraction": "The Phase 2 curriculum provides comparable, high-quality, foundational clinical experiences through inpatient and ambulatory block rotations.",
+    "instructionStyle": "The Phase 1 curriculum encompasses foundational education rooted in basic, clinical and health system sciences.",
+    "clinicalRotations": "The advanced clinical experience phase is time for learners to complete their core curriculum requirements and explore their own interests in medicine through sub-internships and electives. ",
+    "prematriculationProgram": "Students are required to submit specified documentation prior to matriculation including, but not limited to: final transcripts, background checks, drug screening, and health documents.  ",
+    "rankStudents": "Geisinger Commonwealth School of Medicine does not compute a class rank or do an overall rating system.  ",
+    "lectureAttendance": "All courses use active learning educational experiences instead of lectures.",
+    "curricularHighlights": "The Total Health Curriculum is built on the science of learning and uses an evidence-based approach to train skilled, compassionate physicians who provide individualized care of patients and promote health in the communities they serve. In addition to providing a fully integrated and immersive educational experience in basic, clinical and health systems sciences, the curriculum emphasizes six themes, including Social Justice and Health Equity, Health System Citizenship, Primary Care, Personal and Professional Development, Community Immersion and Population Health. These themes will guide the training of physicians who are resilient, collaborative and ready to assume leadership roles in evolving healthcare settings.",
+    "primaryCarePrograms": "While primary care is fundamental to the mission of the institution, students have matriculated and gone on to residency programs in all specialties.  Geisinger believes in primary care and its power to evolve medicine from disease management to enabling stronger, healthier, more vibrant communities.  The Abigail Geisinger Scholars Program was designed to allow students to pursue their primary care goals without the worry of student loan debt. For more information, visit: https://www.geisinger.edu/gchs/education/departments/division-enrollment-management/financial-aid/md-program/abigail-geisinger-scholars-program",
+    "researchPrograms": "Our biomedical research and training programs target the health issues that are prevalent in northeastern, central, and northcentral Pennsylvania, including the cancers that exhibit a high incidence in the region, chronic disease associated with aging, and significant needs in primary care, mental health, and community medicine.",
+    "videoOnlineLectures": "Y",
+    "academicSystem": "O",
+    "communityServiceReq": "N",
+    "researchThesisReq": "Y",
+    "academicSystemText": "Phase 1 \u2013 Principles of Medical Science and Practice\nPhase 2 \u2013 Core Clinical Immersion\nPhase 3 \u2013 Career Differentiation and Exploration",
+    "communityServiceText": "The Summer Research Immersion Program (SRIP) is an eight-week program open to first-year medical students at Geisinger Commonwealth School of Medicine who are in good academic standing.",
+    "researchThesisText": "https://www.geisinger.edu/gchs/education/gcsom/academics/academic-departments/research-opportunities/srip",
+    "usmle1Req": null,
+    "usmle1ReqDesc": null,
+    "usmle2CsReq": null,
+    "usmle2CsReqDesc": null,
+    "usmle2CkReq": null,
+    "usmle2CkReqDesc": null,
+    "affiliatedHospitals": "https://www.geisinger.edu/gchs/education/gcsom/regional-campus",
+    "gradingSystem": "Pass/Fail (pre-clinical phase)\nPass/High Pass/Honors/Fail (clinical phase)",
+    "usGrantTot": 15653258,
+    "languageInstructions": "English"
+  },
+  "medSchoolInformation": {
+    "medicalSchoolId": 27254,
+    "publicPrivate": "I",
+    "yearFounded": 2008,
+    "totalEnrollment": 470,
+    "startMonthYear": "2027-08-02",
+    "startMonthYearText": null,
+    "estEntrants": 105,
+    "estEntrantsEdp": 4,
+    "estEntrantsSpecialPrograms": 3,
+    "generalInformation": "Geisinger Commonwealth School of Medicine is unique among academic health centers. The School of Medicine offers a community-based model of undergraduate medical education with regional campuses in Danville, Lewistown, Sayre, and the Northeast (Scranton and Wilkes-Barre). The School\u2019s innovative Doctor of Medicine (MD) degree curriculum, focused on caring for people in the context of their lives and their community, attracts the next generation of physicians and scientists from within its region, as well as from across Pennsylvania and the nation. ",
+    "missionStatement": "Geisinger Commonwealth School of Medicine will educate aspiring physicians and scientists to serve society using a community-based, patient-centered, interprofessional and evidence-based model of education that is committed fairness and respect for all, promotes discovery and utilizes innovative techniques.",
+    "introductoryVideoUrl": "",
+    "programUndergradCollege": "",
+    "programAbout": "",
+    "programWebSite": "",
+    "campusType": "URBAN",
+    "videoTitle": "",
+    "videoDescription": ""
+  },
+  "medSchoolApplication": {
+    "medicalSchoolId": 27254,
+    "amcasLettersInd": "Y",
+    "amcasLettersMin": 3,
+    "amcasLettersMax": 4,
+    "cbcRequired": "Yes: National, Pennsylvania, Child Abuse, FBI, and drug screening",
+    "mcatReq": "Y",
+    "mcatLatestConsidered": "2026-09-30",
+    "mcatOldestConsidered": "2023-06-13",
+    "applicantResponseToOffer": "Two weeks; after April 30: 5 business days; within 30 days of orientation: 2 business days",
+    "deferralConsidered": "C",
+    "depositReq": "Y",
+    "depositAmountRes": 100,
+    "depositAmountNonres": 100,
+    "depositDueDtText": null,
+    "depositAppliedToTuition": "Y",
+    "depositRefundable": "Y",
+    "depositRefundablePriorTo": "2027-04-30",
+    "matricNote": null,
+    "amcasLettersText": "Additional letters that address aspects of an applicant's application not previously addressed will be accepted if submitted via AMCAS Letters.",
+    "letterGuidance": "Individual letters should be written by science faculty who have taught the candidate for at least one semester. ",
+    "committeeLetterAccepted": "P",
+    "individualLetterAccepted": "A",
+    "letterPacketsAccepted": "A",
+    "typicalInterviewDay": "The admissions interview is a critical piece of the application process. It provides the Admissions Committee with deeper insight into who you are as a candidate. Also, it gives the candidate a more in-depth look at the School of Medicine's Total Health Curriculum, which is built on the science of learning and uses an evidence-based approach to train skilled, compassionate physicians who provide individualized care of patients and promote health in their communities.\n\nAfter the Admissions Committee reviews the applications, selected applicants will receive an email invitation to interview at the School of Medicine. The Committee will consider the candidates' academic potential for success and alignment with the school's mission and values.",
+    "interviewInvitations": "August 1, 2026",
+    "interviewFormat": "Interviews will be conducted virtually and will follow the multiple mini interview format.",
+    "regionalInterview": "No",
+    "videoInterview": "Yes",
+    "beginReview": "2026-07-06",
+    "primaryApplService": "AMCAS",
+    "priApplEarliestDtText": "2026-05-28",
+    "priApplLatestDtText": null,
+    "secApplReq": "Y",
+    "secApplSentTo": "Secondary application will be sent to all applicants upon receipt of verified AMCAS application.",
+    "secApplName": "Admissions Office",
+    "secApplPhone": "570 504 7000",
+    "secApplEmail": "admissions@tcmc.edu",
+    "secFee": "Y",
+    "secFeeAmount": 100,
+    "secFeeWaiverInd": "Y",
+    "secApplUrl": null,
+    "secApplEarliestDtText": null,
+    "secApplLatestDtText": null,
+    "edpAvailable": "Y",
+    "edpAvailableTxt": "The deadline for EDP applicants to complete their application and materials is August 1, 2026.  Applicants who do not meet this deadline will be automatically deferred to the regular applicant pool. ",
+    "edpAvailableFor": "Both",
+    "edpNotifyDtTxt": null,
+    "ctsRequired": "To be considered for admission, applicants must be either a US Citizen or Permanent Resident",
+    "stateResAfterMatric": null,
+    "acceptOutstateAppl": "Y",
+    "acceptOutstateApplInformation": "Completed applications from out-of-state residents will be given full consideration",
+    "acceptCanadianAppl": "C",
+    "acceptCanadianApplInformation": "To be considered for admission, applicants must be either US Citizens or Permanent Resident",
+    "acceptInternationalAppl": "N",
+    "acceptInternationalApplInformation": "To be considered for admission, applicants must be either US Citizens or Permanent Resident",
+    "acceptDaca": "N",
+    "dacaDetail": "To be considered for admission, applicants must be either US Citizens or Permanent Resident",
+    "newEntrants": 126,
+    "acceptTransfers": "N",
+    "transferContact": null,
+    "transferPhone": null,
+    "transferEmail": null,
+    "transferUrl": null,
+    "additionalInfo": "https://www.geisinger.edu/gchs/education/gcsom/admissions-financial-aid\n\n",
+    "additionalAssessmentsRequired": "Y",
+    "mcatHighestTotal": "1",
+    "mcatLifetimeScores": "0",
+    "mcatThreeYearsScores": "0",
+    "mcatAverageScores": "0",
+    "mcatSuperScore": "0",
+    "mcatOtherScore": "0",
+    "mcatScoresAdditionalInfo": "The Committee will consider the highest individual score and does not consider super scores or composite scores.",
+    "mcatScreenInd": "N",
+    "mcatScreenAdditionalInfo": "Applications are reviewed in accordance with our mission-aligned review process.",
+    "gpaScreenInd": "N",
+    "gpaScreenAdditionalInfo": "Applications are reviewed in accordance with our mission-aligned review process.",
+    "postbacGpaInd": "Y",
+    "minUndergradGpaInfo": "Applications are reviewed in accordance with our mission-aligned review process.",
+    "minCreditHourInfo": "Applications are reviewed in accordance with our mission-aligned review process.",
+    "minUndergradGpa": null,
+    "minCreditHour": null,
+    "pteAvailability": null,
+    "cteAvailability": null,
+    "courseworkUpwardTransfer": "1",
+    "courseworkAccelerated": "1",
+    "courseworkSupplemental": "1",
+    "courseworkAcceptanceInfo": "The Admissions Committee will consider coursework taken at any accredited US or Canadian institution, including coursework completed at a community college.  Online coursework will not be accepted, except in instances directly related to the Pandemic. ",
+    "letterOfIntentAcceptInd": "Y",
+    "letterOfIntent": "Y",
+    "letterOfInterest": "Y",
+    "noticeOfSignificantUpdate": "Y",
+    "letterOfIntentAdditionalInfo": "Applicants may submit up to two meaningful updates per application cycle, submitted in PDF format to: mdadmissions@geisinger.edu ",
+    "edpApplicationDeadline": null,
+    "edpApplicationRestriction": null,
+    "tribalAffiliation": null,
+    "technicalStandardInfo": "",
+    "technicalStandardLink": "https://www.geisinger.edu/gchs/education/gcsom/admissions-financial-aid/technical-standards",
+    "interviewedCountdata": null
+  },
+  "medSchoolFinancial": {
+    "medicalSchoolId": 27254,
+    "financialAid": "The Office of Financial Aid at Geisinger Commonwealth School of Medicine is committed to providing students with financial aid assistance and guidance. Through grants, loans and scholarships, our aim is to make a Geisinger education affordable.  \n\nhttps://www.geisinger.edu/gchs/education/departments/division-enrollment-management/financial-aid",
+    "usGuarantdTuitn": null,
+    "tuitionPolicy": null,
+    "usHealthInsurWaived": "Y",
+    "totalCostAttendRes": 105637,
+    "tuitionAndFeesRes": 65494,
+    "usOtherFeesTotalRes": 35143,
+    "usHealthInsurFeeRes": 5000,
+    "totalCostAttendNonres": 112591,
+    "tuitionAndFeesNonres": 72448,
+    "usOtherFeesTotalNonres": 35143,
+    "usHealthInsurFeeNonres": 5000,
+    "usAvgGradIndebt": 240615,
+    "usAidPct": 90,
+    "financialCostNote": null
+  },
+  "medSchoolSpecialty": {
+    "medicalSchoolId": 27254,
+    "anesthesiology": 0,
+    "dermatology": 0,
+    "emergencyMedicine": 0,
+    "familyMedicine": 0,
+    "neurology": 0,
+    "internalMedicine": 0,
+    "obstetricsGynecology": 0,
+    "orthopedicSurgery": 0,
+    "otolaryngology": 0,
+    "pathology": 0,
+    "pediatrics": 0,
+    "physcialMedicineRehabilitation": 0,
+    "plasticSurgery": 0,
+    "psychiatry": 0,
+    "radiology": 0,
+    "surgeryGeneral": 0,
+    "specialtyTrainingTxt": null
+  },
+  "medSchoolMatDemo": {
+    "medicalSchoolId": 27254,
+    "postbaccStudents": null,
+    "matricAgeUnder19": 0,
+    "matricAge1923": 70,
+    "matricAge2429": 49,
+    "matricAge3039": 4,
+    "matricAgeOver39": 1,
+    "matricStateList": "California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Minnesota, New Jersey, New York, Pennsylvania, Rhode Island, Virginia, Washington, Wisconsin",
+    "matricCountryList": "United States of America (the)",
+    "menCt": 58,
+    "womenCt": 64,
+    "sciMathMajorPct": 78,
+    "gradDegreePct": 10,
+    "percentUgEntrants": "0%",
+    "bacDegreePct": 99,
+    "pctMatUnderservedY": 0.2419,
+    "pctMatUnderservedN": 0.6129,
+    "pctMatUnderservedU": 0.1048,
+    "pctMatUnderservedD": 0.0403,
+    "pctMatDisadvantaged": 0.2339,
+    "pctMatFlNative": 0.5242,
+    "pctMatFlAdvanced": 0.0806,
+    "pctMatFlGood": 0.1613,
+    "uniqueAdditionalLanguages": "American Sign Language,Arabic,Armenian,Bengali,Chinese,Czech,French,French Creole,German,Gujarati,Hindi,Italian,Japanese,Korean,Latin,Malayalam,Other,Polish,Portuguese,Punjabi,Romanian,Russian,Slovak,Spanish,Tagalog,Tamil,Ukrainian,Urdu,Vietnamese",
+    "mcatAcceptedTotalAvg": 514.5,
+    "mcatAcceptedTotalStd": 4.7,
+    "mcatAcceptedTotalMedian": 514,
+    "mcatAcceptedBblsAvg": 128.8,
+    "mcatAcceptedBblsStd": 1.7,
+    "mcatAcceptedBblsMedian": 129,
+    "mcatAcceptedCarsAvg": 127.5,
+    "mcatAcceptedCarsStd": 2,
+    "mcatAcceptedCarsMedian": 127,
+    "mcatAcceptedCpbsAvg": 128.7,
+    "mcatAcceptedCpbsStd": 1.7,
+    "mcatAcceptedCpbsMedian": 129,
+    "mcatAcceptedPsbbAvg": 129.6,
+    "mcatAcceptedPsbbStd": 1.7,
+    "mcatAcceptedPsbbMedian": 130,
+    "gpaAcceptedTotalAvg": 3.86,
+    "gpaAcceptedTotalStd": 0.17,
+    "gpaAcceptedTotalMedian": 3.9,
+    "gpaAcceptedSciAvg": 3.82,
+    "gpaAcceptedSciStd": 0.2,
+    "gpaAcceptedSciMedian": 3.87,
+    "anotherGenderIdentityCt": 1,
+    "declineToAnswerCt": 1,
+    "tribalAffiliationInfo": "Aymara"
+  },
+  "medSchoolCampuses": null,
+  "medSchoolStaffs": [
+    {
+      "medSchoolStaffId": 90282,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "Kristen Greene, MS",
+      "fname": null,
+      "lname": null,
+      "title": "Director of Admissions, MD Program",
+      "staffType": "ADDL_ADMIN1",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90268,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "ADDL_ADMIN2",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90278,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "ADDL_ADMIN3",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90276,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "Michelle Schmude, EdD",
+      "fname": null,
+      "lname": null,
+      "title": "Interim Associate Dean for Admissions and Financial Aid",
+      "staffType": "A_DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90280,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "Steven J. Scheinman, MD",
+      "fname": null,
+      "lname": null,
+      "title": "President and Dean",
+      "staffType": "DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90274,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "Ida Castro, JD",
+      "fname": null,
+      "lname": null,
+      "title": "Vice President for Community & Government Relations and Chief Diversity Officer",
+      "staffType": "DIV_ADEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90270,
+      "contact": "Ida Castro, JD",
+      "phone": "5705047000",
+      "email": "bgutierrez@geisinger.edu",
+      "url": null,
+      "prefix": "",
+      "suffix": "",
+      "name": null,
+      "fname": "Belsey",
+      "lname": "Guiterrez",
+      "title": "Enrollment Management Recruiter",
+      "staffType": "DIVERSITY",
+      "poc": null,
+      "staffTypeLabel": "MD Admissions"
+    },
+    {
+      "medSchoolStaffId": 90272,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "Ellen McGuire",
+      "fname": null,
+      "lname": null,
+      "title": "Director of Financial Aid",
+      "staffType": "FINAID_OFF",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 90284,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "TRANSFER",
+      "poc": "N",
+      "staffTypeLabel": null
+    }
+  ],
+  "medSchoolPrograms": [
+    {
+      "medSchoolProgramId": 127495,
+      "yn": "Y",
+      "url": "https://www.geisinger.edu/gchs/education/gcsom/academics/md-program/oms-md",
+      "cname": "Christine DiMelfi",
+      "phone": "",
+      "name": "Oral & Maxillofacial Surgery/Medical Doctorate Program",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER2",
+      "email": "cademelfi@geisinger.edu",
+      "programLength": "6 Years",
+      "deadline": "https://www.geisinger.edu/gchs/education/gcsom/academics/md-program/oms-md"
+    },
+    {
+      "medSchoolProgramId": 127509,
+      "yn": "N",
+      "url": "http://www.tcmc.edu/PublicHealth",
+      "cname": "Erica Townsend ",
+      "phone": "5705047299",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPH",
+      "email": "ETownsend@tcmc.edu",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 129849,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDPHD",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 127497,
+      "yn": "Y",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": "To further our core mission of adding physicians to critically underserved areas of healthcare, we established an integrated 6-year Oral and Maxillofacial Surgery (OMS)/Medical Doctorate (MD) parallel curriculum program.\n\nThis new program builds on the strengths of Geisinger\u2019s MD program and OMS residency program. In our new combined OMS-MD program, you\u2019ll gain a deeper foundational knowledge of medicine, integrated with your subspecialty training in oral and maxillofacial surgery.",
+      "programType": "COMB_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 127507,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDJD",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 129847,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_BACMD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 127503,
+      "yn": "N",
+      "url": "http://www.tcmc.edu/mdmha",
+      "cname": "",
+      "phone": "",
+      "name": "MD-MHA Program",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER1",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 127499,
+      "yn": "Y",
+      "url": "https://www.geisinger.edu/gchs/education/departments/division-enrollment-management/financial-aid/md-program/abigail-geisinger-scholars-program",
+      "cname": "Kim Kovalick, MD",
+      "phone": "5705047000",
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_SUMMER",
+      "email": "mdadmissions@geisinger.edu",
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 127511,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMBA",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 127513,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": "The Abigail Geisinger Scholars Program was created to address the rising debt of medical students and to repopulate the physician shortage in Geisinger\u2019s primary service areas within Pennsylvania. Geisinger wants its smart, hardworking medical students to be free to practice medicine the way every future doctor imagines it \u2014 through meaningful, long-term relationships with people who become more like family.\n",
+      "programType": "SPECIAL_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 127501,
+      "yn": "N",
+      "url": "http://www.tcmc.edu/MBSAdmissions",
+      "cname": "MBS Program",
+      "phone": "570 504 9068",
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_POSTBAC",
+      "email": "mbs@tcmc.edu",
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 127505,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPP",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 129845,
+      "yn": null,
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDGRAD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    }
+  ],
+  "medSchoolRaceEthnicity": [
+    {
+      "raceEthnicity": "American Indian or Alaskan Native",
+      "totalRegistered": 1
+    },
+    {
+      "raceEthnicity": "Asian",
+      "totalRegistered": 42
+    },
+    {
+      "raceEthnicity": "Black or African American",
+      "totalRegistered": 1
+    },
+    {
+      "raceEthnicity": "Decline to Respond",
+      "totalRegistered": 9
+    },
+    {
+      "raceEthnicity": "Hispanic or Latino",
+      "totalRegistered": 4
+    },
+    {
+      "raceEthnicity": "Middle Eastern or North African",
+      "totalRegistered": 8
+    },
+    {
+      "raceEthnicity": "Native Hawaiian or Pacific Islander",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Other",
+      "totalRegistered": 1
+    },
+    {
+      "raceEthnicity": "Unduplicated Number of Matriculants",
+      "totalRegistered": 124
+    },
+    {
+      "raceEthnicity": "White",
+      "totalRegistered": 69
+    }
+  ],
+  "medSchoolTimeline": [
+    {
+      "medSchoolTimelineId": 33692,
+      "medicalSchoolId": 27254,
+      "eventIndex": 6,
+      "eventDate": "2025-04-30T00:00:00.000",
+      "eventDetail": "GCSOM Plan to Enroll Date",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 33689,
+      "medicalSchoolId": 27254,
+      "eventIndex": 2,
+      "eventDate": "2025-07-07T00:00:00.000",
+      "eventDetail": "Must commit to enroll 21 days prior to matriculation",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 33690,
+      "medicalSchoolId": 27254,
+      "eventIndex": 3,
+      "eventDate": "2025-12-15T00:00:00.000",
+      "eventDetail": "Deadline to submit AMCAS application 11:59 pm EST",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 33691,
+      "medicalSchoolId": 27254,
+      "eventIndex": 1,
+      "eventDate": "2026-01-15T00:00:00.000",
+      "eventDetail": "Deadline to submit secondary application 11:59 pm EST",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 33688,
+      "medicalSchoolId": 27254,
+      "eventIndex": 0,
+      "eventDate": "2026-04-30T00:00:00.000",
+      "eventDetail": "Deadline to hold multiple acceptances.",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 33693,
+      "medicalSchoolId": 27254,
+      "eventIndex": 5,
+      "eventDate": "2026-05-11T00:00:00.000",
+      "eventDetail": "Commit to enroll for participants in the summer pre-matriculation program within the Center of Excellence",
+      "activeFlag": "Y"
+    }
+  ],
+  "medSchoolAssessments": [
+    {
+      "assessmentId": 12337,
+      "medicalSchoolId": 27254,
+      "assessmentName": "AAMC Professional Readiness Exam (PREview\u2122) \nhttp://www.aamc.org/PREview \n",
+      "assessmentAdditionalInformation": "Geisinger Commonwealth School of Medicine is strongly encouraging applicants to take the PREview exam. We will consider scores as one part of our mission-aligned admissions process.",
+      "assessmentIndex": 1,
+      "activeFlag": "Y"
+    }
+  ],
+  "editVersion": "N",
+  "courseworkOptFlag": null,
+  "medSchoolProgramMatriculant": null,
+  "medSchoolMdPathway": {
+    "medicalSchoolId": 27254,
+    "threeYearMdPathwayFlag": "Y",
+    "programDesc": "Abigail Geisinger Scholars accepted into the Primary Care 3+3 Accelerated Program complete medical school in three years, followed by a three-year residency- with a pathway to match in one of Geisinger's residency programs for internal medicine or family medicine. ",
+    "programUrl": "",
+    "programStartDate": "2027-07-12",
+    "spotAvailable": "8",
+    "avgMedIndebt": 0,
+    "percMedDebt": 0,
+    "eligibleApplicants": "Applicants accepted to the School of Medicine and subsequently accepted to the Abigail Geisinger Scholars program.",
+    "applicationDeadline": "December 15, 2026",
+    "applicationProcess": "Applicants who indicate their interest in the Abigail Geisinger Scholars Program and are accepted for admission to the School of Medicine will be invited to interview for the Scholars Program.  If accepted into the Abigail Geisinger Scholars Program, applicants will be invited to apply for and complete the interview process for the 3+3 program. ",
+    "programRestReq": "In addition to meeting all application deadlines and completing all required interviews, all applicants must be either US Citizens for Permanent Residents. ",
+    "residencyAffiliationPathway": "Directed residency option for all Three-Year MD students",
+    "residencyPathways": [
+      "Family Medicine",
+      "Internal Medicine"
+    ],
+    "resAdditionalInfo": "",
+    "residencySlots": "8"
+  },
+  "medSchoolAcceptance": {
+    "medicalSchoolId": 27254,
+    "acceptAmericanAppl": null,
+    "acceptAmericanApplInformation": "",
+    "acceptanceNote": null,
+    "acceptNotifyEarliestDtText": "2026-10-15",
+    "acceptNotifyLatestDtText": "2027-07-05",
+    "waitlistInformation": "380",
+    "waitlistProcedure": "A student's position on the waitlist is confidential. If applicants are selected from the waitlist, they are called and emailed and asked to reply according to AAMC traffic rules.",
+    "waitlistAcceptance": 45,
+    "connectionToSchoolRequried": null
+  },
+  "medSchoolSelection": {
+    "medicalSchoolId": 27254,
+    "premedReqRec": "https://www.geisinger.edu/gchs/education/gcsom/admissions-financial-aid",
+    "premedCourseworkNote": null,
+    "premedReqWebSite": "https://www.geisinger.edu/gchs/education/gcsom/admissions-financial-aid/admissions-requirements",
+    "medSchoolMediaSites": "Facebook:  https://www.facebook.com/TCMCnepa\nTwitter: https://twitter.com/TCMCnepa\nInstagram: https://www.instagram.com/TCMCnepa\nGoogle Plus: https://plus.google.com/+TheCommonwealthMedicalCollegeScranton\nYouTube: https://www.youtube.com/user/CommonwealthMedical \n",
+    "latestPrereqDate": "2027-07-16",
+    "oldestPrereqDate": "N/A",
+    "selectionFactors": "The Admissions Committee reviews applications using a mission-aligned approach, considering experiences, academic metrics, attributes, competencies, and interviews. Ideal candidates will also have a demonstrated commitment to service and to addressing the healthcare needs of our region.   ",
+    "apCreditAccepted": null,
+    "acceptOnlineCourses": null,
+    "acceptCommCollCourses": null,
+    "communityServicePct": 87,
+    "medicalRelatedPct": 82,
+    "researchPct": 93,
+    "extracuricularActivitiesPct": null,
+    "hobbiesPct": null,
+    "millitaryServicePct": 2,
+    "employmentMedicalPct": 76,
+    "employmentNotMedicalPct": null,
+    "physicianShadowingPct": 91,
+    "shadowRequired": "Recommended",
+    "preMedShadowText": "Premedical clinical experiences are strongly encouraged.  The strong majority of successful applicants have medical exposure."
+  },
+  "medSchoolMatDatas": [
+    {
+      "medSchoolMatDataId": 82558,
+      "res": 956,
+      "nonres": 6000,
+      "international": 8,
+      "total": 6964,
+      "matType": "APPLIED"
+    },
+    {
+      "medSchoolMatDataId": 81332,
+      "res": 479,
+      "nonres": 410,
+      "international": 0,
+      "total": 889,
+      "matType": "INTERVIEWED"
+    },
+    {
+      "medSchoolMatDataId": 82560,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "DEFERRED"
+    },
+    {
+      "medSchoolMatDataId": 82562,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "EAP"
+    },
+    {
+      "medSchoolMatDataId": 82564,
+      "res": 1,
+      "nonres": 0,
+      "international": 0,
+      "total": 1,
+      "matType": "EDP"
+    },
+    {
+      "medSchoolMatDataId": 82566,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "BACMD"
+    },
+    {
+      "medSchoolMatDataId": 82568,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "MDPHD"
+    },
+    {
+      "medSchoolMatDataId": 82570,
+      "res": 91,
+      "nonres": 33,
+      "international": 0,
+      "total": 124,
+      "matType": "MATRIC"
+    }
+  ],
+  "medSchoolCourseworks": [],
+  "overview": {
+    "schoolName": "Geisinger Commonwealth School of Medicine",
+    "schoolName30": "Geisinger Commonwealth SOM",
+    "country": "USA",
+    "state": "PA",
+    "city": "Scranton",
+    "medSchoolId": 27254,
+    "instId": 846,
+    "crestUrl": "846_crest_2017.01.19.14.02.08.jpeg",
+    "total": 124,
+    "campusType": "URBAN",
+    "publicPrivate": "I",
+    "tuitionAndFeesNonres": 72448,
+    "tuitionAndFeesRes": 65494,
+    "acceptOutstateAppl": "Y",
+    "acceptCanadianAppl": "C",
+    "acceptInternationalAppl": "N",
+    "acceptAmericanAppl": "Y",
+    "programType": [
+      "COMB_OTHER2",
+      "COMB_ADDL_INFO"
+    ],
+    "medianAcceptedGPA": 3.9,
+    "medianAcceptedMCAT": 514,
+    "medianMatriculantGPA": 3.88,
+    "medianMatriculantMCAT": 513,
+    "priApplLatestDtTextUnix": 0,
+    "priApplLatestDtText": "N/A",
+    "primaryApplService": null
+  },
+  "medSchoolMcat": [
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "In-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 508,
+          "p25": 511,
+          "p75": 518,
+          "p90": 521,
+          "median": 514,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "In-State Residents total MCAT scores"
+        },
+        {
+          "p10": 126,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 131,
+          "p90": 132,
+          "median": 130,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "Out-of-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 510,
+          "p25": 513,
+          "p75": 518,
+          "p90": 520,
+          "median": 515,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Out-of-State/International Residents total MCAT scores"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 128,
+          "p25": 129,
+          "p75": 131,
+          "p90": 132,
+          "median": 130,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "School-Specific Accepted Applicants",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 509,
+          "p25": 511,
+          "p75": 518,
+          "p90": 520,
+          "median": 514,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 129,
+          "p75": 131,
+          "p90": 132,
+          "median": 130,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "All Matriculating Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 130,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 506,
+          "p25": 510,
+          "p75": 517,
+          "p90": 519,
+          "median": 513,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 128,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 131,
+          "p90": 132,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "National Accepted Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": 125,
+          "p25": 127,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 124,
+          "p25": 125,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 503,
+          "p25": 508,
+          "p75": 517,
+          "p90": 520,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "National total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 126,
+          "p25": 128,
+          "p75": 130,
+          "p90": 132,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    }
+  ],
+  "medSchoolGpa": [
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "In-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.54,
+          "p25": 3.75,
+          "p75": 3.97,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.68,
+          "p25": 3.82,
+          "p75": 3.97,
+          "p90": 4,
+          "median": 3.91,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "Out-of-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.6,
+          "p25": 3.75,
+          "p75": 3.96,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.64,
+          "p25": 3.79,
+          "p75": 3.97,
+          "p90": 4,
+          "median": 3.89,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "School-Specific Accepted Applicants",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.56,
+          "p25": 3.75,
+          "p75": 3.97,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.67,
+          "p25": 3.81,
+          "p75": 3.97,
+          "p90": 4,
+          "median": 3.9,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "All Matriculating Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.44,
+          "p25": 3.66,
+          "p75": 3.96,
+          "p90": 4,
+          "median": 3.86,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.58,
+          "p25": 3.73,
+          "p75": 3.96,
+          "p90": 3.99,
+          "median": 3.88,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "National Accepted Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.39,
+          "p25": 3.63,
+          "p75": 3.95,
+          "p90": 4,
+          "median": 3.83,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.54,
+          "p25": 3.73,
+          "p75": 3.96,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    }
+  ],
+  "edition": "CURRENT_EDITION",
+  "campusList": [
+    {
+      "campusName": "Geisinger Commonwealth School of Medicine",
+      "addressLabel": "525 Pine Street",
+      "addressMailStop": null,
+      "addressLine2": null,
+      "addressLine3": null,
+      "phone": "5705049068",
+      "fax": "5705049068",
+      "email": "mdadmissions@geisinger.edu",
+      "instName120": "Geisinger Commonwealth School of Medicine",
+      "city": "Scranton",
+      "stateCd": "PA",
+      "postCd": "18509-3240",
+      "countryCd": "USA",
+      "instContactInfoAddress": "525 Pine ST Scranton PA 18509-3240",
+      "mainCampus": true
+    }
+  ],
+  "newCourseworkDataAvailable": true,
+  "medSchoolExperience": []
+}

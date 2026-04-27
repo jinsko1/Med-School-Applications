@@ -1,0 +1,1309 @@
+{
+  "medicalSchoolId": 27492,
+  "msarYear": 2027,
+  "instId": 881,
+  "profileStatus": "PUBLISHED",
+  "shortName": "University of Georgia School of Medicine",
+  "countryCd": "USA",
+  "imageUrl": "881_image_2026.03.18.07.36.59.jpeg",
+  "crestUrl": "881_crest_2026.03.18.07.36.46.jpeg",
+  "activeFlag": "Y",
+  "admUrl": null,
+  "medschUrl": null,
+  "facebookUrl": "https://www.facebook.com/UGAMedicine/",
+  "linkedinUrl": "https://www.linkedin.com/company/102156994/",
+  "instagramUrl": "https://www.instagram.com/ugamedicine/",
+  "youtubeUrl": "",
+  "twitterUrl": "",
+  "finUrl": null,
+  "lastEditorUserName": null,
+  "lastEditorEmail": null,
+  "lastEditTime": "2026-03-20T09:09:09.583",
+  "currentProfileStatusDate": "2026-04-01T12:14:14.883",
+  "usCourseworkText": null,
+  "additionalCoursework": "In addition to the required coursework, the following college courses are recommended for prospective applicants. Students are encouraged to complete courses that prepare them for medical school, the Medical College Admissions Test (MCAT), and broaden their worldview.\n\nAnatomy & physiology\nBiochemistry\nCellular biology\nForeign language (Spanish highly recommended)\nGenetics\nImmunology\nMicrobiology\nSocial science (e.g., psychology)",
+  "usMatDataText": null,
+  "medSchoolStudLife": {
+    "medicalSchoolId": 27492,
+    "diversity": "The Academic Success Programs support all students on their journey to becoming physicians. These programs include group sessions on effective learning strategies, an eBook and supplementary materials to guide student learning, peer tutoring, board exam preparation, and individualized academic counseling. Students at any stage of their medical education are encouraged to utilize Academic Success Programs regularly, particularly if they find themselves underperforming or facing academic challenges.\nThe Office of Personalized Health and Well-Being delivers innovative training in resilience and well-being for learners, while providing personalized health solutions for chronic disease management. They also specialize in key areas of medical education, including humanism in medicine, sports medicine and performance, and rural health. Its training and support services are available to medical students, resident physicians, primary care providers, collaborative care teams, and their patients.",
+    "leaveOfAbsence": null,
+    "organizationActivities": "Student organizations at UGA SOM are open to all students and exist to support the school's broader mission. These organizations span a wide spectrum of interests from academic societies and specialty medical groups to religious communities, honor societies, and international or multicultural associations. They provide students with meaningful opportunities to expand their educational experience and cultivate essential skills beyond the formal curriculum. Through activities such as professional development workshops, career planning, networking events, community health clinics, volunteer service, and intramural sports, student organizations enrich both personal growth and professional preparation.",
+    "setting": "Chartered by the state of Georgia in 1785, the University of Georgia is the birthplace of public higher education in America. As Georgia\u2019s flagship institution, the university is recognized for its commitment to student excellence through an emphasis on rigorous learning experiences both inside and outside the classroom, including hands-on research and leadership opportunities. The university is located in Athens, a city that has consistently been ranked among the nation\u2019s premier college towns. ",
+    "housing": "A variety of on-campus and off-campus housing options are available to students. Off-campus choices include an assortment of apartments and houses in student-friendly communities throughout Athens. Whether in vibrant downtown Athens, quiet neighborhoods near campus, or more secluded areas away from the bustle, students can find a living arrangement that fits their needs and lifestyle.",
+    "supportSystems": null,
+    "supportSystemsForDisabilities": "https://medicine.uga.edu/future-students/admissions/admissions-process/",
+    "wellnessPrograms": "The Office of Personalized Health and Well-Being delivers innovative training in resilience and well-being for medical learners, while providing personalized health solutions for chronic disease management. The Office also specializes in key areas of medical education, including humanism in medicine, sports medicine and performance, and rural health. Its training and support services are available to medical students, resident physicians, primary care providers, collaborative care teams, and their patients.",
+    "campusCulture": "The School of Medicine fosters a collaborative, nourishing, and enriching environment that cultivates talented and knowledgeable physicians who practice a love of medicine with a humanistic touch. In a collaborative, team-based environment, students develop empathy, advocacy, and personalized skills. This approach fosters a supportive academic environment that enables learners to become well-rounded, compassionate physicians.",
+    "transportationDriverLicense": "Recommended",
+    "transportationVehicle": "Recommended",
+    "transportationAdditionalInfo": "Athens-Clarke County and UGA have extension public transportation systems at no cost.",
+    "additionalSupportProgrameName": ""
+  },
+  "medSchoolCurriculum": {
+    "medicalSchoolId": 27492,
+    "dressCode": "Professional \u2013 business attire with a white coat",
+    "tutoringPrograms": "Faculty at the UGA SOM teach full-time and are deeply invested in student success. They are readily available for academic support, mentoring, and career guidance.",
+    "globalExperience": null,
+    "patientInteraction": "Students begin working with patients early in Year 1 through free clinics, clinical skills courses, and simulation experiences. ",
+    "instructionStyle": "The pre-clerkship curriculum is built on active, team-based learning in small groups. Students collaborate to work through clinical cases while developing communication and problem-solving skills.",
+    "clinicalRotations": "Required core clerkships follow a distributed, community-based across the state of Georgia. ",
+    "prematriculationProgram": "The UGA SOM does not currently offer any prematriculation programs, however a one-week orientation to medical school is mandatory.",
+    "rankStudents": "Students are ranked for use on MSPEs, where the student quartile must be reported, and for identifying students for awards and honor programs such as AOA. ",
+    "lectureAttendance": "Small group learning sessions and clinical learning sessions are required. Some large group sessions are designated as required.",
+    "curricularHighlights": "The curriculum of the University of Georgia School of Medicine is designed to prepare students for a lifetime of clinical practice, while staying deeply connected to the health of Georgia\u2019s people and communities. The students learn through small- group, case-based learning experiences that emphasize teamwork, problem-solving, and clinical reasoning. From the first year, students engage in clinical experiences, integrating foundational sciences with clinical medicine, professional identity formation, and service learning. A strong point of the curriculum is full-time faculty educators who are accessible for academic guidance and mentoring throughout the curriculum. Clinical clerkships follow a distributed model across Georgia, offering exposure to a wide array of practice settings and patient populations.",
+    "primaryCarePrograms": "The School is committed to developing doctors who will meet the various healthcare needs of Georgia. This includes strong preparation for primary care while also providing broad exposure to multiple specialties and practice environments. Graduates will be well-equipped to serve patients across the state and beyond. ",
+    "researchPrograms": "UGA School of Medicine students have access to a wide array of research opportunities. A top 20 public research university, many of UGA\u2019s colleges, schools, and interdisciplinary units, including the School of Medicine, the colleges of Veterinary Medicine, Arts and Sciences, Pharmacy, Public Health, and the Centers for Molecular Medicine and Complex Carbohydrate Research, have robust, extramurally funded research programs of direct relevance to human health. Students interested in social or behavioral health, health policy or law, will find opportunities in colleges and schools such as Social Work, Family and Consumer Sciences, Arts and Sciences, Public Health, Business, and Law, as well as interdisciplinary units like the Institute for Behavioral Research. \n",
+    "videoOnlineLectures": null,
+    "academicSystem": "S",
+    "communityServiceReq": "Y",
+    "researchThesisReq": "Y",
+    "academicSystemText": "",
+    "communityServiceText": "Students serve in the School\u2019s free clinics as part of the required Community and Population Health curriculum, providing care while building meaningful relationships with surrounding communities. ",
+    "researchThesisText": "Students are required to complete a scholarly project as part of the Community and Population Health curriculum. ",
+    "usmle1Req": null,
+    "usmle1ReqDesc": null,
+    "usmle2CsReq": null,
+    "usmle2CsReqDesc": null,
+    "usmle2CkReq": null,
+    "usmle2CkReqDesc": null,
+    "affiliatedHospitals": "The UGA SOM has multiple affiliations. Main hospital partners:  Piedmont Healthcare, Northeast Georgia Health System, St. Mary\u2019s Health System, Children\u2019s Healthcare of Atlanta, Northside Hospital. ",
+    "gradingSystem": "In the pre-clerkship, students are graded on a 2-tier pass/fail system. In the clerkships, students are graded on a stratified pass/fail system.",
+    "usGrantTot": null,
+    "languageInstructions": "English"
+  },
+  "medSchoolInformation": {
+    "medicalSchoolId": 27492,
+    "publicPrivate": "P",
+    "yearFounded": 2026,
+    "totalEnrollment": 0,
+    "startMonthYear": "2027-08-02",
+    "startMonthYearText": null,
+    "estEntrants": null,
+    "estEntrantsEdp": null,
+    "estEntrantsSpecialPrograms": null,
+    "generalInformation": "The University of Georgia School of Medicine was founded to address the state\u2019s lingering physician shortage. With multidisciplinary, active learning, we are training passionate physicians who will advocate for their patients and ensure that medically underserved communities have a voice in their own health care.",
+    "missionStatement": "To educate excellent physicians, to pursue new knowledge, and to advance the health of our communities, Georgia, and beyond. The School of Medicine will be a leader in innovative medical education, yielding a diverse workforce that values excellence and lifelong learning; a trusted healthcare partner to serve our patients and communities, addressing Georgia\u2019s unmet health needs; a collaborative research nexus, fostering impactful scholarship, discovery, and innovation to improve human health; a welcoming and supportive environment that engages students, faculty, and staff.",
+    "introductoryVideoUrl": "",
+    "programUndergradCollege": null,
+    "programAbout": null,
+    "programWebSite": null,
+    "campusType": "URBAN",
+    "videoTitle": null,
+    "videoDescription": null
+  },
+  "medSchoolApplication": {
+    "medicalSchoolId": 27492,
+    "amcasLettersInd": "Y",
+    "amcasLettersMin": 3,
+    "amcasLettersMax": 5,
+    "cbcRequired": "Yes",
+    "mcatReq": "Y",
+    "mcatLatestConsidered": "2027-01-01",
+    "mcatOldestConsidered": "2023-01-18",
+    "applicantResponseToOffer": "The UGA School of Medicine follows the AAMC Application and Acceptance Protocols. ",
+    "deferralConsidered": "C",
+    "depositReq": "N",
+    "depositAmountRes": null,
+    "depositAmountNonres": null,
+    "depositDueDtText": null,
+    "depositAppliedToTuition": null,
+    "depositRefundable": null,
+    "depositRefundablePriorTo": null,
+    "matricNote": null,
+    "amcasLettersText": "",
+    "letterGuidance": "",
+    "committeeLetterAccepted": "A",
+    "individualLetterAccepted": "A",
+    "letterPacketsAccepted": "A",
+    "typicalInterviewDay": " You will rotate through 6 multiple mini interview (MMI) stations. You will have a total of 8 minutes in the station with 2 minutes to read the prompt and 6 minutes to provide your response. You will have 2 minutes to transition to the next station. You will automatically be moved to your next interviewer.\n\nInterviewers consist of UGA faculty, campus partners, and community partners. ",
+    "interviewInvitations": "August 15, 2026",
+    "interviewFormat": "Interviews are virtual Multiple Mini Interviews.",
+    "regionalInterview": "All interviews are virtual. ",
+    "videoInterview": "All interviews are virtual. ",
+    "beginReview": "2026-07-06",
+    "primaryApplService": "AMCAS",
+    "priApplEarliestDtText": "2026-05-28",
+    "priApplLatestDtText": null,
+    "secApplReq": "Y",
+    "secApplSentTo": "To all applicants meeting the minimum academic criteria",
+    "secApplName": null,
+    "secApplPhone": null,
+    "secApplEmail": null,
+    "secFee": "Y",
+    "secFeeAmount": 75,
+    "secFeeWaiverInd": "Y",
+    "secApplUrl": "https://medicine.uga.edu/future-students/admissions/admissions-process/",
+    "secApplEarliestDtText": "As soon as received",
+    "secApplLatestDtText": "November 15, 2026",
+    "edpAvailable": "Y",
+    "edpAvailableTxt": "Applying by July 1 is strongly encouraged. The last MCAT to be considered for EDP is June 27, 2026. ",
+    "edpAvailableFor": "Both",
+    "edpNotifyDtTxt": null,
+    "ctsRequired": "Only U.S. citizens and U.S. permanent residents will be considered for admission into the MD program.  Out-of-state students are welcome to apply.",
+    "stateResAfterMatric": "We encourage out-of-state applicants who are mission-aligned, knowledgeable about Georgia\u2019s communities and healthcare needs, and committed to serving the people of Georgia.",
+    "acceptOutstateAppl": "Y",
+    "acceptOutstateApplInformation": "We encourage out-of-state applicants who are mission-aligned, knowledgeable about Georgia\u2019s communities and healthcare needs, and committed to serving the people of Georgia.",
+    "acceptCanadianAppl": "N",
+    "acceptCanadianApplInformation": "",
+    "acceptInternationalAppl": "N",
+    "acceptInternationalApplInformation": "",
+    "acceptDaca": "N",
+    "dacaDetail": "",
+    "newEntrants": null,
+    "acceptTransfers": "N",
+    "transferContact": null,
+    "transferPhone": null,
+    "transferEmail": null,
+    "transferUrl": null,
+    "additionalInfo": "Please visit our admissions website to learn more: https://medicine.uga.edu/future-students/admissions/admissions-process/ \n\nAdmissions Eligibility\nOnly U.S. citizens and U.S. permanent residents will be considered for admission into the MD program. An applicant who is not a citizen must provide verification of permanent resident status (e.g., copy of Green Card) on the secondary application to complete the application.\n\nVerification of Lawful Presence\nAll admitted applicants must submit verification of lawful presence. Verification will be collected on the secondary application. Click here for more information.\n\nApplication Process\nAll applicants must apply through AMCAS. Upon receipt of the primary application (AMCAS), each applicant who meets the preliminary screening requirements is invited to complete the UGA School of Medicine application. As a state medical school with a mission-aligned admissions process, the UGA School of Medicine prioritizes Georgia residents or those with a tie to Georgia.\nPreliminary Screening Requirements for UGA School of Medicine Application\n\u2022\t3.0 AMCAS BCPM GPA or higher\n\u2022\t502 MCAT or higher\nTie to Georgia\n\nThe Admissions Committee considers any non-resident applicant to have a tie to Georgia if they meet any of the following criteria:\n\u2022\tApplicant is a graduate or will graduate from a Georgia four-year college or university\n\u2022\tApplicant currently resides and works in Georgia\n\u2022\tParent/guardian resides in Georgia\n\u2022\tApplicant graduated from a Georgia high school\n\nA complete application includes the following:\n\u2022\tAMCAS application\n\u2022\tUGA SOM secondary application with $75 application fee (or fee waiver)\n\u2022\tMCAT exam (taken within the past three years)\n\u2022\tLetters of recommendation (3-5)\n\u2022\tProof of official permanent residency status, if not a U.S. citizen\n\u2022\tCompletion (or imminent completion prior to matriculation) of a baccalaureate degree\n\u2022\tCompletion (or imminent completion prior to matriculation) of the required prerequisite courses\n\nWhen a candidate\u2019s application file is completed, the file is reviewed by the Office of Admissions and the Admissions Committee for a decision on the next step. At that time, applicants may be selected to interview.",
+    "additionalAssessmentsRequired": "N",
+    "mcatHighestTotal": "0",
+    "mcatLifetimeScores": "0",
+    "mcatThreeYearsScores": "1",
+    "mcatAverageScores": "0",
+    "mcatSuperScore": "0",
+    "mcatOtherScore": "0",
+    "mcatScoresAdditionalInfo": "The admissions committee will see the last three years of scores. The highest score will be considered.  ",
+    "mcatScreenInd": "Y",
+    "mcatScreenAdditionalInfo": "502 MCAT minimum. While we review all parts of the application and value mission alignment, service, leadership, and clinical experiences, applicants must first meet the minimum academic benchmarks to be eligible for full consideration.",
+    "gpaScreenInd": "Y",
+    "gpaScreenAdditionalInfo": "3.0 BCPM. We will look at the cumulative BCPM GPA for the cutoff. ",
+    "postbacGpaInd": "Y",
+    "minUndergradGpaInfo": "",
+    "minCreditHourInfo": "",
+    "minUndergradGpa": null,
+    "minCreditHour": null,
+    "pteAvailability": null,
+    "cteAvailability": null,
+    "courseworkUpwardTransfer": "1",
+    "courseworkAccelerated": "1",
+    "courseworkSupplemental": "1",
+    "courseworkAcceptanceInfo": "Community college course credit is accepted. All prerequisite coursework must be completed at a regionally accredited institution in the United States or Canada. International coursework (defined below), including credits earned at foreign institutions, will not be accepted to fulfill prerequisite requirements and will not be included in AMCAS GPA calculations unless accepted as transfer credit and appearing on an official transcript from a U.S. or Canadian institution.",
+    "letterOfIntentAcceptInd": "Y",
+    "letterOfIntent": "N",
+    "letterOfInterest": "N",
+    "noticeOfSignificantUpdate": "Y",
+    "letterOfIntentAdditionalInfo": "Applicants can submit a letter of significant updates if offered an interview. ",
+    "edpApplicationDeadline": null,
+    "edpApplicationRestriction": null,
+    "tribalAffiliation": null,
+    "technicalStandardInfo": "Our Technical Standards can be found here: https://medicine.uga.edu/future-students/admissions/policies/",
+    "technicalStandardLink": "https://medicine.uga.edu/future-students/admissions/policies/",
+    "interviewedCountdata": null
+  },
+  "medSchoolFinancial": {
+    "medicalSchoolId": 27492,
+    "financialAid": "At the University of Georgia School of Medicine, we believe that financial barriers should never stand in the way of your potential to become a compassionate, skilled physician. We are dedicated to helping you understand and navigate your financial aid options, including scholarships and loans. Prospective students are encouraged to complete the FAFSA (https://studentaid.gov/h/apply-for-aid/fafsa) to be considered for Federal Direct Loans and institutional scholarships. Eligible students may borrow up to $50,000 per year in Federal Direct Graduate Unsubsidized Loans, and all applicants will also be evaluated for admission scholarships based on both merit and financial need.\n\nThroughout your time with us at UGA, you will also have access to personalized one-on-one financial counseling, along with monthly workshops and webinars designed to help you make informed decisions about managing your finances during medical school and beyond.\n \nFor more information about financial aid, please visit our website at https://medicine.uga.edu/financial-aid/ or contact us at medfinaid@uga.edu. We're here to support you every step of the way.",
+    "usGuarantdTuitn": null,
+    "tuitionPolicy": null,
+    "usHealthInsurWaived": null,
+    "totalCostAttendRes": null,
+    "tuitionAndFeesRes": null,
+    "usOtherFeesTotalRes": null,
+    "usHealthInsurFeeRes": null,
+    "totalCostAttendNonres": null,
+    "tuitionAndFeesNonres": null,
+    "usOtherFeesTotalNonres": null,
+    "usHealthInsurFeeNonres": null,
+    "usAvgGradIndebt": null,
+    "usAidPct": null,
+    "financialCostNote": null
+  },
+  "medSchoolSpecialty": {
+    "medicalSchoolId": 27492,
+    "anesthesiology": 0,
+    "dermatology": 0,
+    "emergencyMedicine": 0,
+    "familyMedicine": 0,
+    "neurology": 0,
+    "internalMedicine": 0,
+    "obstetricsGynecology": 0,
+    "orthopedicSurgery": 0,
+    "otolaryngology": 0,
+    "pathology": 0,
+    "pediatrics": 0,
+    "physcialMedicineRehabilitation": 0,
+    "plasticSurgery": 0,
+    "psychiatry": 0,
+    "radiology": 0,
+    "surgeryGeneral": 0,
+    "specialtyTrainingTxt": null
+  },
+  "medSchoolMatDemo": {
+    "medicalSchoolId": 27492,
+    "postbaccStudents": null,
+    "matricAgeUnder19": null,
+    "matricAge1923": null,
+    "matricAge2429": null,
+    "matricAge3039": null,
+    "matricAgeOver39": null,
+    "matricStateList": null,
+    "matricCountryList": null,
+    "menCt": null,
+    "womenCt": null,
+    "sciMathMajorPct": null,
+    "gradDegreePct": null,
+    "percentUgEntrants": null,
+    "bacDegreePct": null,
+    "pctMatUnderservedY": null,
+    "pctMatUnderservedN": null,
+    "pctMatUnderservedU": null,
+    "pctMatUnderservedD": null,
+    "pctMatDisadvantaged": null,
+    "pctMatFlNative": null,
+    "pctMatFlAdvanced": null,
+    "pctMatFlGood": null,
+    "uniqueAdditionalLanguages": null,
+    "mcatAcceptedTotalAvg": null,
+    "mcatAcceptedTotalStd": null,
+    "mcatAcceptedTotalMedian": null,
+    "mcatAcceptedBblsAvg": null,
+    "mcatAcceptedBblsStd": null,
+    "mcatAcceptedBblsMedian": null,
+    "mcatAcceptedCarsAvg": null,
+    "mcatAcceptedCarsStd": null,
+    "mcatAcceptedCarsMedian": null,
+    "mcatAcceptedCpbsAvg": null,
+    "mcatAcceptedCpbsStd": null,
+    "mcatAcceptedCpbsMedian": null,
+    "mcatAcceptedPsbbAvg": null,
+    "mcatAcceptedPsbbStd": null,
+    "mcatAcceptedPsbbMedian": null,
+    "gpaAcceptedTotalAvg": null,
+    "gpaAcceptedTotalStd": null,
+    "gpaAcceptedTotalMedian": null,
+    "gpaAcceptedSciAvg": null,
+    "gpaAcceptedSciStd": null,
+    "gpaAcceptedSciMedian": null,
+    "anotherGenderIdentityCt": null,
+    "declineToAnswerCt": null,
+    "tribalAffiliationInfo": null
+  },
+  "medSchoolCampuses": null,
+  "medSchoolStaffs": [
+    {
+      "medSchoolStaffId": 92100,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "ADDL_ADMIN1",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92102,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "ADDL_ADMIN2",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92104,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "ADDL_ADMIN3",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92088,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "A_DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92090,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92096,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "DIV_ADEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92098,
+      "contact": null,
+      "phone": "7067132020",
+      "email": "Brian.steele@uga.edu",
+      "url": null,
+      "prefix": "",
+      "suffix": "",
+      "name": null,
+      "fname": "Brian",
+      "lname": "Steele",
+      "title": "Associate Dean for Admissions",
+      "staffType": "DIVERSITY",
+      "poc": null,
+      "staffTypeLabel": "Office of Admissions"
+    },
+    {
+      "medSchoolStaffId": 92094,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "FINAID_OFF",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92092,
+      "contact": null,
+      "phone": null,
+      "email": "",
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": "",
+      "fname": null,
+      "lname": null,
+      "title": "",
+      "staffType": "TRANSFER",
+      "poc": "N",
+      "staffTypeLabel": null
+    }
+  ],
+  "medSchoolPrograms": [
+    {
+      "medSchoolProgramId": 130647,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER1",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130651,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130633,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPP",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130643,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMBA",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130635,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDGRAD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130639,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130641,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDJD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130645,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPH",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130653,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_POSTBAC",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130655,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_SUMMER",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130637,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDPHD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130631,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_BACMD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130649,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER2",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    }
+  ],
+  "medSchoolRaceEthnicity": [
+    {
+      "raceEthnicity": "American Indian or Alaskan Native",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Asian",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Black or African American",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Decline to Respond",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Hispanic or Latino",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Middle Eastern or North African",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Native Hawaiian or Pacific Islander",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Other",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Unduplicated Number of Matriculants",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "White",
+      "totalRegistered": null
+    }
+  ],
+  "medSchoolTimeline": [
+    {
+      "medSchoolTimelineId": 34188,
+      "medicalSchoolId": 27492,
+      "eventIndex": 0,
+      "eventDate": null,
+      "eventDetail": "Not Available",
+      "activeFlag": "Y"
+    }
+  ],
+  "medSchoolAssessments": [],
+  "editVersion": "N",
+  "courseworkOptFlag": null,
+  "medSchoolProgramMatriculant": null,
+  "medSchoolMdPathway": {
+    "medicalSchoolId": 27492,
+    "threeYearMdPathwayFlag": "N",
+    "programDesc": null,
+    "programUrl": null,
+    "programStartDate": null,
+    "spotAvailable": null,
+    "avgMedIndebt": null,
+    "percMedDebt": null,
+    "eligibleApplicants": null,
+    "applicationDeadline": null,
+    "applicationProcess": null,
+    "programRestReq": null,
+    "residencyAffiliationPathway": null,
+    "residencyPathways": null,
+    "resAdditionalInfo": null,
+    "residencySlots": null
+  },
+  "medSchoolAcceptance": {
+    "medicalSchoolId": 27492,
+    "acceptAmericanAppl": null,
+    "acceptAmericanApplInformation": "",
+    "acceptanceNote": null,
+    "acceptNotifyEarliestDtText": "2027-03-22",
+    "acceptNotifyLatestDtText": "2027-03-26",
+    "waitlistInformation": "30-60",
+    "waitlistProcedure": "Applicants offered a position on the waitlist will be asked whether they wish to remain on it. ",
+    "waitlistAcceptance": null,
+    "connectionToSchoolRequried": null
+  },
+  "medSchoolSelection": {
+    "medicalSchoolId": 27492,
+    "premedReqRec": "All prerequisite coursework must be completed at a regionally accredited institution in the United States or Canada. International coursework (defined below), including credits earned at foreign institutions, will not be accepted to fulfill prerequisite requirements and will not be included in AMCAS GPA calculations unless accepted as transfer credit and appearing on an official transcript from a U.S. or Canadian institution.\n\nStudents are encouraged to complete courses that prepare them for medical school, the Medical College Admissions Test (MCAT), and broaden their worldview.\n",
+    "premedCourseworkNote": null,
+    "premedReqWebSite": "https://medicine.uga.edu/future-students/admissions/admissions-process/",
+    "medSchoolMediaSites": null,
+    "latestPrereqDate": "2027-07-18",
+    "oldestPrereqDate": "N/A",
+    "selectionFactors": "What makes a competitive applicant?\n\u2022\tAbility to  demonstrate the AAMC Pre-Med Competencies\n\u2022\tAlignment with our institutional values and mission\n\u2022\tDiverse and robust experiences\n\u2022\tAbility to demonstrate an understanding of medicine\n\u2022\tObservable commitment to service",
+    "apCreditAccepted": null,
+    "acceptOnlineCourses": null,
+    "acceptCommCollCourses": null,
+    "communityServicePct": null,
+    "medicalRelatedPct": null,
+    "researchPct": null,
+    "extracuricularActivitiesPct": null,
+    "hobbiesPct": null,
+    "millitaryServicePct": null,
+    "employmentMedicalPct": null,
+    "employmentNotMedicalPct": null,
+    "physicianShadowingPct": null,
+    "shadowRequired": "Recommended",
+    "preMedShadowText": "Shadowing can mean different things depending on the context and setting. We do not prescribe a specific number of hours or experience; however, we expect applicants to have meaningful, sustained experiences that provide direct exposure to the daily work of physicians and the realities of clinical practice. These experiences should help applicants understand the responsibilities, pace, complexities, and demands of medicine. Equally important, applicants should be able to reflect thoughtfully on what they observed and articulate how those experiences informed their decision to pursue a career in medicine. The quality of engagement and the depth of insight are more important than a specific hour threshold."
+  },
+  "medSchoolMatDatas": [
+    {
+      "medSchoolMatDataId": 84158,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "APPLIED"
+    },
+    {
+      "medSchoolMatDataId": 84172,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "INTERVIEWED"
+    },
+    {
+      "medSchoolMatDataId": 84160,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "DEFERRED"
+    },
+    {
+      "medSchoolMatDataId": 84162,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "EAP"
+    },
+    {
+      "medSchoolMatDataId": 84164,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "EDP"
+    },
+    {
+      "medSchoolMatDataId": 84166,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "BACMD"
+    },
+    {
+      "medSchoolMatDataId": 84168,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "MDPHD"
+    },
+    {
+      "medSchoolMatDataId": 84170,
+      "res": null,
+      "nonres": null,
+      "international": null,
+      "total": null,
+      "matType": "MATRIC"
+    }
+  ],
+  "medSchoolCourseworks": [],
+  "overview": {
+    "schoolName": "University of Georgia School of Medicine",
+    "schoolName30": "University of Georgia SOM",
+    "country": "USA",
+    "state": "GA",
+    "city": "Athens",
+    "medSchoolId": 27492,
+    "instId": 881,
+    "crestUrl": "881_crest_2026.03.18.07.36.46.jpeg",
+    "total": null,
+    "campusType": "URBAN",
+    "publicPrivate": "P",
+    "tuitionAndFeesNonres": null,
+    "tuitionAndFeesRes": null,
+    "acceptOutstateAppl": "Y",
+    "acceptCanadianAppl": "N",
+    "acceptInternationalAppl": "N",
+    "acceptAmericanAppl": "Y",
+    "programType": [],
+    "medianAcceptedGPA": 0,
+    "medianAcceptedMCAT": 0,
+    "medianMatriculantGPA": 0,
+    "medianMatriculantMCAT": 0,
+    "priApplLatestDtTextUnix": 0,
+    "priApplLatestDtText": "N/A",
+    "primaryApplService": null
+  },
+  "medSchoolMcat": [
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "In-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological,Social,and Biological Foundations of Behavior"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "Out-of-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological,Social,and Biological Foundations of Behavior"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Out-of-State/International Residents total MCAT scores"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "School-Specific Accepted Applicants",
+      "medSchoolMcatScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological,Social,and Biological Foundations of Behavior"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "All Matriculating Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological,Social,and Biological Foundations of Behavior"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "National Accepted Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 128,
+          "p75": 130,
+          "p90": 132,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological,Social,and Biological Foundations of Behavior"
+        },
+        {
+          "p10": 125,
+          "p25": 127,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 124,
+          "p25": 125,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 503,
+          "p25": 508,
+          "p75": 517,
+          "p90": 520,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "National total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        }
+      ]
+    }
+  ],
+  "medSchoolGpa": [
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "In-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "Out-of-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "School-Specific Accepted Applicants",
+      "medSchoolGpaScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "All Matriculating Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "National Accepted Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.39,
+          "p25": 3.63,
+          "p75": 3.95,
+          "p90": 4,
+          "median": 3.83,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.54,
+          "p25": 3.73,
+          "p75": 3.96,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    }
+  ],
+  "edition": "CURRENT_EDITION",
+  "campusList": [
+    {
+      "campusName": "University of Georgia School of Medicine",
+      "addressLabel": "",
+      "addressMailStop": null,
+      "addressLine2": null,
+      "addressLine3": null,
+      "phone": "",
+      "fax": "",
+      "email": "",
+      "instName120": "University of Georgia School of Medicine",
+      "city": "Athens",
+      "stateCd": "GA",
+      "postCd": "30602-5038",
+      "countryCd": "USA",
+      "instContactInfoAddress": "100 Spear Rd\nB 201 Athens GA 30602-5038",
+      "mainCampus": true
+    }
+  ],
+  "newCourseworkDataAvailable": true,
+  "medSchoolExperience": [
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Medical/Clinical Community Service/Volunteer",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    },
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Research Lab",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    },
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Total Hours",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    },
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Non-medical Community Service/Volunteer",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    },
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Medical/Clinical Paid Employment",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    },
+    {
+      "medSchoolExperienceId": 0,
+      "experienceTypeName": "Physical Shadowing/Clinical Observation",
+      "medSchoolExperienceScores": [
+        {
+          "p10": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "median": null,
+          "medSchoolChartScoreId": 0,
+          "experienceScoreTitle": ""
+        }
+      ]
+    }
+  ]
+}

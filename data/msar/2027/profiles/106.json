@@ -1,0 +1,1301 @@
+{
+  "medicalSchoolId": 27536,
+  "msarYear": 2027,
+  "instId": 106,
+  "profileStatus": "PUBLISHED",
+  "shortName": "Wake Forest University School of Medicine",
+  "countryCd": "USA",
+  "imageUrl": "106_image_2017.01.06.16.47.34.jpeg",
+  "crestUrl": "106_crest_2024.04.02.13.59.47.jpeg",
+  "activeFlag": "Y",
+  "admUrl": "https://school.wakehealth.edu/education-and-training/md-program",
+  "medschUrl": "http://www.wakehealth.edu/MD-Program/",
+  "facebookUrl": "https://www.facebook.com/wakeforestmed/",
+  "linkedinUrl": "https://www.linkedin.com/company/wake-forest-school-of-medicine/",
+  "instagramUrl": "https://www.instagram.com/wakeforestmed/?hl=en",
+  "youtubeUrl": "https://www.youtube.com/channel/UCwVM1anJLxTyOZKoAky9TPQ",
+  "twitterUrl": "https://twitter.com/wakeforestmed",
+  "finUrl": "http://www.wakehealth.edu/financialaid/",
+  "lastEditorUserName": null,
+  "lastEditorEmail": null,
+  "lastEditTime": "2026-02-27T15:07:44.360",
+  "currentProfileStatusDate": "2026-04-14T08:48:31.667",
+  "usCourseworkText": null,
+  "additionalCoursework": "Also recommended - Humanities: foreign language (especially Spanish), philosophy (especially medical ethics)",
+  "usMatDataText": null,
+  "medSchoolStudLife": {
+    "medicalSchoolId": 27536,
+    "diversity": "From learning environment and curriculum to clinical experiences to service opportunities to student support, WFUSM is committed to producing future physicians who will be well prepared to truly improve health for all.",
+    "leaveOfAbsence": "A Leave of Absence (LOA) is a break in the MD curriculum from the School of Medicine that extends, or is anticipated to extend, beyond six (6) weeks and may be granted at the discretion of the Associate Deans.  While a student is on an approved Leave of Absence, they will be neither assessed tuition nor eligible for financial aid from the School of Medicine. Any disruption in the continuum of the curriculum may result in the need for repeating some of or the entire curriculum, depending upon the timing and duration of the absence.  Any leave of absence may postpone the student&rsquo;s graduation date.  The curriculum will not be adversely modified to make up for lost time.  Ordinarily, a LOA will not extend beyond 1 year and will end at a time allowing the student to return to the curriculum at the same point they exited.",
+    "organizationActivities": "The Houses/Learning Communities facilitate student wellness, camaraderie, and career advising. There are various student interest groups and organizations. Examples of local chapters of national organizations include: North Carolina Medical Society, American Medical Students Association, Student National Medical Association, Latino Medical Student Association, Asian and Pacific American Medical Student Association and  American Medical Women's Association. MD students run the DEAC (Delivering Equal Access to Care) clinic, a free health clinic serving the long-term primary care health needs of the local underserved population unable to afford health insurance. Other interprofessional activities include Military Medical Student Association, Cultural Awareness Council, Mentoring the Pipeline, several specialty interests groups and community service groups, and the Medical Alumni Association, which sponsors various events and programs. ",
+    "setting": "Wake Forest University School of Medicine has two campuses located in Winston-Salem and Charlotte, North Carolina. The Bowman Gray Center for Medical Education building in Winston-Salem opened in July 2016. A new medical education building in mid-town Charlotte opened in July 2025. Each campus offers a student-centered design that promotes learning in today's digital age. Students prepare for real-life patient experiences in patient simulation suites that mirror operating room suites, and exam rooms with the latest informatics and patient care technologies. There are dedicated spaces for each learning community (aka Houses), along with shared communal areas.  Student spaces designed to meet a mix of learning styles (individual, team, collaborative, quiet, and social) are also available.",
+    "housing": "The school does not provide living arrangements. A wide variety of private housing options are available within close proximity to both regional campuses.",
+    "supportSystems": null,
+    "supportSystemsForDisabilities": "https://docs.google.com/document/d/19HbXyAn_mpFY7CJShdxEevCh8_ObL1SOLIuvqSLnlYE/edit?tab=t.0#\n",
+    "wellnessPrograms": "Counseling and Well Being Services offers on-site and virtual access to counseling, clinical case management, and psychotropic medication management. Both the Winston-Salem and Charlotte campuses offer student health services providing medical evaluation and treatment for common acute care issues and referrals for ongoing medical conditions. An interfaith chaplain is available to support a wide variety of spiritual needs.",
+    "campusCulture": "https://admissions.wfu.edu/experience-wake-forest/",
+    "transportationDriverLicense": "No",
+    "transportationVehicle": "No",
+    "transportationAdditionalInfo": "",
+    "additionalSupportProgrameName": ""
+  },
+  "medSchoolCurriculum": {
+    "medicalSchoolId": 27536,
+    "dressCode": "Students are expected to adhere to the dress code policy which outlines educational and clinical dress requirements. The policy can be found on the WFUSM web site in the student handbook.",
+    "tutoringPrograms": "WFUSM uses a team-based model including assigned academic advisors, early and late clinical career advisors, and personal/professional development coaches. A peer tutoring program is also available.",
+    "globalExperience": 27,
+    "patientInteraction": "Students begin patient interaction during the first week of medical school curriculum in the clinical skills course.",
+    "instructionStyle": "WFUSM utilizes case-based, team-based and self-directed learning, clinical exp., workshops, simulation, and patient presentations. Foundations phase half in WS is lecture while CLT is all small group.",
+    "clinicalRotations": "Students receive patient interaction throughout the Foundations Phase, primarily through our clinical skills curriculum, and officially enter required clinical rotations in the Immersion Phase.",
+    "prematriculationProgram": "None",
+    "rankStudents": "Only for AOA honors society selection.",
+    "lectureAttendance": "Attendance is not mandatory unless it is indicated as \"mandatory\" in the learning management system during the Foundations curriculum.  Students are required to attend all small group activities.",
+    "curricularHighlights": "WFUSM provides a unique curriculum developed by faculty who value self-inquiry, collaboration, curiosity, and leadership. We offer a transformational experience that aims to cultivate physicians who set the standard for compassionate, collaborative care; who lead the way in socially responsible healthcare and biomedical sciences; and who engage in life-long learning, discovery, and application of innovative knowledge technology and skills in medicine. \n\nDuring your time here, you will focus on achieving mastery of our educational goals and objectives in knowledge for practice, interpersonal and communication skills, patient care, professionalism, practice-based learning and improvement, systems-based practice, interprofessional collaborative practice, and personal and professional development. These objectives have been thoughtfully integrated throughout the medical curriculum to ensure that you are fully prepared for your first day of residency and beyond.",
+    "primaryCarePrograms": "WFUSM has award winning clerkship and acting internship rotations that expose students to the full spectrum of primary care, including continuity patient care experiences. The school funds student interest groups in relevant fields that provide additional exposure, advising, and social support. ",
+    "researchPrograms": "The Translational Science Institute coordinates The Medical Student Research Program (MSRP), is a 9-week, full-time summer research experience for Wake Forest medical students. Selection is through a competitive process. Participants work with a faculty mentor to conduct a small research project in basic, clinical, or community-based research and participate in a weekly research ethics seminar series. ",
+    "videoOnlineLectures": "Y",
+    "academicSystem": "O",
+    "communityServiceReq": "Y",
+    "researchThesisReq": "N",
+    "academicSystemText": "Foundations: 18-month semester-based system. Immersion: 12-month calendar cycle. Individualization: 13 months including two required Acting Internships and numerous electives between the two campuses.",
+    "communityServiceText": "Resources are available to assist students in identifying community service endeavors. Students learn about community resources available to patients that assist with social determinants of health.",
+    "researchThesisText": "Faculty members are eager to work with students to define/orchestrate research projects of interest highlighted by the funded summer research program after first year.",
+    "usmle1Req": null,
+    "usmle1ReqDesc": null,
+    "usmle2CsReq": null,
+    "usmle2CsReqDesc": null,
+    "usmle2CkReq": null,
+    "usmle2CkReqDesc": null,
+    "affiliatedHospitals": "Atrium Health Wake Forest Baptist, Atrium Health High Point Medical Center, Atrium Health Carolinas Medical Center, Atrium Health Behavioral Health, Atrium Health Cabarrus, Atrium Health Pineville",
+    "gradingSystem": "Foundations courses are graded on a two-point grading scale (P/F). Courses in the Immersion and Individualization phases are graded on a 5-point grading scale (Honors, High Pass, Pass, Low Pass,Fail).",
+    "usGrantTot": 150643818,
+    "languageInstructions": "English"
+  },
+  "medSchoolInformation": {
+    "medicalSchoolId": 27536,
+    "publicPrivate": "I",
+    "yearFounded": 1902,
+    "totalEnrollment": 651,
+    "startMonthYear": "2027-07-08",
+    "startMonthYearText": null,
+    "estEntrants": 120,
+    "estEntrantsEdp": 0,
+    "estEntrantsSpecialPrograms": 0,
+    "generalInformation": "Established in 1902, the Wake Forest University School of Medicine is the academic core of Advocate Health. State of the art four-year regional medical campuses in Winston-Salem, NC and Charlotte, NC. Both serve as hubs for vibrant innovation quarters where education, research, and creativity come together to transform patient care and our communities. We want to help you become the physician you want to be and have you ready for day one of residency and beyond. ",
+    "missionStatement": "The mission of the Wake Forest University School of Medicine (WFUSM) is to educate future physicians who are empowered to transform health for all. Our vision is to be national leaders in medical education and innovation, graduating purpose-driven physicians committed to improving the health of individuals and communities through lifelong learning.\n",
+    "introductoryVideoUrl": "",
+    "programUndergradCollege": "",
+    "programAbout": "",
+    "programWebSite": "",
+    "campusType": "URBAN",
+    "videoTitle": null,
+    "videoDescription": null
+  },
+  "medSchoolApplication": {
+    "medicalSchoolId": 27536,
+    "amcasLettersInd": "Y",
+    "amcasLettersMin": 2,
+    "amcasLettersMax": 6,
+    "cbcRequired": "Criminal background checks are required for all accepted students.  Wake Forest University School of Medicine uses AMCAS Certiphi Screening services for background checks.",
+    "mcatReq": "Y",
+    "mcatLatestConsidered": "2026-09-12",
+    "mcatOldestConsidered": "2023-01-19",
+    "applicantResponseToOffer": " Per AMCAS traffic rules. ",
+    "deferralConsidered": "C",
+    "depositReq": "N",
+    "depositAmountRes": 100,
+    "depositAmountNonres": 100,
+    "depositDueDtText": null,
+    "depositAppliedToTuition": "Y",
+    "depositRefundable": "Y",
+    "depositRefundablePriorTo": null,
+    "matricNote": null,
+    "amcasLettersText": "Due by November 1, 2026.\n\n-If you are a current undergraduate student and your school does not have a Premedical Committee or you choose to not use the Committee process, it is advisable that at least one letter come from a science faculty member.\n-If you have completed your undergraduate degree and are currently enrolled in a graduate program, it is advisable that at least one letter come from the graduate program faculty member/advisor.\n-If you have completed your undergraduate degree and are currently working, it is advisable that at least one letter come from your current supervisor.",
+    "letterGuidance": "All letters should be submitted via the AMCAS letter service. The Committee on Admissions(COA) prefers a committee letter although individual letters are accepted. If you choose to submit individual letters the COA highly encourages at least one letter from someone who can speak to your extra-curricular experiences such as clinical work, research, or volunteering. Other recommendations are listed in additional information below.",
+    "committeeLetterAccepted": "P",
+    "individualLetterAccepted": "A",
+    "letterPacketsAccepted": "A",
+    "typicalInterviewDay": "Applicants are invited to participate in the virtual MMI  and a virtual information session. The MMI is completed prior to the  information session. The virtual information session will include time with our Dean of Admissions, financial aid and small group sessions with students giving applicants an opportunity to learn more about our program. The virtual session also includes one small group question. The MMI and information session are both required for applicants invited to participate.",
+    "interviewInvitations": "August 2026",
+    "interviewFormat": "Multiple Mini Interviews(MMI) - Will be held virtually.",
+    "regionalInterview": "Regional interviews are not available.",
+    "videoInterview": "WFUSM offers a virtual MMI.",
+    "beginReview": "2026-07-13",
+    "primaryApplService": "AMCAS",
+    "priApplEarliestDtText": "2026-05-28",
+    "priApplLatestDtText": null,
+    "secApplReq": "Y",
+    "secApplSentTo": "Applicants that meet our minimum GPA and MCAT score.",
+    "secApplName": null,
+    "secApplPhone": null,
+    "secApplEmail": "medadmit@wakehealth.edu",
+    "secFee": "Y",
+    "secFeeAmount": 130,
+    "secFeeWaiverInd": "Y",
+    "secApplUrl": null,
+    "secApplEarliestDtText": "",
+    "secApplLatestDtText": "All secondary applications are due by November 15, 2026.",
+    "edpAvailable": "Y",
+    "edpAvailableTxt": "The Early Decision Program gives medical school applicants the opportunity to secure an acceptance from one EDP-participating medical school by October 1. ",
+    "edpAvailableFor": "Both",
+    "edpNotifyDtTxt": null,
+    "ctsRequired": "Wake Forest University School of Medicine accepts both in-state and out-of-state applicants. Applicant must be either a U.S. Citizen or a U.S. Permanent Resident.",
+    "stateResAfterMatric": "No",
+    "acceptOutstateAppl": "Y",
+    "acceptOutstateApplInformation": "All applicants.",
+    "acceptCanadianAppl": "C",
+    "acceptCanadianApplInformation": "Applicant must be either a U.S. Citizen or a U.S. Permanent Resident.",
+    "acceptInternationalAppl": "N",
+    "acceptInternationalApplInformation": "",
+    "acceptDaca": "N",
+    "dacaDetail": "",
+    "newEntrants": 193,
+    "acceptTransfers": "N",
+    "transferContact": null,
+    "transferPhone": null,
+    "transferEmail": null,
+    "transferUrl": null,
+    "additionalInfo": "Wake Forest University School of Medicine invites applicants meeting minimum screening criteria of undergraduate Biology-Chemistry-Physics-Math (BCPM) GPA of 3.2  with at least 15 BCPM undergraduate hours and MCAT total of 500 or above to submit a secondary application. Applicants who do not meet the minimum undergraduate BCPM GPA of 3.2 with at least 15 BCPM undergraduate hours but have completed at least 15 hours of post-baccalaureate or graduate BCPM coursework will be evaluated by the Sr. Associate and Assistant Deans of Admissions for consideration. It is recommended that applicants do not take the MCAT more than three times. The highest total MCAT score will be utilized.  \n\nEarly Decision applicants are considered and must submit their AMCAS application by August 1. Deadline to take the MCAT for Early Decision applicants is July 11, 2026. If you are unable to take the MCAT by July 11, 2026, note that you can contact us and we will move your application to our regular applicant pool and immediately allow you to apply to other medical schools.  \n\nApplicants must provide either a committee letter/packet or two letters of evaluation.  Recommendations are provided on our website on the type of evaluations to include based on your situation.\n\nAll applicants invited to submit a secondary application are required to take the CASPer situational judgement test. To register, please visit https://acuityinsights.app/casper/",
+    "additionalAssessmentsRequired": "Y",
+    "mcatHighestTotal": "1",
+    "mcatLifetimeScores": "0",
+    "mcatThreeYearsScores": "1",
+    "mcatAverageScores": "0",
+    "mcatSuperScore": "0",
+    "mcatOtherScore": "0",
+    "mcatScoresAdditionalInfo": "",
+    "mcatScreenInd": "Y",
+    "mcatScreenAdditionalInfo": "Minimum MCAT total score of a 500.",
+    "gpaScreenInd": "Y",
+    "gpaScreenAdditionalInfo": "Minimum undergraduate science/BCPM GPA of 3.2 with at least 15 BCPM undergraduate hours.",
+    "postbacGpaInd": "Y",
+    "minUndergradGpaInfo": "If an applicant does not meet the minimum undergraduate science/BCPM GPA requirement with the minimum undergraduate  BCPM hours, the science/BCPM postbacc or graduate coursework will be reviewed as long as there are 15 hours or more.",
+    "minCreditHourInfo": "Must have 15 BCPM hours or more for graduate coursework to be considered.",
+    "minUndergradGpa": 3.2,
+    "minCreditHour": 15,
+    "pteAvailability": null,
+    "cteAvailability": null,
+    "courseworkUpwardTransfer": "1",
+    "courseworkAccelerated": "1",
+    "courseworkSupplemental": "1",
+    "courseworkAcceptanceInfo": "Community College work is considered. A bachelor's degree or higher is required by the time of matriculation.",
+    "letterOfIntentAcceptInd": "Y",
+    "letterOfIntent": "Y",
+    "letterOfInterest": "Y",
+    "noticeOfSignificantUpdate": "N",
+    "letterOfIntentAdditionalInfo": "Applicants who submit a secondary application can upload up to 5 letters through the applicant portal. Applicants placed on the waitlist are required to upload a letter of interest for further consideration.",
+    "edpApplicationDeadline": null,
+    "edpApplicationRestriction": null,
+    "tribalAffiliation": null,
+    "technicalStandardInfo": "Wake Forest University School of Medicine is committed to the full and equitable inclusion of qualified learners with disabilities. We have a proud history of training and employing physicians and researchers with disabilities, as well as developing and employing leaders with disabilities. The School of Medicine provides reasonable accommodations for all qualified individuals with disabilities who apply for admission to the MD degree program and who are enrolled as medical students.  ",
+    "technicalStandardLink": "https://school.wakehealth.edu/education-and-training/md-program/application-requirements-and-technical-standards",
+    "interviewedCountdata": null
+  },
+  "medSchoolFinancial": {
+    "medicalSchoolId": 27536,
+    "financialAid": "Loans and scholarships are awarded to qualified applicants on the basis of financial need and academic standing. Applicants must complete required application forms prior to the March 15 deadline. Students should not work part-time because of the demands of medical study.",
+    "usGuarantdTuitn": null,
+    "tuitionPolicy": "Tuition for all students is payable in equal installments and is due on the first day of the semester. If payments are not received or arrangements satisfactory to the Controller's Office are not made within one week after the beginning of the semester, the student will not be eligible to continue classes or receive course credit for work in that unit. The medical school reserves the right to charge interest at the prevailing bank rates on late tuition payments. In the past there has been a small increase in tuition each year.",
+    "usHealthInsurWaived": "Y",
+    "totalCostAttendRes": 110448,
+    "tuitionAndFeesRes": 66895,
+    "usOtherFeesTotalRes": 38524,
+    "usHealthInsurFeeRes": 5029,
+    "totalCostAttendNonres": 110448,
+    "tuitionAndFeesNonres": 66895,
+    "usOtherFeesTotalNonres": 38524,
+    "usHealthInsurFeeNonres": 5029,
+    "usAvgGradIndebt": 250038,
+    "usAidPct": 74,
+    "financialCostNote": null
+  },
+  "medSchoolSpecialty": {
+    "medicalSchoolId": 27536,
+    "anesthesiology": 0,
+    "dermatology": 0,
+    "emergencyMedicine": 0,
+    "familyMedicine": 0,
+    "neurology": 0,
+    "internalMedicine": 0,
+    "obstetricsGynecology": 0,
+    "orthopedicSurgery": 0,
+    "otolaryngology": 0,
+    "pathology": 0,
+    "pediatrics": 0,
+    "physcialMedicineRehabilitation": 0,
+    "plasticSurgery": 0,
+    "psychiatry": 0,
+    "radiology": 0,
+    "surgeryGeneral": 0,
+    "specialtyTrainingTxt": null
+  },
+  "medSchoolMatDemo": {
+    "medicalSchoolId": 27536,
+    "postbaccStudents": "14. This number does not include those students who started a Postbaccalaureate program after submitting the AMCAS application",
+    "matricAgeUnder19": 0,
+    "matricAge1923": 103,
+    "matricAge2429": 86,
+    "matricAge3039": 4,
+    "matricAgeOver39": 1,
+    "matricStateList": "Alabama, California, Colorado, Connecticut, Florida, Georgia, Idaho, Illinois, Iowa, Louisiana, Maryland, Massachusetts, Michigan, Minnesota, Missouri, Montana, Nebraska, New Hampshire, New Jersey, New Mexico, New York, North Carolina, Ohio, Oklahoma, Oregon, Pennsylvania, Puerto Rico, South Carolina, Tennessee, Texas, Utah, Vermont, Virginia, Washington",
+    "matricCountryList": "Spain; United States of America (the)",
+    "menCt": null,
+    "womenCt": null,
+    "sciMathMajorPct": 65,
+    "gradDegreePct": 11,
+    "percentUgEntrants": "8",
+    "bacDegreePct": 100,
+    "pctMatUnderservedY": 0.232,
+    "pctMatUnderservedN": 0.7165,
+    "pctMatUnderservedU": 0.0412,
+    "pctMatUnderservedD": 0.0103,
+    "pctMatDisadvantaged": 0.3402,
+    "pctMatFlNative": 0.5773,
+    "pctMatFlAdvanced": 0.1237,
+    "pctMatFlGood": 0.1289,
+    "uniqueAdditionalLanguages": "Amharic,Arabic,Bengali,Chinese,Dutch,Finnish,French,German,Greek,Gujarati,Hebrew,Hindi,Italian,Japanese,Korean,Latin,Lithuanian,Malayalam,Other,Persian,Polish,Portuguese,Punjabi,Romanian,Russian,Serbocroatian,Spanish,Tagalog,Tamil,Urdu,Vietnamese",
+    "mcatAcceptedTotalAvg": 512.1,
+    "mcatAcceptedTotalStd": 4.5,
+    "mcatAcceptedTotalMedian": 512,
+    "mcatAcceptedBblsAvg": 128.2,
+    "mcatAcceptedBblsStd": 1.7,
+    "mcatAcceptedBblsMedian": 128,
+    "mcatAcceptedCarsAvg": 127,
+    "mcatAcceptedCarsStd": 1.8,
+    "mcatAcceptedCarsMedian": 127,
+    "mcatAcceptedCpbsAvg": 127.8,
+    "mcatAcceptedCpbsStd": 2,
+    "mcatAcceptedCpbsMedian": 128,
+    "mcatAcceptedPsbbAvg": 129.2,
+    "mcatAcceptedPsbbStd": 1.7,
+    "mcatAcceptedPsbbMedian": 129,
+    "gpaAcceptedTotalAvg": 3.83,
+    "gpaAcceptedTotalStd": 0.15,
+    "gpaAcceptedTotalMedian": 3.87,
+    "gpaAcceptedSciAvg": 3.79,
+    "gpaAcceptedSciStd": 0.19,
+    "gpaAcceptedSciMedian": 3.84,
+    "anotherGenderIdentityCt": null,
+    "declineToAnswerCt": null,
+    "tribalAffiliationInfo": null
+  },
+  "medSchoolCampuses": null,
+  "medSchoolStaffs": [
+    {
+      "medSchoolStaffId": 92232,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": "Mrs. ",
+      "suffix": null,
+      "name": "Ashley K. Kelley",
+      "fname": null,
+      "lname": null,
+      "title": "Student Admissions Administrator",
+      "staffType": "ADDL_ADMIN1",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92238,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "ADDL_ADMIN2",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92234,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "ADDL_ADMIN3",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92240,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": "Dr.",
+      "suffix": null,
+      "name": "David Grier",
+      "fname": null,
+      "lname": null,
+      "title": "Associate Dean for Admissions",
+      "staffType": "A_DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92236,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": "Dr.",
+      "suffix": null,
+      "name": "Edward Abraham",
+      "fname": null,
+      "lname": null,
+      "title": "Dean",
+      "staffType": "DEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92228,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": "Dr.",
+      "suffix": null,
+      "name": "Brenda Latham-Sadler",
+      "fname": null,
+      "lname": null,
+      "title": "Associate Dean for Student Inclusion and Diversity",
+      "staffType": "DIV_ADEAN",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92244,
+      "contact": "Dr. Brenda Latham-Sadler",
+      "phone": "3367164264",
+      "email": "medadmit@wfusm.edu",
+      "url": null,
+      "prefix": "Dr.",
+      "suffix": "",
+      "name": null,
+      "fname": "Daryl",
+      "lname": "Rosenbaum",
+      "title": "Sr. Associate Dean for Admissions",
+      "staffType": "DIVERSITY",
+      "poc": null,
+      "staffTypeLabel": ""
+    },
+    {
+      "medSchoolStaffId": 92230,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": "Mrs. ",
+      "suffix": null,
+      "name": "Melissa Stevens",
+      "fname": null,
+      "lname": null,
+      "title": "Director, Student Records and Financial Aid",
+      "staffType": "FINAID_OFF",
+      "poc": "N",
+      "staffTypeLabel": null
+    },
+    {
+      "medSchoolStaffId": 92242,
+      "contact": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "prefix": null,
+      "suffix": null,
+      "name": null,
+      "fname": null,
+      "lname": null,
+      "title": null,
+      "staffType": "TRANSFER",
+      "poc": "N",
+      "staffTypeLabel": null
+    }
+  ],
+  "medSchoolPrograms": [
+    {
+      "medSchoolProgramId": 130841,
+      "yn": "N",
+      "url": null,
+      "cname": "",
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_SUMMER",
+      "email": "",
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130831,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDJD",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130819,
+      "yn": "Y",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": "Wake Forest University School of Medicine offers an MD/MA, MD/MS and MD/PhD program.  Applicants interested in the MA or MS program apply during their first year of medical school. Applicants interested in the MD/PhD program note their interest with the Office of MD Admissions if selected to interview. If accepted to the MD program, application to the PhD program is done separately through the Graduate School of Arts and Sciences.",
+      "programType": "COMB_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130829,
+      "yn": "Y",
+      "url": "https://school.wakehealth.edu/Education-and-Training/Graduate-Programs/Biomedical-Science-PreHealth-Track",
+      "cname": "Dr. Andrew South",
+      "phone": "3367164303",
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "SPECIAL_POSTBAC",
+      "email": "bggrad@wfusm.edu",
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130839,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDPHD",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130843,
+      "yn": "N",
+      "url": "http://business.wfu.edu/prospectivestudents",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMBA",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130827,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_BACMD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130835,
+      "yn": "N",
+      "url": "http://bioethics.wfu.edu/academic/graduate-programs/masters-of-arts-in-bioethics/",
+      "cname": "",
+      "phone": "",
+      "name": "MD/MA Bioethics",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER1",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130833,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPP",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130825,
+      "yn": null,
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDGRAD",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130823,
+      "yn": "N",
+      "url": "",
+      "cname": "",
+      "phone": "",
+      "name": "",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_MDMPH",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    },
+    {
+      "medSchoolProgramId": 130821,
+      "yn": "N",
+      "url": null,
+      "cname": null,
+      "phone": null,
+      "name": null,
+      "notes": null,
+      "info": "The Graduate School of Arts and Sciences at Wake Forest University offers a master\u2019s degree program engineered to prepare for medical school in a post-baccalaureate year. Students who have completed medical school prerequisites and earned a baccalaureate degree will enhance their current knowledge base with graduate-level medical and basic science coursework. Test (MCAT) preparation training is also available. The program maintains that goal to increase a student\u2019s competitiveness for health professional school (MD/DO/PA) admissions. The program is open to students of all backgrounds; we welcome applications from students from diverse backgrounds, including students from disadvantaged circumstances, first-generation college students, and students from populations that are underrepresented in medicine.",
+      "programType": "SPECIAL_ADDL_INFO",
+      "email": null,
+      "programLength": null,
+      "deadline": null
+    },
+    {
+      "medSchoolProgramId": 130837,
+      "yn": "N",
+      "url": "http://www.phs.wakehealth.edu/public/edu.cfm",
+      "cname": "",
+      "phone": "",
+      "name": "MD/MS in Clinical and Population Translational Sciences",
+      "notes": null,
+      "info": null,
+      "programType": "COMB_OTHER2",
+      "email": "",
+      "programLength": "",
+      "deadline": ""
+    }
+  ],
+  "medSchoolRaceEthnicity": [
+    {
+      "raceEthnicity": "American Indian or Alaskan Native",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Asian",
+      "totalRegistered": 38
+    },
+    {
+      "raceEthnicity": "Black or African American",
+      "totalRegistered": 17
+    },
+    {
+      "raceEthnicity": "Decline to Respond",
+      "totalRegistered": 13
+    },
+    {
+      "raceEthnicity": "Hispanic or Latino",
+      "totalRegistered": 18
+    },
+    {
+      "raceEthnicity": "Middle Eastern or North African",
+      "totalRegistered": 5
+    },
+    {
+      "raceEthnicity": "Native Hawaiian or Pacific Islander",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Other",
+      "totalRegistered": null
+    },
+    {
+      "raceEthnicity": "Unduplicated Number of Matriculants",
+      "totalRegistered": 194
+    },
+    {
+      "raceEthnicity": "White",
+      "totalRegistered": 124
+    }
+  ],
+  "medSchoolTimeline": [
+    {
+      "medSchoolTimelineId": 34243,
+      "medicalSchoolId": 27536,
+      "eventIndex": 0,
+      "eventDate": "2025-05-27T00:00:00.000",
+      "eventDetail": "AMCAS application open for submission",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34244,
+      "medicalSchoolId": 27536,
+      "eventIndex": 8,
+      "eventDate": "2025-06-27T00:00:00.000",
+      "eventDetail": "Verified AMCAS applications sent to School of Medicine",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34240,
+      "medicalSchoolId": 27536,
+      "eventIndex": 2,
+      "eventDate": "2025-08-01T00:00:00.000",
+      "eventDetail": "Early Decision Program Deadline",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34241,
+      "medicalSchoolId": 27536,
+      "eventIndex": 3,
+      "eventDate": "2025-10-01T00:00:00.000",
+      "eventDetail": "Early Decision Program offers of acceptance made",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34242,
+      "medicalSchoolId": 27536,
+      "eventIndex": 4,
+      "eventDate": "2025-10-15T00:00:00.000",
+      "eventDetail": "AMCAS Application deadline",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34235,
+      "medicalSchoolId": 27536,
+      "eventIndex": 5,
+      "eventDate": "2025-10-15T00:00:00.000",
+      "eventDetail": "Regular Decision offers of acceptance begins",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34236,
+      "medicalSchoolId": 27536,
+      "eventIndex": 1,
+      "eventDate": "2025-11-30T00:00:00.000",
+      "eventDetail": "WFUSM Secondary application due",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34237,
+      "medicalSchoolId": 27536,
+      "eventIndex": 6,
+      "eventDate": "2026-04-15T00:00:00.000",
+      "eventDetail": "Accepted students narrow offers to three medical schools (if applicable)",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34238,
+      "medicalSchoolId": 27536,
+      "eventIndex": 9,
+      "eventDate": "2026-04-30T00:00:00.000",
+      "eventDetail": "\"Plan to Enroll\" required. Accepted students narrow offers to one medical school (if applicable)",
+      "activeFlag": "Y"
+    },
+    {
+      "medSchoolTimelineId": 34239,
+      "medicalSchoolId": 27536,
+      "eventIndex": 7,
+      "eventDate": "2026-06-18T00:00:00.000",
+      "eventDetail": "\"Commit to Enroll\" required for those accepted - 21 days prior to Orientation/First day of class",
+      "activeFlag": "Y"
+    }
+  ],
+  "medSchoolAssessments": [
+    {
+      "assessmentId": 12441,
+      "medicalSchoolId": 27536,
+      "assessmentName": "CASPer",
+      "assessmentAdditionalInformation": "All applicants to the Doctor of Medicine program at Wake Forest University School of Medicine are required to complete CASPer to assist with our selection process for the 2026-2027 Admissions Cycle.",
+      "assessmentIndex": 1,
+      "activeFlag": "Y"
+    }
+  ],
+  "editVersion": "N",
+  "courseworkOptFlag": "N",
+  "medSchoolProgramMatriculant": null,
+  "medSchoolMdPathway": {
+    "medicalSchoolId": 27536,
+    "threeYearMdPathwayFlag": "N",
+    "programDesc": null,
+    "programUrl": null,
+    "programStartDate": null,
+    "spotAvailable": null,
+    "avgMedIndebt": null,
+    "percMedDebt": null,
+    "eligibleApplicants": null,
+    "applicationDeadline": null,
+    "applicationProcess": null,
+    "programRestReq": null,
+    "residencyAffiliationPathway": null,
+    "residencyPathways": null,
+    "resAdditionalInfo": null,
+    "residencySlots": null
+  },
+  "medSchoolAcceptance": {
+    "medicalSchoolId": 27536,
+    "acceptAmericanAppl": null,
+    "acceptAmericanApplInformation": "",
+    "acceptanceNote": null,
+    "acceptNotifyEarliestDtText": "2026-10-15",
+    "acceptNotifyLatestDtText": "2027-07-01",
+    "waitlistInformation": "On average 30% of the incoming class are accepted from the waitlist.",
+    "waitlistProcedure": "WFUSM moves to the waitlist as spots become available in the upcoming class.  Acceptance from the waitlist usually happens after April 30th. ",
+    "waitlistAcceptance": null,
+    "connectionToSchoolRequried": null
+  },
+  "medSchoolSelection": {
+    "medicalSchoolId": 27536,
+    "premedReqRec": "Wake Forest University School of Medicine does not have required coursework/prerequisites.  We seek future physicians who have mastered a broad science curriculum that includes the knowledge base and problem-solving skills required by the practice of medicine. In addition, we seek applicants who have thoughtfully prepared to meet the social and emotional needs of patients by including in their formal education a rich exposure to the social sciences and humanities. Advanced Placement (AP) and other credits are acceptable. See web site for list of recommended courses that may be helpful in preparing for the MCAT. \n\nPlease note that updated coursework/grades are not accepted once the AMCAS application has been submitted.",
+    "premedCourseworkNote": null,
+    "premedReqWebSite": "https://school.wakehealth.edu/education-and-training/md-program/application-requirements-and-technical-standards",
+    "medSchoolMediaSites": "http://www.facebook.com/wakeforestsm",
+    "latestPrereqDate": "2027-06-19",
+    "oldestPrereqDate": "No limit, because we do not require prerequisites.",
+    "selectionFactors": "Applicants are considered based on their academic and personal qualifications. Specific attention is given to the values of excellence, compassion, community engagement, equity, teamwork, integrity, and work ethic.\n\nApplicants should review the most recent incoming class profile to determine if they are a good fit for WFUSM.",
+    "apCreditAccepted": null,
+    "acceptOnlineCourses": null,
+    "acceptCommCollCourses": null,
+    "communityServicePct": 89,
+    "medicalRelatedPct": 84,
+    "researchPct": 93,
+    "extracuricularActivitiesPct": null,
+    "hobbiesPct": null,
+    "millitaryServicePct": 6,
+    "employmentMedicalPct": 79,
+    "employmentNotMedicalPct": null,
+    "physicianShadowingPct": 92,
+    "shadowRequired": "Recommended",
+    "preMedShadowText": "Applicants are highly encouraged to take advantage of any form of hands-on patient care experience in addition to or in place of shadowing."
+  },
+  "medSchoolMatDatas": [
+    {
+      "medSchoolMatDataId": 84288,
+      "res": 1017,
+      "nonres": 11771,
+      "international": 12,
+      "total": 12800,
+      "matType": "APPLIED"
+    },
+    {
+      "medSchoolMatDataId": 84286,
+      "res": 143,
+      "nonres": 575,
+      "international": 0,
+      "total": 718,
+      "matType": "INTERVIEWED"
+    },
+    {
+      "medSchoolMatDataId": 84290,
+      "res": 3,
+      "nonres": 8,
+      "international": 0,
+      "total": 11,
+      "matType": "DEFERRED"
+    },
+    {
+      "medSchoolMatDataId": 84292,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "EAP"
+    },
+    {
+      "medSchoolMatDataId": 84294,
+      "res": 12,
+      "nonres": 6,
+      "international": 0,
+      "total": 18,
+      "matType": "EDP"
+    },
+    {
+      "medSchoolMatDataId": 84296,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "BACMD"
+    },
+    {
+      "medSchoolMatDataId": 84298,
+      "res": 0,
+      "nonres": 0,
+      "international": 0,
+      "total": 0,
+      "matType": "MDPHD"
+    },
+    {
+      "medSchoolMatDataId": 84300,
+      "res": 49,
+      "nonres": 145,
+      "international": 0,
+      "total": 194,
+      "matType": "MATRIC"
+    }
+  ],
+  "medSchoolCourseworks": [],
+  "overview": {
+    "schoolName": "Wake Forest University School of Medicine",
+    "schoolName30": "Wake Forest Univ SOM",
+    "country": "USA",
+    "state": "NC",
+    "city": "Winston-Salem",
+    "medSchoolId": 27536,
+    "instId": 106,
+    "crestUrl": "106_crest_2024.04.02.13.59.47.jpeg",
+    "total": 194,
+    "campusType": "URBAN",
+    "publicPrivate": "I",
+    "tuitionAndFeesNonres": 66895,
+    "tuitionAndFeesRes": 66895,
+    "acceptOutstateAppl": "Y",
+    "acceptCanadianAppl": "C",
+    "acceptInternationalAppl": "N",
+    "acceptAmericanAppl": "Y",
+    "programType": [
+      "COMB_ADDL_INFO"
+    ],
+    "medianAcceptedGPA": 3.87,
+    "medianAcceptedMCAT": 512,
+    "medianMatriculantGPA": 3.84,
+    "medianMatriculantMCAT": 511,
+    "priApplLatestDtTextUnix": 0,
+    "priApplLatestDtText": "N/A",
+    "primaryApplService": null
+  },
+  "medSchoolMcat": [
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "In-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": 125,
+          "p25": 127,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 505,
+          "p25": 508,
+          "p75": 516,
+          "p90": 519,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "In-State Residents total MCAT scores"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 131,
+          "p90": 132,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "Out-of-State Residents",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 128,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 507,
+          "p25": 509,
+          "p75": 515,
+          "p90": 517,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Out-of-State/International Residents total MCAT scores"
+        },
+        {
+          "p10": 126,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "School-Specific Accepted Applicants",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 506,
+          "p25": 509,
+          "p75": 515,
+          "p90": 518,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 128,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "All Matriculating Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": 126,
+          "p25": 127,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 505,
+          "p25": 508,
+          "p75": 514,
+          "p90": 517,
+          "median": 511,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "School-specific total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 124,
+          "p25": 125,
+          "p75": 128,
+          "p90": 129,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 129,
+          "p90": 130,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 127,
+          "p25": 128,
+          "p75": 130,
+          "p90": 131,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    },
+    {
+      "medSchoolMcatId": 0,
+      "mcatTypeName": "National Accepted Students",
+      "medSchoolMcatScores": [
+        {
+          "p10": 125,
+          "p25": 127,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Biological and Biochemical Foundations of Living Systems"
+        },
+        {
+          "p10": 124,
+          "p25": 125,
+          "p75": 129,
+          "p90": 130,
+          "median": 127,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Critical Analysis and Reasoning Skills"
+        },
+        {
+          "p10": 503,
+          "p25": 508,
+          "p75": 517,
+          "p90": 520,
+          "median": 512,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "National total MCAT score for All Accepted Applicants"
+        },
+        {
+          "p10": 125,
+          "p25": 126,
+          "p75": 130,
+          "p90": 131,
+          "median": 128,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Chemical and Physical Foundations of Biological Systems"
+        },
+        {
+          "p10": 126,
+          "p25": 128,
+          "p75": 130,
+          "p90": 132,
+          "median": 129,
+          "medSchoolChartScoreId": 0,
+          "mcatScoreTitle": "Psychological, Social, and Biological Foundations of Behavior"
+        }
+      ]
+    }
+  ],
+  "medSchoolGpa": [
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "In-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.37,
+          "p25": 3.64,
+          "p75": 3.92,
+          "p90": 3.99,
+          "median": 3.84,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.51,
+          "p25": 3.72,
+          "p75": 3.94,
+          "p90": 3.99,
+          "median": 3.86,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "Out-of-State Residents",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.59,
+          "p25": 3.7,
+          "p75": 3.94,
+          "p90": 3.98,
+          "median": 3.84,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.67,
+          "p25": 3.76,
+          "p75": 3.95,
+          "p90": 3.98,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "School-Specific Accepted Applicants",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.56,
+          "p25": 3.69,
+          "p75": 3.93,
+          "p90": 3.98,
+          "median": 3.84,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.64,
+          "p25": 3.76,
+          "p75": 3.94,
+          "p90": 3.98,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "All Matriculating Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.5,
+          "p25": 3.67,
+          "p75": 3.92,
+          "p90": 3.98,
+          "median": 3.82,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.59,
+          "p25": 3.74,
+          "p75": 3.93,
+          "p90": 3.98,
+          "median": 3.84,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    },
+    {
+      "medSchoolGpaId": 0,
+      "gpaTypeName": "National Accepted Students",
+      "medSchoolGpaScores": [
+        {
+          "p10": 3.39,
+          "p25": 3.63,
+          "p75": 3.95,
+          "p90": 4,
+          "median": 3.83,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Science GPA"
+        },
+        {
+          "p10": 3.54,
+          "p25": 3.73,
+          "p75": 3.96,
+          "p90": 4,
+          "median": 3.87,
+          "medSchoolChartScoreId": 0,
+          "gpaScoreTitle": "Overall GPA"
+        }
+      ]
+    }
+  ],
+  "edition": "CURRENT_EDITION",
+  "campusList": [
+    {
+      "campusName": "Wake Forest University School of Medicine",
+      "addressLabel": " ",
+      "addressMailStop": "Office of Medical School Admissions",
+      "addressLine2": null,
+      "addressLine3": "475 Vine Street",
+      "phone": "3367164264",
+      "fax": "3367164264",
+      "email": "medadmit@wfusm.edu",
+      "instName120": "Wake Forest University School of Medicine",
+      "city": "Winston-Salem",
+      "stateCd": "NC",
+      "postCd": "27101",
+      "countryCd": "USA",
+      "instContactInfoAddress": "475 Vine ST Winston-Salem NC 27101",
+      "mainCampus": true
+    }
+  ],
+  "newCourseworkDataAvailable": true,
+  "medSchoolExperience": []
+}

@@ -1,0 +1,4 @@
+.chrome-portal-profile/
+.firefox-portal-profile/
+.firefox-test-profile/
+artifacts/browser/
