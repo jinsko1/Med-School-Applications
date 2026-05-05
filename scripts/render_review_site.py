@@ -94,7 +94,7 @@ HOME_TEMPLATE = Template(
 
     .button-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 16px;
       margin-top: 22px;
     }
@@ -187,6 +187,15 @@ HOME_TEMPLATE = Template(
         <span>
           <span class="button-title">Resume</span>
           <span class="button-detail">PDF</span>
+        </span>
+      </a>
+      <a class="button-card" href="/MCAT%20Score.pdf">
+        <span class="icon-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19V5"></path><path d="M4 19h16"></path><path d="M8 16v-5"></path><path d="M12 16V8"></path><path d="M16 16v-7"></path><path d="M20 16v-3"></path></svg>
+        </span>
+        <span>
+          <span class="button-title">MCAT Score</span>
+          <span class="button-detail">520: 131 / 129 / 130 / 130</span>
         </span>
       </a>
       <a class="button-card" href="/essays.html">
@@ -862,6 +871,10 @@ def copy_public_assets() -> None:
         resume_output = OUTPUT_ROOT / "Resume" / "Resume.pdf"
         resume_output.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(resume_source, resume_output)
+
+    mcat_source = ROOT / "MCAT Score.pdf"
+    if mcat_source.exists():
+        shutil.copy2(mcat_source, OUTPUT_ROOT / "MCAT Score.pdf")
 
     robots_text = "\n".join(
         [
