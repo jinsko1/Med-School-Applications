@@ -94,7 +94,7 @@ HOME_TEMPLATE = Template(
 
     .button-grid {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
       margin-top: 22px;
     }
@@ -330,7 +330,7 @@ PAGE_TEMPLATE = Template(
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 14px;
       margin-top: 18px;
     }
