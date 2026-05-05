@@ -27,7 +27,7 @@ HOME_TEMPLATE = Template(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
-  <title>Recommendation Materials</title>
+  <title>Jin's Recommendation Materials</title>
   <style>
     :root {
       --bg: #f6f1e8;
@@ -166,7 +166,7 @@ HOME_TEMPLATE = Template(
 <body>
   <main class="shell">
     <section class="hero">
-      <h1>Recommendation Materials</h1>
+      <h1>Jin's Recommendation Materials</h1>
       <div class="subtitle">A small set of application materials for letter writers.</div>
     </section>
     <nav class="button-grid" aria-label="Recommendation materials">
@@ -252,6 +252,39 @@ PAGE_TEMPLATE = Template(
       box-shadow: var(--shadow);
       position: relative;
       overflow: hidden;
+    }
+
+    .hero-actions {
+      margin-top: 16px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .home-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 13px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.14);
+      color: white;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .home-button svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
     }
 
     .hero::after {
@@ -511,6 +544,12 @@ PAGE_TEMPLATE = Template(
     {% if kind == "index" %}
       <section class="hero">
         <h1>{{ page_title }}</h1>
+        <div class="hero-actions">
+          <a class="home-button" href="https://recs.jinsko.com/">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8"></path><path d="M5 10v10h14V10"></path><path d="M9 20v-6h6v6"></path></svg>
+            Home
+          </a>
+        </div>
       </section>
       <section class="index-list" style="margin-top: 20px;">
         {% for group in groups %}
