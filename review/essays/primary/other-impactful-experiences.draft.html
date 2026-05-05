@@ -105,11 +105,7 @@
     }
 
     .content {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.95fr);
-      gap: 22px;
       margin-top: 22px;
-      align-items: start;
     }
 
     .card, details {
@@ -176,6 +172,10 @@
       margin-top: 16px;
     }
 
+    .context-panel {
+      margin-top: 18px;
+    }
+
     details > summary {
       list-style: none;
       cursor: pointer;
@@ -207,7 +207,42 @@
 
     .index-list {
       display: grid;
+      gap: 22px;
+    }
+
+    .index-group {
+      overflow: hidden;
+    }
+
+    .index-group-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
       gap: 14px;
+      padding: 17px 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #fffdf9, #f5eee4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .index-group-header h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 16px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .index-group-count {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .index-group-body {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
     }
 
     .index-entry {
@@ -267,7 +302,7 @@
       <section class="hero">
         <div class="eyebrow">Essay Review Page</div>
         <h1>Other Impactful Experiences Draft</h1>
-        <div class="subtitle">Markdown draft rendered in a cleaner format for review and print.</div>
+        
         <div class="grid">
           <div class="stat"><div class="stat-label">Words</div><div class="stat-value">11</div></div>
           <div class="stat"><div class="stat-label">Characters</div><div class="stat-value">84</div></div>
@@ -275,21 +310,10 @@
           <div class="stat"><div class="stat-label">Source File</div><div class="stat-value">essays/primary/other-impactful-experiences.draft.md</div></div>
         </div>
       </section>
-      <section class="content">
-        <div>
-          <article class="card draft">
-            <h2>Draft</h2>
-            <h1>Other Impactful Experiences Draft</h1>
-<p>Write any contextual impact statement drafts here.</p>
-
-          </article>
-          
-        </div>
-        <aside>
-          
-          <details open>
-            <summary>Reference Notes</summary>
-            <div class="details-body context"><h1>Other Impactful Experiences</h1>
+      
+      <details class="context-panel">
+        <summary>Reference Notes</summary>
+        <div class="details-body context"><h1>Other Impactful Experiences</h1>
 <p>Use this for context that changes how a reader should interpret your path.</p>
 <h2>Good Uses</h2>
 <ul>
@@ -305,15 +329,22 @@
 <li>How you moved through it</li>
 </ul>
 </div>
-          </details>
-          
-          
-          
-          
-          <div class="note">
-            Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
-          </div>
-        </aside>
+      </details>
+      
+      
+      
+      
+      
+      <section class="content">
+        <article class="card draft">
+          <h2>Draft</h2>
+          <h1>Other Impactful Experiences Draft</h1>
+<p>Write any contextual impact statement drafts here.</p>
+
+        </article>
+        <div class="note">
+          Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
+        </div>
       </section>
     
   </main>

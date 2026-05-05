@@ -126,11 +126,7 @@ PAGE_TEMPLATE = Template(
     }
 
     .content {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.95fr);
-      gap: 22px;
       margin-top: 22px;
-      align-items: start;
     }
 
     .card, details {
@@ -197,6 +193,10 @@ PAGE_TEMPLATE = Template(
       margin-top: 16px;
     }
 
+    .context-panel {
+      margin-top: 18px;
+    }
+
     details > summary {
       list-style: none;
       cursor: pointer;
@@ -228,7 +228,42 @@ PAGE_TEMPLATE = Template(
 
     .index-list {
       display: grid;
+      gap: 22px;
+    }
+
+    .index-group {
+      overflow: hidden;
+    }
+
+    .index-group-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
       gap: 14px;
+      padding: 17px 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #fffdf9, #f5eee4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .index-group-header h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 16px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .index-group-count {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .index-group-body {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
     }
 
     .index-entry {
@@ -286,28 +321,38 @@ PAGE_TEMPLATE = Template(
   <main class="shell">
     {% if kind == "index" %}
       <section class="hero">
-        <div class="eyebrow">Markdown Review Index</div>
         <h1>{{ page_title }}</h1>
-        <div class="subtitle">{{ subtitle }}</div>
       </section>
       <section class="index-list" style="margin-top: 20px;">
-        {% for item in entries %}
-          <article class="index-entry">
-            <h3><a href="{{ item.href }}">{{ item.title }}</a></h3>
-            <div class="index-meta">
-              {% if item.school %}<span class="chip">{{ item.school }}</span>{% endif %}
-              {% if item.limit %}<span class="chip">{{ item.limit }}</span>{% endif %}
-              <span class="chip">{{ item.word_count }} words</span>
-              <span class="chip">{{ item.relative_path }}</span>
+        {% for group in groups %}
+          <details class="index-group"{% if group.open %} open{% endif %}>
+            <summary class="index-group-header">
+              <h2>{{ group.name }}</h2>
+              <div class="index-group-count">{{ group.entries | length }} essay{% if group.entries | length != 1 %}s{% endif %}</div>
+            </summary>
+            <div class="index-group-body">
+              {% for item in group.entries %}
+                <article class="index-entry">
+                  <h3><a href="{{ item.href }}">{{ item.title }}</a></h3>
+                  <div class="index-meta">
+                    <span class="chip">Limit: {{ item.limit or "Not listed" }}</span>
+                    <span class="chip">Actual: {{ item.word_count }} words</span>
+                    <span class="chip">Actual: {{ item.char_count }} characters</span>
+                    <span class="chip">{{ item.relative_path }}</span>
+                  </div>
+                </article>
+              {% endfor %}
             </div>
-          </article>
+          </details>
         {% endfor %}
       </section>
     {% else %}
       <section class="hero">
         <div class="eyebrow">{{ eyebrow }}</div>
         <h1>{{ page_title }}</h1>
+        {% if subtitle %}
         <div class="subtitle">{{ subtitle }}</div>
+        {% endif %}
         <div class="grid">
           <div class="stat"><div class="stat-label">Words</div><div class="stat-value">{{ word_count }}</div></div>
           <div class="stat"><div class="stat-label">Characters</div><div class="stat-value">{{ char_count }}</div></div>
@@ -315,48 +360,44 @@ PAGE_TEMPLATE = Template(
           <div class="stat"><div class="stat-label">Source File</div><div class="stat-value">{{ relative_path }}</div></div>
         </div>
       </section>
+      {% if reference_html %}
+      <details class="context-panel">
+        <summary>Reference Notes</summary>
+        <div class="details-body context">{{ reference_html | safe }}</div>
+      </details>
+      {% endif %}
+      {% if prompt_text_html %}
+      <details class="context-panel">
+        <summary>Prompt</summary>
+        <div class="details-body context">{{ prompt_text_html | safe }}</div>
+      </details>
+      {% endif %}
+      {% if local_notes_html %}
+      <details class="context-panel">
+        <summary>Local Notes</summary>
+        <div class="details-body context">{{ local_notes_html | safe }}</div>
+      </details>
+      {% endif %}
+      {% if research_html %}
+      <details class="context-panel">
+        <summary>School Research</summary>
+        <div class="details-body context">{{ research_html | safe }}</div>
+      </details>
+      {% endif %}
+      {% if packet_html %}
+      <details class="context-panel">
+        <summary>Full Prompt Packet</summary>
+        <div class="details-body context">{{ packet_html | safe }}</div>
+      </details>
+      {% endif %}
       <section class="content">
-        <div>
-          <article class="card draft">
-            <h2>Draft</h2>
-            {{ draft_html | safe }}
-          </article>
-          {% if prompt_text_html %}
-          <article class="card context" style="margin-top: 16px;">
-            <h2>Prompt</h2>
-            {{ prompt_text_html | safe }}
-          </article>
-          {% endif %}
+        <article class="card draft">
+          <h2>Draft</h2>
+          {{ draft_html | safe }}
+        </article>
+        <div class="note">
+          Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
         </div>
-        <aside>
-          {% if reference_html %}
-          <details open>
-            <summary>Reference Notes</summary>
-            <div class="details-body context">{{ reference_html | safe }}</div>
-          </details>
-          {% endif %}
-          {% if local_notes_html %}
-          <details open>
-            <summary>Local Notes</summary>
-            <div class="details-body context">{{ local_notes_html | safe }}</div>
-          </details>
-          {% endif %}
-          {% if research_html %}
-          <details>
-            <summary>School Research</summary>
-            <div class="details-body context">{{ research_html | safe }}</div>
-          </details>
-          {% endif %}
-          {% if packet_html %}
-          <details>
-            <summary>Full Prompt Packet</summary>
-            <div class="details-body context">{{ packet_html | safe }}</div>
-          </details>
-          {% endif %}
-          <div class="note">
-            Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
-          </div>
-        </aside>
       </section>
     {% endif %}
   </main>
@@ -430,6 +471,13 @@ def parse_prompt_packet(packet_text: str) -> dict[str, str]:
     }
 
 
+def first_limit(text: str) -> str | None:
+    match = re.search(r"\b\d[\d,]*\s+(?:characters?|words?)\b(?:\s+including\s+spaces)?", text, flags=re.I)
+    if match:
+        return match.group(0)
+    return None
+
+
 def render_md(text: str) -> str:
     return markdown(text)
 
@@ -478,14 +526,16 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         research_path = school_dir / "research.md"
         if research_path.exists():
             result["research_html"] = render_md(research_path.read_text(encoding="utf-8"))
-        result["subtitle"] = "Draft for reviewer-friendly sharing with prompt and school context attached."
+        result["subtitle"] = ""
         return result
 
     if draft_path.name.endswith(".draft.md"):
         companion = draft_path.with_name(draft_path.name.replace(".draft.md", ".md"))
         if companion.exists():
-            result["reference_html"] = render_md(companion.read_text(encoding="utf-8"))
-    result["subtitle"] = "Markdown draft rendered in a cleaner format for review and print."
+            companion_text = companion.read_text(encoding="utf-8")
+            result["reference_html"] = render_md(companion_text)
+            result["limit"] = first_limit(companion_text)
+    result["subtitle"] = ""
     return result
 
 
@@ -519,7 +569,7 @@ def render_draft_page(draft_path: Path) -> Path:
 
 def collect_drafts(targets: list[str]) -> list[Path]:
     if not targets:
-        return sorted(ROOT.glob("**/*.draft.md"))
+        targets = ["essays/primary", "schools"]
 
     collected: list[Path] = []
     for raw in targets:
@@ -542,26 +592,31 @@ def collect_drafts(targets: list[str]) -> list[Path]:
 
 
 def build_index(entries: list[tuple[Path, Path]]) -> None:
-    index_entries = []
+    grouped_entries: dict[str, list[dict[str, object]]] = {}
     for draft_path, output_path in entries:
         draft_text = draft_path.read_text(encoding="utf-8")
         context = companion_context(draft_path)
-        index_entries.append(
+        group_name = context["school"] or "Primary Essays"
+        grouped_entries.setdefault(group_name, []).append(
             {
                 "title": first_heading(draft_text, draft_path.stem),
                 "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
-                "school": context["school"],
                 "limit": context["limit"],
                 "word_count": word_count(draft_text),
+                "char_count": char_count(draft_text),
                 "relative_path": relative_to_root(draft_path),
             }
         )
 
+    groups = [
+        {"name": name, "entries": grouped_entries[name], "open": name == "Primary Essays"}
+        for name in sorted(grouped_entries, key=lambda value: (value != "Primary Essays", value.lower()))
+    ]
+
     index_html = PAGE_TEMPLATE.render(
         kind="index",
         page_title="Essay Review Pages",
-        subtitle="Write in markdown, then use these polished HTML pages for mentor review, browser reading, or print-to-PDF.",
-        entries=index_entries,
+        groups=groups,
     )
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     (OUTPUT_ROOT / "index.html").write_text(index_html, encoding="utf-8")

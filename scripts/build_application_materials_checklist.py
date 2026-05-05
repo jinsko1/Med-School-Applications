@@ -45,6 +45,17 @@ PROMPT_ALIASES = {
     "East Tennessee State University James H. Quillen College of Medicine": "East Tennessee State University Quillen College of Medicine*",
 }
 
+MSAR_ALIASES = {
+    "uc davis school of medicine": "university of california davis school of medicine",
+    "keck school of medicine of usc": "keck school of medicine of the university of southern california",
+    "the ohio state university college of medicine": "ohio state university college of medicine",
+    "boston university chobanian avedisian school of medicine": "boston university aram v chobanian edward avedisian school of medicine",
+    "vermont larner college of medicine": "robert larner m d college of medicine at the university of vermont",
+    "frank h netter m d school of medicine at quinnipiac university": "frank h netter md school of medicine at quinnipiac university",
+    "rush medical college at rush university": "rush medical college of rush university medical center",
+    "california university of science medicine": "california university of science medicine school of medicine",
+}
+
 STATUS_OPTIONS = ["Not started", "In progress", "Submitted", "Done", "N/A", "Blocked"]
 
 
@@ -52,6 +63,14 @@ def normalize(text: str | None) -> str:
     if not text:
         return ""
     return re.sub(r"\s+", " ", str(text)).strip()
+
+
+def lookup_key(text: str | None) -> str:
+    value = normalize(text).lower().replace("&", " and ")
+    value = re.sub(r"[^a-z0-9]+", " ", value).strip()
+    value = re.sub(r"\band\b", " ", value)
+    value = re.sub(r"\s+", " ", value).strip()
+    return MSAR_ALIASES.get(value, value)
 
 
 def load_school_rows() -> list[dict]:
@@ -74,6 +93,7 @@ def load_msar_profiles() -> dict[str, dict]:
         profile = json.loads(profile_path.read_text())
         profile["_summary"] = item
         profiles[item["shortName"]] = profile
+        profiles[lookup_key(item["shortName"])] = profile
     return profiles
 
 
@@ -276,7 +296,7 @@ def main() -> None:
 
     for school in schools:
         name = normalize(school["School"])
-        profile = profiles[name]
+        profile = profiles.get(name) or profiles[lookup_key(name)]
         app = profile["medSchoolApplication"]
         summary = profile["_summary"]
         prompt_name = PROMPT_ALIASES.get(name, name)

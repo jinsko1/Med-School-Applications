@@ -1,9 +1,13 @@
+import json
+import re
 from copy import copy
+from pathlib import Path
 
 from openpyxl import load_workbook
 
 
 WORKBOOK_PATH = "med_school_list_md.xlsx"
+ACTIVE_SCHOOLS_PATH = Path("data/schools.json")
 
 
 SELECTED_SCHOOLS = [
@@ -390,25 +394,46 @@ def clone_style(src, dst):
         dst.alignment = align
 
 
-def build_row(entry, existing_rows):
-    if entry["school"] in existing_rows:
-        row = dict(existing_rows[entry["school"]])
-    else:
-        row = {
-            "School": entry["school"],
-            "Degree": entry["degree"],
-            "City": entry["city"],
-            "Estimated Annual COA ($)": entry["coa"],
-            "Reported GPA": entry["gpa"],
-            "Reported MCAT": entry["mcat"],
-            "Reach/Target/Safety": entry["bucket"],
-            "COA Basis": entry["coa_basis"],
-            "Stats Source URL": entry["stats_url"],
-            "COA Source URL": entry["coa_url"],
-            "Notes": entry["notes"],
-        }
+def normalize_key(value):
+    return re.sub(r"[^a-z0-9]+", " ", str(value or "").lower()).strip()
 
+
+def number_or_blank(value, cast):
+    if value in (None, ""):
+        return None
+    try:
+        return cast(value)
+    except (TypeError, ValueError):
+        return value
+
+
+def load_active_school_rows():
+    if not ACTIVE_SCHOOLS_PATH.exists():
+        return {}
+    rows = json.loads(ACTIVE_SCHOOLS_PATH.read_text())
+    return {normalize_key(row["name"]): row for row in rows}
+
+
+def build_row(entry, existing_rows, active_rows):
+    active = active_rows.get(normalize_key(entry["school"]), {})
+    row = dict(existing_rows.get(entry["school"]) or existing_rows.get(normalize_key(entry["school"])) or {})
+
+    row["School"] = entry["school"]
+    row["Degree"] = entry.get("degree") or row.get("Degree") or "MD"
+    row["City"] = entry.get("city") or row.get("City") or active.get("location")
+    row["Estimated Annual COA ($)"] = entry.get("coa", row.get("Estimated Annual COA ($)"))
+    if row["Estimated Annual COA ($)"] in (None, ""):
+        row["Estimated Annual COA ($)"] = number_or_blank(active.get("coa_per_year"), int)
+    row["Reported GPA"] = entry.get("gpa", row.get("Reported GPA"))
+    if row["Reported GPA"] in (None, ""):
+        row["Reported GPA"] = number_or_blank(active.get("median_gpa"), float)
+    row["Reported MCAT"] = entry.get("mcat", row.get("Reported MCAT"))
+    if row["Reported MCAT"] in (None, ""):
+        row["Reported MCAT"] = number_or_blank(active.get("median_mcat"), int)
     row["Reach/Target/Safety"] = entry["bucket"]
+    row["COA Basis"] = entry.get("coa_basis") or row.get("COA Basis")
+    row["Stats Source URL"] = entry.get("stats_url") or row.get("Stats Source URL") or active.get("official_url")
+    row["COA Source URL"] = entry.get("coa_url") or row.get("COA Source URL")
     row["Notes"] = entry["notes"]
     row["Mission Statement"] = entry["mission"]
     return row
@@ -446,9 +471,12 @@ def main():
         if not school:
             continue
         row_values = [ws.cell(row_idx, col).value for col in range(1, 12)]
-        existing_rows[school] = dict(zip(old_headers, row_values))
+        row = dict(zip(old_headers, row_values))
+        existing_rows[school] = row
+        existing_rows[normalize_key(school)] = row
 
-    selected_rows = [build_row(entry, existing_rows) for entry in SELECTED_SCHOOLS]
+    active_rows = load_active_school_rows()
+    selected_rows = [build_row(entry, existing_rows, active_rows) for entry in SELECTED_SCHOOLS]
 
     for merged in list(ws.merged_cells.ranges):
         if str(merged) in {"A1:K1", "A2:K2", "A1:L1", "A2:L2"}:

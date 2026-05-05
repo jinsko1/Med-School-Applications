@@ -105,11 +105,7 @@
     }
 
     .content {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.95fr);
-      gap: 22px;
       margin-top: 22px;
-      align-items: start;
     }
 
     .card, details {
@@ -176,6 +172,10 @@
       margin-top: 16px;
     }
 
+    .context-panel {
+      margin-top: 18px;
+    }
+
     details > summary {
       list-style: none;
       cursor: pointer;
@@ -207,7 +207,42 @@
 
     .index-list {
       display: grid;
+      gap: 22px;
+    }
+
+    .index-group {
+      overflow: hidden;
+    }
+
+    .index-group-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
       gap: 14px;
+      padding: 17px 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #fffdf9, #f5eee4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .index-group-header h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 16px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .index-group-count {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .index-group-body {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
     }
 
     .index-entry {
@@ -267,7 +302,7 @@
       <section class="hero">
         <div class="eyebrow">Essay Review Page</div>
         <h1>Loyola University Chicago Stritch School of Medicine - Jesuit Mission Resonance Draft</h1>
-        <div class="subtitle">Draft for reviewer-friendly sharing with prompt and school context attached.</div>
+        
         <div class="grid">
           <div class="stat"><div class="stat-label">Words</div><div class="stat-value">16</div></div>
           <div class="stat"><div class="stat-label">Characters</div><div class="stat-value">114</div></div>
@@ -275,28 +310,18 @@
           <div class="stat"><div class="stat-label">Source File</div><div class="stat-value">schools/loyola-stritch/essays/prompt-01.draft.md</div></div>
         </div>
       </section>
-      <section class="content">
-        <div>
-          <article class="card draft">
-            <h2>Draft</h2>
-            <h1>Loyola University Chicago Stritch School of Medicine - Jesuit Mission Resonance Draft</h1>
-<p>Write your current draft here.</p>
-
-          </article>
-          
-          <article class="card context" style="margin-top: 16px;">
-            <h2>Prompt</h2>
-            <p>As you consider Loyola University Chicago Stritch School of Medicine, please tell us what resonates with you regarding our mission as a Jesuit, Catholic medical school? Consider also what you may be curious about regarding our institutional mission and identity.</p>
-
-          </article>
-          
-        </div>
-        <aside>
-          
-          
-          <details open>
-            <summary>Local Notes</summary>
-            <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine - Jesuit Mission Resonance Local Notes</h1>
+      
+      
+      <details class="context-panel">
+        <summary>Prompt</summary>
+        <div class="details-body context"><p>As you consider Loyola University Chicago Stritch School of Medicine, please tell us what resonates with you regarding our mission as a Jesuit, Catholic medical school? Consider also what you may be curious about regarding our institutional mission and identity.</p>
+</div>
+      </details>
+      
+      
+      <details class="context-panel">
+        <summary>Local Notes</summary>
+        <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine - Jesuit Mission Resonance Local Notes</h1>
 <h2>School-Specific Tailoring</h2>
 <ul>
 <li>Add named programs, clinics, mentors, tracks, or population notes from <code>../research.md</code>.</li>
@@ -307,12 +332,12 @@
 <li>Make sure the draft answers the actual wording of the prompt, not just the shared backbone.</li>
 </ul>
 </div>
-          </details>
-          
-          
-          <details>
-            <summary>School Research</summary>
-            <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine Research Notes</h1>
+      </details>
+      
+      
+      <details class="context-panel">
+        <summary>School Research</summary>
+        <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine Research Notes</h1>
 <h2>Mission / Fit Notes</h2>
 <ul>
 <li>Add named programs, curricular elements, clinical sites, and population focus areas here.</li>
@@ -326,12 +351,12 @@
 <li>Replace generic claims with details that would still be true after the secondary is updated for the next cycle.</li>
 </ul>
 </div>
-          </details>
-          
-          
-          <details>
-            <summary>Full Prompt Packet</summary>
-            <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine - Prompt 01</h1>
+      </details>
+      
+      
+      <details class="context-panel">
+        <summary>Full Prompt Packet</summary>
+        <div class="details-body context"><h1>Loyola University Chicago Stritch School of Medicine - Prompt 01</h1>
 <h2>Prompt Metadata</h2>
 <ul>
 <li>Title: Jesuit Mission Resonance</li>
@@ -379,12 +404,18 @@
 <h2>School-Specific Tailoring</h2>
 <p>Read <code>../research.md</code> and <code>prompt-01.local.md</code> before drafting a final version.</p>
 </div>
-          </details>
-          
-          <div class="note">
-            Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
-          </div>
-        </aside>
+      </details>
+      
+      <section class="content">
+        <article class="card draft">
+          <h2>Draft</h2>
+          <h1>Loyola University Chicago Stritch School of Medicine - Jesuit Mission Resonance Draft</h1>
+<p>Write your current draft here.</p>
+
+        </article>
+        <div class="note">
+          Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
+        </div>
       </section>
     
   </main>

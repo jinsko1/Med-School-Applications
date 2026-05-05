@@ -105,11 +105,7 @@
     }
 
     .content {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.95fr);
-      gap: 22px;
       margin-top: 22px;
-      align-items: start;
     }
 
     .card, details {
@@ -176,6 +172,10 @@
       margin-top: 16px;
     }
 
+    .context-panel {
+      margin-top: 18px;
+    }
+
     details > summary {
       list-style: none;
       cursor: pointer;
@@ -207,7 +207,42 @@
 
     .index-list {
       display: grid;
+      gap: 22px;
+    }
+
+    .index-group {
+      overflow: hidden;
+    }
+
+    .index-group-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
       gap: 14px;
+      padding: 17px 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #fffdf9, #f5eee4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .index-group-header h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 16px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .index-group-count {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .index-group-body {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
     }
 
     .index-entry {
@@ -267,29 +302,18 @@
       <section class="hero">
         <div class="eyebrow">Essay Review Page</div>
         <h1>AMCAS Personal Statement Draft</h1>
-        <div class="subtitle">Markdown draft rendered in a cleaner format for review and print.</div>
+        
         <div class="grid">
-          <div class="stat"><div class="stat-label">Words</div><div class="stat-value">10</div></div>
-          <div class="stat"><div class="stat-label">Characters</div><div class="stat-value">69</div></div>
-          <div class="stat"><div class="stat-label">Prompt Limit</div><div class="stat-value">Not listed</div></div>
+          <div class="stat"><div class="stat-label">Words</div><div class="stat-value">862</div></div>
+          <div class="stat"><div class="stat-label">Characters</div><div class="stat-value">5255</div></div>
+          <div class="stat"><div class="stat-label">Prompt Limit</div><div class="stat-value">5,300 characters including spaces</div></div>
           <div class="stat"><div class="stat-label">Source File</div><div class="stat-value">essays/primary/amcas-personal-statement.draft.md</div></div>
         </div>
       </section>
-      <section class="content">
-        <div>
-          <article class="card draft">
-            <h2>Draft</h2>
-            <h1>AMCAS Personal Statement Draft</h1>
-<p>Write your current working draft here.</p>
-
-          </article>
-          
-        </div>
-        <aside>
-          
-          <details open>
-            <summary>Reference Notes</summary>
-            <div class="details-body context"><h1>AMCAS Personal Statement</h1>
+      
+      <details class="context-panel">
+        <summary>Reference Notes</summary>
+        <div class="details-body context"><h1>AMCAS Personal Statement</h1>
 <p>Source: 2027 AMCAS Applicant Guide (<code>/Users/jinko/Downloads/aamc-2027-amcas-applicant-guide_final_0.pdf</code>)</p>
 <h2>Hard Constraint</h2>
 <ul>
@@ -309,15 +333,32 @@
 <li>Keep a &quot;why medicine&quot; through-line visible on every pass.</li>
 </ul>
 </div>
-          </details>
-          
-          
-          
-          
-          <div class="note">
-            Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
-          </div>
-        </aside>
+      </details>
+      
+      
+      
+      
+      
+      <section class="content">
+        <article class="card draft">
+          <h2>Draft</h2>
+          <h1>AMCAS Personal Statement Draft</h1>
+<p>The birds chirp to me; they whistle to him. Where he grew up—before juvenile hall—local gang members whistled to communicate with allies or intimidate rivals. In any case, hearing a whistle was never a good sign. As we spoke in the caged basketball court behind the facility, birds chirping around us, apprehension drained his face pasty white. And as I saw this, recognized this, and tried to comprehend it, I could not help but feel that his fear was never truly communicated to me, for I had lived a vastly different life.</p>
+<p>That moment taught me that empathy is not the same as understanding; sometimes it begins with accepting that I may never fully understand. Satisfying conclusions are not easy to come by. Yet the persistent attempt to understand, despite the barriers, is not futile: it is an act of love—something a career in medicine requires. As a volunteer at the local juvenile hall, I became aware of the limits of my own lived experience as I worked to communicate with, understand, and help incarcerated youth feel heard. After all, the desire to be liberated from our loneliness is an inherent part of human nature. I encountered this same desire while volunteering with Beverley in hospice.</p>
+<p>Curly white hair; lavender knit cardigan; youthful, limpid eyes despite being ninety-four. “Call me Bunny, not Beverley,” she would correct me. Her daughter had sought hospice care for respite from caring for her mother alone. Over the following months, I developed a close bond with Bunny and learned much about her: how she enjoyed foot massages to relieve her edema, how she disliked her physical therapy exercises despite my encouragement and assistance, and how she enjoyed going on walks.</p>
+<p>At ninety-four, with dementia, and it was rather difficult at times to discern whether she even recognized me. Even discovering her love of walks proved difficult, as she asked in the most roundabout ways: “It’s nice weather outside,” she would say abashedly. I suppose this was her way of being considerate, lest I was not willing to take her on a walk. While helping her into her wheelchair—“the chariot,” as we called it—she once confessed that she loved it when I came because it meant she could go on walks.</p>
+<p>Despite our age difference and her cognitive decline, Bunny taught me the virtues of being meticulously observant and attentive. With Bunny, communication was less a matter of finding the right words than of noticing what her words could no longer easily say. But as I say, satisfying conclusions do not always present themselves.</p>
+<p>In the laboratory, I encountered another form of uncertainty. I research urinary tract infections (UTIs), specifically within the context of women’s health. At first, I knew nothing about research. I recall being perplexed by its uncertainty: we had a question and a goal but no clear path between them. While some of our other projects were running smoothly, an isogenic mutant of a certain UTI strain failed to exhibit what we call “swarming” motility. While other strains spread across the agar plate, this mutant remained at the point of inoculation, time after time.</p>
+<p>After many discussions with my PI, several conferences, and years of research entailing repeated literature review, an entire summer of  growth curves, and countless agar plates, we have yet to resolve this single question. Unsurprisingly, I was left frustrated. But over the course of my time in the lab, as I gradually learned a considerable amount about women’s health—though I fundamentally cannot understand the human experience of being a woman as a man—my curiosity about the discipline increased. I soon found myself emotionally invested in the veracity of my results, determined to persist despite the challenges. Research taught me a similar humility: not every question yields to effort quickly, but every careful attempt changes how I see the problem.</p>
+<p>Participating in research has turned my attention toward the lack of resources concerning women’s health. During my service in student government, I pointed out the disconcerting lack of menstrual products in student-government-run buildings. After careful planning and budgeting in collaboration with other branches of student government, two peers and I decided to take this project upon ourselves, successfully installing sanitary pads in all restrooms, including those in the recreation center and university union.</p>
+<p>Both scientific research and social work demand endurance: the tenacity and passion to understand. They also require comfort with uncertainty and humility before one’s own ignorance. Medicine sits at this intersection—a domain of perpetual learning and challenge. Difficult as they are, science and interpersonal work, and therefore medicine, fascinate me beyond any other discipline I have encountered.</p>
+<p>I cannot always understand another human being’s experience. It would be presumptuous to claim so. Medicine uniquely combines scientific uncertainty, human vulnerability, and the obligation to act. I am drawn to medicine because physicians must live in this tension every day.</p>
+<p>I know you’ve lived a different life. So if you cannot hear the birds chirp, may I sit next to you and listen to the birds whistle—together?</p>
+
+        </article>
+        <div class="note">
+          Edit the markdown draft, then rerun <code>python3 scripts/render_review_site.py</code> to refresh this review page.
+        </div>
       </section>
     
   </main>
