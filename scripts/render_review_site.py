@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import html
 import re
+import shutil
 from pathlib import Path
 
 import mistune
@@ -18,12 +19,200 @@ markdown = mistune.create_markdown(
 )
 
 
+HOME_TEMPLATE = Template(
+    """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Recommendation Materials</title>
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --paper: #fffdf8;
+      --ink: #1e1b18;
+      --muted: #655e57;
+      --line: #d8cdc1;
+      --accent: #355c5a;
+      --accent-soft: #e3efee;
+      --warm: #8b5e3c;
+      --shadow: 0 18px 45px rgba(60, 42, 24, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(139, 94, 60, 0.08), transparent 28%),
+        linear-gradient(180deg, #f8f3ea 0%, #f1ebe2 100%);
+      line-height: 1.65;
+    }
+
+    .shell {
+      width: min(960px, calc(100vw - 32px));
+      margin: 28px auto 48px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(53, 92, 90, 0.96), rgba(72, 120, 110, 0.93));
+      color: white;
+      padding: 34px 32px 30px;
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -60px -90px auto;
+      width: 240px;
+      height: 240px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.08;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin-top: 12px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      opacity: 0.92;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .button-card {
+      display: grid;
+      grid-template-columns: 54px minmax(0, 1fr);
+      gap: 14px;
+      align-items: center;
+      min-height: 116px;
+      padding: 18px;
+      color: var(--ink);
+      text-decoration: none;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .button-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(53, 92, 90, 0.4);
+      box-shadow: 0 22px 50px rgba(60, 42, 24, 0.12);
+    }
+
+    .icon-mark {
+      width: 54px;
+      height: 54px;
+      display: grid;
+      place-items: center;
+      border-radius: 16px;
+      color: white;
+      background: var(--accent);
+    }
+
+    .icon-mark svg {
+      width: 30px;
+      height: 30px;
+      stroke: currentColor;
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .button-title {
+      display: block;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .button-detail {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 820px) {
+      .button-grid { grid-template-columns: 1fr; }
+      .hero { padding: 28px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <h1>Recommendation Materials</h1>
+      <div class="subtitle">A small set of application materials for letter writers.</div>
+    </section>
+    <nav class="button-grid" aria-label="Recommendation materials">
+      <a class="button-card" href="https://jinsko.com/">
+        <span class="icon-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.2 2.5 3.4 5.5 3.4 9s-1.2 6.5-3.4 9"></path><path d="M12 3c-2.2 2.5-3.4 5.5-3.4 9s1.2 6.5 3.4 9"></path></svg>
+        </span>
+        <span>
+          <span class="button-title">Professional Website</span>
+          <span class="button-detail">jinsko.com</span>
+        </span>
+      </a>
+      <a class="button-card" href="/Resume/Resume.pdf">
+        <span class="icon-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"></path><path d="M14 3v5h5"></path><path d="M9.5 13h5"></path><path d="M9.5 16h5"></path><path d="M9.5 10h2"></path></svg>
+        </span>
+        <span>
+          <span class="button-title">Resume</span>
+          <span class="button-detail">PDF</span>
+        </span>
+      </a>
+      <a class="button-card" href="/essays.html">
+        <span class="icon-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5z"></path><path d="M8 7h6"></path><path d="M8 11h8"></path><path d="M8 15h5"></path></svg>
+        </span>
+        <span>
+          <span class="button-title">Essay Review Pages</span>
+          <span class="button-detail">Primary and school essays</span>
+        </span>
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
+"""
+)
+
+
 PAGE_TEMPLATE = Template(
     """<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
   <title>{{ page_title }}</title>
   <style>
     :root {
@@ -619,7 +808,29 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
         groups=groups,
     )
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
-    (OUTPUT_ROOT / "index.html").write_text(index_html, encoding="utf-8")
+    (OUTPUT_ROOT / "essays.html").write_text(index_html, encoding="utf-8")
+
+
+def build_home_page() -> None:
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    (OUTPUT_ROOT / "index.html").write_text(HOME_TEMPLATE.render(), encoding="utf-8")
+
+
+def copy_public_assets() -> None:
+    resume_source = ROOT / "Resume" / "Resume.pdf"
+    if resume_source.exists():
+        resume_output = OUTPUT_ROOT / "Resume" / "Resume.pdf"
+        resume_output.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(resume_source, resume_output)
+
+    robots_text = "\n".join(
+        [
+            "User-agent: *",
+            "Disallow: /",
+            "",
+        ]
+    )
+    (OUTPUT_ROOT / "robots.txt").write_text(robots_text, encoding="utf-8")
 
 
 def main() -> None:
@@ -633,6 +844,8 @@ def main() -> None:
 
     rendered = [(draft, render_draft_page(draft)) for draft in drafts]
     build_index(rendered)
+    build_home_page()
+    copy_public_assets()
     print(f"Rendered {len(rendered)} review page(s) to {OUTPUT_ROOT}")
 
 
