@@ -168,6 +168,7 @@ HOME_TEMPLATE = Template(
     <section class="hero">
       <h1>Jin's Recommendation Materials</h1>
       <div class="subtitle">A small set of application materials for letter writers.</div>
+      <div class="subtitle">Ideal deadline: May 28</div>
     </section>
     <nav class="button-grid" aria-label="Recommendation materials">
       <a class="button-card" href="https://jinsko.com/">
