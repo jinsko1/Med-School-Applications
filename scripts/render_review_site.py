@@ -71,11 +71,14 @@ HOME_TEMPLATE = Template(
     .hero::after {
       content: "";
       position: absolute;
-      inset: auto -60px -90px auto;
-      width: 240px;
-      height: 240px;
-      background: rgba(255,255,255,0.08);
-      border-radius: 50%;
+      right: -34px;
+      bottom: -46px;
+      width: 210px;
+      height: 210px;
+      background: rgba(255,255,255,0.14);
+      -webkit-mask: url("/medicine-logo.png") center / contain no-repeat;
+      mask: url("/medicine-logo.png") center / contain no-repeat;
+      pointer-events: none;
     }
 
     h1 {
@@ -167,7 +170,7 @@ HOME_TEMPLATE = Template(
   <main class="shell">
     <section class="hero">
       <h1>Jin's Recommendation Materials</h1>
-      <div class="subtitle">A small set of application materials for letter writers.</div>
+      <div class="subtitle">A small set of medical school application materials for recommendation letter writers.</div>
       <div class="subtitle">Ideal deadline: May 28</div>
     </section>
     <nav class="button-grid" aria-label="Recommendation materials">
@@ -875,6 +878,10 @@ def copy_public_assets() -> None:
     mcat_source = ROOT / "MCAT Score.pdf"
     if mcat_source.exists():
         shutil.copy2(mcat_source, OUTPUT_ROOT / "MCAT Score.pdf")
+
+    medicine_logo_source = ROOT / "download-caduceus-black-medical-symbol-silhouette-png-704081694709769t2p1dqthbh.png"
+    if medicine_logo_source.exists():
+        shutil.copy2(medicine_logo_source, OUTPUT_ROOT / "medicine-logo.png")
 
     robots_text = "\n".join(
         [
