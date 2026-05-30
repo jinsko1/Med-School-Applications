@@ -1,9 +1,9 @@
 # UC Davis School of Medicine
 
 - Active list location: Sacramento, CA
-- Active list COA/year: 79713
-- Active list GPA median: 3.58
-- Active list MCAT median: 510
+- Active list COA/year: 87708
+- Active list GPA median: 3.82
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: 28 days after receiving the secondary
 - Official admissions page: https://health.ucdavis.edu/mdprogram/admissions/

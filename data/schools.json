@@ -3,9 +3,9 @@
     "name": "UC Davis School of Medicine",
     "slug": "uc-davis",
     "location": "Sacramento, CA",
-    "coa_per_year": "79713",
-    "median_gpa": "3.58",
-    "median_mcat": "510",
+    "coa_per_year": "87708",
+    "median_gpa": "3.82",
+    "median_mcat": "512",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "28 days after receiving the secondary",
     "official_url": "https://health.ucdavis.edu/mdprogram/admissions/",
@@ -44,9 +44,9 @@
     "name": "University of California San Diego School of Medicine",
     "slug": "ucsd",
     "location": "La Jolla, CA",
-    "coa_per_year": "68962",
-    "median_gpa": "3.83",
-    "median_mcat": "514",
+    "coa_per_year": "75043",
+    "median_gpa": "3.92",
+    "median_mcat": "516",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": null,
     "official_url": "https://medschool.ucsd.edu/education/md-program/admissions",
@@ -127,9 +127,9 @@
     "name": "Kaiser Permanente Bernard J. Tyson School of Medicine",
     "slug": "kaiser-permanente",
     "location": "Pasadena, CA",
-    "coa_per_year": "102975",
-    "median_gpa": "3.84",
-    "median_mcat": "515",
+    "coa_per_year": "39636",
+    "median_gpa": "3.87",
+    "median_mcat": "517",
     "secondary_cycle": "Latest public prompt set found on Bright Doctor as of 2026-04-18",
     "secondary_deadline": "November 3, 2025",
     "official_url": "https://medschool.kp.org/admissions",
@@ -171,163 +171,12 @@
     ]
   },
   {
-    "name": "Keck School of Medicine of USC",
-    "slug": "usc-keck",
-    "location": "Los Angeles, CA",
-    "coa_per_year": "113470",
-    "median_gpa": "3.85",
-    "median_mcat": "517",
-    "secondary_cycle": "2024 archive on Admit.org search snippet",
-    "secondary_deadline": null,
-    "official_url": "https://keck.usc.edu/education/doctor-of-medicine/admissions/",
-    "prompt_source": "https://med.admit.org/secondary-essays/keck-school-of-medicine-of-the-university-of-southern-california",
-    "notes": "Very short answers. Tone and precision matter more than exposition.",
-    "prompts": [
-      {
-        "title": "Fun Lately",
-        "limit": "65 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "What is the most fun you\u2019ve had lately?"
-      },
-      {
-        "title": "Nickname",
-        "limit": "65 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "If you had to give yourself a nickname, what would it be?"
-      },
-      {
-        "title": "Three Things You Don't Care About",
-        "limit": "65 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "What are three things you don't care about at all?"
-      },
-      {
-        "title": "Didn't Get What You Deserved",
-        "limit": "65 words",
-        "themes": [
-          "challenge"
-        ],
-        "text": "Describe a situation in which you didn\u2019t get something you felt you deserved."
-      },
-      {
-        "title": "Anything Else",
-        "limit": "200 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Is there anything else you would like us to know?"
-      },
-      {
-        "title": "Prior Medical School Application",
-        "limit": "200 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Have you previously applied to or attended medical school? If yes, please provide an explanation on what occurred with your application process or previous matriculation to medical school."
-      }
-    ]
-  },
-  {
-    "name": "University of Rochester School of Medicine and Dentistry",
-    "slug": "rochester",
-    "location": "Rochester, NY",
-    "coa_per_year": "102188",
-    "median_gpa": "3.6",
-    "median_mcat": "516",
-    "secondary_cycle": "2024 archive on Admit.org",
-    "secondary_deadline": null,
-    "official_url": "https://www.urmc.rochester.edu/education/md/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-rochester-school-of-medicine-and-dentistry",
-    "notes": "Only one prompt in the latest Admit.org archive, centered on community.",
-    "prompts": [
-      {
-        "title": "Community",
-        "limit": "200 words",
-        "themes": [
-          "community"
-        ],
-        "text": "Involvement in community is one of the pillars of the University of Rochester School of Medicine education. Tell us about a community you identify with and how you are involved with it."
-      }
-    ]
-  },
-  {
-    "name": "University of Colorado School of Medicine",
-    "slug": "colorado",
-    "location": "Aurora, CO",
-    "coa_per_year": "109434",
-    "median_gpa": "3.78",
-    "median_mcat": "517",
-    "secondary_cycle": "2024 archive on Admit.org",
-    "secondary_deadline": null,
-    "official_url": "https://medschool.cuanschutz.edu/education/md-program/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-colorado-school-of-medicine",
-    "notes": "Includes branch-program prompts; keep only the ones relevant to the tracks you actually select.",
-    "prompts": [
-      {
-        "title": "Leadership / Curiosity / Commitment",
-        "limit": "500 words",
-        "themes": [
-          "mission-fit",
-          "future-goals"
-        ],
-        "text": "The pillars of our curriculum are Leadership, Curiosity, and Commitment. Tell us about how you have embodied one or more of these attributes in your path to medicine thus far. In which of these areas do you see the most opportunity for personal growth and why?"
-      },
-      {
-        "title": "Inclusive Excellence",
-        "limit": "300 words",
-        "themes": [
-          "diversity-equity"
-        ],
-        "text": "Please describe how your background and/or your unique lived experiences contribute to our culture of inclusive excellence."
-      },
-      {
-        "title": "Fort Collins Branch",
-        "limit": "1500 characters",
-        "themes": [
-          "why-school"
-        ],
-        "text": "Fort Collins Branch: Please tell us why you are interested in being a part of the 4-year CUSOM at CSU (Fort Collins Branch campus)."
-      },
-      {
-        "title": "Rural Branch",
-        "limit": "1500 characters",
-        "themes": [
-          "why-school",
-          "service"
-        ],
-        "text": "Rural Branch: Why are you interested in being a rural physician? How will rural life and work fit your personal goals?"
-      },
-      {
-        "title": "Aerospace Engineering Dual Degree",
-        "limit": "No word limit",
-        "themes": [
-          "future-goals"
-        ],
-        "text": "Aerospace engineering dual degree: Describe your career path up to this point and how that has led to your interest in human spaceflight."
-      },
-      {
-        "title": "Colorado Springs Branch",
-        "limit": "1500 characters",
-        "themes": [
-          "why-school"
-        ],
-        "text": "Colorado Springs Branch: Please submit a short statement regarding your interest in the Colorado Springs Branch."
-      }
-    ]
-  },
-  {
     "name": "Lewis Katz School of Medicine at Temple University",
     "slug": "temple",
     "location": "Philadelphia, PA",
-    "coa_per_year": "62868",
-    "median_gpa": "3.79",
-    "median_mcat": "512",
+    "coa_per_year": "91972",
+    "median_gpa": "3.84",
+    "median_mcat": "513",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "January 15, 2026",
     "official_url": "https://medicine.temple.edu/education/md-program/admissions",
@@ -381,9 +230,9 @@
     "name": "Emory University School of Medicine",
     "slug": "emory",
     "location": "Atlanta, GA",
-    "coa_per_year": "102652",
-    "median_gpa": "3.81",
-    "median_mcat": "515",
+    "coa_per_year": "109402",
+    "median_gpa": "3.89",
+    "median_mcat": "517",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "December 1, 2025",
     "official_url": "https://med.emory.edu/education/programs/md/admissions/",
@@ -433,91 +282,12 @@
     ]
   },
   {
-    "name": "University of Cincinnati College of Medicine",
-    "slug": "cincinnati",
-    "location": "Cincinnati, OH",
-    "coa_per_year": "76126",
-    "median_gpa": "3.81",
-    "median_mcat": "514",
-    "secondary_cycle": "2024 archive on Admit.org",
-    "secondary_deadline": "December 1, 2025",
-    "official_url": "https://med.uc.edu/education/doctor-of-medicine/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-cincinnati-college-of-medicine",
-    "notes": "This is one of the more extensive secondary sets on your list.",
-    "prompts": [
-      {
-        "title": "Traffic Violations",
-        "limit": "750 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Have you ever been convicted of or pled guilty or no contest to any moving traffic violations? If yes, please explain fully below."
-      },
-      {
-        "title": "Matriculation-Year Plans",
-        "limit": "1000 characters",
-        "themes": [
-          "gap-year"
-        ],
-        "text": "Provide a thorough explanation of all activities planned between now and your matriculation into medical school."
-      },
-      {
-        "title": "Patient-Centered Care and Diversity",
-        "limit": "2000 characters",
-        "themes": [
-          "diversity-equity"
-        ],
-        "text": "Consider an experience in which you collaborated or were exposed to diverse backgrounds that would inform your own vision for patient-centered care. Please describe the impact the experience had on you."
-      },
-      {
-        "title": "Teamwork",
-        "limit": "2000 characters",
-        "themes": [
-          "teamwork"
-        ],
-        "text": "What does teamwork mean to you? What teamwork experiences have you had? How do you navigate your role and the role of other team members?"
-      },
-      {
-        "title": "Application Concerns",
-        "limit": "2000 characters",
-        "themes": [
-          "academic-context"
-        ],
-        "text": "Discuss any elements of your application that you feel might be concerning to the Admissions Committee."
-      },
-      {
-        "title": "Why UCCOM",
-        "limit": "2000 characters",
-        "themes": [
-          "why-school"
-        ],
-        "text": "What is your specific interest in the UCCOM program? What opportunities would you take advantage of as a student here? Why?"
-      },
-      {
-        "title": "Academic Breadth",
-        "limit": "2000 characters",
-        "themes": [
-          "values"
-        ],
-        "text": "How has your academic work beyond the traditional pre-medical requirements prepared you for medical school and for a career in medicine? Please highlight any service-learning activities that you have done."
-      },
-      {
-        "title": "Interview Preference",
-        "limit": "150 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "If invited to interview, indicate your interview preference and briefly explain it."
-      }
-    ]
-  },
-  {
     "name": "Geisel School of Medicine at Dartmouth",
     "slug": "geisel",
     "location": "Hanover, NH",
-    "coa_per_year": "96448",
-    "median_gpa": "3.82",
-    "median_mcat": "516",
+    "coa_per_year": "101004",
+    "median_gpa": "3.9",
+    "median_mcat": "517",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": null,
     "official_url": "https://geiselmed.dartmouth.edu/admissions/",
@@ -562,9 +332,9 @@
     "name": "Tufts University School of Medicine",
     "slug": "tufts",
     "location": "Boston, MA",
-    "coa_per_year": "105858",
-    "median_gpa": "3.82",
-    "median_mcat": "514",
+    "coa_per_year": "111854",
+    "median_gpa": "3.91",
+    "median_mcat": "516",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": null,
     "official_url": "https://medicine.tufts.edu/admissions-financial-aid/admissions",
@@ -642,9 +412,9 @@
     "name": "The Ohio State University College of Medicine",
     "slug": "ohio-state",
     "location": "Columbus, OH",
-    "coa_per_year": "80647",
-    "median_gpa": "3.83",
-    "median_mcat": "514",
+    "coa_per_year": "87056",
+    "median_gpa": "3.92",
+    "median_mcat": "516",
     "secondary_cycle": "2024 archive on Admit.org search snippet",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://medicine.osu.edu/education/medical-school/admissions",
@@ -703,76 +473,12 @@
     ]
   },
   {
-    "name": "Boston University Chobanian & Avedisian School of Medicine",
-    "slug": "boston-university",
-    "location": "Boston, MA",
-    "coa_per_year": "97140",
-    "median_gpa": "3.84",
-    "median_mcat": "517",
-    "secondary_cycle": "2024 archive on Admit.org",
-    "secondary_deadline": null,
-    "official_url": "https://www.bumc.bu.edu/camed/admissions/",
-    "prompt_source": "https://med.admit.org/secondary-essays/boston-university-school-of-medicine",
-    "notes": "Several short explanatory prompts; good candidate for concise reusable context blocks.",
-    "prompts": [
-      {
-        "title": "Direct to College",
-        "limit": "2000 characters",
-        "themes": [
-          "academic-context"
-        ],
-        "text": "Did you go on to college directly after high school?"
-      },
-      {
-        "title": "Direct to Medical School / Gap Years",
-        "limit": "2000 characters",
-        "themes": [
-          "gap-year"
-        ],
-        "text": "Are you expecting to go on to medical school directly after completing your undergraduate degree? If you took gap year(s), please use this space to explain what you have been doing prior to applying to medical school."
-      },
-      {
-        "title": "More Than Four Years Undergraduate",
-        "limit": "2000 characters",
-        "themes": [
-          "academic-context"
-        ],
-        "text": "If you have spent more than 4 years as an undergraduate, please explain below."
-      },
-      {
-        "title": "Educational Narrative / Timeline",
-        "limit": "2000 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Please provide a narrative or timeline to describe any features of your educational history that you think may be of particular interest to us."
-      },
-      {
-        "title": "Additional Strengths",
-        "limit": "3000 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Use the space below to provide additional information you feel will provide us with a comprehensive understanding of your strengths as a candidate for a career in medicine."
-      },
-      {
-        "title": "Safety Net Environment",
-        "limit": "3000 characters",
-        "themes": [
-          "why-school",
-          "service"
-        ],
-        "text": "Boston Medical Center is the largest safety net hospital in New England. Why are you specifically interested in beginning your medical education in this environment, and how do you feel that your previous experiences will prepare you for this unique learning environment?"
-      }
-    ]
-  },
-  {
     "name": "Virginia Tech Carilion School of Medicine",
     "slug": "virginia-tech-carilion",
     "location": "Roanoke, VA",
-    "coa_per_year": "87233",
-    "median_gpa": "3.67",
-    "median_mcat": "512",
+    "coa_per_year": "93201",
+    "median_gpa": "3.82",
+    "median_mcat": "513",
     "secondary_cycle": "2025-2026 from ProspectiveDoctor / Med School Insiders / Virginia Tech admissions page",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://medicine.vtc.vt.edu/admissions/application-process.html",
@@ -816,59 +522,12 @@
     ]
   },
   {
-    "name": "University of Virginia School of Medicine",
-    "slug": "uva",
-    "location": "Charlottesville, VA",
-    "coa_per_year": "94866",
-    "median_gpa": "3.85",
-    "median_mcat": "518",
-    "secondary_cycle": "2025-2026 from ProspectiveDoctor search snippet",
-    "secondary_deadline": "December 15, 2025",
-    "official_url": "https://med.virginia.edu/admissions/",
-    "prompt_source": "https://www.prospectivedoctor.com/university-of-virginia-school-of-medicine-secondary/",
-    "notes": "Using the latest public 2025-2026 prompt set surfaced in search results rather than the older Admit archive page.",
-    "prompts": [
-      {
-        "title": "Why UVA",
-        "limit": "350 words",
-        "themes": [
-          "why-school"
-        ],
-        "text": "Why are you interested in attending the University of Virginia School of Medicine? What factors will be most important to you in choosing a medical school?"
-      },
-      {
-        "title": "Challenge or Obstacle",
-        "limit": "350 words",
-        "themes": [
-          "challenge"
-        ],
-        "text": "Tell us about a challenge or obstacle you experienced. How did you manage it?"
-      },
-      {
-        "title": "Pandemic Impact",
-        "limit": "Short answer",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Please briefly describe how the pandemic impacted your ability to pursue experiences like clinical work, shadowing, research, or community service."
-      },
-      {
-        "title": "Future Activities",
-        "limit": "Short answer",
-        "themes": [
-          "gap-year"
-        ],
-        "text": "Please list any and all future activities in clinical work, shadowing, research, or community service that you plan to pursue in the upcoming year."
-      }
-    ]
-  },
-  {
     "name": "Vermont Larner College of Medicine",
     "slug": "vermont-larner",
     "location": "Burlington, VT",
-    "coa_per_year": "100036",
-    "median_gpa": "3.75",
-    "median_mcat": "512",
+    "coa_per_year": "105472",
+    "median_gpa": "3.8",
+    "median_mcat": "513",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "December 22, 2025",
     "official_url": "https://www.uvm.edu/larnermed/admissions",
@@ -922,10 +581,10 @@
   {
     "name": "University of Wisconsin School of Medicine and Public Health",
     "slug": "wisconsin",
-    "location": "Madison, WI",
-    "coa_per_year": "94424",
-    "median_gpa": "3.78",
-    "median_mcat": "511",
+    "location": "",
+    "coa_per_year": "97464",
+    "median_gpa": "3.87",
+    "median_mcat": "512",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "November 20, 2025",
     "official_url": "https://www.med.wisc.edu/education/md/admissions/",
@@ -980,9 +639,9 @@
     "name": "Medical College of Wisconsin",
     "slug": "mcw",
     "location": "Milwaukee, WI",
-    "coa_per_year": "101344",
-    "median_gpa": "3.8",
-    "median_mcat": "510",
+    "coa_per_year": "109187",
+    "median_gpa": "3.87",
+    "median_mcat": "511",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "December 8, 2025",
     "official_url": "https://www.mcw.edu/education/medical-school/admissions",
@@ -1037,9 +696,9 @@
     "name": "Sidney Kimmel Medical College at Thomas Jefferson University",
     "slug": "jefferson-kimmel",
     "location": "Philadelphia, PA",
-    "coa_per_year": "90759",
-    "median_gpa": "3.8",
-    "median_mcat": "513",
+    "coa_per_year": "102480",
+    "median_gpa": "3.89",
+    "median_mcat": "514",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "January 1, 2026",
     "official_url": "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc/admissions.html",
@@ -1069,8 +728,8 @@
     "slug": "iowa-carver",
     "location": "Iowa City, IA",
     "coa_per_year": "92614",
-    "median_gpa": "3.81",
-    "median_mcat": "514",
+    "median_gpa": "3.92",
+    "median_mcat": "516",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://medicine.uiowa.edu/md/admissions",
@@ -1121,66 +780,11 @@
     ]
   },
   {
-    "name": "Western Michigan University Homer Stryker M.D. School of Medicine",
-    "slug": "western-michigan",
-    "location": "Kalamazoo, MI",
-    "coa_per_year": "100715",
-    "median_gpa": "3.81",
-    "median_mcat": "512",
-    "secondary_cycle": "2024 archive on Admit.org",
-    "secondary_deadline": null,
-    "official_url": "https://med.wmich.edu/node/132",
-    "prompt_source": "https://med.admit.org/secondary-essays/western-michigan-university",
-    "notes": "Strong focus on WMed-specific fit plus regional connection.",
-    "prompts": [
-      {
-        "title": "Why WMed",
-        "limit": "2000 characters",
-        "themes": [
-          "why-school"
-        ],
-        "text": "Please explain both of the following: the specific reason(s) you have chosen to apply to WMed and how you will utilize the unique features of WMed's mission, vision, and curriculum to achieve your career goals."
-      },
-      {
-        "title": "Diversity Contribution",
-        "limit": "2000 characters",
-        "themes": [
-          "diversity-equity"
-        ],
-        "text": "Describe how you add to the cultural, ethnic, and socioeconomic diversity of the medical profession and what you bring to the practice of medicine."
-      },
-      {
-        "title": "Reapplicant",
-        "limit": "2000 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "WMed re-applicants only: Describe the changes to your application from previous cycles."
-      },
-      {
-        "title": "Southwest Michigan Connection",
-        "limit": "2000 characters",
-        "themes": [
-          "community"
-        ],
-        "text": "Please explain any connection you have to Southwest Michigan."
-      },
-      {
-        "title": "Additional Information",
-        "limit": "2000 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Is there any additional information not included elsewhere in your application you would like the admissions committee to know?"
-      }
-    ]
-  },
-  {
     "name": "University of Miami Leonard M. Miller School of Medicine",
     "slug": "miami-miller",
     "location": "Miami, FL",
-    "coa_per_year": "106785",
-    "median_gpa": "3.85",
+    "coa_per_year": "112815",
+    "median_gpa": "3.9",
     "median_mcat": "516",
     "secondary_cycle": "2024 archive on Admit.org search snippet",
     "secondary_deadline": null,
@@ -1218,8 +822,8 @@
     "name": "Wake Forest University School of Medicine",
     "slug": "wake-forest",
     "location": "Winston-Salem, NC",
-    "coa_per_year": "99067",
-    "median_gpa": "3.85",
+    "coa_per_year": "110448",
+    "median_gpa": "3.87",
     "median_mcat": "512",
     "secondary_cycle": "2024-2025 complete prompt set from Med School Insiders page find result",
     "secondary_deadline": "November 30, 2025",
@@ -1290,9 +894,9 @@
     "name": "Albany Medical College",
     "slug": "albany",
     "location": "Albany, NY",
-    "coa_per_year": "85749",
-    "median_gpa": "3.8",
-    "median_mcat": "510",
+    "coa_per_year": "93727",
+    "median_gpa": "3.87",
+    "median_mcat": "513",
     "secondary_cycle": "2025-2026 from Admit.org / Med School Insiders",
     "secondary_deadline": "December 1, 2025",
     "official_url": "https://www.amc.edu/academic/undergraduate-medical-education/admissions/",
@@ -1373,8 +977,8 @@
     "name": "Drexel University College of Medicine",
     "slug": "drexel",
     "location": "Philadelphia, PA",
-    "coa_per_year": "106067",
-    "median_gpa": "3.76",
+    "coa_per_year": "110487",
+    "median_gpa": "3.84",
     "median_mcat": "512",
     "secondary_cycle": "2025-2026 from Admit.org / Med School Insiders",
     "secondary_deadline": "January 1, 2026",
@@ -1416,9 +1020,9 @@
     "name": "Wayne State University School of Medicine",
     "slug": "wayne-state",
     "location": "Detroit, MI",
-    "coa_per_year": "101999",
-    "median_gpa": "3.78",
-    "median_mcat": "511",
+    "coa_per_year": "107533",
+    "median_gpa": "3.88",
+    "median_mcat": "512",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "Advised within 2 weeks of request; final deadline February 8, 2026",
     "official_url": "https://www.med.wayne.edu/admissions",
@@ -1474,9 +1078,9 @@
     "name": "Loyola University Chicago Stritch School of Medicine",
     "slug": "loyola-stritch",
     "location": "Maywood, IL",
-    "coa_per_year": "70998",
-    "median_gpa": "3.8",
-    "median_mcat": "512",
+    "coa_per_year": "107024",
+    "median_gpa": "3.87",
+    "median_mcat": "513",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "December 12, 2025",
     "official_url": "https://www.luc.edu/stritch/admissions/",
@@ -1566,10 +1170,10 @@
   {
     "name": "Frank H. Netter M.D. School of Medicine at Quinnipiac University",
     "slug": "quinnipiac-netter",
-    "location": "North Haven, CT",
-    "coa_per_year": "95997",
-    "median_gpa": "3.78",
-    "median_mcat": "513",
+    "location": "Hamden, CT",
+    "coa_per_year": "101334",
+    "median_gpa": "3.81",
+    "median_mcat": "512",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "December 1, 2025",
     "official_url": "https://medicine.qu.edu/admissions/",
@@ -1631,9 +1235,9 @@
     "name": "Tulane University School of Medicine",
     "slug": "tulane",
     "location": "New Orleans, LA",
-    "coa_per_year": "95328",
-    "median_gpa": "3.7",
-    "median_mcat": "510",
+    "coa_per_year": "114804",
+    "median_gpa": "3.84",
+    "median_mcat": "512",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "November 1, 2025",
     "official_url": "https://medicine.tulane.edu/admissions",
@@ -1705,8 +1309,8 @@
     "name": "Eastern Virginia Medical School",
     "slug": "eastern-virginia",
     "location": "Norfolk, VA",
-    "coa_per_year": "86585",
-    "median_gpa": "3.8",
+    "coa_per_year": "92301",
+    "median_gpa": "3.82",
     "median_mcat": "513",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "December 31, 2025",
@@ -1761,8 +1365,8 @@
     "name": "Rush Medical College at Rush University",
     "slug": "rush",
     "location": "Chicago, IL",
-    "coa_per_year": "104682",
-    "median_gpa": "3.72",
+    "coa_per_year": "107391",
+    "median_gpa": "3.8",
     "median_mcat": "510",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "November 15, 2025",
@@ -1810,9 +1414,9 @@
     "name": "Chicago Medical School at Rosalind Franklin University of Medicine and Science",
     "slug": "rosalind-franklin",
     "location": "North Chicago, IL",
-    "coa_per_year": "100423",
-    "median_gpa": "3.69",
-    "median_mcat": "508",
+    "coa_per_year": "104743",
+    "median_gpa": "3.79",
+    "median_mcat": "510",
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "December 1, 2025",
     "official_url": "https://www.rosalindfranklin.edu/admission-aid/",
@@ -1877,9 +1481,9 @@
     "name": "New York Medical College",
     "slug": "new-york-medical-college",
     "location": "Valhalla, NY",
-    "coa_per_year": "94496",
-    "median_gpa": "3.8",
-    "median_mcat": "516",
+    "coa_per_year": "102045",
+    "median_gpa": "3.89",
+    "median_mcat": "517",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://www.nymc.edu/school-of-medicine-som/admissions/",
@@ -1924,8 +1528,8 @@
     "name": "University of California, Riverside School of Medicine",
     "slug": "uc-riverside",
     "location": "Riverside, CA",
-    "coa_per_year": "66443",
-    "median_gpa": "3.6",
+    "coa_per_year": "97557",
+    "median_gpa": "3.81",
     "median_mcat": "509",
     "secondary_cycle": "2024 archive on Admit.org",
     "secondary_deadline": "October 15, 2025",
@@ -1980,9 +1584,9 @@
     "name": "California University of Science and Medicine",
     "slug": "cusm",
     "location": "Colton, CA",
-    "coa_per_year": "",
-    "median_gpa": "3.6",
-    "median_mcat": "513",
+    "coa_per_year": "115072",
+    "median_gpa": "3.83",
+    "median_mcat": "512",
     "secondary_cycle": "2025-2026 from Admit.org / Med School Insiders",
     "secondary_deadline": "December 30, 2025",
     "official_url": "https://cusm.edu/admissions/",
@@ -2038,6 +1642,358 @@
           "academic-context"
         ],
         "text": "If you were enrolled in fewer than 12 units or credits for more than 1 semester or 2 quarters during your undergraduate education, please provide a brief explanation. If not applicable, enter N/A."
+      }
+    ]
+  },
+  {
+    "name": "University of Massachusetts Chan Medical School",
+    "slug": "umass-chan",
+    "location": "Worcester, MA",
+    "coa_per_year": "113221",
+    "median_gpa": "3.86",
+    "median_mcat": "514",
+    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_deadline": null,
+    "official_url": "https://www.umassmed.edu/som/admissions/",
+    "prompt_source": "https://med.admit.org/secondary-essays/university-of-massachusetts-medical-school",
+    "notes": "Prompt 1 is a multi-response competency essay. Keep its planning notes separate.",
+    "prompts": [
+      {
+        "title": "Professionalism Competencies",
+        "limit": "600 words total",
+        "themes": [
+          "values",
+          "teamwork",
+          "challenge",
+          "diversity-equity"
+        ],
+        "text": "Respond to the required Diversity prompt and then select three of the other professionalism prompts: leadership, teamwork, empathy/compassion, communication, inquiry, or persistence/grit."
+      },
+      {
+        "title": "Further Explanation",
+        "limit": "250 words",
+        "themes": [
+          "academic-context",
+          "additional-info"
+        ],
+        "text": "Please discuss any part of your application that you feel requires further explanation."
+      },
+      {
+        "title": "Pipeline Programs",
+        "limit": "200 words",
+        "themes": [
+          "why-school"
+        ],
+        "text": "If you have participated in sponsored UMass pipeline programs, please describe how these programs helped you decide to apply."
+      },
+      {
+        "title": "Why UMass Chan",
+        "limit": "200 words",
+        "themes": [
+          "why-school"
+        ],
+        "text": "Why did you apply to T.H. Chan SOM?"
+      },
+      {
+        "title": "Gap Year Activities",
+        "limit": "200 words",
+        "themes": [
+          "gap-year"
+        ],
+        "text": "If you are currently taking a gap year, in what activities are you engaged?"
+      },
+      {
+        "title": "Systemic Inequity in Health Care",
+        "limit": "200 words",
+        "themes": [
+          "diversity-equity"
+        ],
+        "text": "Please describe an example of your personal and/or professional experience with and understanding of systemic inequity, exclusion, or lack of representation in health care in the United States."
+      }
+    ]
+  },
+  {
+    "name": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
+    "slug": "nova-southeastern-md",
+    "location": "Davie, FL",
+    "coa_per_year": "113686",
+    "median_gpa": "3.85",
+    "median_mcat": "513",
+    "secondary_cycle": "2025-2026 from Med School Insiders / SDN school-specific thread",
+    "secondary_deadline": "January 31, 2026",
+    "official_url": "https://md.nova.edu/admissions/md/",
+    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/nova-southeastern-university-dr-kiran-c-patel-college-of-allopathic-medicine-secondary-essay-prompts/",
+    "notes": "Private Florida option with friendlier stats than many peers and no obvious regional-ties screen, though it is still a newer program.",
+    "prompts": [
+      {
+        "title": "Teamwork Toward a Common Objective",
+        "limit": "4000 characters",
+        "themes": [
+          "teamwork",
+          "values"
+        ],
+        "text": "Please provide an example that indicates your ability to function effectively as a productive member of a team working toward a common objective."
+      },
+      {
+        "title": "Challenges and Helping Others",
+        "limit": "4000 characters",
+        "themes": [
+          "challenge",
+          "service"
+        ],
+        "text": "If applicable, please describe how your experience with challenges has informed your perspective, decision-making, or approach to helping others. You may include reflections on your educational path, life experiences, or other formative events. If not applicable, please type NA."
+      },
+      {
+        "title": "Academic or Test Inconsistencies",
+        "limit": "4000 characters",
+        "themes": [
+          "academic-context"
+        ],
+        "text": "Do you have any gaps or inconsistencies in either academic or standardized test performances throughout your undergraduate, graduate, or post-graduate career? If yes, please explain. If no, please type NA."
+      },
+      {
+        "title": "Time Gap Before Matriculation",
+        "limit": "4000 characters",
+        "themes": [
+          "gap-year"
+        ],
+        "text": "Is there a time gap between earning your last degree (baccalaureate or other) and the expected time of your medical school matriculation? If yes, please explain. If no, please type NA."
+      },
+      {
+        "title": "Reapplicant Improvement",
+        "limit": "4000 characters",
+        "themes": [
+          "additional-info",
+          "gap-year"
+        ],
+        "text": "Have you previously applied to any medical school (M.D., D.O., international)? If yes, please explain what steps you have taken to improve your overall application profile for this admissions cycle. If no, please type NA."
+      }
+    ]
+  },
+  {
+    "name": "Roseman University College of Medicine",
+    "slug": "roseman",
+    "location": "Las Vegas, NV",
+    "coa_per_year": "113531",
+    "median_gpa": "3.79",
+    "median_mcat": "510",
+    "secondary_cycle": "2025-2026 from SDN school-specific thread",
+    "secondary_deadline": "See secondary invite",
+    "official_url": "https://www.roseman.edu/academic-programs/college-of-medicine/doctor-of-medicine-md/",
+    "prompt_source": "https://forums.studentdoctor.net/threads/2025-2026-roseman.1508062/",
+    "notes": "Newer Nevada program with surprisingly favorable accepted-stat profile and clear community-accountability language.",
+    "prompts": [
+      {
+        "title": "Obstacles on the Journey to Medicine",
+        "limit": "500 to 1000 words",
+        "themes": [
+          "challenge"
+        ],
+        "text": "Please describe any obstacles that you have encountered during your journey to a career in medicine and how you overcame them."
+      },
+      {
+        "title": "Social Determinants of Health in Future Practice",
+        "limit": "500 to 1000 words",
+        "themes": [
+          "service",
+          "diversity-equity"
+        ],
+        "text": "RUCOM recognizes the importance of Social Determinants of Health as key drivers of healthcare outcomes, including those in Nevada. As a future physician, how would you seek to address these Social Determinants of Health in your future practice?"
+      },
+      {
+        "title": "Cross-Cultural Interaction",
+        "limit": "500 to 1000 words",
+        "themes": [
+          "diversity-equity",
+          "community"
+        ],
+        "text": "Describe your interactions with someone from a different cultural background or life experience and what you learned from that interaction."
+      },
+      {
+        "title": "Gap Time Explanation",
+        "limit": "250 words",
+        "themes": [
+          "gap-year"
+        ],
+        "text": "If you took time off between earning your baccalaureate degree and applying to medical school, please explain why."
+      },
+      {
+        "title": "Application Updates",
+        "limit": "250 to 1000 words",
+        "themes": [
+          "additional-info"
+        ],
+        "text": "Please include any updates to your application that you would like the Admissions Committee to consider when reviewing your file. This may include changes since the submission of your primary application, information not addressed in previous questions, or additional insights into your academic journey thus far."
+      }
+    ]
+  },
+  {
+    "name": "Hackensack Meridian School of Medicine",
+    "slug": "hackensack-meridian",
+    "location": "Nutley, NJ",
+    "coa_per_year": "125352",
+    "median_gpa": "3.85",
+    "median_mcat": "514",
+    "secondary_cycle": "2025-2026 from SDN school-specific thread",
+    "secondary_deadline": "See secondary invite",
+    "official_url": "https://www.hmsom.edu/en/admissions",
+    "prompt_source": "https://forums.studentdoctor.net/threads/2025-2026-hackensack-meridian.1508026/",
+    "notes": "Private New Jersey option with a cleaner MSAR profile than many similar-tier schools, but plan for a potentially slow screening timeline.",
+    "prompts": [
+      {
+        "title": "Why Hackensack Meridian",
+        "limit": "500 words",
+        "themes": [
+          "why-school"
+        ],
+        "text": "Why are you interested in attending the Hackensack Meridian School of Medicine?"
+      },
+      {
+        "title": "Engaging with Difference",
+        "limit": "500 words",
+        "themes": [
+          "diversity-equity",
+          "community"
+        ],
+        "text": "Describe a time when you engaged with a perspective, culture, or experience different from your own. What did you learn, and how did it influence your personal or professional development?"
+      },
+      {
+        "title": "Preparation for Advanced Study in Medicine",
+        "limit": "500 words",
+        "themes": [
+          "clinical",
+          "future-goals",
+          "research"
+        ],
+        "text": "Describe your experience with the field of medicine (or a related field) that has prepared you for advanced study in this area. Specifically, how have your life experiences prepared you to pursue a degree in medicine, including: coursework, clinical work, experiences in overcoming adversity, work opportunity, volunteer activities, and/or research experiences?"
+      }
+    ]
+  },
+  {
+    "name": "Thomas F. Frist, Jr. College of Medicine at Belmont University",
+    "slug": "belmont-frist",
+    "location": "Nashville, TN",
+    "coa_per_year": "105639",
+    "median_gpa": "3.84",
+    "median_mcat": "512",
+    "secondary_cycle": "2025-2026 from Belmont application page / SDN school-specific thread",
+    "secondary_deadline": "Submit within 10 days of receipt when possible",
+    "official_url": "https://www.belmont.edu/medicine/admissions/application.html",
+    "prompt_source": "https://forums.studentdoctor.net/threads/2025-2026-belmont-frist.1508022/",
+    "notes": "Newer private Tennessee school with no in-state preference and a mission profile that rewards service, humility, and thoughtful reflection.",
+    "prompts": [
+      {
+        "title": "Most Energizing Belmont Value",
+        "limit": "2000 characters",
+        "themes": [
+          "values",
+          "mission-fit"
+        ],
+        "text": "At FCoM, our mission, vision, and values shape our purpose, set our aspirations, and inform our decisions. Please select which value you find most energizing and why. Discuss how this value has impacted your life. Values: We love learning, Lead by serving, Live with integrity, Heal together in humility, and Welcome difference."
+      },
+      {
+        "title": "Spiritual Experiences, Faith, or Personal Beliefs",
+        "limit": "2000 characters",
+        "themes": [
+          "values",
+          "future-goals"
+        ],
+        "text": "Our curriculum centers around a whole-person approach to healing in a community of service-learning, inspired by the love and grace of Christ. Discuss how your spiritual experiences, faith, or personal beliefs have influenced your life and your decision to pursue medicine as a career."
+      },
+      {
+        "title": "Embracing Ambiguity in a New Community",
+        "limit": "2000 characters",
+        "themes": [
+          "challenge",
+          "community"
+        ],
+        "text": "As a newer medical school, our students will help shape a new culture and build lasting community. Reflect on a time when you embraced ambiguity, sharing specific examples where you contributed to creating a culture of growth, collaboration, and adaptability."
+      },
+      {
+        "title": "Reapplicant Changes",
+        "limit": "2000 characters",
+        "themes": [
+          "additional-info",
+          "gap-year"
+        ],
+        "text": "Reapplicants only: Describe the changes to your application from previous cycles, including developments to your academics, experiences, and/or personal attributes."
+      }
+    ]
+  },
+  {
+    "name": "University of Illinois College of Medicine",
+    "slug": "uicom",
+    "location": "Chicago, IL",
+    "coa_per_year": "123095",
+    "median_gpa": "3.85",
+    "median_mcat": "512",
+    "secondary_cycle": "2025-2026 from Med School Insiders",
+    "secondary_deadline": "October 31, 2025",
+    "official_url": "https://medicine.uic.edu/admissions/",
+    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/university-of-illinois-college-of-medicine-secondary-essay-prompts/",
+    "notes": "Public school with some out-of-state risk, but current prompts align unusually well with your justice, diversity, and campus-research interests.",
+    "prompts": [
+      {
+        "title": "Conflict and Change",
+        "limit": "No character limit indicated",
+        "themes": [
+          "challenge",
+          "values"
+        ],
+        "text": "What characteristics, qualities, or attributes do you possess that have helped you to deal with conflict and change?"
+      },
+      {
+        "title": "Why UICOM",
+        "limit": "No character limit indicated",
+        "themes": [
+          "why-school"
+        ],
+        "text": "Which characteristics, qualities, or attributes of UICOM attracted you to apply for medical school here?"
+      },
+      {
+        "title": "Two Campuses",
+        "limit": "No character limit indicated",
+        "themes": [
+          "why-school",
+          "mission-fit"
+        ],
+        "text": "An important part of UICOM's identity is the concept of \"one college, three campuses.\" The curriculum is identical on each campus; however, each campus has unique characteristics. Please describe what you have learned about at least two of our three campuses."
+      },
+      {
+        "title": "Prejudice, Injustice, and the Bystander",
+        "limit": "No character limit indicated",
+        "themes": [
+          "diversity-equity",
+          "values"
+        ],
+        "text": "What are some of the causes and consequences of prejudice and injustice? What does an individual's response to prejudice and injustice reveal about their character? What is the role of a bystander who witnesses prejudice or injustice?"
+      },
+      {
+        "title": "Perspective and Contribution to UICOM",
+        "limit": "No character limit indicated",
+        "themes": [
+          "diversity-equity",
+          "community"
+        ],
+        "text": "UICOM values a wide range of perspectives. Describe an aspect of your own perspective, value system, or lived experience that is important to you and how it would contribute to the diverse and collaborative community at UICOM."
+      },
+      {
+        "title": "Reapplicant Update",
+        "limit": "No character limit indicated",
+        "themes": [
+          "additional-info",
+          "gap-year"
+        ],
+        "text": "If you are reapplying this year please describe what you have done during the past year."
+      },
+      {
+        "title": "Incomplete Prior Program",
+        "limit": "No character limit indicated",
+        "themes": [
+          "academic-context",
+          "additional-info"
+        ],
+        "text": "If you have ever matriculated into and not completed a professional/graduate program, please describe the circumstances of why you did not complete the program of study."
       }
     ]
   }

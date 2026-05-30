@@ -11,7 +11,7 @@ from active_school_packets import ACTIVE_SCHOOL_NAMES, NEW_SCHOOLS
 ROOT = Path(__file__).resolve().parents[1]
 SCHOOL_LIST_XLSX = ROOT / "med_school_list_md.xlsx"
 AMCAS_GUIDE = Path("/Users/jinko/Downloads/aamc-2027-amcas-applicant-guide_final_0.pdf")
-BUILD_DATE = "2026-04-18"
+BUILD_DATE = "2026-05-30"
 
 
 PRIMARY_REQUIREMENTS = [

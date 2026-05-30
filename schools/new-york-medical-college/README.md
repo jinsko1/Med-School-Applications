@@ -1,9 +1,9 @@
 # New York Medical College
 
 - Active list location: Valhalla, NY
-- Active list COA/year: 94496
-- Active list GPA median: 3.8
-- Active list MCAT median: 516
+- Active list COA/year: 102045
+- Active list GPA median: 3.89
+- Active list MCAT median: 517
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: December 15, 2025
 - Official admissions page: https://www.nymc.edu/school-of-medicine-som/admissions/

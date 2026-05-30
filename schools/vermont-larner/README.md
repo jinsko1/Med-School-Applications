@@ -1,9 +1,9 @@
 # Vermont Larner College of Medicine
 
 - Active list location: Burlington, VT
-- Active list COA/year: 100036
-- Active list GPA median: 3.75
-- Active list MCAT median: 512
+- Active list COA/year: 105472
+- Active list GPA median: 3.8
+- Active list MCAT median: 513
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: December 22, 2025
 - Official admissions page: https://www.uvm.edu/larnermed/admissions

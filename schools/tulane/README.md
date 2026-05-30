@@ -1,9 +1,9 @@
 # Tulane University School of Medicine
 
 - Active list location: New Orleans, LA
-- Active list COA/year: 95328
-- Active list GPA median: 3.7
-- Active list MCAT median: 510
+- Active list COA/year: 114804
+- Active list GPA median: 3.84
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: November 1, 2025
 - Official admissions page: https://medicine.tulane.edu/admissions

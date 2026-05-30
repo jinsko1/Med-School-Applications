@@ -1,9 +1,9 @@
 # The Ohio State University College of Medicine
 
 - Active list location: Columbus, OH
-- Active list COA/year: 80647
-- Active list GPA median: 3.83
-- Active list MCAT median: 514
+- Active list COA/year: 87056
+- Active list GPA median: 3.92
+- Active list MCAT median: 516
 - Latest prompt cycle used here: 2024 archive on Admit.org search snippet
 - Latest verified secondary deadline: December 15, 2025
 - Official admissions page: https://medicine.osu.edu/education/medical-school/admissions

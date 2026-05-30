@@ -1,9 +1,9 @@
 # Lewis Katz School of Medicine at Temple University
 
 - Active list location: Philadelphia, PA
-- Active list COA/year: 62868
-- Active list GPA median: 3.79
-- Active list MCAT median: 512
+- Active list COA/year: 91972
+- Active list GPA median: 3.84
+- Active list MCAT median: 513
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: January 15, 2026
 - Official admissions page: https://medicine.temple.edu/education/md-program/admissions

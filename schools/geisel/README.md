@@ -1,9 +1,9 @@
 # Geisel School of Medicine at Dartmouth
 
 - Active list location: Hanover, NH
-- Active list COA/year: 96448
-- Active list GPA median: 3.82
-- Active list MCAT median: 516
+- Active list COA/year: 101004
+- Active list GPA median: 3.9
+- Active list MCAT median: 517
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://geiselmed.dartmouth.edu/admissions/

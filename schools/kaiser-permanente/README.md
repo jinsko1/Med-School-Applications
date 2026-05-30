@@ -1,9 +1,9 @@
 # Kaiser Permanente Bernard J. Tyson School of Medicine
 
 - Active list location: Pasadena, CA
-- Active list COA/year: 102975
-- Active list GPA median: 3.84
-- Active list MCAT median: 515
+- Active list COA/year: 39636
+- Active list GPA median: 3.87
+- Active list MCAT median: 517
 - Latest prompt cycle used here: Latest public prompt set found on Bright Doctor as of 2026-04-18
 - Latest verified secondary deadline: November 3, 2025
 - Official admissions page: https://medschool.kp.org/admissions

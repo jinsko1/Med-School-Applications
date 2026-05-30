@@ -1,9 +1,9 @@
 # Sidney Kimmel Medical College at Thomas Jefferson University
 
 - Active list location: Philadelphia, PA
-- Active list COA/year: 90759
-- Active list GPA median: 3.8
-- Active list MCAT median: 513
+- Active list COA/year: 102480
+- Active list GPA median: 3.89
+- Active list MCAT median: 514
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: January 1, 2026
 - Official admissions page: https://www.jefferson.edu/academics/colleges-schools-institutes/skmc/admissions.html

@@ -1,9 +1,9 @@
 # Frank H. Netter M.D. School of Medicine at Quinnipiac University
 
-- Active list location: North Haven, CT
-- Active list COA/year: 95997
-- Active list GPA median: 3.78
-- Active list MCAT median: 513
+- Active list location: Hamden, CT
+- Active list COA/year: 101334
+- Active list GPA median: 3.81
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: December 1, 2025
 - Official admissions page: https://medicine.qu.edu/admissions/

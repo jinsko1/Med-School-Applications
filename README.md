@@ -1,6 +1,6 @@
 # Med School Applications Workspace
 
-This repository was generated on 2026-04-18 to support your VS Code + Codex workflow for the 2027 AMCAS cycle.
+This repository was generated on 2026-05-30 to support your VS Code + Codex workflow for the 2027 AMCAS cycle.
 
 ## What This Repo Does
 - Normalizes your active school list into a reusable local dataset
@@ -29,7 +29,7 @@ python3 scripts/render_review_site.py
 7. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
 
 ## Important Notes
-- Prompt sets in this repo use the latest public sources I could verify on 2026-04-18. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
+- Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
-- The active MD school list currently includes 35 schools.
+- The active MD school list currently includes 34 schools.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

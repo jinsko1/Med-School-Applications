@@ -1,9 +1,9 @@
 # Medical College of Wisconsin
 
 - Active list location: Milwaukee, WI
-- Active list COA/year: 101344
-- Active list GPA median: 3.8
-- Active list MCAT median: 510
+- Active list COA/year: 109187
+- Active list GPA median: 3.87
+- Active list MCAT median: 511
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: December 8, 2025
 - Official admissions page: https://www.mcw.edu/education/medical-school/admissions

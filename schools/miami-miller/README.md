@@ -1,8 +1,8 @@
 # University of Miami Leonard M. Miller School of Medicine
 
 - Active list location: Miami, FL
-- Active list COA/year: 106785
-- Active list GPA median: 3.85
+- Active list COA/year: 112815
+- Active list GPA median: 3.9
 - Active list MCAT median: 516
 - Latest prompt cycle used here: 2024 archive on Admit.org search snippet
 - Latest verified secondary deadline: See admissions source

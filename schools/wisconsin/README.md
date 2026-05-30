@@ -1,9 +1,9 @@
 # University of Wisconsin School of Medicine and Public Health
 
-- Active list location: Madison, WI
-- Active list COA/year: 94424
-- Active list GPA median: 3.78
-- Active list MCAT median: 511
+- Active list location: 
+- Active list COA/year: 97464
+- Active list GPA median: 3.87
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: November 20, 2025
 - Official admissions page: https://www.med.wisc.edu/education/md/admissions/

@@ -1,8 +1,8 @@
 # University of California, Riverside School of Medicine
 
 - Active list location: Riverside, CA
-- Active list COA/year: 66443
-- Active list GPA median: 3.6
+- Active list COA/year: 97557
+- Active list GPA median: 3.81
 - Active list MCAT median: 509
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: October 15, 2025

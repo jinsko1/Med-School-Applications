@@ -1,9 +1,9 @@
 # Albany Medical College
 
 - Active list location: Albany, NY
-- Active list COA/year: 85749
-- Active list GPA median: 3.8
-- Active list MCAT median: 510
+- Active list COA/year: 93727
+- Active list GPA median: 3.87
+- Active list MCAT median: 513
 - Latest prompt cycle used here: 2025-2026 from Admit.org / Med School Insiders
 - Latest verified secondary deadline: December 1, 2025
 - Official admissions page: https://www.amc.edu/academic/undergraduate-medical-education/admissions/

@@ -1,8 +1,8 @@
 # Wake Forest University School of Medicine
 
 - Active list location: Winston-Salem, NC
-- Active list COA/year: 99067
-- Active list GPA median: 3.85
+- Active list COA/year: 110448
+- Active list GPA median: 3.87
 - Active list MCAT median: 512
 - Latest prompt cycle used here: 2024-2025 complete prompt set from Med School Insiders page find result
 - Latest verified secondary deadline: November 30, 2025

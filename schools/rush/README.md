@@ -1,8 +1,8 @@
 # Rush Medical College at Rush University
 
 - Active list location: Chicago, IL
-- Active list COA/year: 104682
-- Active list GPA median: 3.72
+- Active list COA/year: 107391
+- Active list GPA median: 3.8
 - Active list MCAT median: 510
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: November 15, 2025

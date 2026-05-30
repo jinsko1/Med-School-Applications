@@ -1,9 +1,9 @@
 # California University of Science and Medicine
 
 - Active list location: Colton, CA
-- Active list COA/year: 
-- Active list GPA median: 3.6
-- Active list MCAT median: 513
+- Active list COA/year: 115072
+- Active list GPA median: 3.83
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2025-2026 from Admit.org / Med School Insiders
 - Latest verified secondary deadline: December 30, 2025
 - Official admissions page: https://cusm.edu/admissions/

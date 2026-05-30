@@ -1,9 +1,9 @@
 # Chicago Medical School at Rosalind Franklin University of Medicine and Science
 
 - Active list location: North Chicago, IL
-- Active list COA/year: 100423
-- Active list GPA median: 3.69
-- Active list MCAT median: 508
+- Active list COA/year: 104743
+- Active list GPA median: 3.79
+- Active list MCAT median: 510
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: December 1, 2025
 - Official admissions page: https://www.rosalindfranklin.edu/admission-aid/

@@ -2,8 +2,8 @@
 
 - Active list location: Iowa City, IA
 - Active list COA/year: 92614
-- Active list GPA median: 3.81
-- Active list MCAT median: 514
+- Active list GPA median: 3.92
+- Active list MCAT median: 516
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: December 15, 2025
 - Official admissions page: https://medicine.uiowa.edu/md/admissions

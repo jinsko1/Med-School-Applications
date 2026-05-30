@@ -1,9 +1,9 @@
 # Tufts University School of Medicine
 
 - Active list location: Boston, MA
-- Active list COA/year: 105858
-- Active list GPA median: 3.82
-- Active list MCAT median: 514
+- Active list COA/year: 111854
+- Active list GPA median: 3.91
+- Active list MCAT median: 516
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://medicine.tufts.edu/admissions-financial-aid/admissions

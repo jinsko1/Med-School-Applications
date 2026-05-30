@@ -1,8 +1,8 @@
 # Drexel University College of Medicine
 
 - Active list location: Philadelphia, PA
-- Active list COA/year: 106067
-- Active list GPA median: 3.76
+- Active list COA/year: 110487
+- Active list GPA median: 3.84
 - Active list MCAT median: 512
 - Latest prompt cycle used here: 2025-2026 from Admit.org / Med School Insiders
 - Latest verified secondary deadline: January 1, 2026

@@ -1,9 +1,9 @@
 # University of California San Diego School of Medicine
 
 - Active list location: La Jolla, CA
-- Active list COA/year: 68962
-- Active list GPA median: 3.83
-- Active list MCAT median: 514
+- Active list COA/year: 75043
+- Active list GPA median: 3.92
+- Active list MCAT median: 516
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://medschool.ucsd.edu/education/md-program/admissions

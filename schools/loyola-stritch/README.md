@@ -1,9 +1,9 @@
 # Loyola University Chicago Stritch School of Medicine
 
 - Active list location: Maywood, IL
-- Active list COA/year: 70998
-- Active list GPA median: 3.8
-- Active list MCAT median: 512
+- Active list COA/year: 107024
+- Active list GPA median: 3.87
+- Active list MCAT median: 513
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: December 12, 2025
 - Official admissions page: https://www.luc.edu/stritch/admissions/

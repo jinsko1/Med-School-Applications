@@ -1,8 +1,8 @@
 # Eastern Virginia Medical School
 
 - Active list location: Norfolk, VA
-- Active list COA/year: 86585
-- Active list GPA median: 3.8
+- Active list COA/year: 92301
+- Active list GPA median: 3.82
 - Active list MCAT median: 513
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: December 31, 2025

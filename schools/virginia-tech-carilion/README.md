@@ -1,9 +1,9 @@
 # Virginia Tech Carilion School of Medicine
 
 - Active list location: Roanoke, VA
-- Active list COA/year: 87233
-- Active list GPA median: 3.67
-- Active list MCAT median: 512
+- Active list COA/year: 93201
+- Active list GPA median: 3.82
+- Active list MCAT median: 513
 - Latest prompt cycle used here: 2025-2026 from ProspectiveDoctor / Med School Insiders / Virginia Tech admissions page
 - Latest verified secondary deadline: December 15, 2025
 - Official admissions page: https://medicine.vtc.vt.edu/admissions/application-process.html

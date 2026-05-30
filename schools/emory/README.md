@@ -1,9 +1,9 @@
 # Emory University School of Medicine
 
 - Active list location: Atlanta, GA
-- Active list COA/year: 102652
-- Active list GPA median: 3.81
-- Active list MCAT median: 515
+- Active list COA/year: 109402
+- Active list GPA median: 3.89
+- Active list MCAT median: 517
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: December 1, 2025
 - Official admissions page: https://med.emory.edu/education/programs/md/admissions/

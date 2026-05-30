@@ -1,9 +1,9 @@
 # Wayne State University School of Medicine
 
 - Active list location: Detroit, MI
-- Active list COA/year: 101999
-- Active list GPA median: 3.78
-- Active list MCAT median: 511
+- Active list COA/year: 107533
+- Active list GPA median: 3.88
+- Active list MCAT median: 512
 - Latest prompt cycle used here: 2025-2026 from Med School Insiders
 - Latest verified secondary deadline: Advised within 2 weeks of request; final deadline February 8, 2026
 - Official admissions page: https://www.med.wayne.edu/admissions
