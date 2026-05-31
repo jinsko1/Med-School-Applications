@@ -54,5 +54,5 @@ python3 scripts/fetch_school_research_papers.py
 - The active MD school list currently includes 32 schools.
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
 - School-list percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/school-list-estimates.md`.
-- School research paper blurbs are PubMed search results stored in `data/school_research_papers.json`; treat them as a starting point before naming a paper in a final essay.
+- School research paper blurbs are curated PubMed-affiliated results stored in `data/school_research_papers.json`; weak matches are intentionally left blank, and any paper should still be verified before naming it in a final essay.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

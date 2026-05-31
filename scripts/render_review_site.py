@@ -791,7 +791,7 @@ PAGE_TEMPLATE = Template(
         </article>
         <article class="card">
           <h2>Recent / Relevant Research</h2>
-          <p class="note">Pulled from PubMed by school-affiliation terms and applicant-relevant topics. Treat this as a research starting point, especially for newer schools where affiliated publication data can be sparse or broad.</p>
+          <p class="note">Curated from PubMed-affiliated results for major work, microbiology/infectious-disease relevance, women's health, underserved care, or hospice/palliative fit. Schools are left blank when the available matches look too weak to cite confidently.</p>
           {% if papers %}
           <div class="paper-grid">
             {% for paper in papers %}

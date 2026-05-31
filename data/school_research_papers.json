@@ -1,1026 +1,424 @@
 {
   "uc-davis": [
     {
-      "pmid": "37628309",
-      "title": "Congenital Syphilis-An Illustrative Review.",
-      "authors": "Sankaran D, Partridge E, Lakshminrusimha S, et al.",
-      "journal": "Children (Basel, Switzerland)",
-      "year": "2023",
-      "doi": "10.3390/children10081310",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37628309/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Congenital syphilis is caused by the spirochete, Treponema pallidum, which can be transmitted from an infected mother to her fetus during pregnancy or by contact with a maternal lesion at the time of delivery."
-    },
-    {
-      "pmid": "39710556",
-      "title": "Coccidioidomycosis.",
-      "authors": "Donovan FM, Ampel NM, Thompson GR, et al.",
-      "journal": "Infectious disease clinics of North America",
+      "pmid": "40459889",
+      "title": "Estimated Burden of Coccidioidomycosis.",
+      "authors": "Williams SL, Benedict K, Jackson BR, et al.",
+      "journal": "JAMA network open",
       "year": "2025",
-      "doi": "10.1016/j.idc.2024.11.012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39710556/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Coccidioidomycosis is the clinical disease caused by the dimorphic pathogenic fungi Coccidioides immitis and C posadasii."
-    },
-    {
-      "pmid": "34563232",
-      "title": "WSES/GAIS/SIS-E/WSIS/AAST global clinical pathways for patients with intra-abdominal infections.",
-      "authors": "Sartelli M, Coccolini F, Kluger Y, et al.",
-      "journal": "World journal of emergency surgery : WJES",
-      "year": "2021",
-      "doi": "10.1186/s13017-021-00387-8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34563232/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Intra-abdominal infections (IAIs) are common surgical emergencies and have been reported as major contributors to non-trauma deaths in hospitals worldwide."
+      "doi": "10.1001/jamanetworkopen.2025.13572",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40459889/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, hospice / palliative care, high-impact venue: JAMA network open). Paper focus: Coccidioidomycosis is an underrecognized fungal infection that can cause serious illness and constitutes a considerable public health burden.",
+      "score": 231,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; hospice / palliative care; high-impact venue: JAMA network open"
     }
   ],
   "ucsd": [
     {
-      "pmid": "35041506",
-      "title": "Considerations for the Use of Phage Therapy in Clinical Practice.",
-      "authors": "Suh GA, Lodise TP, Tamma PD, et al.",
-      "journal": "Antimicrobial agents and chemotherapy",
-      "year": "2022",
-      "doi": "10.1128/AAC.02071-21",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35041506/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Increasing antimicrobial resistance and medical device-related infections have led to a renewed interest in phage therapy as an alternative or adjunct to conventional antimicrobials."
-    },
-    {
-      "pmid": "40217076",
-      "title": "Clinical translation of microbiome research.",
-      "authors": "Gilbert JA, Azad MB, B\u00e4ckhed F, et al.",
-      "journal": "Nature medicine",
+      "pmid": "40499541",
+      "title": "The microbiome diversifies long- to short-chain fatty acid-derived N-acyl lipids.",
+      "authors": "Mannochio-Russo H, Charron-Lamoureux V, van Faassen M, et al.",
+      "journal": "Cell",
       "year": "2025",
-      "doi": "10.1038/s41591-025-03615-9",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40217076/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The landscape of clinical microbiome research has dramatically evolved over the past decade."
-    },
-    {
-      "pmid": "39909325",
-      "title": "Best practices for reducing pain associated with intrauterine device placement.",
-      "authors": "Bayer LL, Ahuja S, Allen RH, et al.",
-      "journal": "American journal of obstetrics and gynecology",
-      "year": "2025",
-      "doi": "10.1016/j.ajog.2025.01.039",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39909325/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Intrauterine devices are highly effective, long-acting, reversible forms of contraception."
+      "doi": "10.1016/j.cell.2025.05.015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40499541/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: Cell). Paper focus: N-Acyl lipids are important mediators of several biological processes including immune function and stress response.",
+      "score": 188,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: Cell"
     }
   ],
   "kaiser-permanente": [
     {
-      "pmid": "37178856",
-      "title": "Efficacy of vaginal estrogen for recurrent urinary tract infection prevention in hypoestrogenic women.",
-      "authors": "Tan-Kim J, Shah NM, Do D, et al.",
-      "journal": "American journal of obstetrics and gynecology",
-      "year": "2023",
-      "doi": "10.1016/j.ajog.2023.05.002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37178856/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Vaginal estrogen is considered to be the standard of care for recurrent urinary tract infection prevention in women with hypoestrogenism."
-    },
-    {
-      "pmid": "38736319",
-      "title": "Breast cancer incidence and mortality by metabolic syndrome and obesity: The Women's Health Initiative.",
-      "authors": "Chlebowski RT, Aragaki AK, Pan K, et al.",
-      "journal": "Cancer",
-      "year": "2024",
-      "doi": "10.1002/cncr.35318",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38736319/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: In the Women's Health Initiative (WHI) randomized trial, dietary intervention significantly reduced breast cancer mortality, especially in women with more metabolic syndrome (MetS) components."
-    },
-    {
-      "pmid": "37851221",
-      "title": "Decision-Making Across Cultures.",
-      "authors": "Elbaum A, Kinsey L, Mariano J, et al.",
-      "journal": "Cancer treatment and research",
-      "year": "2023",
-      "doi": "10.1007/978-3-031-29923-0_7",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37851221/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This chapter surveys the range of different orientations toward decision-making, common clinical scenarios, and considerations to bear in mind when caring for culturally diverse patients at the end of life."
+      "pmid": "40324788",
+      "title": "Infant Respiratory Syncytial Virus Immunization Coverage in the Vaccine Safety Datalink: 2023-2024.",
+      "authors": "Irving SA, Crane B, Weintraub ES, et al.",
+      "journal": "Pediatrics",
+      "year": "2025",
+      "doi": "10.1542/peds.2024-070240",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40324788/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Pediatrics). Paper focus: In 2023, the Advisory Committee on Immunization Practices recommended either Abrysvo, a vaccine administered during pregnancy, or nirsevimab, a monoclonal antibody administered to infants after birth, to protect infants from respiratory syncytial....",
+      "score": 219,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Pediatrics"
     }
   ],
   "temple": [
     {
-      "pmid": "36075255",
-      "title": "Towards the elimination of chronic obstructive pulmonary disease: a Lancet Commission.",
-      "authors": "Stolz D, Mkorombindo T, Schumann DM, et al.",
-      "journal": "Lancet (London, England)",
-      "year": "2022",
-      "doi": "10.1016/S0140-6736(22)01273-9",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36075255/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Despite substantial progress in reducing the global impact of many non-communicable diseases, including heart disease and cancer, morbidity and mortality due to chronic respiratory disease continues to increase."
-    },
-    {
-      "pmid": "34684117",
-      "title": "An Updated Review of Pemphigus Diseases.",
-      "authors": "Malik AM, Tupchong S, Huang S, et al.",
-      "journal": "Medicina (Kaunas, Lithuania)",
-      "year": "2021",
-      "doi": "10.3390/medicina57101080",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34684117/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Clinicians may encounter a variety of skin conditions that present with vesiculobullous lesions in their everyday practice."
-    },
-    {
-      "pmid": "38073403",
-      "title": "Suicide and Suicide Risk in Adolescents.",
-      "authors": "Hua LL, Lee J, Rahmandar MH, et al.",
-      "journal": "Pediatrics",
-      "year": "2024",
-      "doi": "10.1542/peds.2023-064800",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38073403/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Suicide is the second leading cause of death for 10- to 24-year-olds in the United States and is a global public health issue, with a recent declaration of a National State of Emergency in Children's Mental Health by the American Academy of Pediatrics, American Academy of...."
+      "pmid": "38085312",
+      "title": "Metformin Plus Insulin for Preexisting Diabetes or Gestational Diabetes in Early Pregnancy: The MOMPOD Randomized Clinical Trial.",
+      "authors": "",
+      "journal": "JAMA",
+      "year": "2023",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38085312/",
+      "synopsis": "Selected because it is a major randomized clinical trial in pregnancy and maternal health, which is more useful for your application themes than a generic high-impact paper outside your story.",
+      "score": 999,
+      "selection_reason": "manual selection; women's health; high-impact venue: JAMA; randomized clinical trial"
     }
   ],
   "emory": [
     {
-      "pmid": "39148213",
-      "title": "Updated joint ESPGHAN/NASPGHAN guidelines for management of Helicobacter pylori infection in children and adolescents (2023).",
-      "authors": "Homan M, Jones NL, Bontems P, et al.",
-      "journal": "Journal of pediatric gastroenterology and nutrition",
-      "year": "2024",
-      "doi": "10.1002/jpn3.12314",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39148213/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Evolving epidemiological data and increasing antibiotic resistance mandate an update of the European and North American Societies of Pediatric Gastroenterology, Hepatology and Nutrition guidelines.Certainty of evidence and strength of recommendations were rated by experts...."
-    },
-    {
-      "pmid": "33357469",
-      "title": "Acute flaccid myelitis: cause, diagnosis, and management.",
-      "authors": "Murphy OC, Messacar K, Benson L, et al.",
-      "journal": "Lancet (London, England)",
-      "year": "2021",
-      "doi": "10.1016/S0140-6736(20)32723-9",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33357469/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Acute flaccid myelitis (AFM) is a disabling, polio-like illness mainly affecting children."
-    },
-    {
-      "pmid": "37150579",
-      "title": "American Association of Clinical Endocrinology Consensus Statement: Comprehensive Type 2 Diabetes Management Algorithm - 2023 Update.",
-      "authors": "Samson SL, Vellanki P, Blonde L, et al.",
-      "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
-      "year": "2023",
-      "doi": "10.1016/j.eprac.2023.02.001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37150579/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This consensus statement provides (1) visual guidance in concise graphic algorithms to assist with clinical decision-making of health care professionals in the management of persons with type 2 diabetes mellitus to improve patient care and (2) a summary of details to support...."
+      "pmid": "39363100",
+      "title": "Impact of doxycycline post-exposure prophylaxis for sexually transmitted infections on the gut microbiome and antimicrobial resistome.",
+      "authors": "Chu VT, Glascock A, Donnell D, et al.",
+      "journal": "Nature medicine",
+      "year": "2025",
+      "doi": "10.1038/s41591-024-03274-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39363100/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Nature medicine, clinical trial). Paper focus: Doxycycline post-exposure prophylaxis (doxy-PEP) reduces bacterial sexually transmitted infections among men who have sex with men and transgender women.",
+      "score": 261,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Nature medicine; clinical trial"
     }
   ],
   "virginia-tech-carilion": [
     {
       "pmid": "40802264",
       "title": "Dalbavancin for Treatment of Staphylococcus aureus Bacteremia: The DOTS Randomized Clinical Trial.",
-      "authors": "Turner NA, Hamasaki T, Doernberg SB, et al.",
+      "authors": "",
       "journal": "JAMA",
       "year": "2025",
-      "doi": "10.1001/jama.2025.12543",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40802264/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Dalbavancin is a long-acting intravenous lipoglycopeptide that may be effective for treatment of complicated Staphylococcus aureus bacteremia without requiring long-term intravenous access.To evaluate the efficacy and safety of dalbavancin vs standard therapy for completion...."
-    },
-    {
-      "pmid": "35723686",
-      "title": "Low-dose methylprednisolone treatment in critically ill patients with severe community-acquired pneumonia.",
-      "authors": "Meduri GU, Shih MC, Bridges L, et al.",
-      "journal": "Intensive care medicine",
-      "year": "2022",
-      "doi": "10.1007/s00134-022-06684-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35723686/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Severe community-acquired pneumonia (CAP) requiring intensive care unit admission is associated with significant acute and long-term morbidity and mortality."
-    },
-    {
-      "pmid": "39150279",
-      "title": "Non-variceal Upper Gastrointestinal Bleeding and Its Endoscopic Management.",
-      "authors": "Wasserman RD, Abel W, Monkemuller K, et al.",
-      "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
-      "year": "2024",
-      "doi": "10.5152/tjg.2024.23507",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39150279/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Upper gastrointestinal bleeding (UGIB) is a major cause of morbidity and mortality."
+      "synopsis": "Selected because it is a major randomized clinical trial in Staphylococcus aureus bacteremia, making it directly useful for microbiology and infectious-disease framing.",
+      "score": 999,
+      "selection_reason": "manual selection; microbio / infectious disease; high-impact venue: JAMA; randomized clinical trial"
     }
   ],
   "vermont-larner": [
     {
-      "pmid": "33626481",
-      "title": "Euglycemic diabetic ketoacidosis: Etiologies, evaluation, and management.",
-      "authors": "Long B, Lentz S, Koyfman A, et al.",
-      "journal": "The American journal of emergency medicine",
-      "year": "2021",
-      "doi": "10.1016/j.ajem.2021.02.015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33626481/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Diabetic ketoacidosis is an endocrine emergency."
-    },
-    {
-      "pmid": "36258120",
-      "title": "Epidemiology and prevention of venous thromboembolism.",
-      "authors": "Lutsey PL, Zakai NA",
-      "journal": "Nature reviews. Cardiology",
-      "year": "2023",
-      "doi": "10.1038/s41569-022-00787-6",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36258120/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Venous thromboembolism, that consists of the interrelated conditions deep-vein thrombosis and pulmonary embolism, is an under-appreciated vascular disease."
-    },
-    {
-      "pmid": "33160639",
-      "title": "Clinical Management of Hyperkalemia.",
-      "authors": "Palmer BF, Carrero JJ, Clegg DJ, et al.",
-      "journal": "Mayo Clinic proceedings",
-      "year": "2021",
-      "doi": "10.1016/j.mayocp.2020.06.014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33160639/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Hyperkalemia is an electrolyte abnormality with potentially life-threatening consequences."
+      "pmid": "41412141",
+      "title": "Global burden of lower respiratory infections and aetiologies, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
+      "authors": "",
+      "journal": "The Lancet. Infectious diseases",
+      "year": "2026",
+      "doi": "10.1016/S1473-3099(25)00689-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41412141/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: The Lancet. Infectious diseases, systematic analysis). Paper focus: Lower respiratory infections (LRIs) remain the world's leading infectious cause of death.",
+      "score": 206,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: The Lancet. Infectious diseases; systematic analysis"
     }
   ],
   "wisconsin": [
     {
-      "pmid": "37202517",
-      "title": "Blood biomarkers for Alzheimer's disease in clinical practice and trials.",
-      "authors": "Hansson O, Blennow K, Zetterberg H, et al.",
-      "journal": "Nature aging",
-      "year": "2023",
-      "doi": "10.1038/s43587-023-00403-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37202517/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Blood-based biomarkers hold great promise to revolutionize the diagnostic and prognostic work-up of Alzheimer's disease (AD) in clinical practice."
-    },
-    {
-      "pmid": "34882123",
-      "title": "Mindfulness in Athletes.",
-      "authors": "Anderson SA, Haraldsdottir K, Watson D, et al.",
-      "journal": "Current sports medicine reports",
-      "year": "2021",
-      "doi": "10.1249/JSR.0000000000000919",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34882123/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Interventions to promote athlete health and performance have traditionally been focused on the physical elements of injury and training."
-    },
-    {
-      "pmid": "40156286",
-      "title": "Diagnostic accuracy of plasma p-tau217/A\u03b242 for Alzheimer's disease in clinical and community cohorts.",
-      "authors": "Wang J, Huang S, Lan G, et al.",
-      "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
-      "year": "2025",
-      "doi": "10.1002/alz.70038",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40156286/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This study was undertaken to evaluate the diagnostic performance of a novel plasma phosphorylated tau (p-tau) 217/amyloid beta (A\u03b2) 42 ratio test for Alzheimer's disease (AD).The diagnostic performance of the Lumipulse G plasma p-tau217/A\u03b242 ratio was evaluated using A\u03b2 and...."
+      "pmid": "39259563",
+      "title": "Telehealth vs In-Person Early Palliative Care for Patients With Advanced Lung Cancer: A Multisite Randomized Clinical Trial.",
+      "authors": "Greer JA, Temel JS, El-Jawahri A, et al.",
+      "journal": "JAMA",
+      "year": "2024",
+      "doi": "10.1001/jama.2024.13964",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39259563/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (women's health, hospice / palliative care, high-impact venue: JAMA, clinical trial). Paper focus: Numerous studies show that early palliative care improves quality of life and other key outcomes in patients with advanced cancer and their caregivers, although most lack access to this evidence-based model of care.To evaluate whether delivering....",
+      "score": 210,
+      "selection_reason": "women's health; hospice / palliative care; high-impact venue: JAMA; clinical trial"
     }
   ],
   "mcw": [
     {
-      "pmid": "38442248",
-      "title": "Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM).",
-      "authors": "Miller JM, Binnicker MJ, Campbell S, et al.",
-      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-      "year": "2024",
-      "doi": "10.1093/cid/ciae104",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38442248/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The critical nature of the microbiology laboratory in infectious disease diagnosis calls for a close, positive working relationship between the physician and the microbiologists who provide enormous value to the health care team."
-    },
-    {
-      "pmid": "33357469",
-      "title": "Acute flaccid myelitis: cause, diagnosis, and management.",
-      "authors": "Murphy OC, Messacar K, Benson L, et al.",
-      "journal": "Lancet (London, England)",
-      "year": "2021",
-      "doi": "10.1016/S0140-6736(20)32723-9",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33357469/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Acute flaccid myelitis (AFM) is a disabling, polio-like illness mainly affecting children."
-    },
-    {
-      "pmid": "33353871",
-      "title": "Lyme Disease Pathogenesis.",
-      "authors": "Coburn J, Garcia B, Hu LT, et al.",
-      "journal": "Current issues in molecular biology",
-      "year": "2021",
-      "doi": "10.21775/cimb.042.473",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33353871/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Lyme disease Borrelia are obligately parasitic, tick- transmitted, invasive, persistent bacterial pathogens that cause disease in humans and non-reservoir vertebrates primarily through the induction of inflammation."
+      "pmid": "41135560",
+      "title": "Global, regional, and national sepsis incidence and mortality, 1990-2021: a systematic analysis.",
+      "authors": "",
+      "journal": "The Lancet. Global health",
+      "year": "2025",
+      "doi": "10.1016/S2214-109X(25)00356-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41135560/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: The Lancet. Global health, systematic analysis). Paper focus: The global burden of sepsis, a life-threatening dysregulated host response to infection leading to organ dysfunction, remains challenging to quantify.",
+      "score": 204,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: The Lancet. Global health; systematic analysis"
     }
   ],
   "jefferson-kimmel": [
     {
-      "pmid": "38245889",
-      "title": "International Consensus Criteria for Pediatric Sepsis and Septic Shock.",
-      "authors": "Schlapbach LJ, Watson RS, Sorce LR, et al.",
-      "journal": "JAMA",
-      "year": "2024",
-      "doi": "10.1001/jama.2024.0179",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38245889/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Sepsis is a leading cause of death among children worldwide."
-    },
-    {
-      "pmid": "38245897",
-      "title": "Development and Validation of the Phoenix Criteria for Pediatric Sepsis and Septic Shock.",
-      "authors": "Sanchez-Pinto LN, Bennett TD, DeWitt PE, et al.",
-      "journal": "JAMA",
-      "year": "2024",
-      "doi": "10.1001/jama.2024.0196",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38245897/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The Society of Critical Care Medicine Pediatric Sepsis Definition Task Force sought to develop and validate new clinical criteria for pediatric sepsis and septic shock using measures of organ dysfunction through a data-driven approach.To derive and validate novel criteria for...."
-    },
-    {
-      "pmid": "35416967",
-      "title": "Vulvovaginal Candidiasis: A Review of the Evidence for the 2021 Centers for Disease Control and Prevention of Sexually Transmitted Infections Treatment Guidelines.",
-      "authors": "Nyirjesy P, Brookhart C, Lazenby G, et al.",
-      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-      "year": "2022",
-      "doi": "10.1093/cid/ciab1057",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35416967/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Vulvovaginal candidiasis (VVC) is a common cause of vulvovaginal itching and discharge."
+      "pmid": "36757318",
+      "title": "Azithromycin to Prevent Sepsis or Death in Women Planning a Vaginal Birth.",
+      "authors": "Tita ATN, Carlo WA, McClure EM, et al.",
+      "journal": "The New England journal of medicine",
+      "year": "2023",
+      "doi": "10.1056/NEJMoa2212111",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36757318/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, high-impact venue: The New England journal of medicine, multicenter). Paper focus: The use of azithromycin reduces maternal infection in women during unplanned cesarean delivery, but its effect on those with planned vaginal delivery is unknown.",
+      "score": 218,
+      "selection_reason": "microbio / infectious disease; women's health; high-impact venue: The New England journal of medicine; multicenter"
     }
   ],
   "miami-miller": [
     {
-      "pmid": "37150579",
-      "title": "American Association of Clinical Endocrinology Consensus Statement: Comprehensive Type 2 Diabetes Management Algorithm - 2023 Update.",
-      "authors": "Samson SL, Vellanki P, Blonde L, et al.",
-      "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
-      "year": "2023",
-      "doi": "10.1016/j.eprac.2023.02.001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37150579/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This consensus statement provides (1) visual guidance in concise graphic algorithms to assist with clinical decision-making of health care professionals in the management of persons with type 2 diabetes mellitus to improve patient care and (2) a summary of details to support...."
-    },
-    {
-      "pmid": "37074203",
-      "title": "The structural and social determinants of Alzheimer's disease related dementias.",
-      "authors": "Adkins-Jackson PB, George KM, Besser LM, et al.",
-      "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
-      "year": "2023",
-      "doi": "10.1002/alz.13027",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37074203/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The projected growth of Alzheimer's disease (AD) and AD-related dementia (ADRD) cases by midcentury has expanded the research field and impelled new lines of inquiry into structural and social determinants of health (S/SDOH) as fundamental drivers of disparities in AD/ADRD.In...."
-    },
-    {
-      "pmid": "39041385",
-      "title": "Consensus Definitions of Cytomegalovirus (CMV) Infection and Disease in Transplant Patients Including Resistant and Refractory CMV for Use in Clinical Trials: 2024 Update From the Transplant Associated Virus Infections Forum.",
-      "authors": "Ljungman P, Chemaly RF, Khawaya F, et al.",
-      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "pmid": "39419055",
+      "title": "Global health 2050: the path to halving premature death by mid-century.",
+      "authors": "Jamison DT, Summers LH, Chang AY, et al.",
+      "journal": "Lancet (London, England)",
       "year": "2024",
-      "doi": "10.1093/cid/ciae321",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39041385/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Cytomegalovirus (CMV) infection and disease are important causes of morbidity and mortality in transplant recipients."
+      "doi": "10.1016/S0140-6736(24)01439-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39419055/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Lancet (London, England)). Paper focus: Global health 2050 (GH2050), a new report from the Lancet Commission on Investing in Health, finds that dramatic improvements in human welfare are achievable by mid-century with focused health investments.",
+      "score": 248,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Lancet (London, England)"
     }
   ],
   "wake-forest": [
     {
       "pmid": "40802264",
       "title": "Dalbavancin for Treatment of Staphylococcus aureus Bacteremia: The DOTS Randomized Clinical Trial.",
-      "authors": "Turner NA, Hamasaki T, Doernberg SB, et al.",
+      "authors": "",
       "journal": "JAMA",
       "year": "2025",
-      "doi": "10.1001/jama.2025.12543",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40802264/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Dalbavancin is a long-acting intravenous lipoglycopeptide that may be effective for treatment of complicated Staphylococcus aureus bacteremia without requiring long-term intravenous access.To evaluate the efficacy and safety of dalbavancin vs standard therapy for completion...."
-    },
-    {
-      "pmid": "38691368",
-      "title": "The Women's Health Initiative Randomized Trials and Clinical Practice: A Review.",
-      "authors": "Manson JE, Crandall CJ, Rossouw JE, et al.",
-      "journal": "JAMA",
-      "year": "2024",
-      "doi": "10.1001/jama.2024.6542",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38691368/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Approximately 55 million people in the US and approximately 1.1 billion people worldwide are postmenopausal women."
-    },
-    {
-      "pmid": "39043199",
-      "title": "WHO global research priorities for sexually transmitted infections.",
-      "authors": "Gottlieb SL, Spielman E, Abu-Raddad L, et al.",
-      "journal": "The Lancet. Global health",
-      "year": "2024",
-      "doi": "10.1016/S2214-109X(24)00266-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39043199/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Sexually transmitted infections (STIs) are widespread worldwide and negatively affect sexual and reproductive health."
+      "synopsis": "Selected because it is a major randomized clinical trial in Staphylococcus aureus bacteremia, making it directly useful for microbiology and infectious-disease framing.",
+      "score": 999,
+      "selection_reason": "manual selection; microbio / infectious disease; high-impact venue: JAMA; randomized clinical trial"
     }
   ],
-  "albany": [
-    {
-      "pmid": "36949360",
-      "title": "Guidelines for Neuroprognostication in Comatose Adult Survivors of Cardiac Arrest.",
-      "authors": "Rajajee V, Muehlschlegel S, Wartenberg KE, et al.",
-      "journal": "Neurocritical care",
-      "year": "2023",
-      "doi": "10.1007/s12028-023-01688-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36949360/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Among cardiac arrest survivors, about half remain comatose 72 h following return of spontaneous circulation (ROSC)."
-    },
-    {
-      "pmid": "36078171",
-      "title": "Current Understanding of Asthma Pathogenesis and Biomarkers.",
-      "authors": "Habib N, Pasha MA, Tang DD, et al.",
-      "journal": "Cells",
-      "year": "2022",
-      "doi": "10.3390/cells11172764",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36078171/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Asthma is a heterogeneous lung disease with variable phenotypes (clinical presentations) and distinctive endotypes (mechanisms)."
-    },
-    {
-      "pmid": "37156992",
-      "title": "Acute Generalized Exanthematous Pustulosis: Clinical Features, Differential Diagnosis, and Management.",
-      "authors": "Parisi R, Shah H, Navarini AA, et al.",
-      "journal": "American journal of clinical dermatology",
-      "year": "2023",
-      "doi": "10.1007/s40257-023-00779-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37156992/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Acute generalized exanthematous pustulosis (AGEP) is a rare, acute, severe cutaneous adverse reaction mainly attributed to drugs, although other triggers, including infections, vaccinations, ingestion of various substances, and spider bites, have also been described."
-    }
-  ],
+  "albany": [],
   "drexel": [
     {
-      "pmid": "38570631",
-      "title": "Chronic kidney disease and the global public health agenda: an international consensus.",
-      "authors": "Francis A, Harhay MN, Ong ACM, et al.",
-      "journal": "Nature reviews. Nephrology",
+      "pmid": "39413376",
+      "title": "Safety of Kidney Transplantation from Donors with HIV.",
+      "authors": "Durand CM, Massie A, Florman S, et al.",
+      "journal": "The New England journal of medicine",
       "year": "2024",
-      "doi": "10.1038/s41581-024-00820-6",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38570631/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Early detection is a key strategy to prevent kidney disease, its progression and related complications, but numerous studies show that awareness of kidney disease at the population level is low."
-    },
-    {
-      "pmid": "38648833",
-      "title": "Streptococcal Pharyngitis: Rapid Evidence Review.",
-      "authors": "Hamilton JL, McCrea Ii L",
-      "journal": "American family physician",
-      "year": "2024",
-      "doi": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38648833/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Group A beta-hemolytic streptococcal pharyngitis is a common infection responsible for more than 6 million office visits in the United States annually."
-    },
-    {
-      "pmid": "37454782",
-      "title": "GLP-1 receptor agonists and diabetic retinopathy: A meta-analysis of randomized clinical trials.",
-      "authors": "Kapoor I, Sarvepalli SM, D'Alessio D, et al.",
-      "journal": "Survey of ophthalmology",
-      "year": "2023",
-      "doi": "10.1016/j.survophthal.2023.07.002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37454782/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are used to treat type 2 diabetes mellitus."
+      "doi": "10.1056/NEJMoa2403733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39413376/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: The New England journal of medicine, multicenter). Paper focus: Kidney transplantation from donors with human immunodeficiency virus (HIV) to recipients with HIV is an emerging practice.",
+      "score": 218,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: The New England journal of medicine; multicenter"
     }
   ],
   "wayne-state": [
     {
-      "pmid": "38233317",
-      "title": "Clinical chorioamnionitis at term: definition, pathogenesis, microbiology, diagnosis, and treatment.",
-      "authors": "Jung E, Romero R, Suksai M, et al.",
-      "journal": "American journal of obstetrics and gynecology",
-      "year": "2024",
-      "doi": "10.1016/j.ajog.2023.02.002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38233317/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Clinical chorioamnionitis, the most common infection-related diagnosis in labor and delivery units, is an antecedent of puerperal infection and neonatal sepsis."
-    },
-    {
-      "pmid": "35177222",
-      "title": "The etiology of preeclampsia.",
-      "authors": "Jung E, Romero R, Yeo L, et al.",
-      "journal": "American journal of obstetrics and gynecology",
-      "year": "2022",
-      "doi": "10.1016/j.ajog.2021.11.1356",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35177222/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Preeclampsia is one of the \"great obstetrical syndromes\" in which multiple and sometimes overlapping pathologic processes activate a common pathway consisting of endothelial cell activation, intravascular inflammation, and syncytiotrophoblast stress."
-    },
-    {
-      "pmid": "33479164",
-      "title": "Contemporary Management of Urinary Tract Infection in Children.",
-      "authors": "Mattoo TK, Shaikh N, Nelson CP, et al.",
-      "journal": "Pediatrics",
-      "year": "2021",
-      "doi": "10.1542/peds.2020-012138",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33479164/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Urinary tract infection (UTI) is common in children, and girls are at a significantly higher risk, as compared to boys, except in early infancy."
+      "pmid": "30078662",
+      "title": "Global burden of recurrent vulvovaginal candidiasis: a systematic review.",
+      "authors": "Denning DW, Kneale M, Sobel JD, et al.",
+      "journal": "The Lancet. Infectious diseases",
+      "year": "2018",
+      "doi": "10.1016/S1473-3099(18)30103-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30078662/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: The Lancet. Infectious diseases, systematic review). Paper focus: Recurrent vulvovaginal candidiasis is a debilitating, long-term condition that can severely affect the quality of life of affected women.",
+      "score": 243,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: The Lancet. Infectious diseases; systematic review"
     }
   ],
   "loyola-stritch": [
     {
-      "pmid": "39393084",
-      "title": "Efficacy and Safety of Admilparant, an LPA1 Antagonist, in Pulmonary Fibrosis: A Phase 2 Randomized Clinical Trial.",
-      "authors": "Corte TJ, Behr J, Cottin V, et al.",
-      "journal": "American journal of respiratory and critical care medicine",
-      "year": "2025",
-      "doi": "10.1164/rccm.202405-0977OC",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39393084/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Rationale: Idiopathic pulmonary fibrosis (IPF) and progressive pulmonary fibrosis (PPF) have high morbidity and mortality; thus, novel treatments are needed."
-    },
-    {
-      "pmid": "38150080",
-      "title": "Managing Hypertension in Older Adults.",
-      "authors": "Egan BM, Mattix-Kramer HJ, Basile JN, et al.",
-      "journal": "Current hypertension reports",
-      "year": "2024",
-      "doi": "10.1007/s11906-023-01289-7",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38150080/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The population of older adults 60-79 years globally is projected to double from 800 million to 1.6 billion between 2015 and 2050, while adults \u2265 80 years were forecast to more than triple from 125 to 430 million."
-    },
-    {
-      "pmid": "37516507",
-      "title": "Peptic Ulcer Disease.",
-      "authors": "Tuerk E, Doss S, Polsley K, et al.",
-      "journal": "Primary care",
+      "pmid": "36630998",
+      "title": "Spike and nsp6 are key determinants of SARS-CoV-2 Omicron BA.1 attenuation.",
+      "authors": "Chen DY, Chin CV, Kenney D, et al.",
+      "journal": "Nature",
       "year": "2023",
-      "doi": "10.1016/j.pop.2023.03.003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37516507/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Peptic ulcer disease is a common cause of epigastric pain typically related to Helicobacter pylori infection or NSAID use that can lead to serious consequences including upper GI bleed or perforation if undiagnosed."
+      "doi": "10.1038/s41586-023-05697-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36630998/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: Nature). Paper focus: The SARS-CoV-2 Omicron variant is more immune evasive and less virulent than other major viral variants that have so far been recognized1-12.",
+      "score": 190,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: Nature"
     }
   ],
   "quinnipiac-netter": [
     {
-      "pmid": "38583765",
-      "title": "Superficial Venous Disease-An Updated Review.",
-      "authors": "Anuforo A, Evbayekha E, Agwuegbo C, et al.",
-      "journal": "Annals of vascular surgery",
-      "year": "2024",
-      "doi": "10.1016/j.avsg.2024.01.009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38583765/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This review article provides an updated review of a relatively common pathology with various manifestations."
-    },
-    {
-      "pmid": "34855151",
-      "title": "Dupilumab Facial Redness/Dupilumab Facial Dermatitis: A Guide for Clinicians.",
-      "authors": "Muzumdar S, Skudalski L, Sharp K, et al.",
-      "journal": "American journal of clinical dermatology",
-      "year": "2022",
-      "doi": "10.1007/s40257-021-00646-z",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34855151/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Dupilumab facial redness (DFR), or the development of an eczematous rash of the face and neck with dupilumab use, has been observed in recent case reports."
-    },
-    {
-      "pmid": "34527356",
-      "title": "Foreign body aspiration.",
-      "authors": "Bajaj D, Sachdeva A, Deepak D, et al.",
-      "journal": "Journal of thoracic disease",
-      "year": "2021",
-      "doi": "10.21037/jtd.2020.03.94",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34527356/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The clinical manifestations of foreign body (FB) aspiration can range from an asymptomatic presentation to a life-threatening emergency."
+      "pmid": "40752908",
+      "title": "Feasibility of interrupting the transmission of soil-transmitted helminths: the DeWorm3 community cluster-randomised controlled trial in Benin, India, and Malawi.",
+      "authors": "Ajjampur SSR, Aruldas K, \u00c1sbj\u00f6rnsd\u00f3ttir KH, et al.",
+      "journal": "Lancet (London, England)",
+      "year": "2025",
+      "doi": "10.1016/S0140-6736(25)00766-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40752908/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (women's health, underserved / health equity, high-impact venue: Lancet (London, England), randomized). Paper focus: Soil-transmitted helminths are targeted for elimination as a public health problem.",
+      "score": 213,
+      "selection_reason": "women's health; underserved / health equity; high-impact venue: Lancet (London, England); randomized"
     }
   ],
   "tulane": [
     {
-      "pmid": "33181043",
-      "title": "Social and Structural Determinants of Health Inequities in Maternal Health.",
-      "authors": "Crear-Perry J, Correa-de-Araujo R, Lewis Johnson T, et al.",
-      "journal": "Journal of women's health (2002)",
-      "year": "2021",
-      "doi": "10.1089/jwh.2020.8882",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33181043/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Since the World Health Organization launched its commission on the social determinants of health (SDOH) over a decade ago, a large body of research has proven that social determinants-defined as the conditions in which people are born, grow, live, work, and age-are...."
-    },
-    {
-      "pmid": "37244672",
-      "title": "Social determinants of health and premature death among adults in the USA from 1999 to 2018: a national cohort study.",
-      "authors": "Bundy JD, Mills KT, He H, et al.",
-      "journal": "The Lancet. Public health",
-      "year": "2023",
-      "doi": "10.1016/S2468-2667(23)00081-6",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37244672/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Racial and ethnic disparities in mortality persist in the US population."
-    },
-    {
-      "pmid": "37866830",
-      "title": "Health Equity and Access to Health Care as a Social Determinant of Health: The Role of the Primary Care Provider.",
-      "authors": "Pratt C, Taylor R, Smith SD, et al.",
-      "journal": "Primary care",
-      "year": "2023",
-      "doi": "10.1016/j.pop.2023.04.006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37866830/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Populations of people who suffer poorer health outcomes and increased disease burden, particularly preventable diseases, injury, and violence are experiencing health inequity."
+      "pmid": "35416973",
+      "title": "Diagnosis and Management of Trichomonas vaginalis: Summary of Evidence Reviewed for the 2021 Centers for Disease Control and Prevention Sexually Transmitted Infections Treatment Guidelines.",
+      "authors": "Kissinger PJ, Gaydos CA, Se\u00f1a AC, et al.",
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "year": "2022",
+      "doi": "10.1093/cid/ciac030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35416973/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Clinical infectious diseases : an official publication of the Infectious Diseases Society of America, guideline). Paper focus: Trichomonas vaginalis is likely the most prevalent nonviral sexually transmitted infection, affecting an estimated 3.7 million women and men in the United States.",
+      "score": 241,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Clinical infectious diseases : an official publication of the Infectious Diseases Society of America; guideline"
     }
   ],
   "eastern-virginia": [
     {
-      "pmid": "34144933",
-      "title": "Postural orthostatic tachycardia syndrome (POTS): State of the science and clinical care from a 2019 National Institutes of Health Expert Consensus Meeting - Part 1.",
-      "authors": "Vernino S, Bourne KM, Stiles LE, et al.",
-      "journal": "Autonomic neuroscience : basic & clinical",
+      "pmid": "34735407",
+      "title": "Etiology and Outcome of Isolated Fetal Ascites: A Systematic Review.",
+      "authors": "Horgan R, Youssef JA, Levy AT, et al.",
+      "journal": "Obstetrics and gynecology",
       "year": "2021",
-      "doi": "10.1016/j.autneu.2021.102828",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34144933/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Postural orthostatic tachycardia syndrome (POTS) is a chronic and often disabling disorder characterized by orthostatic intolerance with excessive heart rate increase without hypotension during upright posture."
-    },
-    {
-      "pmid": "40185551",
-      "title": "Necrotizing Soft Tissue Infections.",
-      "authors": "Weaver C",
-      "journal": "The Medical clinics of North America",
-      "year": "2025",
-      "doi": "10.1016/j.mcna.2024.12.005",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40185551/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Necrotizing soft tissue infections are a diverse group of severe infections of the skin, fascia, and musculature."
-    },
-    {
-      "pmid": "37278994",
-      "title": "Development of a Definition of Postacute Sequelae of SARS-CoV-2 Infection.",
-      "authors": "Thaweethai T, Jolley SE, Karlson EW, et al.",
-      "journal": "JAMA",
-      "year": "2023",
-      "doi": "10.1001/jama.2023.8823",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37278994/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: SARS-CoV-2 infection is associated with persistent, relapsing, or new symptoms or other health effects occurring after acute infection, termed postacute sequelae of SARS-CoV-2 infection (PASC), also known as long COVID."
+      "doi": "10.1097/AOG.0000000000004605",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34735407/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Obstetrics and gynecology, systematic review). Paper focus: To describe the etiology of isolated fetal ascites and associated perinatal outcomes, and to assess the progression of isolated fetal ascites to fetal hydrops.PubMed, Cochrane Library, Scopus, and ClinicalTrials.gov databases were searched using....",
+      "score": 233,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Obstetrics and gynecology; systematic review"
     }
   ],
   "rush": [
     {
-      "pmid": "36006819",
-      "title": "Policy advocacy and health equity: Implications for advanced practice nurses.",
-      "authors": "Phillips J",
-      "journal": "The Nurse practitioner",
-      "year": "2022",
-      "doi": "10.1097/01.NPR.0000855316.18930.08",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36006819/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Advanced practice nurses are key partners in achieving health equity and are encouraged to use their advocacy skills and policy acumen in doing so."
-    },
-    {
-      "pmid": "37381690",
-      "title": "SHEA/IDSA/APIC Practice Recommendation: Strategies to prevent methicillin-resistant Staphylococcus aureus transmission and infection in acute-care hospitals: 2022 Update.",
-      "authors": "Popovich KJ, Aureden K, Ham DC, et al.",
-      "journal": "Infection control and hospital epidemiology",
-      "year": "2023",
-      "doi": "10.1017/ice.2023.102",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37381690/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Previously published guidelines have provided comprehensive recommendations for detecting and preventing healthcare-associated infections (HAIs)."
-    },
-    {
-      "pmid": "37364617",
-      "title": "Erythromelalgia. Part I: Pathogenesis, clinical features, evaluation, and complications.",
-      "authors": "Caldito EG, Kaul S, Caldito NG, et al.",
-      "journal": "Journal of the American Academy of Dermatology",
+      "pmid": "39413376",
+      "title": "Safety of Kidney Transplantation from Donors with HIV.",
+      "authors": "Durand CM, Massie A, Florman S, et al.",
+      "journal": "The New England journal of medicine",
       "year": "2024",
-      "doi": "10.1016/j.jaad.2023.02.071",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37364617/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Erythromelalgia is a rare pain disorder that is underrecognized and difficult-to-treat."
+      "doi": "10.1056/NEJMoa2403733",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39413376/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: The New England journal of medicine, multicenter). Paper focus: Kidney transplantation from donors with human immunodeficiency virus (HIV) to recipients with HIV is an emerging practice.",
+      "score": 218,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: The New England journal of medicine; multicenter"
     }
   ],
   "rosalind-franklin": [
     {
       "pmid": "34350458",
       "title": "Clinical Practice Guideline by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America: 2021 Guideline on Diagnosis and Management of Acute Hematogenous Osteomyelitis in Pediatrics.",
-      "authors": "Woods CR, Bradley JS, Chatterjee A, et al.",
+      "authors": "",
       "journal": "Journal of the Pediatric Infectious Diseases Society",
       "year": "2021",
-      "doi": "10.1093/jpids/piab027",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34350458/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This clinical practice guideline for the diagnosis and treatment of acute hematogenous osteomyelitis (AHO) in children was developed by a multidisciplinary panel representing Pediatric Infectious Diseases Society (PIDS) and the Infectious Diseases Society of America (IDSA)."
-    },
-    {
-      "pmid": "37941444",
-      "title": "Clinical Practice Guideline by the Pediatric Infectious Diseases Society (PIDS) and the Infectious Diseases Society of America (IDSA): 2023 Guideline on Diagnosis and Management of Acute Bacterial Arthritis in Pediatrics.",
-      "authors": "Woods CR, Bradley JS, Chatterjee A, et al.",
-      "journal": "Journal of the Pediatric Infectious Diseases Society",
-      "year": "2024",
-      "doi": "10.1093/jpids/piad089",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37941444/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This clinical practice guideline for the diagnosis and treatment of acute bacterial arthritis (ABA) in children was developed by a multidisciplinary panel representing the Pediatric Infectious Diseases Society (PIDS) and the Infectious Diseases Society of America (IDSA)."
-    },
-    {
-      "pmid": "37513817",
-      "title": "From Infection to Death: An Overview of the Pathogenesis of Visceral Leishmaniasis.",
-      "authors": "Costa CHN, Chang KP, Costa DL, et al.",
-      "journal": "Pathogens (Basel, Switzerland)",
-      "year": "2023",
-      "doi": "10.3390/pathogens12070969",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37513817/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Kala-azar, also known as visceral leishmaniasis (VL), is a disease caused by Leishmania infantum and L."
+      "synopsis": "Selected because it is an infectious-disease clinical practice guideline, which is substantially stronger for your microbiology narrative than a generic clinical AI paper.",
+      "score": 999,
+      "selection_reason": "manual selection; microbio / infectious disease; clinical guideline"
     }
   ],
   "new-york-medical-college": [
     {
       "pmid": "38353950",
       "title": "Digital Health Interventions for Hypertension Management in US Populations Experiencing Health Disparities: A Systematic Review and Meta-Analysis.",
-      "authors": "Katz ME, Mszar R, Grimshaw AA, et al.",
-      "journal": "JAMA network open",
+      "authors": "",
+      "journal": "JAMA Network Open",
       "year": "2024",
-      "doi": "10.1001/jamanetworkopen.2023.56070",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38353950/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Hypertension remains a leading factor associated with cardiovascular disease, and demographic and socioeconomic disparities in blood pressure (BP) control persist."
-    },
-    {
-      "pmid": "34376065",
-      "title": "Debridement of Diabetic Foot Ulcers.",
-      "authors": "Dayya D, O'Neill OJ, Huedo-Medina TB, et al.",
-      "journal": "Advances in wound care",
-      "year": "2022",
-      "doi": "10.1089/wound.2021.0016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34376065/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Diabetic foot ulcerations have devastating complications, including amputations, poor quality of life, and life-threatening infections."
-    },
-    {
-      "pmid": "34144933",
-      "title": "Postural orthostatic tachycardia syndrome (POTS): State of the science and clinical care from a 2019 National Institutes of Health Expert Consensus Meeting - Part 1.",
-      "authors": "Vernino S, Bourne KM, Stiles LE, et al.",
-      "journal": "Autonomic neuroscience : basic & clinical",
-      "year": "2021",
-      "doi": "10.1016/j.autneu.2021.102828",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34144933/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Postural orthostatic tachycardia syndrome (POTS) is a chronic and often disabling disorder characterized by orthostatic intolerance with excessive heart rate increase without hypotension during upright posture."
+      "synopsis": "Selected because it directly connects to care for populations experiencing health disparities and is more usable for your service narrative than a narrow obstetrics review.",
+      "score": 999,
+      "selection_reason": "manual selection; underserved / health equity; high-impact venue: JAMA Network Open; meta-analysis"
     }
   ],
   "uc-riverside": [
     {
-      "pmid": "36183302",
-      "title": "Eyebrow and Eyelash Alopecia: A Clinical Review.",
-      "authors": "Nguyen B, Hu JK, Tosti A, et al.",
-      "journal": "American journal of clinical dermatology",
-      "year": "2023",
-      "doi": "10.1007/s40257-022-00729-5",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36183302/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Madarosis is characterized by either complete or partial loss of eyebrow or eyelash hair."
-    },
-    {
-      "pmid": "39665962",
-      "title": "IAPRD new consensus classification of myoclonus.",
-      "authors": "Latorre A, van der Veen S, Pena A, et al.",
-      "journal": "Parkinsonism & related disorders",
-      "year": "2025",
-      "doi": "10.1016/j.parkreldis.2024.107216",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39665962/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Recent new advances in myoclonus characterization and etiology justify an update of the 40-year-old respected classification of myoclonus proposed by Marsden, Hallett, and Fahn."
-    },
-    {
-      "pmid": "35191924",
-      "title": "Effect of Sublingual Dexmedetomidine vs Placebo on Acute Agitation Associated With Bipolar Disorder: A Randomized Clinical Trial.",
-      "authors": "Preskorn SH, Zeller S, Citrome L, et al.",
-      "journal": "JAMA",
+      "pmid": "35361968",
+      "title": "Defining the risk of SARS-CoV-2 variants on immune protection.",
+      "authors": "DeGrace MM, Ghedin E, Frieman MB, et al.",
+      "journal": "Nature",
       "year": "2022",
-      "doi": "10.1001/jama.2022.0799",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35191924/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Acute agitation is common in patients with bipolar disorder and requires urgent management to relieve distress and to prevent escalation to aggressive behavior.To evaluate the effect of orally absorbed, sublingual dexmedetomidine, a selective \u03b12A-adrenergic receptor agonist...."
+      "doi": "10.1038/s41586-022-04690-5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35361968/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: Nature). Paper focus: The global emergence of many severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants jeopardizes the protective antiviral immunity induced after infection or vaccination.",
+      "score": 182,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: Nature"
     }
   ],
   "cusm": [
     {
-      "pmid": "36823302",
-      "title": "Vorasidenib and ivosidenib in IDH1-mutant low-grade glioma: a randomized, perioperative phase 1 trial.",
-      "authors": "Mellinghoff IK, Lu M, Wen PY, et al.",
-      "journal": "Nature medicine",
+      "pmid": "36113577",
+      "title": "Educational guidelines for diversity and inclusion: addressing racism and eliminating biases in medical education.",
+      "authors": "Buery-Joyner SD, Baecher-Lind L, Clare CA, et al.",
+      "journal": "American journal of obstetrics and gynecology",
       "year": "2023",
-      "doi": "10.1038/s41591-022-02141-2",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36823302/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Vorasidenib and ivosidenib inhibit mutant forms of isocitrate dehydrogenase (mIDH) and have shown preliminary clinical activity against mIDH glioma."
-    },
-    {
-      "pmid": "34923652",
-      "title": "Evaluating the effectiveness and safety of radiofrequency for face and neck rejuvenation: A systematic review.",
-      "authors": "Austin GK, Struble SL, Quatela VC, et al.",
-      "journal": "Lasers in surgery and medicine",
-      "year": "2022",
-      "doi": "10.1002/lsm.23506",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34923652/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Radiofrequency technology has emerged as a treatment for aesthetic rejuvenation.To examine radiofrequency for facial and neck rejuvenation, clinical studies were assessed on effectiveness and safety of radiofrequency for acne, acne scars, and facial aging by subjective and...."
-    },
-    {
-      "pmid": "35973582",
-      "title": "Targeted therapy for breast cancer: An overview of drug classes and outcomes.",
-      "authors": "Jacobs AT, Martinez Castaneda-Cruz D, Rose MM, et al.",
-      "journal": "Biochemical pharmacology",
-      "year": "2022",
-      "doi": "10.1016/j.bcp.2022.115209",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35973582/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The last 25 years have seen significant growth in new therapeutic options for breast cancer, termed targeted therapies based on their ability to block specific pathways known to drive breast tumor growth and survival."
+      "doi": "10.1016/j.ajog.2022.09.014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36113577/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (women's health, underserved / health equity, high-impact venue: American journal of obstetrics and gynecology, guideline). Paper focus: Racism and bias contribute to healthcare disparities at a patient and population health level and also contribute to the stagnation or even regression of progress toward equitable representation in the workforce and in healthcare leadership.",
+      "score": 188,
+      "selection_reason": "women's health; underserved / health equity; high-impact venue: American journal of obstetrics and gynecology; guideline"
     }
   ],
   "umass-chan": [
     {
       "pmid": "36803604",
       "title": "The choroid plexus links innate immunity to CSF dysregulation in hydrocephalus.",
-      "authors": "Robert SM, Reeves BC, Kiziltug E, et al.",
+      "authors": "",
       "journal": "Cell",
       "year": "2023",
-      "doi": "10.1016/j.cell.2023.01.017",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/36803604/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The choroid plexus (ChP) is the blood-cerebrospinal fluid (CSF) barrier and the primary source of CSF."
-    },
-    {
-      "pmid": "38010647",
-      "title": "Postpartum Depression-New Screening Recommendations and Treatments.",
-      "authors": "Moore Simas TA, Whelan A, Byatt N, et al.",
-      "journal": "JAMA",
-      "year": "2023",
-      "doi": "10.1001/jama.2023.21311",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38010647/",
-      "synopsis": "This is useful for school-fit writing because it shows recent scholarship connected to your research, clinical, service, or public-health narrative. Paper focus: Postpartum Depression-New Screening Recommendations and Treatments.."
-    },
-    {
-      "pmid": "38577740",
-      "title": "Cystic Fibrosis Foundation Evidence-Based Guideline for the Management of CRMS/CFSPID.",
-      "authors": "Green DM, Lahiri T, Raraigh KS, et al.",
-      "journal": "Pediatrics",
-      "year": "2024",
-      "doi": "10.1542/peds.2023-064657",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38577740/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: A multidisciplinary committee developed evidence-based guidelines for the management of cystic fibrosis transmembrane conductance regulator-related metabolic syndrome/cystic fibrosis screen-positive, inconclusive diagnosis (CRMS/CFSPID)."
+      "synopsis": "Selected because it is a major Cell paper connecting innate immunity to disease mechanism, which is a stronger science contribution than a generic digital-health intervention.",
+      "score": 999,
+      "selection_reason": "manual selection; immunology / disease mechanism; high-impact venue: Cell"
     }
   ],
   "nova-southeastern-md": [
     {
-      "pmid": "36668910",
-      "title": "Toxoplasmosis Infection during Pregnancy.",
-      "authors": "Deganich M, Boudreaux C, Benmerzouga I, et al.",
-      "journal": "Tropical medicine and infectious disease",
-      "year": "2022",
-      "doi": "10.3390/tropicalmed8010003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36668910/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This literature review aims to give an overview of the current knowledge concerning how a toxoplasmosis infection affects the mother and her fetus."
-    },
-    {
-      "pmid": "34454716",
-      "title": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Essentials of Diagnosis and Management.",
-      "authors": "Bateman L, Bested AC, Bonilla HF, et al.",
-      "journal": "Mayo Clinic proceedings",
-      "year": "2021",
-      "doi": "10.1016/j.mayocp.2021.07.004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34454716/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Despite myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) affecting millions of people worldwide, many clinicians lack the knowledge to appropriately diagnose or manage ME/CFS."
-    },
-    {
-      "pmid": "40715995",
-      "title": "Ivermectin in Cancer Treatment: Should Healthcare Providers Caution or Explore Its Therapeutic Potential?",
-      "authors": "Patel Y, Chawla J, Parmar MS, et al.",
-      "journal": "Current oncology reports",
-      "year": "2025",
-      "doi": "10.1007/s11912-025-01704-z",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40715995/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: This review evaluates the scientific evidence for Ivermectin's potential anticancer properties, an antiparasitic drug garnering interest for oncology applications."
+      "pmid": "39645377",
+      "title": "Burden of disease scenarios by state in the USA, 2022-50: a forecasting analysis for the Global Burden of Disease Study 2021.",
+      "authors": "",
+      "journal": "Lancet (London, England)",
+      "year": "2024",
+      "doi": "10.1016/S0140-6736(24)02246-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39645377/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (underserved / health equity, high-impact venue: Lancet (London, England)). Paper focus: The capacity to anticipate future health issues is important for both policy makers and practitioners in the USA, as such insights can facilitate effective planning, investment, and implementation strategies.",
+      "score": 138,
+      "selection_reason": "underserved / health equity; high-impact venue: Lancet (London, England)"
     }
   ],
   "roseman": [
     {
-      "pmid": "36749830",
-      "title": "Lecanemab (BAN2401): an anti-beta-amyloid monoclonal antibody for the treatment of Alzheimer disease.",
-      "authors": "Vitek GE, Decourt B, Sabbagh MN, et al.",
-      "journal": "Expert opinion on investigational drugs",
-      "year": "2023",
-      "doi": "10.1080/13543784.2023.2178414",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36749830/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Nearly a dozen monoclonal antibodies (mAbs) directed against beta-amyloid (A\u03b2) have been developed for the treatment of Alzheimer disease (AD), and most of these mAbs are undergoing clinical trials."
-    },
-    {
-      "pmid": "40990886",
-      "title": "Global, Regional, and National Burden of Cardiovascular Diseases and Risk Factors in 204 Countries and Territories, 1990-2023.",
-      "authors": "",
-      "journal": "Journal of the American College of Cardiology",
-      "year": "2025",
-      "doi": "10.1016/j.jacc.2025.08.015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40990886/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Cardiovascular diseases (CVDs) are the leading cause of mortality and are among the foremost causes of disability globally."
-    },
-    {
-      "pmid": "41092926",
-      "title": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
+      "pmid": "41386261",
+      "title": "Disease burden attributable to intimate partner violence against females and sexual violence against children in 204 countries and territories, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
       "authors": "",
       "journal": "Lancet (London, England)",
-      "year": "2025",
-      "doi": "10.1016/S0140-6736(25)01637-X",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41092926/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: For more than three decades, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) has provided a framework to quantify health loss due to diseases, injuries, and associated risk factors."
+      "year": "2026",
+      "doi": "10.1016/S0140-6736(25)02503-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41386261/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, high-impact venue: Lancet (London, England), systematic analysis). Paper focus: Violence against women and against children are human rights violations with lasting harms to survivors and societies at large.",
+      "score": 268,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; high-impact venue: Lancet (London, England); systematic analysis"
     }
   ],
   "hackensack-meridian": [
     {
-      "pmid": "33473203",
-      "title": "Pathophysiology of sepsis-induced cardiomyopathy.",
-      "authors": "Hollenberg SM, Singer M",
-      "journal": "Nature reviews. Cardiology",
-      "year": "2021",
-      "doi": "10.1038/s41569-020-00492-2",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33473203/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Sepsis is the life-threatening organ dysfunction caused by a dysregulated host response to infection and is the leading cause of death in intensive care units."
-    },
-    {
-      "pmid": "35233986",
-      "title": "2021 American College of Rheumatology Guideline for the Treatment of Juvenile Idiopathic Arthritis: Therapeutic Approaches for Oligoarthritis, Temporomandibular Joint Arthritis, and Systemic Juvenile Idiopathic Arthritis.",
-      "authors": "Onel KB, Horton DB, Lovell DJ, et al.",
-      "journal": "Arthritis care & research",
-      "year": "2022",
-      "doi": "10.1002/acr.24853",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35233986/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: To provide updated guidelines for pharmacologic management of juvenile idiopathic arthritis (JIA), focusing on treatment of oligoarthritis, temporomandibular joint (TMJ) arthritis, and systemic JIA with and without macrophage activation syndrome."
-    },
-    {
-      "pmid": "38817505",
-      "title": "Examining the Effects of Supplemental Magnesium on Self-Reported Anxiety and Sleep Quality: A Systematic Review.",
-      "authors": "Rawji A, Peltier MR, Mourtzanakis K, et al.",
-      "journal": "Cureus",
-      "year": "2024",
-      "doi": "10.7759/cureus.59317",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38817505/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Self-treatment with vitamin, mineral, and herbal supplements has become increasingly common among patients for the treatment of psychiatric disorders."
+      "pmid": "39663451",
+      "title": "Small-molecule inhibition of SARS-CoV-2 NSP14 RNA cap methyltransferase.",
+      "authors": "Meyer C, Garzia A, Miller MW, et al.",
+      "journal": "Nature",
+      "year": "2025",
+      "doi": "10.1038/s41586-024-08320-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39663451/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: Nature). Paper focus: Coronavirus disease 2019 (COVID-19) is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)1.",
+      "score": 190,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: Nature"
     }
   ],
   "belmont-frist": [
     {
-      "pmid": "40208610",
-      "title": "Improving Empiric Antibiotic Selection for Patients Hospitalized With Skin and Soft Tissue Infection: The INSPIRE 3 Skin and Soft Tissue Randomized Clinical Trial.",
-      "authors": "Gohil SK, Septimus E, Kleinman K, et al.",
-      "journal": "JAMA internal medicine",
-      "year": "2025",
-      "doi": "10.1001/jamainternmed.2025.0887",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40208610/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Empiric extended-spectrum antibiotics are routinely prescribed for patients hospitalized with skin and soft tissue infections (SSTIs) despite low likelihoods of infection with multidrug-resistant organisms (MDROs).To evaluate whether computerized provider order entry (CPOE)...."
-    },
-    {
-      "pmid": "38354690",
-      "title": "A multicenter feasibility randomized controlled trial using a virtual reality application of pain neuroscience education for adults with chronic low back pain.",
-      "authors": "McConnell R, Lane E, Webb G, et al.",
-      "journal": "Annals of medicine",
-      "year": "2024",
-      "doi": "10.1080/07853890.2024.2311846",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38354690/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Chronic low back pain (CLBP) is a highly prevalent condition among adults and is correlated to high levels of pain, high disability, and lower quality of life."
-    },
-    {
-      "pmid": "40208583",
-      "title": "Improving Empiric Antibiotic Selection for Patients Hospitalized With Abdominal Infection: The INSPIRE 4 Cluster Randomized Clinical Trial.",
-      "authors": "Gohil SK, Septimus E, Kleinman K, et al.",
-      "journal": "JAMA surgery",
-      "year": "2025",
-      "doi": "10.1001/jamasurg.2025.1108",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40208583/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Empiric extended-spectrum antibiotics are routinely prescribed for over a million patients hospitalized annually with abdominal infection despite low likelihoods of infection with multidrug-resistant organisms (MDROs).To evaluate whether computerized provider order entry...."
+      "pmid": "41973892",
+      "title": "ACR Appropriateness Criteria\u00ae Recurrent Lower Urinary Tract Infections in Females: Update 2026.",
+      "authors": "Ward RD, Allen BC",
+      "journal": "Journal of the American College of Radiology : JACR",
+      "year": "2026",
+      "doi": "10.1016/j.jacr.2026.03.006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41973892/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, women's health, underserved / health equity, guideline). Paper focus: Urinary tract infections (UTIs) are common in females and usually originate in the lower urinary tract.",
+      "score": 193,
+      "selection_reason": "microbio / infectious disease; women's health; underserved / health equity; guideline"
     }
   ],
   "uicom": [
     {
-      "pmid": "35020445",
-      "title": "Eliminating Explicit and Implicit Biases in Health Care: Evidence and Research Needs.",
-      "authors": "Vela MB, Erondu AI, Smith NA, et al.",
-      "journal": "Annual review of public health",
-      "year": "2022",
-      "doi": "10.1146/annurev-publhealth-052620-103528",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35020445/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Health care providers hold negative explicit and implicit biases against marginalized groups of people such as racial and ethnic minoritized populations."
-    },
-    {
       "pmid": "39701120",
       "title": "Effectiveness of ceftazidime-avibactam versus ceftolozane-tazobactam for multidrug-resistant Pseudomonas aeruginosa infections in the USA (CACTUS): a multicentre, retrospective, observational study.",
-      "authors": "Shields RK, Abbo LM, Ackley R, et al.",
-      "journal": "The Lancet. Infectious diseases",
+      "authors": "",
+      "journal": "The Lancet Infectious Diseases",
       "year": "2025",
-      "doi": "10.1016/S1473-3099(24)00648-0",
+      "doi": "",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39701120/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Ceftolozane-tazobactam and ceftazidime-avibactam are preferred treatment options for multidrug-resistant Pseudomonas aeruginosa infections; however, real-world comparative effectiveness studies are scarce."
-    },
-    {
-      "pmid": "37278994",
-      "title": "Development of a Definition of Postacute Sequelae of SARS-CoV-2 Infection.",
-      "authors": "Thaweethai T, Jolley SE, Karlson EW, et al.",
-      "journal": "JAMA",
-      "year": "2023",
-      "doi": "10.1001/jama.2023.8823",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37278994/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: SARS-CoV-2 infection is associated with persistent, relapsing, or new symptoms or other health effects occurring after acute infection, termed postacute sequelae of SARS-CoV-2 infection (PASC), also known as long COVID."
+      "synopsis": "Selected because it is directly microbiology/infectious-disease relevant and focuses on multidrug-resistant Pseudomonas infections in a major infectious-disease journal.",
+      "score": 999,
+      "selection_reason": "manual selection; microbio / infectious disease; high-impact venue: The Lancet Infectious Diseases"
     }
   ],
   "george-washington": [
     {
-      "pmid": "38484309",
-      "title": "A Contemporary View of Menopausal Hormone Therapy.",
-      "authors": "Levy B, Simon JA",
-      "journal": "Obstetrics and gynecology",
-      "year": "2024",
-      "doi": "10.1097/AOG.0000000000005553",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38484309/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Enthusiasm for the use of hormones to ameliorate symptoms of perimenopause and menopause has waxed and waned over the years."
-    },
-    {
-      "pmid": "39420195",
-      "title": "Metabolic syndrome.",
-      "authors": "Neeland IJ, Lim S, Tchernof A, et al.",
-      "journal": "Nature reviews. Disease primers",
-      "year": "2024",
-      "doi": "10.1038/s41572-024-00563-5",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39420195/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The metabolic syndrome (MetS) is a multiplex modifiable risk factor for cardiovascular disease, type 2 diabetes mellitus and other health outcomes, and is a major challenge to clinical practice and public health."
-    },
-    {
-      "pmid": "36800152",
-      "title": "Stasis Dermatitis: An Overview of Its Clinical Presentation, Pathogenesis, and Management.",
-      "authors": "Yosipovitch G, Nedorost ST, Silverberg JI, et al.",
-      "journal": "American journal of clinical dermatology",
-      "year": "2023",
-      "doi": "10.1007/s40257-022-00753-5",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36800152/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Stasis dermatitis is a chronic inflammatory skin disease of the lower extremities."
+      "pmid": "35716700",
+      "title": "Clinical evaluation of the BioFire Global Fever Panel for the identification of malaria, leptospirosis, chikungunya, and dengue from whole blood: a prospective, multicentre, cross-sectional diagnostic accuracy study.",
+      "authors": "Manabe YC, Betz J, Jackson O, et al.",
+      "journal": "The Lancet. Infectious diseases",
+      "year": "2022",
+      "doi": "10.1016/S1473-3099(22)00290-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35716700/",
+      "synopsis": "Selected because it is a stronger fit for your application themes (microbio / infectious disease, underserved / health equity, high-impact venue: The Lancet. Infectious diseases, multicentre). Paper focus: Acute febrile illness is a common presentation for patients at hospitals globally.",
+      "score": 198,
+      "selection_reason": "microbio / infectious disease; underserved / health equity; high-impact venue: The Lancet. Infectious diseases; multicentre"
     }
   ],
-  "california-northstate": [
-    {
-      "pmid": "36999457",
-      "title": "A review of the use of beeswax in skincare.",
-      "authors": "Nong Y, Maloh J, Natarelli N, et al.",
-      "journal": "Journal of cosmetic dermatology",
-      "year": "2023",
-      "doi": "10.1111/jocd.15718",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36999457/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Beeswax is a naturally occurring product secreted from worker bees that has varied uses in modern day."
-    },
-    {
-      "pmid": "40533901",
-      "title": "Exosomes in Dermatology: A Comprehensive Review of Current Applications, Clinical Evidence, and Future Directions.",
-      "authors": "Nahm WJ, Nikas C, Goldust M, et al.",
-      "journal": "International journal of dermatology",
-      "year": "2025",
-      "doi": "10.1111/ijd.17903",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40533901/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: Recent advances have highlighted exosomes as promising therapeutic, prognostic, and diagnostic agents in dermatology and aesthetic medicine, suggesting their expanding role in various skin conditions."
-    },
-    {
-      "pmid": "36769541",
-      "title": "Integrative and Mechanistic Approach to the Hair Growth Cycle and Hair Loss.",
-      "authors": "Natarelli N, Gahoonia N, Sivamani RK, et al.",
-      "journal": "Journal of clinical medicine",
-      "year": "2023",
-      "doi": "10.3390/jcm12030893",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36769541/",
-      "synopsis": "This is useful for school-fit writing because it shows active work in an area adjacent to your service, public-health, clinical, or research narrative. Paper focus: The hair cycle is composed of four primary phases: anagen, catagen, telogen, and exogen."
-    }
-  ]
+  "california-northstate": []
 }
