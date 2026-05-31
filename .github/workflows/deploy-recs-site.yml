@@ -4,9 +4,14 @@ on:
   push:
     branches: [main]
     paths:
-      - "review/**"
+      - ".github/workflows/deploy-recs-site.yml"
+      - "data/**"
+      - "docs/**"
+      - "essays/**"
       - "Resume/Resume.pdf"
+      - "schools/**"
       - "scripts/render_review_site.py"
+      - "scripts/sync_shared_essay_drafts.py"
   workflow_dispatch:
 
 permissions:
@@ -26,6 +31,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build review site
+        run: |
+          python scripts/sync_shared_essay_drafts.py
+          python scripts/render_review_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
