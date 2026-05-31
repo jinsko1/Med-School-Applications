@@ -11,6 +11,7 @@ on:
       - "Resume/Resume.pdf"
       - "schools/**"
       - "scripts/enrich_school_metadata.py"
+      - "scripts/fetch_school_research_papers.py"
       - "scripts/populate_school_research_notes.py"
       - "scripts/render_review_site.py"
       - "scripts/sync_shared_essay_drafts.py"

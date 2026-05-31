@@ -40,7 +40,13 @@ python3 scripts/populate_school_research_notes.py
 python3 scripts/render_review_site.py
 ```
 
-9. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
+9. Refresh PubMed-based school research paper blurbs when needed with:
+
+```bash
+python3 scripts/fetch_school_research_papers.py
+```
+
+10. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
 
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
@@ -48,4 +54,5 @@ python3 scripts/render_review_site.py
 - The active MD school list currently includes 32 schools.
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
 - School-list percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/school-list-estimates.md`.
+- School research paper blurbs are PubMed search results stored in `data/school_research_papers.json`; treat them as a starting point before naming a paper in a final essay.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

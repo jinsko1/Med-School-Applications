@@ -15,8 +15,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_ROOT = ROOT / "review"
 SHARED_GROUPS_JSON = ROOT / "data" / "shared_essay_groups.json"
 SCHOOLS_JSON = ROOT / "data" / "schools.json"
+SCHOOL_PAPERS_JSON = ROOT / "data" / "school_research_papers.json"
 _SHARED_GROUPS: list[dict] | None = None
 _SCHOOL_METADATA: dict[str, dict] | None = None
+_SCHOOL_PAPERS: dict[str, list[dict]] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -511,6 +513,114 @@ PAGE_TEMPLATE = Template(
       gap: 22px;
     }
 
+    .school-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .school-card {
+      display: grid;
+      gap: 12px;
+      min-height: 172px;
+      padding: 20px;
+      color: var(--ink);
+      text-decoration: none;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .school-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(53, 92, 90, 0.42);
+      box-shadow: 0 22px 50px rgba(60, 42, 24, 0.12);
+    }
+
+    .school-card h2 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .school-card-meta,
+    .school-card-fact {
+      margin: 0;
+      color: var(--muted);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .school-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .essay-grid,
+    .paper-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .essay-button,
+    .paper-card {
+      display: block;
+      padding: 16px 18px;
+      color: var(--ink);
+      text-decoration: none;
+      background: #fffaf1;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .essay-button h3,
+    .paper-card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    .paper-card p {
+      margin: 8px 0 0;
+    }
+
+    .meta-table {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .meta-table li {
+      display: grid;
+      grid-template-columns: minmax(150px, 230px) minmax(0, 1fr);
+      gap: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed rgba(216, 205, 193, 0.8);
+    }
+
+    .meta-key {
+      color: var(--muted);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
     .index-group {
       overflow: hidden;
     }
@@ -578,6 +688,7 @@ PAGE_TEMPLATE = Template(
     @media (max-width: 900px) {
       .content { grid-template-columns: 1fr; }
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .school-grid { grid-template-columns: 1fr; }
       .shell { width: min(100vw - 18px, 1080px); margin-top: 14px; }
       .hero { padding: 22px 20px; border-radius: 16px; }
       .card { padding: 20px; }
@@ -602,6 +713,7 @@ PAGE_TEMPLATE = Template(
     {% if kind == "index" %}
       <section class="hero">
         <h1>{{ page_title }}</h1>
+        <div class="subtitle">Start with a school, then click into only the essays and context you need.</div>
         <div class="hero-actions">
           <a class="home-button" href="https://recs.jinsko.com/">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8"></path><path d="M5 10v10h14V10"></path><path d="M9 20v-6h6v6"></path></svg>
@@ -609,28 +721,112 @@ PAGE_TEMPLATE = Template(
           </a>
         </div>
       </section>
+      {% if primary_entries %}
       <section class="index-list" style="margin-top: 20px;">
-        {% for group in groups %}
-          <details class="index-group"{% if group.open %} open{% endif %}>
-            <summary class="index-group-header">
-              <h2>{{ group.display_name }}</h2>
-              <div class="index-group-count">{{ group.entries | length }} essay{% if group.entries | length != 1 %}s{% endif %}</div>
-            </summary>
-            <div class="index-group-body">
-              {% for item in group.entries %}
-                <article class="index-entry">
-                  <h3><a href="{{ item.href }}">{{ item.title }}</a></h3>
-                  <div class="index-meta">
-                    <span class="chip">Limit: {{ item.limit or "Not listed" }}</span>
-                    <span class="chip">Actual: {{ item.word_count }} words</span>
-                    <span class="chip">Actual: {{ item.char_count }} characters</span>
-                    <span class="chip">{{ item.relative_path }}</span>
-                  </div>
-                </article>
-              {% endfor %}
-            </div>
-          </details>
+        <details class="index-group" open>
+          <summary class="index-group-header">
+            <h2>Primary Essays</h2>
+            <div class="index-group-count">{{ primary_entries | length }} essay{% if primary_entries | length != 1 %}s{% endif %}</div>
+          </summary>
+          <div class="index-group-body">
+            {% for item in primary_entries %}
+              <article class="index-entry">
+                <h3><a href="{{ item.href }}">{{ item.title }}</a></h3>
+                <div class="index-meta">
+                  <span class="chip">Limit: {{ item.limit or "Not listed" }}</span>
+                  <span class="chip">Actual: {{ item.word_count }} words</span>
+                  <span class="chip">Actual: {{ item.char_count }} characters</span>
+                  <span class="chip">{{ item.relative_path }}</span>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </details>
+      </section>
+      {% endif %}
+      <section class="school-grid" aria-label="School essay dashboards">
+        {% for school in schools %}
+        <a class="school-card" href="{{ school.href }}">
+          <h2>{{ school.display_name }}</h2>
+          <p class="school-card-meta">
+            <span class="chip">{{ school.location or "Location not listed" }}</span>
+            <span class="chip">GPA {{ school.median_gpa or "N/A" }}</span>
+            <span class="chip">MCAT {{ school.median_mcat or "N/A" }}</span>
+            <span class="chip">{{ school.essay_count }} essays</span>
+          </p>
+          <p class="school-card-fact">{{ school.why_school_fact }}</p>
+        </a>
         {% endfor %}
+      </section>
+    {% elif kind == "school" %}
+      <section class="hero">
+        <div class="eyebrow">School Dashboard</div>
+        <h1>{{ page_title }}</h1>
+        <div class="subtitle">{{ school.why_school_fact }}</div>
+        <div class="grid">
+          <div class="stat"><div class="stat-label">Estimate</div><div class="stat-value">~{{ school.estimated_admit_chance_percent }}%</div></div>
+          <div class="stat"><div class="stat-label">GPA Median</div><div class="stat-value">{{ school.median_gpa or "N/A" }}</div></div>
+          <div class="stat"><div class="stat-label">MCAT Median</div><div class="stat-value">{{ school.median_mcat or "N/A" }}</div></div>
+          <div class="stat"><div class="stat-label">Essays</div><div class="stat-value">{{ entries | length }}</div></div>
+        </div>
+        <div class="hero-actions">
+          <a class="home-button" href="../../essays.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+            All Schools
+          </a>
+        </div>
+      </section>
+      <section class="section-grid">
+        <article class="card">
+          <h2>School Details</h2>
+          <ul class="meta-table">
+            <li><span class="meta-key">Location</span><span>{{ school.location or "Not listed" }}</span></li>
+            <li><span class="meta-key">COA / Year</span><span>{{ school.coa_per_year or "Not listed" }}</span></li>
+            <li><span class="meta-key">Secondary Cycle</span><span>{{ school.secondary_cycle or "Not listed" }}</span></li>
+            <li><span class="meta-key">Deadline</span><span>{{ school.secondary_deadline or "See admissions source" }}</span></li>
+            <li><span class="meta-key">Official Page</span><span><a href="{{ school.official_url }}">{{ school.official_url }}</a></span></li>
+            <li><span class="meta-key">Prompt Source</span><span><a href="{{ school.prompt_source }}">{{ school.prompt_source }}</a></span></li>
+            <li><span class="meta-key">List Note</span><span>{{ school.notes }}</span></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Recent / Relevant Research</h2>
+          <p class="note">Pulled from PubMed by school-affiliation terms and applicant-relevant topics. Treat this as a research starting point, especially for newer schools where affiliated publication data can be sparse or broad.</p>
+          {% if papers %}
+          <div class="paper-grid">
+            {% for paper in papers %}
+            <article class="paper-card">
+              <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+              <div class="index-meta">
+                <span class="chip">{{ paper.year or "Year not listed" }}</span>
+                <span class="chip">{{ paper.journal or "Journal not listed" }}</span>
+                {% if paper.pmid %}<span class="chip">PMID {{ paper.pmid }}</span>{% endif %}
+              </div>
+              <p>{{ paper.synopsis }}</p>
+            </article>
+            {% endfor %}
+          </div>
+          {% else %}
+          <p>No publication synopsis has been added yet for this school.</p>
+          {% endif %}
+        </article>
+        <article class="card">
+          <h2>Essays</h2>
+          <div class="essay-grid">
+            {% for item in entries %}
+            <a class="essay-button" href="{{ item.href }}">
+              <h3>{{ item.prompt_title or item.title }}</h3>
+              <div class="index-meta">
+                <span class="chip">Limit: {{ item.limit or "Not listed" }}</span>
+                <span class="chip">Actual: {{ item.word_count }} words</span>
+                <span class="chip">Actual: {{ item.char_count }} characters</span>
+                {% if item.shared_group %}<span class="chip">Shared: {{ item.shared_group }}</span>{% endif %}
+              </div>
+              {% if item.prompt_text_excerpt %}<p>{{ item.prompt_text_excerpt }}</p>{% endif %}
+            </a>
+            {% endfor %}
+          </div>
+        </article>
       </section>
     {% else %}
       <section class="hero">
@@ -835,6 +1031,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         "limit": None,
         "subtitle": "",
         "prompt_text_html": None,
+        "prompt_text_raw": None,
         "reference_html": None,
         "local_notes_html": None,
         "research_html": None,
@@ -870,6 +1067,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
             result["prompt_title"] = packet_data["title"] or None
             result["limit"] = packet_data["limit"] or None
             if packet_data["prompt_text"]:
+                result["prompt_text_raw"] = packet_data["prompt_text"]
                 result["prompt_text_html"] = render_md(packet_data["prompt_text"])
             result["packet_html"] = render_packet_html(packet_text)
         local_path = draft_path.with_name(f"{prefix}.local.md")
@@ -1003,35 +1201,52 @@ def collect_drafts(targets: list[str]) -> list[Path]:
 
 def build_index(entries: list[tuple[Path, Path]]) -> None:
     grouped_entries: dict[str, list[dict[str, object]]] = {}
+    school_entries: dict[str, list[dict[str, object]]] = {}
+    primary_entries: list[dict[str, object]] = []
     for draft_path, output_path in entries:
         draft_text = draft_path.read_text(encoding="utf-8")
         context = companion_context(draft_path)
         group_name = context["school"] or "Primary Essays"
-        grouped_entries.setdefault(group_name, []).append(
+        entry = {
+            "title": draft_page_title(draft_path, draft_text, context),
+            "prompt_title": context.get("prompt_title"),
+            "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
+            "limit": context["limit"],
+            "word_count": word_count(draft_text),
+            "char_count": char_count(draft_text),
+            "relative_path": relative_to_root(draft_path),
+            "prompt_text_excerpt": prompt_excerpt(context.get("prompt_text_raw")),
+            "shared_group": shared_group_title_for_draft(draft_path),
+        }
+        grouped_entries.setdefault(group_name, []).append(entry)
+        if context.get("school_slug"):
+            school_entries.setdefault(str(context["school_slug"]), []).append(entry)
+        else:
+            primary_entries.append(entry)
+
+    build_school_pages(school_entries)
+
+    schools = []
+    for school in all_school_metadata():
+        slug = school["slug"]
+        entries_for_school = school_entries.get(slug, [])
+        if not entries_for_school:
+            continue
+        schools.append(
             {
-                "title": draft_page_title(draft_path, draft_text, context),
-                "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
-                "limit": context["limit"],
-                "word_count": word_count(draft_text),
-                "char_count": char_count(draft_text),
-                "relative_path": relative_to_root(draft_path),
+                **school,
+                "display_name": school_display_name(school["name"]),
+                "href": html.escape(f"schools/{slug}/index.html"),
+                "essay_count": len(entries_for_school),
             }
         )
-
-    groups = [
-        {
-            "name": name,
-            "display_name": school_display_name(name),
-            "entries": grouped_entries[name],
-            "open": name == "Primary Essays",
-        }
-        for name in sorted(grouped_entries, key=lambda value: (value != "Primary Essays", value.lower()))
-    ]
+    schools.sort(key=lambda school: school["name"].lower())
 
     index_html = PAGE_TEMPLATE.render(
         kind="index",
         page_title="Essay Review Pages",
-        groups=groups,
+        primary_entries=primary_entries,
+        schools=schools,
     )
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     (OUTPUT_ROOT / "essays.html").write_text(index_html, encoding="utf-8")
@@ -1048,6 +1263,26 @@ def school_metadata_by_name() -> dict[str, dict]:
     return _SCHOOL_METADATA
 
 
+def all_school_metadata() -> list[dict]:
+    if not SCHOOLS_JSON.exists():
+        return []
+    return json.loads(SCHOOLS_JSON.read_text(encoding="utf-8"))
+
+
+def school_metadata_by_slug() -> dict[str, dict]:
+    return {school["slug"]: school for school in all_school_metadata()}
+
+
+def school_papers_by_slug() -> dict[str, list[dict]]:
+    global _SCHOOL_PAPERS
+    if _SCHOOL_PAPERS is None:
+        if SCHOOL_PAPERS_JSON.exists():
+            _SCHOOL_PAPERS = json.loads(SCHOOL_PAPERS_JSON.read_text(encoding="utf-8"))
+        else:
+            _SCHOOL_PAPERS = {}
+    return _SCHOOL_PAPERS
+
+
 def school_display_name(name: str) -> str:
     if name == "Primary Essays":
         return name
@@ -1058,6 +1293,63 @@ def school_display_name(name: str) -> str:
     if percent is None:
         return name
     return f"{name} - ~{percent}%"
+
+
+def prompt_excerpt(prompt_text: str | None) -> str | None:
+    if not prompt_text:
+        return None
+    text = strip_markdown(prompt_text)
+    if len(text) <= 220:
+        return text
+    return text[:217].rsplit(" ", 1)[0] + "..."
+
+
+def shared_group_title_for_draft(draft_path: Path) -> str | None:
+    rel = relative_to_root(draft_path)
+    for group in shared_groups():
+        for member in group.get("members", []):
+            if member.get("draft_path") == rel:
+                return group.get("title")
+    return None
+
+
+def shared_groups() -> list[dict]:
+    global _SHARED_GROUPS
+    if _SHARED_GROUPS is None:
+        if SHARED_GROUPS_JSON.exists():
+            _SHARED_GROUPS = json.loads(SHARED_GROUPS_JSON.read_text(encoding="utf-8"))
+        else:
+            _SHARED_GROUPS = []
+    return _SHARED_GROUPS
+
+
+def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> None:
+    schools_by_slug = school_metadata_by_slug()
+    papers_by_slug = school_papers_by_slug()
+    for slug, entries in school_entries.items():
+        school = schools_by_slug.get(slug)
+        if not school:
+            continue
+        page_path = OUTPUT_ROOT / "schools" / slug / "index.html"
+        page_path.parent.mkdir(parents=True, exist_ok=True)
+        page_html = PAGE_TEMPLATE.render(
+            kind="school",
+            page_title=school_display_name(school["name"]),
+            school=school,
+            papers=papers_by_slug.get(slug, []),
+            entries=[
+                {
+                    **entry,
+                    "href": html.escape(Path(str(entry["href"])).name)
+                    if Path(str(entry["href"])).parent.name == "schools"
+                    else html.escape(str(Path(str(entry["href"])).relative_to(f"schools/{slug}")))
+                    if str(entry["href"]).startswith(f"schools/{slug}/")
+                    else entry["href"],
+                }
+                for entry in entries
+            ],
+        )
+        page_path.write_text(page_html, encoding="utf-8")
 
 
 def build_home_page() -> None:
