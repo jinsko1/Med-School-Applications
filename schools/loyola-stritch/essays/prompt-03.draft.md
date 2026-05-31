@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/diversity-community.draft.md
+../../../essays/shared-drafts/service-public-health.draft.md

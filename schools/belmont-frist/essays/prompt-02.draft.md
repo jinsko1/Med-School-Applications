@@ -1,1 +1,5 @@
-../../../essays/shared-drafts/service-public-health.draft.md
+# Thomas F. Frist, Jr. College of Medicine at Belmont University - Spiritual Experiences, Faith, or Personal Beliefs Draft
+
+_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
+
+Write your current draft here.

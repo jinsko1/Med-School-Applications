@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/current-and-gap-year.draft.md
+../../../essays/shared-drafts/academic-context.draft.md

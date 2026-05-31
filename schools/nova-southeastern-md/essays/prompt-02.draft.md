@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/challenge-resilience.draft.md
+../../../essays/shared-drafts/service-public-health.draft.md

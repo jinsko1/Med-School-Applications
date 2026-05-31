@@ -23,9 +23,55 @@ PLACEHOLDER = "Write your current draft here."
 
 DO_NOT_SHARE_TITLE_PATTERNS = (
     "describe yourself",
+    "additional most meaningful activities",
+    "active learning fit",
+    "autobiographical statement",
+    "campus interest",
+    "career pathway",
+    "competency 1",
+    "competency 2",
+    "community identity",
+    "exposure to medicine",
+    "family connection",
+    "fictional character",
+    "global health",
     "how others describe you",
+    "health-related experiences",
+    "hobbies and interests",
+    "humility",
+    "incomplete prior program",
     "interesting fact",
+    "joint md mph",
+    "clinical public health interests",
+    "leadership positions",
+    "lifelong learning",
+    "mission alignment",
+    "mission fit",
+    "motivation and challenges of medicine",
+    "most energizing belmont value",
+    "most formative experience",
+    "pipeline programs",
+    "pre-health advisor",
+    "preparation for advanced study in medicine",
+    "prime-",
+    "prior admissions office interaction",
+    "professionalism competencies",
+    "publications",
+    "regional connection",
+    "regional medical campus",
+    "social media policy explanation",
+    "specific interest",
+    "spiritual experiences",
+    "standardized tests",
+    "tan family",
+    "technical standards",
     "two passions",
+    "uc davis-relevant activities",
+    "underloaded terms",
+    "uniqueness",
+    "values",
+    "what makes you unique",
+    "what you will like least",
 )
 
 
@@ -47,18 +93,18 @@ GROUP_RULES: tuple[GroupRule, ...] = (
         (),
     ),
     GroupRule(
+        "covid-impact",
+        "COVID Impact",
+        "Use for prompts asking specifically how the COVID-19 pandemic affected your application, activities, academics, or personal circumstances.",
+        ("covid", "pandemic"),
+        (),
+    ),
+    GroupRule(
         "additional-info",
         "Additional Information",
         "Use for optional updates or anything-else prompts. Keep it concise unless the school invites a substantive update.",
         ("anything else", "additional information", "application updates", "helpful context", "updates and context"),
         ("additional-info",),
-    ),
-    GroupRule(
-        "current-and-gap-year",
-        "Current Activities / Gap Year",
-        "Use for prompts asking what you are doing from application through matriculation or explaining time away from school.",
-        ("current", "recent activit", "gap", "coming year", "time gap", "full-time activity", "education not continuous"),
-        ("gap-year",),
     ),
     GroupRule(
         "academic-context",
@@ -68,25 +114,32 @@ GROUP_RULES: tuple[GroupRule, ...] = (
         ("academic-context",),
     ),
     GroupRule(
-        "challenge-resilience",
-        "Challenge / Resilience",
-        "Use for prompts about obstacles, adversity, conflict, ambiguity, resilience, or growth after difficulty.",
-        ("challenge", "obstacle", "resilience", "adversit", "conflict", "ambiguity", "difficult"),
-        ("challenge",),
+        "current-and-gap-year",
+        "Current Activities / Gap Year",
+        "Use for prompts asking what you are doing from application through matriculation or explaining time away from school.",
+        ("current", "recent activit", "gap", "coming year", "time gap", "full-time activity", "education not continuous"),
+        ("gap-year",),
+    ),
+    GroupRule(
+        "service-public-health",
+        "Service / Public Health / Underserved",
+        "Use for prompts about service, social determinants, public health, advocacy, inequity, and underserved communities.",
+        ("service", "underserved", "public health", "social determinants", "health equity", "health inequ", "health disparities", "under-resourced"),
+        ("service",),
     ),
     GroupRule(
         "diversity-community",
         "Diversity / Community Contribution",
         "Use for prompts about perspective, belonging, difference, community identity, and class contribution.",
         ("diversity", "difference", "perspective", "belonging", "community identity", "class contribution", "cross-cultural"),
-        ("diversity-equity", "community"),
+        ("diversity-equity",),
     ),
     GroupRule(
-        "service-public-health",
-        "Service / Public Health / Underserved",
-        "Use for prompts about service, social determinants, public health, advocacy, inequity, and underserved communities.",
-        ("service", "underserved", "public health", "social determinants", "health inequ", "health disparities", "under-resourced"),
-        ("service",),
+        "challenge-resilience",
+        "Challenge / Resilience",
+        "Use for prompts about obstacles, adversity, conflict, ambiguity, resilience, or growth after difficulty.",
+        ("challenge", "obstacle", "resilience", "adversit", "conflict", "ambiguity", "difficult"),
+        ("challenge",),
     ),
     GroupRule(
         "teamwork-leadership",
@@ -116,6 +169,8 @@ def classify_prompt(prompt: dict) -> GroupRule | None:
     haystack = f"{title}\n{text}"
 
     if any(pattern in title for pattern in DO_NOT_SHARE_TITLE_PATTERNS):
+        return None
+    if title.startswith("why ") and "why medicine" not in title:
         return None
 
     for rule in GROUP_RULES:
@@ -174,9 +229,24 @@ def link_draft(draft_path: Path, shared_path: Path, force: bool) -> str:
 def ensure_standalone_draft(draft_path: Path, school: dict, prompt: dict, index: int, reason: str, force: bool) -> str:
     if not force and draft_path.exists() and not draft_path.is_symlink() and not is_placeholder(draft_path):
         return "skipped-existing-draft"
+    existing_text = ""
+    if draft_path.is_symlink():
+        try:
+            existing_text = draft_path.read_text(encoding="utf-8")
+        except OSError:
+            existing_text = ""
     if draft_path.exists() or draft_path.is_symlink():
         draft_path.unlink()
-    draft_path.write_text(standalone_draft_text(school, prompt, index, reason), encoding="utf-8")
+    if existing_text and "Write the reusable essay core here." not in existing_text:
+        title = prompt.get("title") or f"Prompt {index:02d}"
+        draft_path.write_text(
+            f"# {school['name']} - {title} Draft\n\n"
+            f"_Not linked to a shared essay draft: {reason}_\n\n"
+            f"{existing_text.rstrip()}\n",
+            encoding="utf-8",
+        )
+    else:
+        draft_path.write_text(standalone_draft_text(school, prompt, index, reason), encoding="utf-8")
     return "standalone"
 
 
@@ -337,3 +407,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    "humility",
