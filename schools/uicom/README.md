@@ -36,3 +36,8 @@
 - `schools/uicom/essays/prompt-06.draft.md`
 - `schools/uicom/essays/prompt-07-incomplete-prior-program.md`
 - `schools/uicom/essays/prompt-07.draft.md`
+
+## School Metadata
+- Why-school fact: UIC enrolls students across Chicago, Peoria, and Rockford and explicitly prepares physicians for both rural and urban practice with cultural humility.
+- Estimated admit chance: ~3% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (8658 applied, 401 interviewed, 104 matriculated when available), school medians GPA 3.85 / MCAT 512, public out-of-state penalty, and research alignment, underserved/community alignment, leadership alignment.

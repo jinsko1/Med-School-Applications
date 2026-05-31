@@ -34,3 +34,8 @@
 - `schools/quinnipiac-netter/essays/prompt-05.draft.md`
 - `schools/quinnipiac-netter/essays/prompt-06-withdrawals-or-breaks.md`
 - `schools/quinnipiac-netter/essays/prompt-06.draft.md`
+
+## School Metadata
+- Why-school fact: Netter pairs students with community physician preceptors one afternoon per week in the first two years and builds a Scholarly Reflection and Concentration Capstone into the curriculum.
+- Estimated admit chance: ~3% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (9426 applied, 623 interviewed, 95 matriculated when available), school medians GPA 3.81 / MCAT 512, private or geography-neutral pool, and service alignment, community alignment.

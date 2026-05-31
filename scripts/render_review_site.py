@@ -14,7 +14,9 @@ from jinja2 import Template
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_ROOT = ROOT / "review"
 SHARED_GROUPS_JSON = ROOT / "data" / "shared_essay_groups.json"
+SCHOOLS_JSON = ROOT / "data" / "schools.json"
 _SHARED_GROUPS: list[dict] | None = None
+_SCHOOL_METADATA: dict[str, dict] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -611,7 +613,7 @@ PAGE_TEMPLATE = Template(
         {% for group in groups %}
           <details class="index-group"{% if group.open %} open{% endif %}>
             <summary class="index-group-header">
-              <h2>{{ group.name }}</h2>
+              <h2>{{ group.display_name }}</h2>
               <div class="index-group-count">{{ group.entries | length }} essay{% if group.entries | length != 1 %}s{% endif %}</div>
             </summary>
             <div class="index-group-body">
@@ -839,6 +841,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         "packet_html": None,
         "prompt_title": None,
         "synced_source_html": None,
+        "school_slug": None,
     }
 
     if (
@@ -848,6 +851,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         and re.fullmatch(r"prompt-\d{2}\.draft\.md", draft_path.name)
     ):
         school_dir = draft_path.parent.parent
+        result["school_slug"] = school_dir.name
         readme_path = school_dir / "README.md"
         if readme_path.exists():
             result["school"] = first_heading(readme_path.read_text(encoding="utf-8"), school_dir.name.replace("-", " "))
@@ -1015,7 +1019,12 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
         )
 
     groups = [
-        {"name": name, "entries": grouped_entries[name], "open": name == "Primary Essays"}
+        {
+            "name": name,
+            "display_name": school_display_name(name),
+            "entries": grouped_entries[name],
+            "open": name == "Primary Essays",
+        }
         for name in sorted(grouped_entries, key=lambda value: (value != "Primary Essays", value.lower()))
     ]
 
@@ -1026,6 +1035,30 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
     )
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     (OUTPUT_ROOT / "essays.html").write_text(index_html, encoding="utf-8")
+
+
+def school_metadata_by_name() -> dict[str, dict]:
+    global _SCHOOL_METADATA
+    if _SCHOOL_METADATA is None:
+        if SCHOOLS_JSON.exists():
+            schools = json.loads(SCHOOLS_JSON.read_text(encoding="utf-8"))
+            _SCHOOL_METADATA = {school["name"]: school for school in schools}
+        else:
+            _SCHOOL_METADATA = {}
+    return _SCHOOL_METADATA
+
+
+def school_display_name(name: str) -> str:
+    if name == "Primary Essays":
+        return name
+    school = school_metadata_by_name().get(name)
+    if not school:
+        return name
+    percent = school.get("estimated_admit_chance_percent")
+    label = school.get("estimated_admit_chance_label")
+    if percent is None:
+        return name
+    return f"{name} - ~{percent}% estimated admit chance ({label})"
 
 
 def build_home_page() -> None:

@@ -30,3 +30,8 @@
 - `schools/kaiser-permanente/essays/prompt-03.draft.md`
 - `schools/kaiser-permanente/essays/prompt-04-covid-impact.md`
 - `schools/kaiser-permanente/essays/prompt-04.draft.md`
+
+## School Metadata
+- Why-school fact: Kaiser integrates foundational, clinical, and health-systems science across all four years and starts clinical exposure within the first weeks at Los Angeles-area Kaiser Permanente medical centers.
+- Estimated admit chance: ~2% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (3926 applied, 310 interviewed, 35 matriculated when available), school medians GPA 3.87 / MCAT 517, California resident applying in-state, and general mission fit.

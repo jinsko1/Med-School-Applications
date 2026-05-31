@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Norfolk, VA; cached accepted-student medians: GPA 3.82, MCAT 513.
 - Current list note: Directly aligned to exposure to medicine, future self, and school-specific rationale.
+- Why-school fact: EVMS is community-oriented in Norfolk and makes exposure to medicine, future physician identity, and practical clinical fit central to its secondary prompts.
+- Estimated admit chance: ~3% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (6477 applied, 386 interviewed, 75 matriculated when available), school medians GPA 3.82 / MCAT 513, public out-of-state penalty, and research alignment, service alignment, community alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

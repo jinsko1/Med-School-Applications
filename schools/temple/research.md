@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Philadelphia, PA; cached accepted-student medians: GPA 3.84, MCAT 513.
 - Current list note: Campus-specific prompt means your selected program location should shape the school-fit draft.
+- Why-school fact: Temple lets students train at the North Philadelphia campus or regional St. Luke's/WellSpan campuses, so the campus-interest essay can be made very specific to patient population and setting.
+- Estimated admit chance: ~5% (possible); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (14278 applied, 1171 interviewed, 227 matriculated when available), school medians GPA 3.84 / MCAT 513, private or geography-neutral pool, and research alignment, service alignment, health-equity alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

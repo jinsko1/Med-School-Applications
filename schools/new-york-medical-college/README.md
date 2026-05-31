@@ -30,3 +30,8 @@
 - `schools/new-york-medical-college/essays/prompt-03.draft.md`
 - `schools/new-york-medical-college/essays/prompt-04-technical-standards-attestation.md`
 - `schools/new-york-medical-college/essays/prompt-04.draft.md`
+
+## School Metadata
+- Why-school fact: NYMC pairs students with a community physician preceptor beginning in the first month, giving a concrete clinical-training detail for a why-school paragraph.
+- Estimated admit chance: ~5% (possible)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (9525 applied, 1013 interviewed, 233 matriculated when available), school medians GPA 3.89 / MCAT 517, private or geography-neutral pool, and research alignment, service alignment, public-health alignment.

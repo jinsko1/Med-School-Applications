@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Las Vegas, NV; cached accepted-student medians: GPA 3.79, MCAT 510.
 - Current list note: Newer Nevada program with surprisingly favorable accepted-stat profile and clear community-accountability language.
+- Why-school fact: Roseman's Readiness Curriculum is built around social determinants, emerging technology, interprofessional teams, and GENESIS early experiential learning.
+- Estimated admit chance: ~24% (comparatively favorable); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (792 applied, 268 interviewed, 64 matriculated when available), school medians GPA 3.79 / MCAT 510, private or geography-neutral pool, and research alignment, service alignment, community alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

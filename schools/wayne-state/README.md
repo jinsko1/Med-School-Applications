@@ -32,3 +32,8 @@
 - `schools/wayne-state/essays/prompt-04.draft.md`
 - `schools/wayne-state/essays/prompt-05-growth-year.md`
 - `schools/wayne-state/essays/prompt-05.draft.md`
+
+## School Metadata
+- Why-school fact: Wayne State's Detroit setting is central to its identity, giving you a strong place to connect restorative justice, health equity, and urban underserved clinical interests.
+- Estimated admit chance: ~3% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (8218 applied, 750 interviewed, 82 matriculated when available), school medians GPA 3.88 / MCAT 512, public out-of-state penalty, and research alignment, service alignment, public-health alignment.

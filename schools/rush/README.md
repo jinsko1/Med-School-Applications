@@ -30,3 +30,8 @@
 - `schools/rush/essays/prompt-03.draft.md`
 - `schools/rush/essays/prompt-04-privilege-and-health-equity.md`
 - `schools/rush/essays/prompt-04.draft.md`
+
+## School Metadata
+- Why-school fact: Rush sits in the Illinois Medical District and emphasizes immediate M1 patient exposure, social determinants, humanism, and service to a diverse Chicago patient population.
+- Estimated admit chance: ~4% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13237 applied, 450 interviewed, 144 matriculated when available), school medians GPA 3.8 / MCAT 510, private or geography-neutral pool, and research alignment, service alignment, health-equity alignment.

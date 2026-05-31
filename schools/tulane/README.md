@@ -36,3 +36,8 @@
 - `schools/tulane/essays/prompt-06.draft.md`
 - `schools/tulane/essays/prompt-07-covid-impact.md`
 - `schools/tulane/essays/prompt-07.draft.md`
+
+## School Metadata
+- Why-school fact: Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.
+- Estimated admit chance: ~4% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13814 applied, 585 interviewed, 190 matriculated when available), school medians GPA 3.84 / MCAT 512, private or geography-neutral pool, and service alignment, leadership alignment, community alignment.

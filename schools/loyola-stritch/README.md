@@ -40,3 +40,8 @@
 - `schools/loyola-stritch/essays/prompt-08.draft.md`
 - `schools/loyola-stritch/essays/prompt-09-reapplicant-improvement.md`
 - `schools/loyola-stritch/essays/prompt-09.draft.md`
+
+## School Metadata
+- Why-school fact: Stritch's Jesuit framing makes cura personalis, social justice, and service to under-resourced communities the natural center of a school-fit essay rather than decoration.
+- Estimated admit chance: ~3% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13289 applied, 618 interviewed, 175 matriculated when available), school medians GPA 3.87 / MCAT 513, private or geography-neutral pool, and service alignment, clinical alignment.

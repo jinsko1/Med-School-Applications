@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Elk Grove, CA; cached accepted-student medians: GPA 3.89, MCAT 514.
 - Current list note: California MD option with favorable geography, but review financing carefully because the official admissions page says CNU does not participate in federal direct student loan programs.
+- Why-school fact: California Northstate uses a clinical-presentation-based curriculum and explicitly emphasizes primary care, patient-centeredness, and social accountability in Northern California.
+- Estimated admit chance: ~12% (reasonable); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (2336 applied, 350 interviewed, 109 matriculated when available), school medians GPA 3.89 / MCAT 514, California resident applying in-state, and research alignment, service alignment, community alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

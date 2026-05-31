@@ -34,3 +34,8 @@
 - `schools/umass-chan/essays/prompt-05.draft.md`
 - `schools/umass-chan/essays/prompt-06-systemic-inequity-in-health-care.md`
 - `schools/umass-chan/essays/prompt-06.draft.md`
+
+## School Metadata
+- Why-school fact: UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.
+- Estimated admit chance: ~4% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (4306 applied, 602 interviewed, 85 matriculated when available), school medians GPA 3.86 / MCAT 514, public out-of-state penalty, and research alignment, service alignment, health-equity alignment.

@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Washington, DC; cached accepted-student medians: GPA 3.9, MCAT 515.
 - Current list note: Strong service, advocacy, public health, and policy fit, but the live MSAR stats make this a reach rather than a true odds-improver.
+- Why-school fact: GW is located a few blocks from the White House and pairs public-health/policy proximity with a 17,000+ square-foot Clinical Learning and Simulation Skills Center.
+- Estimated admit chance: ~2% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (17194 applied, 746 interviewed, 130 matriculated when available), school medians GPA 3.9 / MCAT 515, private or geography-neutral pool, and research alignment, service alignment, public-health alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

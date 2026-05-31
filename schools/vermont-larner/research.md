@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Burlington, VT; cached accepted-student medians: GPA 3.8, MCAT 513.
 - Current list note: Prompt set is strongly mission-and-curriculum specific.
+- Why-school fact: Larner's Vermont Integrated Curriculum begins patient interaction on the first day of orientation and emphasizes professionalism, cultural competence, prevention, and health systems.
+- Estimated admit chance: ~2% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (10271 applied, 558 interviewed, 90 matriculated when available), school medians GPA 3.8 / MCAT 513, public out-of-state penalty, and research alignment, service alignment, public-health alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

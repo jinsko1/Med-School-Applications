@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Valhalla, NY; cached accepted-student medians: GPA 3.89, MCAT 517.
 - Current list note: Secondary is mostly attestation and context oriented rather than classic narrative essays.
+- Why-school fact: NYMC pairs students with a community physician preceptor beginning in the first month, giving a concrete clinical-training detail for a why-school paragraph.
+- Estimated admit chance: ~5% (possible); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (9525 applied, 1013 interviewed, 233 matriculated when available), school medians GPA 3.89 / MCAT 517, private or geography-neutral pool, and research alignment, service alignment, public-health alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

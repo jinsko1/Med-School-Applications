@@ -32,3 +32,8 @@
 - `schools/nova-southeastern-md/essays/prompt-04.draft.md`
 - `schools/nova-southeastern-md/essays/prompt-05-reapplicant-improvement.md`
 - `schools/nova-southeastern-md/essays/prompt-05.draft.md`
+
+## School Metadata
+- Why-school fact: NSU MD uses a hybrid case- and problem-based curriculum that places patients at the center of learning and rewards applicants who can reason through ambiguity.
+- Estimated admit chance: ~3% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (5790 applied, 395 interviewed, 65 matriculated when available), school medians GPA 3.85 / MCAT 513, private or geography-neutral pool, and research alignment, service alignment, community alignment.

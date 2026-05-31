@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: New Orleans, LA; cached accepted-student medians: GPA 3.84, MCAT 512.
 - Current list note: Short prompts; useful to keep concise reusable blocks for why-school, New Orleans fit, leadership, and hobbies.
+- Why-school fact: Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.
+- Estimated admit chance: ~4% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13814 applied, 585 interviewed, 190 matriculated when available), school medians GPA 3.84 / MCAT 512, private or geography-neutral pool, and service alignment, leadership alignment, community alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

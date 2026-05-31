@@ -32,3 +32,8 @@
 - `schools/emory/essays/prompt-04.draft.md`
 - `schools/emory/essays/prompt-05-updates.md`
 - `schools/emory/essays/prompt-05.draft.md`
+
+## School Metadata
+- Why-school fact: Emory's curriculum includes a dedicated five-month research phase and clinical/community access through Grady, the Atlanta VA, the CDC, and the Carter Center ecosystem.
+- Estimated admit chance: ~2% (reach)
+- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12671 applied, 615 interviewed, 136 matriculated when available), school medians GPA 3.89 / MCAT 517, private or geography-neutral pool, and research alignment, service alignment, public-health alignment.

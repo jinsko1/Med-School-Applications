@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Nashville, TN; cached accepted-student medians: GPA 3.84, MCAT 512.
 - Current list note: Newer private Tennessee school with no in-state preference and a mission profile that rewards service, humility, and thoughtful reflection.
+- Why-school fact: Belmont Frist is a newer Nashville MD program built around whole-person care, case-based learning, early clinical exposure, service learning, ethics, and health-systems science.
+- Estimated admit chance: ~6% (possible); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (2831 applied, 255 interviewed, 54 matriculated when available), school medians GPA 3.84 / MCAT 512, private or geography-neutral pool, and service alignment, leadership alignment, community alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

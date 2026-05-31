@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: Location not listed; cached accepted-student medians: GPA 3.87, MCAT 512.
 - Current list note: Very mission-forward; strong prompt overlap with competency, equity, and fit essays.
+- Why-school fact: UW is an integrated school of medicine and public health; its ForWard curriculum deliberately blends basic, clinical, and public-health sciences with community-based application.
+- Estimated admit chance: ~1% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (7024 applied, 270 interviewed, 43 matriculated when available), school medians GPA 3.87 / MCAT 512, public out-of-state penalty, and research alignment, service alignment, health-equity alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

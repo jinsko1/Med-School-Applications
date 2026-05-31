@@ -5,6 +5,8 @@
 ## Applicant Fit Snapshot
 - School context: North Chicago, IL; cached accepted-student medians: GPA 3.79, MCAT 510.
 - Current list note: Very concise 150-word essays; useful to draft as tight vignettes instead of traditional long-form secondaries.
+- Why-school fact: Chicago Medical School sits within Rosalind Franklin's interprofessional health-sciences campus, which is useful for essays about teamwork and healthcare teams.
+- Estimated admit chance: ~6% (possible); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (11973 applied, 724 interviewed, 203 matriculated when available), school medians GPA 3.79 / MCAT 510, private or geography-neutral pool, and research alignment, service alignment, leadership alignment.
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

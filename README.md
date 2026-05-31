@@ -30,6 +30,7 @@ python3 scripts/sync_shared_essay_drafts.py
 7. Refresh school fit notes from the current school list and work/activities themes with:
 
 ```bash
+python3 scripts/enrich_school_metadata.py
 python3 scripts/populate_school_research_notes.py
 ```
 
@@ -46,4 +47,5 @@ python3 scripts/render_review_site.py
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
 - The active MD school list currently includes 32 schools.
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
+- Admit-chance percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/admit-chance-estimates.md`.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.
