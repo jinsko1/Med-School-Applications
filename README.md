@@ -55,4 +55,5 @@ python3 scripts/fetch_school_research_papers.py
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
 - School-list percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/school-list-estimates.md`.
 - School research paper blurbs are curated PubMed-affiliated results stored in `data/school_research_papers.json`; weak matches are intentionally left blank, and any paper should still be verified before naming it in a final essay.
+- Major contribution cards live in `data/school_major_contributions.json`; read the writer note because some are alumni, parent-university, namesake, or health-system contributions rather than discoveries made directly inside the current MD program.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

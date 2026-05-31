@@ -1,0 +1,226 @@
+{
+  "uc-davis": {
+    "title": "World-first in-utero stem-cell therapy for fetal spina bifida repair",
+    "contribution": "UC Davis Health performed the world's first spina bifida treatment combining fetal surgery with a placental stem-cell patch, moving fetal surgery toward regenerative therapy for congenital disease.",
+    "source_label": "UC Davis Health",
+    "source_url": "https://health.ucdavis.edu/news/headlines/worlds-first-stem-cell-treatment-for-spina-bifida-delivered-during-fetal-surgery--/2022/10",
+    "writer_note": "Good for a why-school paragraph about translational surgery, regenerative medicine, and maternal-fetal innovation."
+  },
+  "ucsd": {
+    "title": "Development of green fluorescent protein into a transformative biological imaging tool",
+    "contribution": "UC San Diego's Roger Tsien shared the 2008 Nobel Prize in Chemistry for work that made GFP broadly useful for tracking proteins, cells, and biological processes.",
+    "source_label": "Nobel Prize",
+    "source_url": "https://www.nobelprize.org/prizes/chemistry/2008/tsien/facts/",
+    "writer_note": "Strong tie-in if you want to discuss molecular tools, visualization, and basic science becoming everyday biomedical infrastructure."
+  },
+  "kaiser-permanente": {
+    "title": "Large-scale vaccine safety and effectiveness science through the Vaccine Safety Datalink",
+    "contribution": "Kaiser Permanente is a major partner in the CDC Vaccine Safety Datalink, using integrated clinical data to monitor vaccine safety and study rare adverse events at population scale.",
+    "source_label": "CDC Vaccine Safety Datalink",
+    "source_url": "https://www.cdc.gov/vaccine-safety-systems/vsd/",
+    "writer_note": "Useful for writing about learning medicine inside a system that turns care delivery data into public-health evidence."
+  },
+  "temple": {
+    "title": "Discovery of hepatitis B virus and development of prevention tools at Fox Chase",
+    "contribution": "Fox Chase Cancer Center, now part of Temple Health, was the site of Baruch Blumberg's Nobel-recognized hepatitis B work, including discovery of the virus and development of blood-screening and vaccine pathways.",
+    "source_label": "Fox Chase Cancer Center",
+    "source_url": "https://www.foxchase.org/about-us/history/discoveries-fox-chase-research/baruch-blumberg-md-phd-research",
+    "writer_note": "Excellent microbio/infectious-disease anchor for Temple if you mention Fox Chase carefully as a Temple Health affiliate."
+  },
+  "emory": {
+    "title": "Emory-discovered HIV medicines used in modern antiretroviral therapy",
+    "contribution": "Emory scientists invented the HIV drugs Emtriva and 3TC, medicines that became core components of lifesaving antiretroviral therapy.",
+    "source_label": "Emory School of Medicine",
+    "source_url": "https://med.emory.edu/research/research-innovation/drug-discovery/index.html",
+    "writer_note": "Very strong fit for microbio, translational drug discovery, and global public health."
+  },
+  "virginia-tech-carilion": {
+    "title": "Dalbavancin treatment strategy for Staphylococcus aureus bacteremia",
+    "contribution": "Virginia Tech Carilion-affiliated investigators contributed to the DOTS randomized clinical trial evaluating dalbavancin for complicated S. aureus bacteremia.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40802264/",
+    "writer_note": "Use as an infectious-disease/microbiology example rather than as a long historical institutional claim."
+  },
+  "vermont-larner": {
+    "title": "Global burden estimates for lower respiratory infections",
+    "contribution": "Larner-affiliated scholarship contributed to a Lancet Infectious Diseases systematic analysis estimating the global burden and etiologies of lower respiratory infections.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41412141/",
+    "writer_note": "Good for connecting infectious disease to population health and global burden measurement."
+  },
+  "wisconsin": {
+    "title": "Vitamin D fortification process that helped eliminate rickets as a common disease",
+    "contribution": "UW-Madison biochemist Harry Steenbock discovered that ultraviolet irradiation increased vitamin D in foods, a breakthrough that enabled food fortification and helped eradicate rickets worldwide.",
+    "source_label": "UW-Madison News",
+    "source_url": "https://news.wisc.edu/basic-facts-wisconsin-alumni-research-foundation/",
+    "writer_note": "A clean example of basic biochemistry becoming a population-level preventive medicine tool."
+  },
+  "mcw": {
+    "title": "The Quick test for standardized coagulation measurement",
+    "contribution": "Medical College of Wisconsin's Armand Quick discovered the Quick test, the first standardized assay for measuring coagulation beyond whole-blood clotting time.",
+    "source_label": "Medical College of Wisconsin",
+    "source_url": "https://www.mcw.edu/about-mcw/history-of-mcw/discoveries",
+    "writer_note": "Useful if you want a concise example of laboratory medicine shaping modern clinical diagnostics."
+  },
+  "jefferson-kimmel": {
+    "title": "Azithromycin to reduce sepsis or death around vaginal birth",
+    "contribution": "Jefferson-affiliated investigators contributed to a major New England Journal of Medicine multicenter study of azithromycin to prevent maternal sepsis or death in planned vaginal birth.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36757318/",
+    "writer_note": "A women's-health and infection-prevention example that is much more useful than a generic Jefferson research claim."
+  },
+  "miami-miller": {
+    "title": "The Ricordi method for isolating pancreatic islet cells",
+    "contribution": "The Miller School's cellular transplantation work is associated with the Ricordi method, a major advance in islet-cell isolation for diabetes research and transplantation.",
+    "source_label": "University of Miami Miller School of Medicine",
+    "source_url": "https://med.miami.edu/departments/surgery/divisions/cellular-transplantation/research",
+    "writer_note": "Good for translational science, diabetes, cell processing, and bench-to-bedside medicine."
+  },
+  "wake-forest": {
+    "title": "First laboratory-grown organ successfully implanted in human patients",
+    "contribution": "Wake Forest Institute for Regenerative Medicine reported the first laboratory-grown organ, engineered bladder tissue, successfully implanted in patients.",
+    "source_label": "Wake Forest School of Medicine",
+    "source_url": "https://school.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research/a-record-of-firsts",
+    "writer_note": "A major regenerative-medicine contribution and a strong why-school anchor."
+  },
+  "albany": {
+    "title": "Training lineage connected to the discovery of leptin",
+    "contribution": "Albany Medical College graduate Jeffrey Friedman discovered leptin, a hormone that established a biological basis for obesity and opened new metabolic-disease research pathways.",
+    "source_label": "Albany Med Health System",
+    "source_url": "https://www.albanymed.org/college/albany-medical-college-graduate-awarded-2025-albany-prize-for-identifying-hormone-leptin/",
+    "writer_note": "This is an alumni contribution rather than a discovery made on Albany's campus, so phrase it carefully."
+  },
+  "drexel": {
+    "title": "First degree-granting medical school for women",
+    "contribution": "Drexel College of Medicine traces part of its lineage to Woman's Medical College of Pennsylvania, the first degree-granting medical school in the world for women.",
+    "source_label": "Drexel University College of Medicine",
+    "source_url": "https://drexel.edu/medicine/about/history/",
+    "writer_note": "This is more a landmark contribution to medical education and scientific access than a single biomedical discovery."
+  },
+  "wayne-state": {
+    "title": "Early evidence linking glucose, insulin secretion, and glucagon response",
+    "contribution": "Wayne State School of Medicine faculty are credited with early evidence that glucose stimulates insulin secretion and that low glucose stimulates a blood-sugar-raising pancreatic factor, later understood through glucagon biology.",
+    "source_label": "Wayne State School of Medicine profile",
+    "source_url": "https://www.med.wayne.edu/research",
+    "writer_note": "Use as a metabolism/endocrine science example, but verify wording before making it a centerpiece."
+  },
+  "loyola-stritch": {
+    "title": "SARS-CoV-2 Omicron attenuation biology",
+    "contribution": "Stritch-affiliated research contributed to work identifying spike and nsp6 as key determinants of SARS-CoV-2 Omicron BA.1 attenuation.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36630998/",
+    "writer_note": "Good microbio/virology fit; frame as a recent contribution rather than a historic Loyola landmark."
+  },
+  "quinnipiac-netter": {
+    "title": "Community-randomized trial on interrupting soil-transmitted helminth transmission",
+    "contribution": "Netter-affiliated investigators contributed to the DeWorm3 community cluster-randomized trial testing whether mass drug administration can interrupt soil-transmitted helminth transmission.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40752908/",
+    "writer_note": "Useful for infectious disease, global health, and population-level intervention framing."
+  },
+  "tulane": {
+    "title": "CDC evidence base for trichomoniasis diagnosis and management",
+    "contribution": "Tulane-affiliated scholarship contributed to the evidence review behind CDC sexually transmitted infection guidance for Trichomonas vaginalis.",
+    "source_label": "PubMed",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/35416973/",
+    "writer_note": "A direct fit for microbiology, women's health, and public-health guideline writing."
+  },
+  "eastern-virginia": {
+    "title": "First IVF baby born in the United States",
+    "contribution": "EVMS's Jones Institute is responsible for the birth of the first in vitro fertilization baby in the United States, a landmark in reproductive medicine.",
+    "source_label": "Jones Rounds",
+    "source_url": "https://www.jonesrounds.org/about-dr-jones/",
+    "writer_note": "Very strong women's-health/reproductive-medicine why-school detail."
+  },
+  "rush": {
+    "title": "Religious Orders Study and Rush Memory and Aging Project",
+    "contribution": "Rush developed major longitudinal clinical-pathologic cohort studies that transformed aging and Alzheimer disease research by linking annual clinical data with brain donation and molecular analyses.",
+    "source_label": "PubMed Central",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6380522/",
+    "writer_note": "Good for serious longitudinal patient-centered research and aging/hospice-adjacent reflection."
+  },
+  "rosalind-franklin": {
+    "title": "Photo 51 and the structure of DNA as the university's scientific namesake",
+    "contribution": "The university is named for Rosalind Franklin, whose X-ray crystallography image Photo 51 was essential to resolving DNA's double-helix structure.",
+    "source_label": "Rosalind Franklin University",
+    "source_url": "https://www.rosalindfranklin.edu/about/facts-figures/dr-rosalind-franklin/",
+    "writer_note": "This is a namesake legacy, not an RFU campus discovery; use it as a values/history point, not as institutional research output."
+  },
+  "new-york-medical-college": {
+    "title": "Training lineage connected to ivermectin's discovery",
+    "contribution": "NYMC's history highlights former professor William Campbell, a 2015 Nobel laureate for discovering ivermectin, which drastically reduced river blindness and lymphatic filariasis.",
+    "source_label": "New York Medical College",
+    "source_url": "https://www.nymc.edu/about/history/history-timeline/",
+    "writer_note": "A strong infectious-disease/global-health connection, but phrase it as a former-faculty contribution."
+  },
+  "uc-riverside": {
+    "title": "Decisive contributions to LIGO and gravitational-wave detection",
+    "contribution": "UC Riverside physicist Barry Barish won the 2017 Nobel Prize in Physics for decisive contributions to the LIGO detector and observation of gravitational waves.",
+    "source_label": "Nobel Prize",
+    "source_url": "https://www.nobelprize.org/prizes/physics/2017/barish/facts/",
+    "writer_note": "Major science contribution from UCR broadly, not from the medical school; useful only if you want a research-culture sentence."
+  },
+  "cusm": {
+    "title": "No verified major landmark contribution found yet",
+    "contribution": "CUSM is a newer medical school; I did not find a credible institution-level discovery that should be presented as a major scientific contribution.",
+    "source_label": "CUSM mission and history",
+    "source_url": "https://www.cusm.edu/about/index.php",
+    "writer_note": "Do not force a science prestige claim here; focus why-school writing on Inland Empire mission, social accountability, and newer-school fit."
+  },
+  "umass-chan": {
+    "title": "Discovery of RNA interference",
+    "contribution": "UMass Chan's Craig Mello shared the 2006 Nobel Prize in Physiology or Medicine for discovering RNA interference, a fundamental gene-regulation mechanism.",
+    "source_label": "Nobel Prize",
+    "source_url": "https://www.nobelprize.org/prizes/medicine/2006/mello/",
+    "writer_note": "Excellent for molecular biology, gene regulation, and therapeutics."
+  },
+  "nova-southeastern-md": {
+    "title": "No verified major MD-school landmark contribution found yet",
+    "contribution": "NSU MD is a newer allopathic program; I did not find a credible MD-school-level discovery that should be described as a major contribution to science.",
+    "source_label": "NSU Research",
+    "source_url": "https://research.nova.edu/areas-of-research/index.html",
+    "writer_note": "If you use research fit here, lean on current health-sciences strengths rather than claiming a landmark discovery."
+  },
+  "roseman": {
+    "title": "No verified major medical-school landmark contribution found yet",
+    "contribution": "Roseman University College of Medicine is newly accredited and recruiting its inaugural class, so I did not find a mature medical-school discovery record to cite.",
+    "source_label": "Roseman University College of Medicine",
+    "source_url": "https://www.roseman.edu/academic-programs/college-of-medicine/",
+    "writer_note": "Use mission, community health innovation, and new-program fit rather than research prestige."
+  },
+  "hackensack-meridian": {
+    "title": "Antibiotic-development infrastructure for drug-resistant infections",
+    "contribution": "Hackensack Meridian's Center for Discovery and Innovation received a major NIH grant to develop antibiotics for drug-resistant infections, reflecting a serious institutional contribution to antimicrobial research infrastructure.",
+    "source_label": "Hackensack Meridian Health",
+    "source_url": "https://scprod.hackensackmeridianhealth.org/en/news/2019/05/10/hackensack-meridian-health-receives-33-3-million-nih-grant-to-develop-antibiotics-to-treat-drug-resistant-infections",
+    "writer_note": "Good microbio/antimicrobial-resistance fit, but describe as a research program contribution rather than a completed discovery."
+  },
+  "belmont-frist": {
+    "title": "No verified medical-school scientific landmark found yet",
+    "contribution": "Belmont Frist is a new medical school, first announced in 2020; I did not find a mature scientific contribution that should be cited as a landmark.",
+    "source_label": "Belmont University",
+    "source_url": "https://www.belmont.edu/medicine/",
+    "writer_note": "Keep why-school writing focused on whole-person care, Nashville clinical partnerships, service learning, and new-school opportunity."
+  },
+  "uicom": {
+    "title": "UIC drug-discovery work behind marketed HIV and bladder-cancer drugs",
+    "contribution": "UIC describes a biopharmaceutical track record that includes marketed drug and drug-delivery successes, including an HIV drug and a bladder-cancer drug discovered at UIC.",
+    "source_label": "UICentre",
+    "source_url": "https://drugdiscovery.uic.edu/",
+    "writer_note": "Useful for translational drug discovery; if you cite it in an essay, name the exact drug only after verifying the specific UIC source."
+  },
+  "george-washington": {
+    "title": "Walter Reed's confirmation of mosquito transmission of yellow fever",
+    "contribution": "Walter Reed, an alumnus of the medical school, led the work confirming that yellow fever is transmitted by mosquitoes, a foundational infectious-disease and public-health discovery.",
+    "source_label": "JAMA",
+    "source_url": "https://jamanetwork.com/journals/jama/fullarticle/1388478",
+    "writer_note": "Very strong infectious-disease/public-health history, but phrase as an alumni contribution rather than a GW campus discovery."
+  },
+  "california-northstate": {
+    "title": "No verified major medical-school scientific landmark found yet",
+    "contribution": "California Northstate is a newer medical school, and I did not find a credible major scientific contribution worth citing for a secondary essay.",
+    "source_label": "California Northstate College of Medicine",
+    "source_url": "https://medicine.cnsu.edu/",
+    "writer_note": "Do not force research prestige here; focus on Northern California, primary care, patient-centeredness, and social accountability."
+  }
+}

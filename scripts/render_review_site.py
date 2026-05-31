@@ -16,9 +16,11 @@ OUTPUT_ROOT = ROOT / "review"
 SHARED_GROUPS_JSON = ROOT / "data" / "shared_essay_groups.json"
 SCHOOLS_JSON = ROOT / "data" / "schools.json"
 SCHOOL_PAPERS_JSON = ROOT / "data" / "school_research_papers.json"
+SCHOOL_MAJOR_CONTRIBUTIONS_JSON = ROOT / "data" / "school_major_contributions.json"
 _SHARED_GROUPS: list[dict] | None = None
 _SCHOOL_METADATA: dict[str, dict] | None = None
 _SCHOOL_PAPERS: dict[str, list[dict]] | None = None
+_SCHOOL_MAJOR_CONTRIBUTIONS: dict[str, dict] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -789,6 +791,19 @@ PAGE_TEMPLATE = Template(
             <li><span class="meta-key">List Note</span><span>{{ school.notes }}</span></li>
           </ul>
         </article>
+        {% if major_contribution %}
+        <article class="card">
+          <h2>Major Contribution to Science</h2>
+          <h3><a href="{{ major_contribution.source_url }}">{{ major_contribution.title }}</a></h3>
+          <p>{{ major_contribution.contribution }}</p>
+          {% if major_contribution.writer_note %}
+          <p class="note">{{ major_contribution.writer_note }}</p>
+          {% endif %}
+          <div class="index-meta">
+            <span class="chip">{{ major_contribution.source_label or "Source" }}</span>
+          </div>
+        </article>
+        {% endif %}
         <article class="card">
           <h2>Recent / Relevant Research</h2>
           <p class="note">Curated from PubMed-affiliated results for major work, microbiology/infectious-disease relevance, women's health, underserved care, or hospice/palliative fit. Schools are left blank when the available matches look too weak to cite confidently.</p>
@@ -1283,6 +1298,18 @@ def school_papers_by_slug() -> dict[str, list[dict]]:
     return _SCHOOL_PAPERS
 
 
+def school_major_contributions_by_slug() -> dict[str, dict]:
+    global _SCHOOL_MAJOR_CONTRIBUTIONS
+    if _SCHOOL_MAJOR_CONTRIBUTIONS is None:
+        if SCHOOL_MAJOR_CONTRIBUTIONS_JSON.exists():
+            _SCHOOL_MAJOR_CONTRIBUTIONS = json.loads(
+                SCHOOL_MAJOR_CONTRIBUTIONS_JSON.read_text(encoding="utf-8")
+            )
+        else:
+            _SCHOOL_MAJOR_CONTRIBUTIONS = {}
+    return _SCHOOL_MAJOR_CONTRIBUTIONS
+
+
 def school_display_name(name: str) -> str:
     if name == "Primary Essays":
         return name
@@ -1326,6 +1353,7 @@ def shared_groups() -> list[dict]:
 def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> None:
     schools_by_slug = school_metadata_by_slug()
     papers_by_slug = school_papers_by_slug()
+    contributions_by_slug = school_major_contributions_by_slug()
     for slug, entries in school_entries.items():
         school = schools_by_slug.get(slug)
         if not school:
@@ -1337,6 +1365,7 @@ def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> No
             page_title=school_display_name(school["name"]),
             school=school,
             papers=papers_by_slug.get(slug, []),
+            major_contribution=contributions_by_slug.get(slug),
             entries=[
                 {
                     **entry,
