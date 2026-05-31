@@ -1,3 +1,1 @@
-# New York Medical College - Technical Standards Attestation Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/additional-info.draft.md

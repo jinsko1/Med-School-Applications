@@ -1,3 +1,1 @@
-# Wayne State University School of Medicine - Growth Year Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/current-and-gap-year.draft.md

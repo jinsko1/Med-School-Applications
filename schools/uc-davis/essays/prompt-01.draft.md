@@ -1,3 +1,1 @@
-# UC Davis School of Medicine - Application Concerns Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/academic-context.draft.md

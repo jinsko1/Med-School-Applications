@@ -34,3 +34,5 @@ These are the prompt/archive pages and admissions pages used to seed this worksp
 - Hackensack Meridian School of Medicine: https://forums.studentdoctor.net/threads/2025-2026-hackensack-meridian.1508026/
 - Thomas F. Frist, Jr. College of Medicine at Belmont University: https://forums.studentdoctor.net/threads/2025-2026-belmont-frist.1508022/
 - University of Illinois College of Medicine: https://medschoolinsiders.com/medical-school-secondary-prompts-database/university-of-illinois-college-of-medicine-secondary-essay-prompts/
+- George Washington University School of Medicine & Health Sciences: https://medschoolinsiders.com/medical-school-secondary-prompts-database/george-washington-secondary-essay-prompts/
+- California Northstate University College of Medicine: https://www.studentdoctor.net/schools-database/medical-school/essay-questions/CAL-NO

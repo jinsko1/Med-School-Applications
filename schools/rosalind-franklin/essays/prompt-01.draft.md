@@ -1,3 +1,1 @@
-# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Why Medicine Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/future-goals.draft.md

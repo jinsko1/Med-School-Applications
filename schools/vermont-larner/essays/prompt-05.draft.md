@@ -1,3 +1,1 @@
-# Vermont Larner College of Medicine - Additional Information Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/reapplicant-update.draft.md

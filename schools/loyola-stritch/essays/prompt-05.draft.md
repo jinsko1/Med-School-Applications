@@ -1,3 +1,1 @@
-# Loyola University Chicago Stritch School of Medicine - Non-Academic Challenge or Conflict Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

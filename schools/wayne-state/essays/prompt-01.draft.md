@@ -1,3 +1,1 @@
-# Wayne State University School of Medicine - Motivation and Challenges of Medicine Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

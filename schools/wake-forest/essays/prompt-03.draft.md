@@ -1,3 +1,1 @@
-# Wake Forest University School of Medicine - Most Formative Experience Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/future-goals.draft.md

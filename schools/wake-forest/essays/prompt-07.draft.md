@@ -1,3 +1,1 @@
-# Wake Forest University School of Medicine - Interesting Fact Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/additional-info.draft.md

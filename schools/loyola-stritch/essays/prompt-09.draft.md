@@ -1,3 +1,1 @@
-# Loyola University Chicago Stritch School of Medicine - Reapplicant Improvement Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/reapplicant-update.draft.md

@@ -1,3 +1,1 @@
-# UC Davis School of Medicine - UC Davis-Relevant Activities Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/service-public-health.draft.md

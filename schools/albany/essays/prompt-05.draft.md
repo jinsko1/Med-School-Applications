@@ -1,3 +1,1 @@
-# Albany Medical College - Structural and Social Determinants of Health Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

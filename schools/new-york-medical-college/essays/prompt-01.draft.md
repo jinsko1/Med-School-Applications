@@ -1,3 +1,1 @@
-# New York Medical College - Family Connection Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/additional-info.draft.md

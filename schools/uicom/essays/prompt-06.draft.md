@@ -1,3 +1,1 @@
-# University of Illinois College of Medicine - Reapplicant Update Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/reapplicant-update.draft.md

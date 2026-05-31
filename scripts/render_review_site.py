@@ -607,6 +607,12 @@ PAGE_TEMPLATE = Template(
         <div class="details-body context">{{ reference_html | safe }}</div>
       </details>
       {% endif %}
+      {% if synced_source_html %}
+      <details class="context-panel" open>
+        <summary>Synced Draft Source</summary>
+        <div class="details-body context">{{ synced_source_html | safe }}</div>
+      </details>
+      {% endif %}
       {% if prompt_text_html %}
       <details class="context-panel">
         <summary>Prompt</summary>
@@ -733,6 +739,8 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         "local_notes_html": None,
         "research_html": None,
         "packet_html": None,
+        "prompt_title": None,
+        "synced_source_html": None,
     }
 
     if (
@@ -757,6 +765,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
             packet_path = packet_matches[0]
             packet_text = packet_path.read_text(encoding="utf-8")
             packet_data = parse_prompt_packet(packet_text)
+            result["prompt_title"] = packet_data["title"] or None
             result["limit"] = packet_data["limit"] or None
             if packet_data["prompt_text"]:
                 result["prompt_text_html"] = render_md(packet_data["prompt_text"])
@@ -780,10 +789,30 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
     return result
 
 
+def synced_source_html(draft_path: Path) -> str | None:
+    if not draft_path.is_symlink():
+        return None
+    target = draft_path.resolve()
+    try:
+        target_label = target.relative_to(ROOT)
+    except ValueError:
+        target_label = target
+    return render_md(
+        f"This draft is linked to `{target_label}`. Editing either file edits the same shared markdown source."
+    )
+
+
+def draft_page_title(draft_path: Path, draft_text: str, context: dict[str, str | None]) -> str:
+    if context.get("school") and context.get("prompt_title"):
+        return f"{context['school']} - {context['prompt_title']} Draft"
+    return first_heading(draft_text, draft_path.stem)
+
+
 def render_draft_page(draft_path: Path) -> Path:
     draft_text = draft_path.read_text(encoding="utf-8")
-    title = first_heading(draft_text, draft_path.stem)
     context = companion_context(draft_path)
+    context["synced_source_html"] = synced_source_html(draft_path)
+    title = draft_page_title(draft_path, draft_text, context)
     output_path = OUTPUT_ROOT / draft_path.relative_to(ROOT)
     output_path = output_path.with_suffix(".html")
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -803,6 +832,7 @@ def render_draft_page(draft_path: Path) -> Path:
         local_notes_html=context["local_notes_html"],
         research_html=context["research_html"],
         packet_html=context["packet_html"],
+        synced_source_html=context["synced_source_html"],
     )
     output_path.write_text(html_text, encoding="utf-8")
     return output_path
@@ -824,10 +854,10 @@ def collect_drafts(targets: list[str]) -> list[Path]:
     unique = []
     seen = set()
     for item in collected:
-        resolved = item.resolve()
-        if resolved in seen:
+        key = item.absolute()
+        if key in seen:
             continue
-        seen.add(resolved)
+        seen.add(key)
         unique.append(item)
     return unique
 
@@ -840,7 +870,7 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
         group_name = context["school"] or "Primary Essays"
         grouped_entries.setdefault(group_name, []).append(
             {
-                "title": first_heading(draft_text, draft_path.stem),
+                "title": draft_page_title(draft_path, draft_text, context),
                 "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
                 "limit": context["limit"],
                 "word_count": word_count(draft_text),

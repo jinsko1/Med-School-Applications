@@ -1,3 +1,1 @@
-# Kaiser Permanente Bernard J. Tyson School of Medicine - Unfavorable Outcome Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

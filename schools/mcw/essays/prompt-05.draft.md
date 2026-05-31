@@ -1,3 +1,1 @@
-# Medical College of Wisconsin - Reapplicant Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/reapplicant-update.draft.md

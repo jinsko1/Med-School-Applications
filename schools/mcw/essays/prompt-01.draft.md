@@ -1,3 +1,1 @@
-# Medical College of Wisconsin - Contribution to MCW Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

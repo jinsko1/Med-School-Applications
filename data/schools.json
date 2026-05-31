@@ -1749,5 +1749,161 @@
         "text": "If you have ever matriculated into and not completed a professional/graduate program, please describe the circumstances of why you did not complete the program of study."
       }
     ]
+  },
+  {
+    "name": "George Washington University School of Medicine & Health Sciences",
+    "slug": "george-washington",
+    "location": "Washington, DC",
+    "coa_per_year": "108572",
+    "median_gpa": "3.9",
+    "median_mcat": "515",
+    "secondary_cycle": "2025-2026 from Med School Insiders",
+    "secondary_deadline": "December 11, 2025",
+    "official_url": "https://smhs.gwu.edu/academics/md-program/admissions",
+    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/george-washington-secondary-essay-prompts/",
+    "notes": "Strong service, advocacy, public health, and policy fit, but the live MSAR stats make this a reach rather than a true odds-improver.",
+    "prompts": [
+      {
+        "title": "Regional Medical Campus Interest",
+        "limit": "1750 characters excluding spaces",
+        "themes": [
+          "why-school",
+          "mission-fit"
+        ],
+        "text": "If you selected regional medical campus preferred or regional medical campus only, please explain in detail your interest in regional medical campus and how it will be a good fit for your clinical education."
+      },
+      {
+        "title": "Application Through Matriculation Activities",
+        "limit": "750 characters excluding spaces",
+        "themes": [
+          "gap-year",
+          "clinical",
+          "service"
+        ],
+        "text": "Please provide the Admissions Committee with a brief summary of your activities, academics, employment or other occupations to account for full-time activity, approximately 30-40 hours per week, from the point of application through matriculation."
+      },
+      {
+        "title": "Clinical Public Health Interests",
+        "limit": "350 characters excluding spaces",
+        "themes": [
+          "service",
+          "mission-fit"
+        ],
+        "text": "The MD Program includes substantial content in Clinical Public Health, including population health, health systems science, health policy, and community health, to prepare GW graduates for an expanded scope of practice required to be successful 21st century physicians. What are your specific interests and experiences related to that aspect of the MD Program?"
+      },
+      {
+        "title": "Uniqueness, Challenges, and Learning",
+        "limit": "750 characters excluding spaces",
+        "themes": [
+          "challenge",
+          "diversity-equity",
+          "values"
+        ],
+        "text": "What makes you a unique individual? What challenges have you faced? What have you learned from your experiences?"
+      },
+      {
+        "title": "Specific Interest in GW",
+        "limit": "1750 characters excluding spaces",
+        "themes": [
+          "why-school",
+          "mission-fit"
+        ],
+        "text": "What is your specific interest in the MD Program at GW? What opportunities would you take advantage of as a student here? Why?"
+      },
+      {
+        "title": "Prior Admissions Office Interaction",
+        "limit": "No character limit indicated",
+        "themes": [
+          "additional-info"
+        ],
+        "text": "Have you previously interacted directly with the MD Admissions Office through events, tours, fairs, webinars, or interviews? If yes, please explain."
+      },
+      {
+        "title": "Joint MD MPH Interest",
+        "limit": "No character limit indicated",
+        "themes": [
+          "future-goals",
+          "mission-fit"
+        ],
+        "text": "Do you want to pursue the joint MD/MPH program? If yes, please describe why you would want to pursue the MD/MPH program and how the combined degree would fit into your career goals."
+      }
+    ]
+  },
+  {
+    "name": "California Northstate University College of Medicine",
+    "slug": "california-northstate",
+    "location": "Elk Grove, CA",
+    "coa_per_year": "113663",
+    "median_gpa": "3.89",
+    "median_mcat": "514",
+    "secondary_cycle": "2024-2025 latest public SDN prompt set",
+    "secondary_deadline": "January 22, 2027 in cached 2027 MSAR",
+    "official_url": "https://medicine.cnsu.edu/admissions/",
+    "prompt_source": "https://www.studentdoctor.net/schools-database/medical-school/essay-questions/CAL-NO",
+    "notes": "California MD option with favorable geography, but review financing carefully because the official admissions page says CNU does not participate in federal direct student loan programs.",
+    "prompts": [
+      {
+        "title": "Why CNUCOM",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "why-school",
+          "mission-fit"
+        ],
+        "text": "Why have you chosen to apply to CNUCOM?"
+      },
+      {
+        "title": "Education Not Continuous",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "gap-year",
+          "academic-context"
+        ],
+        "text": "If your education has not been continuous since high school, please explain why. Examples of discontinuities include time taken off while obtaining your undergraduate degree, in addition to gap years."
+      },
+      {
+        "title": "Reapplicant Accomplishments",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "additional-info",
+          "gap-year"
+        ],
+        "text": "If you have previously applied to medical school, what have you accomplished since that time that would warrant your admission now?"
+      },
+      {
+        "title": "Anything Else",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "additional-info"
+        ],
+        "text": "Is there anything you would like the Admissions Committee to know that is not reflected elsewhere in your application?"
+      },
+      {
+        "title": "Pre-Health Advisor Experience",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "values",
+          "academic-context"
+        ],
+        "text": "Did you have a Pre-Health Advisor at your undergraduate institution? If so, please tell us about your experience. How did it help you in your journey to apply to medical school? If not, please let us know how you worked independently to find out more about applying to medical school and the path of your journey to apply."
+      },
+      {
+        "title": "Future Direction of Healthcare",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "future-goals",
+          "values"
+        ],
+        "text": "In which direction would you like to see healthcare progress over the next decade?"
+      },
+      {
+        "title": "Standardized Tests and MCAT Preparation",
+        "limit": "No word count specified in latest public prompt set",
+        "themes": [
+          "academic-context",
+          "values"
+        ],
+        "text": "How do you feel about standardized tests? How did you prepare for the MCAT? What tools or preparatory courses/material did you use and how did you study? Do you feel like your score reflects how you will perform in medical school? From what you have learned, do you think it will help you in the way you will study or prepare for USMLE exams?"
+      }
+    ]
   }
 ]

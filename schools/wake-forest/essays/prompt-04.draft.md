@@ -1,3 +1,1 @@
-# Wake Forest University School of Medicine - Collaboration Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/teamwork-leadership.draft.md

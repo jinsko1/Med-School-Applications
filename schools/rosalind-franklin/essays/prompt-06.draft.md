@@ -1,3 +1,1 @@
-# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Optional DEI Statement Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

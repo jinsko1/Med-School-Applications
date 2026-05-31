@@ -1,3 +1,1 @@
-# Roseman University College of Medicine - Obstacles on the Journey to Medicine Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

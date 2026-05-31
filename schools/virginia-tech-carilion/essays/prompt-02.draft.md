@@ -1,3 +1,1 @@
-# Virginia Tech Carilion School of Medicine - Humility Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

@@ -1,3 +1,1 @@
-# Loyola University Chicago Stritch School of Medicine - Why Medicine Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/future-goals.draft.md

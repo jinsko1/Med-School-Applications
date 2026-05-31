@@ -1,3 +1,1 @@
-# California University of Science and Medicine - Underloaded Terms Explanation Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/academic-context.draft.md

@@ -1,3 +1,1 @@
-# University of Miami Leonard M. Miller School of Medicine - Values Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/teamwork-leadership.draft.md

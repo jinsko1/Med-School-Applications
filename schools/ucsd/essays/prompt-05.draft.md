@@ -1,3 +1,1 @@
-# University of California San Diego School of Medicine - Tan Family Scholar Program Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/future-goals.draft.md

@@ -1,3 +1,1 @@
-# Eastern Virginia Medical School - Ten Years from Now Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/future-goals.draft.md

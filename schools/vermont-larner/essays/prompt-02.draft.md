@@ -1,3 +1,1 @@
-# Vermont Larner College of Medicine - Learning Across Difference Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

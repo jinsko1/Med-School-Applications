@@ -1,3 +1,1 @@
-# University of Illinois College of Medicine - Conflict and Change Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

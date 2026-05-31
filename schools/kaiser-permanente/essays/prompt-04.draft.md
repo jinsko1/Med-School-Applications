@@ -1,3 +1,1 @@
-# Kaiser Permanente Bernard J. Tyson School of Medicine - COVID Impact Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/additional-info.draft.md

@@ -7,6 +7,7 @@ This repository was generated on 2026-05-30 to support your VS Code + Codex work
 - Creates primary essay planning files
 - Creates school-by-school secondary packets
 - Syncs overlapping prompts through shared backbone files in `essays/shared/`
+- Links functionally similar essay drafts through `essays/shared-drafts/`
 - Preserves school-specific customization in local note files
 - Generates Typst mirrors for cleaner review packets later
 
@@ -14,22 +15,29 @@ This repository was generated on 2026-05-30 to support your VS Code + Codex work
 1. Draft primary materials in `essays/primary/`.
 2. Fill school research notes in `schools/*/research.md`.
 3. Edit reusable backbones in `essays/shared/`.
-4. Write actual essay drafts in `*.draft.md`.
+4. Write actual essay drafts in `*.draft.md`. Some are linked to shared source drafts in `essays/shared-drafts/`.
 5. Regenerate the repo packet files with:
 
 ```bash
 python3 scripts/build_application_repo.py
 ```
-6. Render polished review pages from your markdown drafts with:
+6. Refresh shared essay links after packet regeneration with:
+
+```bash
+python3 scripts/sync_shared_essay_drafts.py
+```
+
+7. Render polished review pages from your markdown drafts with:
 
 ```bash
 python3 scripts/render_review_site.py
 ```
 
-7. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
+8. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
 
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
-- The active MD school list currently includes 30 schools.
+- The active MD school list currently includes 32 schools.
+- Shared draft sync details live in `docs/process/shared-essay-sync.md`.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

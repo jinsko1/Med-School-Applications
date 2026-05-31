@@ -1,3 +1,1 @@
-# Roseman University College of Medicine - Gap Time Explanation Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/current-and-gap-year.draft.md

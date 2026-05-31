@@ -1,3 +1,1 @@
-# University of Illinois College of Medicine - Incomplete Prior Program Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/additional-info.draft.md

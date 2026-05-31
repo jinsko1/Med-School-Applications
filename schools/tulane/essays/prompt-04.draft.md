@@ -1,3 +1,1 @@
-# Tulane University School of Medicine - Leadership Positions Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/teamwork-leadership.draft.md

@@ -1,3 +1,1 @@
-# Tulane University School of Medicine - Underrepresented Group Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

@@ -1,3 +1,1 @@
-# Sidney Kimmel Medical College at Thomas Jefferson University - Diversity Contribution Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

@@ -1,3 +1,1 @@
-# University of Massachusetts Chan Medical School - Gap Year Activities Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/current-and-gap-year.draft.md

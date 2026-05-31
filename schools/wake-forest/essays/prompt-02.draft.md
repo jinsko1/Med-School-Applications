@@ -1,3 +1,1 @@
-# Wake Forest University School of Medicine - Non-Academic Challenge Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/challenge-resilience.draft.md

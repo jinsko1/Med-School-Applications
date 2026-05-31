@@ -1,3 +1,1 @@
-# University of California, Riverside School of Medicine - Mission Fit and Class Contribution Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md

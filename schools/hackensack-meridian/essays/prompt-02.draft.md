@@ -1,3 +1,1 @@
-# Hackensack Meridian School of Medicine - Engaging with Difference Draft
-
-Write your current draft here.
+../../../essays/shared-drafts/diversity-community.draft.md
