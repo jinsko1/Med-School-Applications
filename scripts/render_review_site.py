@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import shutil
 from pathlib import Path
@@ -12,6 +13,8 @@ from jinja2 import Template
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_ROOT = ROOT / "review"
+SHARED_GROUPS_JSON = ROOT / "data" / "shared_essay_groups.json"
+_SHARED_GROUPS: list[dict] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -450,6 +453,46 @@ PAGE_TEMPLATE = Template(
       font-size: 15px;
     }
 
+    .packet-section {
+      margin: 0 0 16px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fffaf1;
+    }
+
+    .packet-section h3 {
+      margin: 0 0 8px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .packet-meta-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .packet-meta-list li {
+      display: grid;
+      grid-template-columns: minmax(120px, 180px) minmax(0, 1fr);
+      gap: 10px;
+      border-bottom: 1px dashed rgba(216, 205, 193, 0.8);
+      padding-bottom: 8px;
+    }
+
+    .packet-meta-key {
+      color: var(--muted);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
     .note {
       margin-top: 16px;
       padding: 14px 16px;
@@ -627,13 +670,13 @@ PAGE_TEMPLATE = Template(
       {% endif %}
       {% if research_html %}
       <details class="context-panel">
-        <summary>School Research</summary>
+        <summary>School Fit Research</summary>
         <div class="details-body context">{{ research_html | safe }}</div>
       </details>
       {% endif %}
       {% if packet_html %}
       <details class="context-panel">
-        <summary>Full Prompt Packet</summary>
+        <summary>Prompt Packet Outline</summary>
         <div class="details-body context">{{ packet_html | safe }}</div>
       </details>
       {% endif %}
@@ -718,6 +761,61 @@ def parse_prompt_packet(packet_text: str) -> dict[str, str]:
     }
 
 
+def render_packet_html(packet_text: str) -> str:
+    sections = section_map(packet_text)
+    parts: list[str] = []
+
+    metadata_text = sections.get("Prompt Metadata", "")
+    metadata_items = []
+    for line in metadata_text.splitlines():
+        if not line.startswith("- "):
+            continue
+        body = line[2:]
+        if ":" in body:
+            key, value = body.split(":", 1)
+            metadata_items.append((key.strip(), value.strip()))
+        elif body.strip():
+            metadata_items.append(("Shared resource", body.strip()))
+    if metadata_items:
+        items_html = "".join(
+            "<li>"
+            f"<span class=\"packet-meta-key\">{html.escape(key)}</span>"
+            f"<span>{html.escape(value)}</span>"
+            "</li>"
+            for key, value in metadata_items
+        )
+        parts.append(
+            "<section class=\"packet-section\">"
+            "<h3>Metadata</h3>"
+            f"<ul class=\"packet-meta-list\">{items_html}</ul>"
+            "</section>"
+        )
+
+    prompt_text = sections.get("Prompt Text", "")
+    if prompt_text:
+        parts.append(
+            "<section class=\"packet-section\">"
+            "<h3>Prompt Text</h3>"
+            f"{render_md(prompt_text)}"
+            "</section>"
+        )
+
+    for title, body in sections.items():
+        if title in {"__preamble__", "Prompt Metadata", "Prompt Text"} or not body:
+            continue
+        clean_title = title
+        if title == "Synced Backbone":
+            clean_title = "Reusable Planning Backbone"
+        parts.append(
+            "<section class=\"packet-section\">"
+            f"<h3>{html.escape(clean_title)}</h3>"
+            f"{render_md(body)}"
+            "</section>"
+        )
+
+    return "\n".join(parts)
+
+
 def first_limit(text: str) -> str | None:
     match = re.search(r"\b\d[\d,]*\s+(?:characters?|words?)\b(?:\s+including\s+spaces)?", text, flags=re.I)
     if match:
@@ -769,7 +867,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
             result["limit"] = packet_data["limit"] or None
             if packet_data["prompt_text"]:
                 result["prompt_text_html"] = render_md(packet_data["prompt_text"])
-            result["packet_html"] = render_md(packet_text)
+            result["packet_html"] = render_packet_html(packet_text)
         local_path = draft_path.with_name(f"{prefix}.local.md")
         if local_path.exists():
             result["local_notes_html"] = render_md(local_path.read_text(encoding="utf-8"))
@@ -797,9 +895,46 @@ def synced_source_html(draft_path: Path) -> str | None:
         target_label = target.relative_to(ROOT)
     except ValueError:
         target_label = target
-    return render_md(
-        f"This draft is linked to `{target_label}`. Editing either file edits the same shared markdown source."
+    group = shared_group_for_target(target)
+    if not group:
+        return render_md(
+            f"This draft is linked to `{target_label}`. Editing either file edits the same shared markdown source."
+        )
+    members = "\n".join(
+        f"- {member['school']} - Prompt {member['prompt_index']:02d}: {member['prompt_title']}"
+        for member in group.get("members", [])
     )
+    return render_md(
+        "\n".join(
+            [
+                f"Shared source: `{target_label}`",
+                "",
+                f"Shared group: **{group['title']}**",
+                "",
+                "Editing this school draft or the shared draft edits the same markdown source.",
+                "",
+                "Schools/prompts using this shared essay:",
+                members,
+            ]
+        )
+    )
+
+
+def shared_group_for_target(target: Path) -> dict | None:
+    global _SHARED_GROUPS
+    if _SHARED_GROUPS is None:
+        if SHARED_GROUPS_JSON.exists():
+            _SHARED_GROUPS = json.loads(SHARED_GROUPS_JSON.read_text(encoding="utf-8"))
+        else:
+            _SHARED_GROUPS = []
+    try:
+        target_label = str(target.relative_to(ROOT))
+    except ValueError:
+        target_label = str(target)
+    for group in _SHARED_GROUPS:
+        if group.get("shared_draft") == target_label:
+            return group
+    return None
 
 
 def draft_page_title(draft_path: Path, draft_text: str, context: dict[str, str | None]) -> str:
@@ -923,6 +1058,16 @@ def copy_public_assets() -> None:
     (OUTPUT_ROOT / "robots.txt").write_text(robots_text, encoding="utf-8")
 
 
+def clean_generated_pages() -> None:
+    for relative in ("essays", "schools"):
+        path = OUTPUT_ROOT / relative
+        if path.exists():
+            shutil.rmtree(path)
+    essays_index = OUTPUT_ROOT / "essays.html"
+    if essays_index.exists():
+        essays_index.unlink()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Render markdown essay drafts into clean review HTML pages.")
     parser.add_argument("targets", nargs="*", help="Optional markdown draft files or directories to render.")
@@ -932,6 +1077,8 @@ def main() -> None:
     if not drafts:
         raise SystemExit("No .draft.md files found to render.")
 
+    if not args.targets:
+        clean_generated_pages()
     rendered = [(draft, render_draft_page(draft)) for draft in drafts]
     build_index(rendered)
     build_home_page()

@@ -1,1 +1,5 @@
-../../../essays/shared-drafts/additional-info.draft.md
+# New York Medical College - Social Media Policy Explanation Draft
+
+_Not linked to a shared essay draft: another New York Medical College prompt already uses the Additional Information shared draft; same-school prompts stay separate_
+
+Write your current draft here.

@@ -18,6 +18,8 @@ essays/shared-drafts/challenge-resilience.draft.md
 
 The review site still renders a separate page for each school prompt, with the actual prompt and local notes shown above the shared draft.
 
+Shared drafts are only shared across schools. If two prompts at the same school match the same theme, only one is linked and the other stays as a standalone school-specific draft.
+
 ## Commands
 Refresh the shared links after rebuilding school packets:
 

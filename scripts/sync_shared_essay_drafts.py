@@ -21,6 +21,13 @@ OUTPUT_JSON = ROOT / "data" / "shared_essay_groups.json"
 SHARED_DRAFT_DIR = ROOT / "essays" / "shared-drafts"
 PLACEHOLDER = "Write your current draft here."
 
+DO_NOT_SHARE_TITLE_PATTERNS = (
+    "describe yourself",
+    "how others describe you",
+    "interesting fact",
+    "two passions",
+)
+
 
 @dataclass(frozen=True)
 class GroupRule:
@@ -108,6 +115,9 @@ def classify_prompt(prompt: dict) -> GroupRule | None:
     themes = {str(theme).lower() for theme in prompt.get("themes", [])}
     haystack = f"{title}\n{text}"
 
+    if any(pattern in title for pattern in DO_NOT_SHARE_TITLE_PATTERNS):
+        return None
+
     for rule in GROUP_RULES:
         if any(pattern in haystack for pattern in rule.title_patterns):
             return rule
@@ -132,6 +142,15 @@ Write the reusable essay core here. Keep school-specific names, programs, and fi
     return path
 
 
+def standalone_draft_text(school: dict, prompt: dict, index: int, reason: str) -> str:
+    title = prompt.get("title") or f"Prompt {index:02d}"
+    return (
+        f"# {school['name']} - {title} Draft\n\n"
+        f"_Not linked to a shared essay draft: {reason}_\n\n"
+        f"{PLACEHOLDER}\n"
+    )
+
+
 def is_placeholder(path: Path) -> bool:
     if not path.exists() or path.is_symlink():
         return True
@@ -152,43 +171,123 @@ def link_draft(draft_path: Path, shared_path: Path, force: bool) -> str:
     return "linked"
 
 
+def ensure_standalone_draft(draft_path: Path, school: dict, prompt: dict, index: int, reason: str, force: bool) -> str:
+    if not force and draft_path.exists() and not draft_path.is_symlink() and not is_placeholder(draft_path):
+        return "skipped-existing-draft"
+    if draft_path.exists() or draft_path.is_symlink():
+        draft_path.unlink()
+    draft_path.write_text(standalone_draft_text(school, prompt, index, reason), encoding="utf-8")
+    return "standalone"
+
+
 def build_groups(force: bool, dry_run: bool) -> list[dict]:
     schools = json.loads(SCHOOLS_JSON.read_text(encoding="utf-8"))
-    groups: dict[str, dict] = {}
+    candidates: dict[str, dict] = {}
+    unshared: list[dict] = []
+    seen_school_group: set[tuple[str, str]] = set()
 
     for school in schools:
         slug = school["slug"]
         for idx, prompt in enumerate(school.get("prompts", []), start=1):
+            draft_path = ROOT / "schools" / slug / "essays" / f"prompt-{idx:02d}.draft.md"
             rule = classify_prompt(prompt)
             if rule is None:
+                if draft_path.is_symlink():
+                    unshared.append(
+                        {
+                            "school": school["name"],
+                            "school_slug": slug,
+                            "prompt_index": idx,
+                            "prompt_title": prompt["title"],
+                            "draft_path": str(draft_path.relative_to(ROOT)),
+                            "school_data": school,
+                            "prompt_data": prompt,
+                            "draft_path_obj": draft_path,
+                            "reason": "this prompt is too school-specific or personally open-ended to share safely",
+                        }
+                    )
                 continue
-            shared_path = make_shared_draft(rule)
-            draft_path = ROOT / "schools" / slug / "essays" / f"prompt-{idx:02d}.draft.md"
-            groups.setdefault(
+            school_group_key = (slug, rule.group_id)
+            member = {
+                "school": school["name"],
+                "school_slug": slug,
+                "prompt_index": idx,
+                "prompt_title": prompt["title"],
+                "draft_path": str(draft_path.relative_to(ROOT)),
+                "school_data": school,
+                "prompt_data": prompt,
+                "draft_path_obj": draft_path,
+            }
+            if school_group_key in seen_school_group:
+                member["reason"] = (
+                    f"another {school['name']} prompt already uses the {rule.title} shared draft; "
+                    "same-school prompts stay separate"
+                )
+                unshared.append(member)
+                continue
+            seen_school_group.add(school_group_key)
+            candidates.setdefault(
                 rule.group_id,
                 {
                     "id": rule.group_id,
                     "title": rule.title,
                     "description": rule.description,
-                    "shared_draft": str(shared_path.relative_to(ROOT)),
+                    "rule": rule,
                     "members": [],
                 },
             )
+            candidates[rule.group_id]["members"].append(member)
+
+    groups: list[dict] = []
+    for group in candidates.values():
+        if len({member["school_slug"] for member in group["members"]}) < 2:
+            for member in group["members"]:
+                member["reason"] = "no cross-school match currently exists for this prompt theme"
+                unshared.append(member)
+            continue
+        rule = group["rule"]
+        shared_path = SHARED_DRAFT_DIR / f"{rule.group_id}.draft.md"
+        if not dry_run:
+            shared_path = make_shared_draft(rule)
+        output_group = {
+            "id": group["id"],
+            "title": group["title"],
+            "description": group["description"],
+            "shared_draft": str(shared_path.relative_to(ROOT)),
+            "members": [],
+        }
+        for member in group["members"]:
+            draft_path = member["draft_path_obj"]
             status = "missing-draft"
             if draft_path.exists() or draft_path.is_symlink():
                 status = "dry-run" if dry_run else link_draft(draft_path, shared_path, force)
-            groups[rule.group_id]["members"].append(
+            output_group["members"].append(
                 {
-                    "school": school["name"],
-                    "school_slug": slug,
-                    "prompt_index": idx,
-                    "prompt_title": prompt["title"],
-                    "draft_path": str(draft_path.relative_to(ROOT)),
+                    "school": member["school"],
+                    "school_slug": member["school_slug"],
+                    "prompt_index": member["prompt_index"],
+                    "prompt_title": member["prompt_title"],
+                    "draft_path": member["draft_path"],
                     "status": status,
                 }
             )
+        groups.append(output_group)
 
-    return sorted(groups.values(), key=lambda item: item["title"])
+    for member in unshared:
+        draft_path = member["draft_path_obj"]
+        if not draft_path.exists() and not draft_path.is_symlink():
+            continue
+        if not dry_run:
+            ensure_standalone_draft(
+                draft_path,
+                member["school_data"],
+                member["prompt_data"],
+                member["prompt_index"],
+                member["reason"],
+                force,
+            )
+
+    return sorted(groups, key=lambda item: item["title"])
 
 
 def write_readme(groups: list[dict]) -> None:
@@ -207,6 +306,11 @@ def write_readme(groups: list[dict]) -> None:
                 f"## {group['title']}",
                 f"- Shared draft: `{group['shared_draft']}`",
                 f"- Linked prompts: {len(group['members'])}",
+                "- Schools/prompts sharing this draft:",
+                *[
+                    f"  - {member['school']} - Prompt {member['prompt_index']:02d}: {member['prompt_title']}"
+                    for member in group["members"]
+                ],
                 "",
             ]
         )

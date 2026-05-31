@@ -1,1 +1,5 @@
-../../../essays/shared-drafts/diversity-community.draft.md
+# Medical College of Wisconsin - Health Equity Draft
+
+_Not linked to a shared essay draft: another Medical College of Wisconsin prompt already uses the Diversity / Community Contribution shared draft; same-school prompts stay separate_
+
+Write your current draft here.

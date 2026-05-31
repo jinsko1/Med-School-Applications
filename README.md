@@ -13,7 +13,7 @@ This repository was generated on 2026-05-30 to support your VS Code + Codex work
 
 ## Quick Start
 1. Draft primary materials in `essays/primary/`.
-2. Fill school research notes in `schools/*/research.md`.
+2. Review fit-focused school research notes in `schools/*/research.md`.
 3. Edit reusable backbones in `essays/shared/`.
 4. Write actual essay drafts in `*.draft.md`. Some are linked to shared source drafts in `essays/shared-drafts/`.
 5. Regenerate the repo packet files with:
@@ -27,13 +27,19 @@ python3 scripts/build_application_repo.py
 python3 scripts/sync_shared_essay_drafts.py
 ```
 
-7. Render polished review pages from your markdown drafts with:
+7. Refresh school fit notes from the current school list and work/activities themes with:
+
+```bash
+python3 scripts/populate_school_research_notes.py
+```
+
+8. Render polished review pages from your markdown drafts with:
 
 ```bash
 python3 scripts/render_review_site.py
 ```
 
-8. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
+9. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
 
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
