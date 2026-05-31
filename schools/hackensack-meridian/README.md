@@ -31,5 +31,4 @@
 
 ## School Metadata
 - Why-school fact: Hackensack Meridian's Human Dimension course pairs students with families in the community across multiple years, making longitudinal community partnership a signature fit detail.
-- Estimated admit chance: ~8% (reasonable)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (5708 applied, 768 interviewed, 166 matriculated when available), school medians GPA 3.85 / MCAT 514, private or geography-neutral pool, and research alignment, service alignment, community alignment.
+- Heuristic list estimate: ~9%

@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Add school-fit metadata and heuristic admit-chance estimates."""
+"""Add school-fit metadata and heuristic school-list estimates."""
 
 from __future__ import annotations
 
 import json
-import math
 import re
 from pathlib import Path
 
@@ -17,8 +16,8 @@ SCHOOLS_DIR = ROOT / "schools"
 
 APPLICANT_ASSUMPTIONS = {
     "resident_state": "CA",
-    "gpa": 3.75,
-    "mcat": 517,
+    "gpa": 3.73,
+    "mcat": 520,
     "profile": "California applicant with strong research, clinical exposure, service with vulnerable communities, student advocacy, teaching, leadership, and scientific communication.",
 }
 
@@ -259,8 +258,7 @@ def update_school_readme(school: dict) -> None:
     section = (
         "## School Metadata\n"
         f"- Why-school fact: {school['why_school_fact']}\n"
-        f"- Estimated admit chance: ~{school['estimated_admit_chance_percent']}% ({school['estimated_admit_chance_label']})\n"
-        f"- Estimate basis: {school['estimated_admit_chance_basis']}\n"
+        f"- Heuristic list estimate: ~{school['estimated_admit_chance_percent']}%\n"
     )
     text = re.sub(r"\n## School Metadata\n.*?(?=\n## |\Z)", "\n", text, flags=re.S).rstrip() + "\n\n" + section
     readme_path.write_text(text, encoding="utf-8")

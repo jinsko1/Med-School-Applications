@@ -6,7 +6,7 @@
 - School context: Sacramento, CA; cached accepted-student medians: GPA 3.82, MCAT 512.
 - Current list note: Regional connection to Northern or Central California matters enough to have its own short-answer prompt.
 - Why-school fact: UC Davis highlights a network of 11 student-run clinics serving regional primary-care needs, which gives you a concrete bridge from Hospice SLO, Restorative Partners, and Cal Poly student-health work to Northern/Central California service.
-- Estimated admit chance: ~10% (reasonable); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (5319 applied, 406 interviewed, 133 matriculated when available), school medians GPA 3.82 / MCAT 512, California resident applying in-state, and research alignment, service alignment, underserved/community alignment.
+- Heuristic list estimate: ~10%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

@@ -35,5 +35,4 @@
 
 ## School Metadata
 - Why-school fact: UW is an integrated school of medicine and public health; its ForWard curriculum deliberately blends basic, clinical, and public-health sciences with community-based application.
-- Estimated admit chance: ~1% (reach)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (7024 applied, 270 interviewed, 43 matriculated when available), school medians GPA 3.87 / MCAT 512, public out-of-state penalty, and research alignment, service alignment, health-equity alignment.
+- Heuristic list estimate: ~1%

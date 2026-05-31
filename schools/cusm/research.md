@@ -6,7 +6,7 @@
 - School context: Colton, CA; cached accepted-student medians: GPA 3.83, MCAT 512.
 - Current list note: Very short prompts; best handled as polished mini-essays with clean thematic separation.
 - Why-school fact: CUSM uses a clinical-presentation-based curriculum and frames its mission around social accountability and physician training for California's Inland Empire.
-- Estimated admit chance: ~11% (reasonable); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (3621 applied, 628 interviewed, 127 matriculated when available), school medians GPA 3.83 / MCAT 512, California resident applying in-state, and research alignment.
+- Heuristic list estimate: ~11%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

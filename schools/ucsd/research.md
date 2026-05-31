@@ -6,7 +6,7 @@
 - School context: La Jolla, CA; cached accepted-student medians: GPA 3.92, MCAT 516.
 - Current list note: Large set with several program-specific prompts. Keep only the ones relevant to the programs you are actually applying to.
 - Why-school fact: UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.
-- Estimated admit chance: ~4% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (5548 applied, 646 interviewed, 103 matriculated when available), school medians GPA 3.92 / MCAT 516, California resident applying in-state, and research alignment, service alignment, clinical alignment.
+- Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

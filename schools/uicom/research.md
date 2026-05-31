@@ -6,7 +6,7 @@
 - School context: Chicago, IL; cached accepted-student medians: GPA 3.85, MCAT 512.
 - Current list note: Public school with some out-of-state risk, but current prompts align unusually well with your justice, diversity, and campus-research interests.
 - Why-school fact: UIC enrolls students across Chicago, Peoria, and Rockford and explicitly prepares physicians for both rural and urban practice with cultural humility.
-- Estimated admit chance: ~3% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (8658 applied, 401 interviewed, 104 matriculated when available), school medians GPA 3.85 / MCAT 512, public out-of-state penalty, and research alignment, underserved/community alignment, leadership alignment.
+- Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

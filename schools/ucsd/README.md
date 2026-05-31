@@ -41,5 +41,4 @@
 
 ## School Metadata
 - Why-school fact: UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.
-- Estimated admit chance: ~4% (reach)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (5548 applied, 646 interviewed, 103 matriculated when available), school medians GPA 3.92 / MCAT 516, California resident applying in-state, and research alignment, service alignment, clinical alignment.
+- Heuristic list estimate: ~4%

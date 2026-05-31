@@ -35,5 +35,4 @@
 
 ## School Metadata
 - Why-school fact: UCR's three-year Longitudinal Ambulatory Care Experience lets students follow a panel of patients under a physician mentor, directly supporting its Inland Southern California mission.
-- Estimated admit chance: ~7% (possible)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (4906 applied, 310 interviewed, 86 matriculated when available), school medians GPA 3.81 / MCAT 509, California resident applying in-state, and research alignment, service alignment, underserved/community alignment.
+- Heuristic list estimate: ~7%

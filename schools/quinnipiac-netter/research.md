@@ -6,7 +6,7 @@
 - School context: Hamden, CT; cached accepted-student medians: GPA 3.81, MCAT 512.
 - Current list note: Strong overlap across gap-year, lived-experience, uncertainty, service, and academic context prompts.
 - Why-school fact: Netter pairs students with community physician preceptors one afternoon per week in the first two years and builds a Scholarly Reflection and Concentration Capstone into the curriculum.
-- Estimated admit chance: ~3% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (9426 applied, 623 interviewed, 95 matriculated when available), school medians GPA 3.81 / MCAT 512, private or geography-neutral pool, and service alignment, community alignment.
+- Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

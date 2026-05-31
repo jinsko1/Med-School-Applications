@@ -39,5 +39,4 @@
 
 ## School Metadata
 - Why-school fact: Wake Forest now frames its Winston-Salem and Charlotte regional campuses as innovation-quarter hubs, with first-week patient interaction and a curriculum built around inquiry, collaboration, and leadership.
-- Estimated admit chance: ~4% (reach)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12800 applied, 718 interviewed, 194 matriculated when available), school medians GPA 3.87 / MCAT 512, private or geography-neutral pool, and community alignment, clinical alignment.
+- Heuristic list estimate: ~4%

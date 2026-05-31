@@ -1055,10 +1055,9 @@ def school_display_name(name: str) -> str:
     if not school:
         return name
     percent = school.get("estimated_admit_chance_percent")
-    label = school.get("estimated_admit_chance_label")
     if percent is None:
         return name
-    return f"{name} - ~{percent}% estimated admit chance ({label})"
+    return f"{name} - ~{percent}%"
 
 
 def build_home_page() -> None:

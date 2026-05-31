@@ -484,7 +484,7 @@ def main():
     ws.merge_cells("A1:L1")
     ws.merge_cells("A2:L2")
 
-    ws["A1"] = "U.S. MD school list tailored for 3.73 GPA / 514-520 MCAT / California resident / GPA cap 3.85"
+    ws["A1"] = "U.S. MD school list tailored for 3.73 GPA / 520 MCAT / California resident / GPA cap 3.85"
     ws["A2"] = (
         "MD-only schools with reported GPA at or below 3.85. Mission fit was weighted toward research, "
         "hospice/service, restorative justice/community work, teaching, and student leadership, with extra weight on California options."

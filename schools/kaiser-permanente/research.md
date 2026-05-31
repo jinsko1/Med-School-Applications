@@ -6,7 +6,7 @@
 - School context: Pasadena, CA; cached accepted-student medians: GPA 3.87, MCAT 517.
 - Current list note: Prompt source is not Admit.org because the Admit prompt page was not surfaced cleanly in search results. Bright Doctor also reports no CASPer/PREview requirement on the captured guide page.
 - Why-school fact: Kaiser integrates foundational, clinical, and health-systems science across all four years and starts clinical exposure within the first weeks at Los Angeles-area Kaiser Permanente medical centers.
-- Estimated admit chance: ~2% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (3926 applied, 310 interviewed, 35 matriculated when available), school medians GPA 3.87 / MCAT 517, California resident applying in-state, and general mission fit.
+- Heuristic list estimate: ~2%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

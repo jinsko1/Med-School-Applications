@@ -6,7 +6,7 @@
 - School context: Nutley, NJ; cached accepted-student medians: GPA 3.85, MCAT 514.
 - Current list note: Private New Jersey option with a cleaner MSAR profile than many similar-tier schools, but plan for a potentially slow screening timeline.
 - Why-school fact: Hackensack Meridian's Human Dimension course pairs students with families in the community across multiple years, making longitudinal community partnership a signature fit detail.
-- Estimated admit chance: ~8% (reasonable); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (5708 applied, 768 interviewed, 166 matriculated when available), school medians GPA 3.85 / MCAT 514, private or geography-neutral pool, and research alignment, service alignment, community alignment.
+- Heuristic list estimate: ~9%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

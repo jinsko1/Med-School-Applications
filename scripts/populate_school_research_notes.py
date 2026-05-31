@@ -104,8 +104,6 @@ def render_research_notes(school: dict) -> str:
     note = school.get("notes") or "Use the prompt packet and official school site to add named details."
     why_school_fact = school.get("why_school_fact") or "Add one verified, school-specific fact before drafting."
     admit_percent = school.get("estimated_admit_chance_percent")
-    admit_label = school.get("estimated_admit_chance_label", "unrated")
-    admit_basis = school.get("estimated_admit_chance_basis", "Estimate has not been generated yet.")
     prompt_strategies = "\n".join(strategy_for_prompt(prompt) for prompt in school.get("prompts", []))
     fit_angles = "\n".join(choose_angles(school))
 
@@ -117,7 +115,7 @@ def render_research_notes(school: dict) -> str:
 - School context: {location}; cached accepted-student medians: {stats_text}.
 - Current list note: {note}
 - Why-school fact: {why_school_fact}
-- Estimated admit chance: ~{admit_percent}% ({admit_label}); {admit_basis}
+- Heuristic list estimate: ~{admit_percent}%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

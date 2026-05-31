@@ -41,5 +41,4 @@
 
 ## School Metadata
 - Why-school fact: Albany Medical College is embedded in the Albany Med Health System, a large regional system with four hospitals, 1,520 beds, more than 800 physicians, and 125 outpatient locations.
-- Estimated admit chance: ~3% (reach)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (14157 applied, 726 interviewed, 141 matriculated when available), school medians GPA 3.87 / MCAT 513, private or geography-neutral pool, and service alignment, community alignment, clinical alignment.
+- Heuristic list estimate: ~3%

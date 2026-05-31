@@ -29,5 +29,4 @@
 
 ## School Metadata
 - Why-school fact: Jefferson's JeffMD curriculum combines early longitudinal clinical experience, scholarly inquiry, and a humanities thread around the mission to serve, lead, and discover.
-- Estimated admit chance: ~5% (possible)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12033 applied, 584 interviewed, 286 matriculated when available), school medians GPA 3.89 / MCAT 514, private or geography-neutral pool, and research alignment, community alignment, clinical alignment.
+- Heuristic list estimate: ~5%

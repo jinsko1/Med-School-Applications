@@ -6,7 +6,7 @@
 - School context: Roanoke, VA; cached accepted-student medians: GPA 3.82, MCAT 513.
 - Current list note: Current official page says 2026-2027 prompts will be posted in summer 2026. This workspace uses the latest public 2025-2026 prompt set.
 - Why-school fact: Virginia Tech Carilion requires every student to complete a hypothesis-driven research project guided by a mentoring team and presented in a scholarly format.
-- Estimated admit chance: ~2% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (5458 applied, 243 interviewed, 43 matriculated when available), school medians GPA 3.82 / MCAT 513, public out-of-state penalty, and research alignment, service alignment, leadership alignment.
+- Heuristic list estimate: ~2%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

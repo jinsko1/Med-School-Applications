@@ -6,7 +6,7 @@
 - School context: Detroit, MI; cached accepted-student medians: GPA 3.88, MCAT 512.
 - Current list note: Urban mission and belonging prompts line up especially well with service, justice, and community work.
 - Why-school fact: Wayne State's Detroit setting is central to its identity, giving you a strong place to connect restorative justice, health equity, and urban underserved clinical interests.
-- Estimated admit chance: ~3% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (8218 applied, 750 interviewed, 82 matriculated when available), school medians GPA 3.88 / MCAT 512, public out-of-state penalty, and research alignment, service alignment, public-health alignment.
+- Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

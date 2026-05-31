@@ -6,7 +6,7 @@
 - School context: Riverside, CA; cached accepted-student medians: GPA 3.81, MCAT 509.
 - Current list note: Mission-forward and strongly regional; these drafts should explicitly mention underserved Inland Southern California where appropriate.
 - Why-school fact: UCR's three-year Longitudinal Ambulatory Care Experience lets students follow a panel of patients under a physician mentor, directly supporting its Inland Southern California mission.
-- Estimated admit chance: ~7% (possible); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (4906 applied, 310 interviewed, 86 matriculated when available), school medians GPA 3.81 / MCAT 509, California resident applying in-state, and research alignment, service alignment, underserved/community alignment.
+- Heuristic list estimate: ~7%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

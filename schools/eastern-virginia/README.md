@@ -35,5 +35,4 @@
 
 ## School Metadata
 - Why-school fact: EVMS is community-oriented in Norfolk and makes exposure to medicine, future physician identity, and practical clinical fit central to its secondary prompts.
-- Estimated admit chance: ~3% (reach)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (6477 applied, 386 interviewed, 75 matriculated when available), school medians GPA 3.82 / MCAT 513, public out-of-state penalty, and research alignment, service alignment, community alignment.
+- Heuristic list estimate: ~3%

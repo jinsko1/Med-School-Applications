@@ -6,7 +6,7 @@
 - School context: Chicago, IL; cached accepted-student medians: GPA 3.8, MCAT 510.
 - Current list note: Current prompt set emphasizes worldview, distance traveled, challenge, and health equity.
 - Why-school fact: Rush sits in the Illinois Medical District and emphasizes immediate M1 patient exposure, social determinants, humanism, and service to a diverse Chicago patient population.
-- Estimated admit chance: ~4% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13237 applied, 450 interviewed, 144 matriculated when available), school medians GPA 3.8 / MCAT 510, private or geography-neutral pool, and research alignment, service alignment, health-equity alignment.
+- Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

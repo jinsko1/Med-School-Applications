@@ -35,5 +35,4 @@
 
 ## School Metadata
 - Why-school fact: MCW has three Wisconsin campuses, including Milwaukee, Green Bay, and Central Wisconsin, allowing a why-school essay to connect campus choice with urban, regional, or community-facing medicine.
-- Estimated admit chance: ~8% (reasonable)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (10711 applied, 812 interviewed, 274 matriculated when available), school medians GPA 3.87 / MCAT 511, private or geography-neutral pool, and research alignment, service alignment, health-equity alignment.
+- Heuristic list estimate: ~8%

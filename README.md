@@ -47,5 +47,5 @@ python3 scripts/render_review_site.py
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
 - The active MD school list currently includes 32 schools.
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
-- Admit-chance percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/admit-chance-estimates.md`.
+- School-list percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/school-list-estimates.md`.
 - Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

@@ -39,5 +39,4 @@
 
 ## School Metadata
 - Why-school fact: California Northstate uses a clinical-presentation-based curriculum and explicitly emphasizes primary care, patient-centeredness, and social accountability in Northern California.
-- Estimated admit chance: ~12% (reasonable)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (2336 applied, 350 interviewed, 109 matriculated when available), school medians GPA 3.89 / MCAT 514, California resident applying in-state, and research alignment, service alignment, community alignment.
+- Heuristic list estimate: ~13%

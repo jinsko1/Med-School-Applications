@@ -6,7 +6,7 @@
 - School context: Winston-Salem, NC; cached accepted-student medians: GPA 3.87, MCAT 512.
 - Current list note: I could verify the full 2024-2025 set from page text. The same page also shows a newer cycle, but the full newer prompt list was not cleanly extractable from the search tool.
 - Why-school fact: Wake Forest now frames its Winston-Salem and Charlotte regional campuses as innovation-quarter hubs, with first-week patient interaction and a curriculum built around inquiry, collaboration, and leadership.
-- Estimated admit chance: ~4% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12800 applied, 718 interviewed, 194 matriculated when available), school medians GPA 3.87 / MCAT 512, private or geography-neutral pool, and community alignment, clinical alignment.
+- Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground

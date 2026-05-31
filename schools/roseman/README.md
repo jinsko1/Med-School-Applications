@@ -35,5 +35,4 @@
 
 ## School Metadata
 - Why-school fact: Roseman's Readiness Curriculum is built around social determinants, emerging technology, interprofessional teams, and GENESIS early experiential learning.
-- Estimated admit chance: ~24% (comparatively favorable)
-- Estimate basis: Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (792 applied, 268 interviewed, 64 matriculated when available), school medians GPA 3.79 / MCAT 510, private or geography-neutral pool, and research alignment, service alignment, community alignment.
+- Heuristic list estimate: ~24%

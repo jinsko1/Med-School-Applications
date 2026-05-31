@@ -6,7 +6,7 @@
 - School context: Worcester, MA; cached accepted-student medians: GPA 3.86, MCAT 514.
 - Current list note: Prompt 1 is a multi-response competency essay. Keep its planning notes separate.
 - Why-school fact: UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.
-- Estimated admit chance: ~4% (reach); Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.75, MCAT 517, and strong research/service/clinical fit. Uses cached 2027 MSAR-style nonres applicant/interview/matriculant counts (4306 applied, 602 interviewed, 85 matriculated when available), school medians GPA 3.86 / MCAT 514, public out-of-state penalty, and research alignment, service alignment, health-equity alignment.
+- Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
 
 ## Experiences to Foreground
