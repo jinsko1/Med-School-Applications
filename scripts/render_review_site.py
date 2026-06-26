@@ -5,6 +5,7 @@ import html
 import json
 import re
 import shutil
+from functools import lru_cache
 from pathlib import Path
 
 import mistune
@@ -17,10 +18,12 @@ SHARED_GROUPS_JSON = ROOT / "data" / "shared_essay_groups.json"
 SCHOOLS_JSON = ROOT / "data" / "schools.json"
 SCHOOL_PAPERS_JSON = ROOT / "data" / "school_research_papers.json"
 SCHOOL_MAJOR_CONTRIBUTIONS_JSON = ROOT / "data" / "school_major_contributions.json"
+SECONDARY_PORTALS_JSON = ROOT / "data" / "secondary_portals.json"
 _SHARED_GROUPS: list[dict] | None = None
 _SCHOOL_METADATA: dict[str, dict] | None = None
 _SCHOOL_PAPERS: dict[str, list[dict]] | None = None
 _SCHOOL_MAJOR_CONTRIBUTIONS: dict[str, dict] | None = None
+_SECONDARY_PORTALS: dict[str, dict] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -755,6 +758,7 @@ PAGE_TEMPLATE = Template(
             <span class="chip">GPA {{ school.median_gpa or "N/A" }}</span>
             <span class="chip">MCAT {{ school.median_mcat or "N/A" }}</span>
             <span class="chip">{{ school.essay_count }} essays</span>
+            {% if school.secondary_portal %}<span class="chip">Portal live</span>{% endif %}
           </p>
           <p class="school-card-fact">{{ school.why_school_fact }}</p>
         </a>
@@ -776,6 +780,12 @@ PAGE_TEMPLATE = Template(
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
             All Schools
           </a>
+          {% if secondary_portal %}
+          <a class="home-button" href="{{ secondary_portal.url }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg>
+            Secondary Portal
+          </a>
+          {% endif %}
         </div>
       </section>
       <section class="section-grid">
@@ -786,6 +796,9 @@ PAGE_TEMPLATE = Template(
             <li><span class="meta-key">COA / Year</span><span>{{ school.coa_per_year or "Not listed" }}</span></li>
             <li><span class="meta-key">Secondary Cycle</span><span>{{ school.secondary_cycle or "Not listed" }}</span></li>
             <li><span class="meta-key">Deadline</span><span>{{ school.secondary_deadline or "See admissions source" }}</span></li>
+            {% if secondary_portal %}
+            <li><span class="meta-key">Secondary Portal</span><span><a href="{{ secondary_portal.url }}">{{ secondary_portal.label }}</a></span></li>
+            {% endif %}
             <li><span class="meta-key">Official Page</span><span><a href="{{ school.official_url }}">{{ school.official_url }}</a></span></li>
             <li><span class="meta-key">Prompt Source</span><span><a href="{{ school.prompt_source }}">{{ school.prompt_source }}</a></span></li>
             <li><span class="meta-key">List Note</span><span>{{ school.notes }}</span></li>
@@ -1036,6 +1049,16 @@ def first_limit(text: str) -> str | None:
     return None
 
 
+@lru_cache(maxsize=None)
+def cached_read_text(path_label: str) -> str:
+    return Path(path_label).read_text(encoding="utf-8")
+
+
+def read_text(path: Path) -> str:
+    return cached_read_text(str(path))
+
+
+@lru_cache(maxsize=None)
 def render_md(text: str) -> str:
     return markdown(text)
 
@@ -1066,7 +1089,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         result["school_slug"] = school_dir.name
         readme_path = school_dir / "README.md"
         if readme_path.exists():
-            result["school"] = first_heading(readme_path.read_text(encoding="utf-8"), school_dir.name.replace("-", " "))
+            result["school"] = first_heading(read_text(readme_path), school_dir.name.replace("-", " "))
         else:
             result["school"] = school_dir.name.replace("-", " ")
         prefix = draft_path.name.replace(".draft.md", "")
@@ -1077,7 +1100,7 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
         )
         if packet_matches:
             packet_path = packet_matches[0]
-            packet_text = packet_path.read_text(encoding="utf-8")
+            packet_text = read_text(packet_path)
             packet_data = parse_prompt_packet(packet_text)
             result["prompt_title"] = packet_data["title"] or None
             result["limit"] = packet_data["limit"] or None
@@ -1087,17 +1110,17 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
             result["packet_html"] = render_packet_html(packet_text)
         local_path = draft_path.with_name(f"{prefix}.local.md")
         if local_path.exists():
-            result["local_notes_html"] = render_md(local_path.read_text(encoding="utf-8"))
+            result["local_notes_html"] = render_md(read_text(local_path))
         research_path = school_dir / "research.md"
         if research_path.exists():
-            result["research_html"] = render_md(research_path.read_text(encoding="utf-8"))
+            result["research_html"] = render_md(read_text(research_path))
         result["subtitle"] = ""
         return result
 
     if draft_path.name.endswith(".draft.md"):
         companion = draft_path.with_name(draft_path.name.replace(".draft.md", ".md"))
         if companion.exists():
-            companion_text = companion.read_text(encoding="utf-8")
+            companion_text = read_text(companion)
             result["reference_html"] = render_md(companion_text)
             result["limit"] = first_limit(companion_text)
     result["subtitle"] = ""
@@ -1161,7 +1184,7 @@ def draft_page_title(draft_path: Path, draft_text: str, context: dict[str, str |
 
 
 def render_draft_page(draft_path: Path) -> Path:
-    draft_text = draft_path.read_text(encoding="utf-8")
+    draft_text = read_text(draft_path)
     context = companion_context(draft_path)
     context["synced_source_html"] = synced_source_html(draft_path)
     title = draft_page_title(draft_path, draft_text, context)
@@ -1218,8 +1241,9 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
     grouped_entries: dict[str, list[dict[str, object]]] = {}
     school_entries: dict[str, list[dict[str, object]]] = {}
     primary_entries: list[dict[str, object]] = []
+    secondary_portals = secondary_portals_by_slug()
     for draft_path, output_path in entries:
-        draft_text = draft_path.read_text(encoding="utf-8")
+        draft_text = read_text(draft_path)
         context = companion_context(draft_path)
         group_name = context["school"] or "Primary Essays"
         entry = {
@@ -1253,6 +1277,7 @@ def build_index(entries: list[tuple[Path, Path]]) -> None:
                 "display_name": school_display_name(school["name"]),
                 "href": html.escape(f"schools/{slug}/index.html"),
                 "essay_count": len(entries_for_school),
+                "secondary_portal": secondary_portals.get(slug),
             }
         )
     schools.sort(key=lambda school: school["name"].lower())
@@ -1310,6 +1335,16 @@ def school_major_contributions_by_slug() -> dict[str, dict]:
     return _SCHOOL_MAJOR_CONTRIBUTIONS
 
 
+def secondary_portals_by_slug() -> dict[str, dict]:
+    global _SECONDARY_PORTALS
+    if _SECONDARY_PORTALS is None:
+        if SECONDARY_PORTALS_JSON.exists():
+            _SECONDARY_PORTALS = json.loads(SECONDARY_PORTALS_JSON.read_text(encoding="utf-8"))
+        else:
+            _SECONDARY_PORTALS = {}
+    return _SECONDARY_PORTALS
+
+
 def school_display_name(name: str) -> str:
     if name == "Primary Essays":
         return name
@@ -1354,6 +1389,7 @@ def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> No
     schools_by_slug = school_metadata_by_slug()
     papers_by_slug = school_papers_by_slug()
     contributions_by_slug = school_major_contributions_by_slug()
+    secondary_portals = secondary_portals_by_slug()
     for slug, entries in school_entries.items():
         school = schools_by_slug.get(slug)
         if not school:
@@ -1366,6 +1402,7 @@ def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> No
             school=school,
             papers=papers_by_slug.get(slug, []),
             major_contribution=contributions_by_slug.get(slug),
+            secondary_portal=secondary_portals.get(slug),
             entries=[
                 {
                     **entry,

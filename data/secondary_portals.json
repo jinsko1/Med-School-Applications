@@ -1,0 +1,12 @@
+{
+  "new-york-medical-college": {
+    "label": "New York Medical College Secondary Portal",
+    "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80496/6387",
+    "status": "received"
+  },
+  "wake-forest": {
+    "label": "Wake Forest Secondary Portal",
+    "url": "https://www.applyweb.com/cgi-bin/ustat?school=wfamca",
+    "status": "received"
+  }
+}
