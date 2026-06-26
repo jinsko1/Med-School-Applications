@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Winston-Salem, NC; cached accepted-student medians: GPA 3.87, MCAT 512.
-- Current list note: I could verify the full 2024-2025 set from page text. The same page also shows a newer cycle, but the full newer prompt list was not cleanly extractable from the search tool.
+- Current list note: Updated from the applicant's Wake Forest AMCAS portal PDF. Do not disclose grades or MCAT scores in these responses. The portal states that reviewers do not have access to the full AMCAS personal statement and experiences while reviewing the secondary, so each answer should briefly re-establish the needed context.
 - Why-school fact: Wake Forest now frames its Winston-Salem and Charlotte regional campuses as innovation-quarter hubs, with first-week patient interaction and a curriculum built around inquiry, collaboration, and leadership.
 - Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -19,11 +19,11 @@
 - Research fit: foreground UTI/women's-health microbiology research, AAS iron-quantification work, Frost Scholar support, ASM/CSU BIOTECH/WCBSURC presentations, and AgarLens software development.
 
 ## Prompt Strategy
-- `Promote Equity`: select the strongest matching activity and keep the reflection tied to medicine.
+- `Improve Health for All`: use one concrete service, clinical, advocacy, or research example that shows how you help make health more accessible, humane, or equitable; include enough context because reviewers may not see the full AMCAS experiences.
 - `Non-Academic Challenge`: use a concrete moment of humility, then show the behavioral adjustment you made afterward.
 - `Most Formative Experience`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
 - `Collaboration`: use ASI menstrual-product advocacy, lab training, Learning Assistant work, or BCSM Ambassador outreach as collaborative leadership.
-- `Future Goals`: select the strongest matching activity and keep the reflection tied to medicine.
+- `Commitment`: choose a sustained commitment with visible follow-through, such as longitudinal research, hospice, Restorative Partners, ASI advocacy, or Learning Assistant work; emphasize what kept you invested when the work was difficult or slow.
 - `Why Wake Forest`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
 - `Interesting Fact`: select the strongest matching activity and keep the reflection tied to medicine.
 

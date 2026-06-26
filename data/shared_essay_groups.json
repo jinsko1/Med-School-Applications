@@ -438,14 +438,6 @@
         "status": "linked"
       },
       {
-        "school": "Wake Forest University School of Medicine",
-        "school_slug": "wake-forest",
-        "prompt_index": 1,
-        "prompt_title": "Promote Equity",
-        "draft_path": "schools/wake-forest/essays/prompt-01.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "Wayne State University School of Medicine",
         "school_slug": "wayne-state",
         "prompt_index": 4,
@@ -533,14 +525,6 @@
     "description": "Use for prompts about the physician you want to become, future health care change, or combined-degree goals.",
     "shared_draft": "essays/shared-drafts/future-goals.draft.md",
     "members": [
-      {
-        "school": "Wake Forest University School of Medicine",
-        "school_slug": "wake-forest",
-        "prompt_index": 5,
-        "prompt_title": "Future Goals",
-        "draft_path": "schools/wake-forest/essays/prompt-05.draft.md",
-        "status": "skipped-existing-draft"
-      },
       {
         "school": "Loyola University Chicago Stritch School of Medicine",
         "school_slug": "loyola-stritch",

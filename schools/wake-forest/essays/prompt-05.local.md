@@ -1,4 +1,4 @@
-# Wake Forest University School of Medicine - Future Goals Local Notes
+# Wake Forest University School of Medicine - Commitment Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

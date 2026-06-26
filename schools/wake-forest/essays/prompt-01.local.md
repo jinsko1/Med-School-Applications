@@ -1,4 +1,4 @@
-# Wake Forest University School of Medicine - Promote Equity Local Notes
+# Wake Forest University School of Medicine - Improve Health for All Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

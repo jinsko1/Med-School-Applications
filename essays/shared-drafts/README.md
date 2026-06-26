@@ -75,7 +75,7 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Diversity / Community Contribution
 - Shared draft: `essays/shared-drafts/diversity-community.draft.md`
-- Linked prompts: 17
+- Linked prompts: 16
 - Schools/prompts sharing this draft:
   - University of California San Diego School of Medicine - Prompt 06: Marginalization and Disparity
   - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 02: Diversity Contribution
@@ -83,7 +83,6 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Medical College of Wisconsin - Prompt 01: Contribution to MCW
   - Sidney Kimmel Medical College at Thomas Jefferson University - Prompt 01: Diversity Contribution
   - University of Miami Leonard M. Miller School of Medicine - Prompt 02: Diverse Environments
-  - Wake Forest University School of Medicine - Prompt 01: Promote Equity
   - Wayne State University School of Medicine - Prompt 04: Belonging and Class Contribution
   - Frank H. Netter M.D. School of Medicine at Quinnipiac University - Prompt 03: Lived Experiences and Patient Care
   - Tulane University School of Medicine - Prompt 06: Underrepresented Group
@@ -97,9 +96,8 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Future Goals
 - Shared draft: `essays/shared-drafts/future-goals.draft.md`
-- Linked prompts: 7
+- Linked prompts: 6
 - Schools/prompts sharing this draft:
-  - Wake Forest University School of Medicine - Prompt 05: Future Goals
   - Loyola University Chicago Stritch School of Medicine - Prompt 02: Why Medicine
   - Eastern Virginia Medical School - Prompt 02: What You Will Like Best About Being a Physician
   - Chicago Medical School at Rosalind Franklin University of Medicine and Science - Prompt 01: Why Medicine

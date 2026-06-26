@@ -40,6 +40,7 @@ DO_NOT_SHARE_TITLE_PATTERNS = (
     "hobbies and interests",
     "humility",
     "incomplete prior program",
+    "improve health for all",
     "interesting fact",
     "joint md mph",
     "clinical public health interests",

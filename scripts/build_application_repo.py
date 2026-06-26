@@ -1156,17 +1156,17 @@ SCHOOLS = [
     {
         "name": "Wake Forest University School of Medicine",
         "slug": "wake-forest",
-        "secondary_cycle": "2024-2025 complete prompt set from Med School Insiders page find result",
+        "secondary_cycle": "2026-2027 live AMCAS portal PDF provided by applicant on 2026-06-26",
         "secondary_deadline": "November 30, 2025",
         "official_url": "https://school.wakehealth.edu/education-and-training/md-program/admissions",
-        "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/wake-forest-university-school-of-medicine-secondary-essay-prompts/",
-        "notes": "I could verify the full 2024-2025 set from page text. The same page also shows a newer cycle, but the full newer prompt list was not cleanly extractable from the search tool.",
+        "prompt_source": "https://www.applyweb.com/cgi-bin/ustat?school=wfamca",
+        "notes": "Updated from the applicant's Wake Forest AMCAS portal PDF. The portal warns not to disclose grades or MCAT scores and notes that reviewers do not have the full AMCAS personal statement and experiences while reviewing the secondary.",
         "prompts": [
             {
-                "title": "Promote Equity",
+                "title": "Improve Health for All",
                 "limit": "200 words",
-                "themes": ["diversity-equity"],
-                "text": "Consider your abilities, insights, and previous experiences and then tell us about your ability to promote equity.",
+                "themes": ["mission-fit", "service"],
+                "text": "The mission of our academic health system is to improve health for all. Consider your abilities, insights, and previous experiences and then tell us about your potential to help improve health for all.",
             },
             {
                 "title": "Non-Academic Challenge",
@@ -1177,7 +1177,7 @@ SCHOOLS = [
             {
                 "title": "Most Formative Experience",
                 "limit": "200 words",
-                "themes": ["clinical", "future-goals"],
+                "themes": ["clinical"],
                 "text": "From your list of most meaningful experiences on the AMCAS application, choose one that has been the most formative in terms of your desire for a career in medicine. Why did that experience have such meaning for you in your decision-making process?",
             },
             {
@@ -1187,10 +1187,10 @@ SCHOOLS = [
                 "text": "Please share an experience that demonstrates how you have collaborated with others.",
             },
             {
-                "title": "Future Goals",
+                "title": "Commitment",
                 "limit": "200 words",
-                "themes": ["future-goals"],
-                "text": "Describe your future goal(s). Reflect on your past experiences and describe how these experiences will shape your goal(s).",
+                "themes": ["values"],
+                "text": "Tell us about a time you have committed yourself to something.",
             },
             {
                 "title": "Why Wake Forest",

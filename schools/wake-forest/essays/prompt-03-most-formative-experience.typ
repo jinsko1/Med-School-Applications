@@ -5,8 +5,8 @@
 #section_label("Prompt metadata")
 - Title: Most Formative Experience
 - Limit: 200 words
-- Cycle used in this repo: 2024-2025 complete prompt set from Med School Insiders page find result
-- Source: https://medschoolinsiders.com/medical-school-secondary-prompts-database/wake-forest-university-school-of-medicine-secondary-essay-prompts/
+- Cycle used in this repo: 2026-2027 live AMCAS portal PDF provided by applicant on 2026-06-26
+- Source: https://www.applyweb.com/cgi-bin/ustat?school=wfamca
 - Local notes file: prompt-03.local.md
 
 #section_label("Prompt text")
@@ -14,7 +14,6 @@ From your list of most meaningful experiences on the AMCAS application, choose o
 
 #section_label("Shared backbone files")
 - typst/shared/clinical.typ
-- typst/shared/future-goals.typ
 
 #section_label("clinical backbone")
 = Clinical Exposure Backbone
@@ -26,18 +25,6 @@ Choose the single clinical experience that best changed your understanding of me
 - What did you observe about patient care?
 - What did you learn about physicians?
 - What did you learn about yourself?
-#section_label("future-goals backbone")
-= Future Goals Backbone
-
-== Near-Term
-What do you hope to learn or become in medical school?
-
-== Longer-Term
-What kind of physician or leader are you building toward?
-
-== Continuity
-Connect your future goals to real prior experiences.
-
 #section_label("School-specific tailoring")
 Read `../research.md` and `prompt-03.local.md` before drafting a final version.
 

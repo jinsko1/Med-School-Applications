@@ -3,8 +3,8 @@
 ## Prompt Metadata
 - Title: Interesting Fact
 - Limit: 50 words
-- Cycle used in this repo: 2024-2025 complete prompt set from Med School Insiders page find result
-- Source: https://medschoolinsiders.com/medical-school-secondary-prompts-database/wake-forest-university-school-of-medicine-secondary-essay-prompts/
+- Cycle used in this repo: 2026-2027 live AMCAS portal PDF provided by applicant on 2026-06-26
+- Source: https://www.applyweb.com/cgi-bin/ustat?school=wfamca
 - Shared themes:
 - `../../../essays/shared/additional-info.md`
 - Local notes file: `prompt-07.local.md`
