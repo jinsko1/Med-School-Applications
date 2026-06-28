@@ -40,6 +40,21 @@ python3 scripts/populate_school_research_notes.py
 python3 scripts/render_review_site.py
 ```
 
+For a faster targeted rebuild after editing one school, use:
+
+```bash
+python3 scripts/render_review_site.py --school wake-forest
+```
+
+You can also target a single draft or prompt packet:
+
+```bash
+python3 scripts/render_review_site.py schools/wake-forest/essays/prompt-05.draft.md
+python3 scripts/render_review_site.py schools/wake-forest/essays/prompt-05-commitment.md
+```
+
+Targeted rendering updates the matching essay page(s), any affected school dashboard(s), and `review/essays.html` without regenerating every essay page.
+
 9. Refresh PubMed-based school research paper blurbs when needed with:
 
 ```bash

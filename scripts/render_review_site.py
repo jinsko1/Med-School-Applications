@@ -1183,13 +1183,16 @@ def draft_page_title(draft_path: Path, draft_text: str, context: dict[str, str |
     return first_heading(draft_text, draft_path.stem)
 
 
+def output_path_for_draft(draft_path: Path) -> Path:
+    return (OUTPUT_ROOT / draft_path.relative_to(ROOT)).with_suffix(".html")
+
+
 def render_draft_page(draft_path: Path) -> Path:
     draft_text = read_text(draft_path)
     context = companion_context(draft_path)
     context["synced_source_html"] = synced_source_html(draft_path)
     title = draft_page_title(draft_path, draft_text, context)
-    output_path = OUTPUT_ROOT / draft_path.relative_to(ROOT)
-    output_path = output_path.with_suffix(".html")
+    output_path = output_path_for_draft(draft_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     html_text = PAGE_TEMPLATE.render(
@@ -1225,7 +1228,13 @@ def collect_drafts(targets: list[str]) -> list[Path]:
         if path.is_dir():
             collected.extend(sorted(path.glob("**/*.draft.md")))
         elif path.suffix == ".md" and path.exists():
-            collected.append(path)
+            if path.name.endswith(".draft.md"):
+                collected.append(path)
+            else:
+                prompt_match = re.match(r"(prompt-\d{2})", path.name)
+                draft = path.with_name(f"{prompt_match.group(1)}.draft.md") if prompt_match else None
+                if draft and draft.exists():
+                    collected.append(draft)
     unique = []
     seen = set()
     for item in collected:
@@ -1237,33 +1246,52 @@ def collect_drafts(targets: list[str]) -> list[Path]:
     return unique
 
 
-def build_index(entries: list[tuple[Path, Path]]) -> None:
+def school_slugs_for_drafts(drafts: list[Path]) -> set[str]:
+    slugs: set[str] = set()
+    for draft_path in drafts:
+        if (
+            len(draft_path.parts) >= 4
+            and draft_path.parts[-4] == "schools"
+            and draft_path.parent.name == "essays"
+        ):
+            slugs.add(draft_path.parent.parent.name)
+    return slugs
+
+
+def entry_for_draft(draft_path: Path) -> tuple[dict[str, object], str | None]:
+    draft_text = read_text(draft_path)
+    context = companion_context(draft_path)
+    output_path = output_path_for_draft(draft_path)
+    entry = {
+        "title": draft_page_title(draft_path, draft_text, context),
+        "prompt_title": context.get("prompt_title"),
+        "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
+        "limit": context["limit"],
+        "word_count": word_count(draft_text),
+        "char_count": char_count(draft_text),
+        "relative_path": relative_to_root(draft_path),
+        "prompt_text_excerpt": prompt_excerpt(context.get("prompt_text_raw")),
+        "shared_group": shared_group_title_for_draft(draft_path),
+    }
+    return entry, context.get("school_slug")
+
+
+def build_index(drafts: list[Path], school_page_slugs: set[str] | None = None) -> None:
     grouped_entries: dict[str, list[dict[str, object]]] = {}
     school_entries: dict[str, list[dict[str, object]]] = {}
     primary_entries: list[dict[str, object]] = []
     secondary_portals = secondary_portals_by_slug()
-    for draft_path, output_path in entries:
-        draft_text = read_text(draft_path)
+    for draft_path in drafts:
         context = companion_context(draft_path)
         group_name = context["school"] or "Primary Essays"
-        entry = {
-            "title": draft_page_title(draft_path, draft_text, context),
-            "prompt_title": context.get("prompt_title"),
-            "href": html.escape(str(output_path.relative_to(OUTPUT_ROOT))),
-            "limit": context["limit"],
-            "word_count": word_count(draft_text),
-            "char_count": char_count(draft_text),
-            "relative_path": relative_to_root(draft_path),
-            "prompt_text_excerpt": prompt_excerpt(context.get("prompt_text_raw")),
-            "shared_group": shared_group_title_for_draft(draft_path),
-        }
+        entry, school_slug = entry_for_draft(draft_path)
         grouped_entries.setdefault(group_name, []).append(entry)
-        if context.get("school_slug"):
-            school_entries.setdefault(str(context["school_slug"]), []).append(entry)
+        if school_slug:
+            school_entries.setdefault(str(school_slug), []).append(entry)
         else:
             primary_entries.append(entry)
 
-    build_school_pages(school_entries)
+    build_school_pages(school_entries, only_slugs=school_page_slugs)
 
     schools = []
     for school in all_school_metadata():
@@ -1385,12 +1413,17 @@ def shared_groups() -> list[dict]:
     return _SHARED_GROUPS
 
 
-def build_school_pages(school_entries: dict[str, list[dict[str, object]]]) -> None:
+def build_school_pages(
+    school_entries: dict[str, list[dict[str, object]]],
+    only_slugs: set[str] | None = None,
+) -> None:
     schools_by_slug = school_metadata_by_slug()
     papers_by_slug = school_papers_by_slug()
     contributions_by_slug = school_major_contributions_by_slug()
     secondary_portals = secondary_portals_by_slug()
     for slug, entries in school_entries.items():
+        if only_slugs is not None and slug not in only_slugs:
+            continue
         school = schools_by_slug.get(slug)
         if not school:
             continue
@@ -1461,19 +1494,44 @@ def clean_generated_pages() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Render markdown essay drafts into clean review HTML pages.")
     parser.add_argument("targets", nargs="*", help="Optional markdown draft files or directories to render.")
+    parser.add_argument(
+        "--school",
+        action="append",
+        default=[],
+        help="Render only one school's draft pages and dashboard, e.g. --school wake-forest. May be repeated.",
+    )
     args = parser.parse_args()
 
-    drafts = [path for path in collect_drafts(args.targets) if path.name.endswith(".draft.md")]
-    if not drafts:
+    all_drafts = [path for path in collect_drafts([]) if path.name.endswith(".draft.md")]
+    if not all_drafts:
         raise SystemExit("No .draft.md files found to render.")
 
-    if not args.targets:
+    target_inputs = [*args.targets, *[f"schools/{slug}" for slug in args.school]]
+    full_build = not target_inputs
+    if not full_build and not (OUTPUT_ROOT / "essays.html").exists():
+        print("No existing review index found; running a full render instead.")
+        full_build = True
+
+    drafts = all_drafts if full_build else [path for path in collect_drafts(target_inputs) if path.name.endswith(".draft.md")]
+    if not drafts:
+        raise SystemExit("No matching .draft.md files found to render.")
+
+    if full_build:
         clean_generated_pages()
+
     rendered = [(draft, render_draft_page(draft)) for draft in drafts]
-    build_index(rendered)
+    school_page_slugs = None if full_build else school_slugs_for_drafts(drafts)
+    build_index(all_drafts, school_page_slugs=school_page_slugs)
     build_home_page()
     copy_public_assets()
-    print(f"Rendered {len(rendered)} review page(s) to {OUTPUT_ROOT}")
+    if full_build:
+        print(f"Rendered {len(rendered)} review page(s) to {OUTPUT_ROOT}")
+    else:
+        school_count = len(school_page_slugs or set())
+        print(
+            f"Rendered {len(rendered)} targeted review page(s), "
+            f"updated {school_count} school dashboard(s), and refreshed review/essays.html."
+        )
 
 
 if __name__ == "__main__":
