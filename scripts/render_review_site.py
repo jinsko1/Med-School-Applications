@@ -19,11 +19,13 @@ SCHOOLS_JSON = ROOT / "data" / "schools.json"
 SCHOOL_PAPERS_JSON = ROOT / "data" / "school_research_papers.json"
 SCHOOL_MAJOR_CONTRIBUTIONS_JSON = ROOT / "data" / "school_major_contributions.json"
 SECONDARY_PORTALS_JSON = ROOT / "data" / "secondary_portals.json"
+SCHOOL_COMPLETION_STATUS_JSON = ROOT / "data" / "school_completion_status.json"
 _SHARED_GROUPS: list[dict] | None = None
 _SCHOOL_METADATA: dict[str, dict] | None = None
 _SCHOOL_PAPERS: dict[str, list[dict]] | None = None
 _SCHOOL_MAJOR_CONTRIBUTIONS: dict[str, dict] | None = None
 _SECONDARY_PORTALS: dict[str, dict] | None = None
+_SCHOOL_COMPLETION_STATUS: dict[str, dict] | None = None
 
 markdown = mistune.create_markdown(
     escape=False,
@@ -536,7 +538,54 @@ PAGE_TEMPLATE = Template(
       border: 1px solid var(--line);
       border-radius: 18px;
       box-shadow: var(--shadow);
+      position: relative;
       transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .school-card.is-complete {
+      border-color: rgba(47, 125, 82, 0.34);
+    }
+
+    .school-card.is-complete h2 {
+      padding-right: 112px;
+    }
+
+    .completion-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 9px;
+      color: #145a31;
+      background: #e5f5eb;
+      border: 1px solid rgba(47, 125, 82, 0.25);
+      border-radius: 999px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      text-transform: uppercase;
+      box-shadow: 0 8px 18px rgba(47, 125, 82, 0.12);
+    }
+
+    .completion-badge svg {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .completion-badge-hero {
+      color: white;
+      background: rgba(25, 128, 74, 0.84);
+      border-color: rgba(255,255,255,0.2);
+      z-index: 2;
     }
 
     .school-card:hover {
@@ -751,7 +800,13 @@ PAGE_TEMPLATE = Template(
       {% endif %}
       <section class="school-grid" aria-label="School essay dashboards">
         {% for school in schools %}
-        <a class="school-card" href="{{ school.href }}">
+        <a class="school-card{% if school.completion_status %} is-complete{% endif %}" href="{{ school.href }}">
+          {% if school.completion_status %}
+          <span class="completion-badge" aria-label="Secondary essays complete">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.2 8.4 6.5 11.6 12.8 4.4"></path></svg>
+            Done
+          </span>
+          {% endif %}
           <h2>{{ school.display_name }}</h2>
           <p class="school-card-meta">
             <span class="chip">{{ school.location or "Location not listed" }}</span>
@@ -766,6 +821,12 @@ PAGE_TEMPLATE = Template(
       </section>
     {% elif kind == "school" %}
       <section class="hero">
+        {% if completion_status %}
+        <div class="completion-badge completion-badge-hero" aria-label="Secondary essays complete">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.2 8.4 6.5 11.6 12.8 4.4"></path></svg>
+          Complete
+        </div>
+        {% endif %}
         <div class="eyebrow">School Dashboard</div>
         <h1>{{ page_title }}</h1>
         <div class="subtitle">{{ school.why_school_fact }}</div>
@@ -1281,6 +1342,7 @@ def build_index(drafts: list[Path], school_page_slugs: set[str] | None = None) -
     school_entries: dict[str, list[dict[str, object]]] = {}
     primary_entries: list[dict[str, object]] = []
     secondary_portals = secondary_portals_by_slug()
+    completion_statuses = school_completion_status_by_slug()
     for draft_path in drafts:
         context = companion_context(draft_path)
         group_name = context["school"] or "Primary Essays"
@@ -1306,6 +1368,7 @@ def build_index(drafts: list[Path], school_page_slugs: set[str] | None = None) -
                 "href": html.escape(f"schools/{slug}/index.html"),
                 "essay_count": len(entries_for_school),
                 "secondary_portal": secondary_portals.get(slug),
+                "completion_status": completion_statuses.get(slug),
             }
         )
     schools.sort(key=lambda school: school["name"].lower())
@@ -1373,6 +1436,16 @@ def secondary_portals_by_slug() -> dict[str, dict]:
     return _SECONDARY_PORTALS
 
 
+def school_completion_status_by_slug() -> dict[str, dict]:
+    global _SCHOOL_COMPLETION_STATUS
+    if _SCHOOL_COMPLETION_STATUS is None:
+        if SCHOOL_COMPLETION_STATUS_JSON.exists():
+            _SCHOOL_COMPLETION_STATUS = json.loads(SCHOOL_COMPLETION_STATUS_JSON.read_text(encoding="utf-8"))
+        else:
+            _SCHOOL_COMPLETION_STATUS = {}
+    return _SCHOOL_COMPLETION_STATUS
+
+
 def school_display_name(name: str) -> str:
     if name == "Primary Essays":
         return name
@@ -1421,6 +1494,7 @@ def build_school_pages(
     papers_by_slug = school_papers_by_slug()
     contributions_by_slug = school_major_contributions_by_slug()
     secondary_portals = secondary_portals_by_slug()
+    completion_statuses = school_completion_status_by_slug()
     for slug, entries in school_entries.items():
         if only_slugs is not None and slug not in only_slugs:
             continue
@@ -1436,6 +1510,7 @@ def build_school_pages(
             papers=papers_by_slug.get(slug, []),
             major_contribution=contributions_by_slug.get(slug),
             secondary_portal=secondary_portals.get(slug),
+            completion_status=completion_statuses.get(slug),
             entries=[
                 {
                     **entry,
