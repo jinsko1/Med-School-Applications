@@ -1,7 +1,5 @@
 # Wake Forest University School of Medicine - Improve Health for All Draft
 
-_Not linked to a shared essay draft: this prompt is mission-specific and should answer Wake Forest's "improve health for all" wording directly._
-
 Quality medical care ought to be gestalt in nature: each facet of care must be consciously and constantly furthered to improve patient wellbeing, resulting in a practice so integrated and whole that it manifests as equitable care, improving health for all.
 
 This requires deliberately broadening one’s perspective, particularly through meaningful conversation with individuals from diverse populations. From my experience, such conversation reveals how we can serve different needs through advocacy.

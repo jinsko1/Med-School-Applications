@@ -1,7 +1,5 @@
 # Wake Forest University School of Medicine - Most Formative Experience Draft
 
-_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
-
 He had sketched, across the thin pages of his notebook, a rough design for the tattoo he hoped to get once he was released. When I asked about its different aspects—part of which was derived from the ones already on his arm—he confided that the text, written in barbed font, was his daughter’s name.
 
 He is seventeen; his daughter is three.
