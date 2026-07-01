@@ -3,15 +3,15 @@
 ## Prompt Metadata
 - Title: Lifelong Learning
 - Limit: 250 words
-- Cycle used in this repo: Latest public prompt set found on Bright Doctor as of 2026-04-18
-- Source: https://thebrightdoctor.com/school/kaiser-permanente-bernard-j-tyson-md
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-06-30
+- Source: https://applymedschool.kp.org/Security/Login.aspx
 - Shared themes:
 - `../../../essays/shared/values.md`
 - Local notes file: `prompt-03.local.md`
 - Draft file: `prompt-03.draft.md`
 
 ## Prompt Text
-Lifelong learning is an essential process for continued professional development. Please tell us about an area of intellectual exploration you’re passionate about, and your approach to exploring this area.
+Lifelong learning is an essential process for continued professional development. This includes reflection and being open and responsive to constructive feedback. Please tell us about an area of intellectual exploration you’re passionate about, and your approach to exploring this area.
 
 ## Synced Backbone
 # Values / Professionalism Backbone

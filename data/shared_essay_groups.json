@@ -134,14 +134,6 @@
     "shared_draft": "essays/shared-drafts/covid-impact.draft.md",
     "members": [
       {
-        "school": "Kaiser Permanente Bernard J. Tyson School of Medicine",
-        "school_slug": "kaiser-permanente",
-        "prompt_index": 4,
-        "prompt_title": "COVID Impact",
-        "draft_path": "schools/kaiser-permanente/essays/prompt-04.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "Lewis Katz School of Medicine at Temple University",
         "school_slug": "temple",
         "prompt_index": 5,
@@ -398,14 +390,6 @@
         "status": "linked"
       },
       {
-        "school": "Kaiser Permanente Bernard J. Tyson School of Medicine",
-        "school_slug": "kaiser-permanente",
-        "prompt_index": 2,
-        "prompt_title": "Diversity Contribution",
-        "draft_path": "schools/kaiser-permanente/essays/prompt-02.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "Vermont Larner College of Medicine",
         "school_slug": "vermont-larner",
         "prompt_index": 2,
@@ -645,6 +629,14 @@
     "description": "Use for prompts about service, social determinants, public health, advocacy, inequity, and underserved communities.",
     "shared_draft": "essays/shared-drafts/service-public-health.draft.md",
     "members": [
+      {
+        "school": "Kaiser Permanente Bernard J. Tyson School of Medicine",
+        "school_slug": "kaiser-permanente",
+        "prompt_index": 4,
+        "prompt_title": "Social Drivers and Community Advocacy",
+        "draft_path": "schools/kaiser-permanente/essays/prompt-04.draft.md",
+        "status": "linked"
+      },
       {
         "school": "Emory University School of Medicine",
         "school_slug": "emory",

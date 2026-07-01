@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/covid-impact.draft.md
+../../../essays/shared-drafts/service-public-health.draft.md

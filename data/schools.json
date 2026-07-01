@@ -152,11 +152,11 @@
     "coa_per_year": "39636",
     "median_gpa": "3.87",
     "median_mcat": "517",
-    "secondary_cycle": "Latest public prompt set found on Bright Doctor as of 2026-04-18",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-06-30",
     "secondary_deadline": "November 3, 2025",
     "official_url": "https://medschool.kp.org/admissions",
-    "prompt_source": "https://thebrightdoctor.com/school/kaiser-permanente-bernard-j-tyson-md",
-    "notes": "Prompt source is not Admit.org because the Admit prompt page was not surfaced cleanly in search results. Bright Doctor also reports no CASPer/PREview requirement on the captured guide page.",
+    "prompt_source": "https://applymedschool.kp.org/Security/Login.aspx",
+    "notes": "Updated from the applicant's Kaiser Permanente secondary portal. Portal link added to secondary portal data.",
     "prompts": [
       {
         "title": "Unfavorable Outcome",
@@ -164,15 +164,16 @@
         "themes": [
           "challenge"
         ],
-        "text": "During your career as a physician, you will potentially encounter obstacles, and be required to overcome challenges. Please describe your experience with a situation that had an unfavorable outcome, including your reaction, how you might have responded differently, and what you learned about yourself."
+        "text": "During your career as a physician, you will likely encounter obstacles, and be required to overcome challenges. Please describe your experience with a situation that had an unfavorable outcome, including your reaction, how you might have responded differently, and what you learned about yourself."
       },
       {
-        "title": "Diversity Contribution",
+        "title": "Mission and Values Alignment",
         "limit": "250 words",
         "themes": [
-          "diversity-equity"
+          "mission-fit",
+          "values"
         ],
-        "text": "Kaiser Permanente is committed to advancing equity, inclusion, and diversity for all. How will you contribute to the diversity of the Kaiser Permanente Bernard J. Tyson School of Medicine?"
+        "text": "Kaiser Permanente Bernard J. Tyson School of Medicine is dedicated to graduating courageous leaders who lead change through inquiry and innovation in medical education, the profession, and the healthcare system. How do your values align with this mission?"
       },
       {
         "title": "Lifelong Learning",
@@ -180,15 +181,17 @@
         "themes": [
           "values"
         ],
-        "text": "Lifelong learning is an essential process for continued professional development. Please tell us about an area of intellectual exploration you\u2019re passionate about, and your approach to exploring this area."
+        "text": "Lifelong learning is an essential process for continued professional development. This includes reflection and being open and responsive to constructive feedback. Please tell us about an area of intellectual exploration you\u2019re passionate about, and your approach to exploring this area."
       },
       {
-        "title": "COVID Impact",
-        "limit": "No limit",
+        "title": "Social Drivers and Community Advocacy",
+        "limit": "250 words",
         "themes": [
-          "additional-info"
+          "service",
+          "advocacy",
+          "health-equity"
         ],
-        "text": "Optional: Please describe how you have been impacted by the COVID-19 pandemic."
+        "text": "Drawing from your lived experiences, how do you think knowledge of the social drivers of health can be leveraged to engage in community health advocacy?"
       }
     ],
     "why_school_fact": "Kaiser integrates foundational, clinical, and health-systems science across all four years and starts clinical exposure within the first weeks at Los Angeles-area Kaiser Permanente medical centers.",

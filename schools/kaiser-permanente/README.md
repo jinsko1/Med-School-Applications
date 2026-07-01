@@ -4,10 +4,10 @@
 - Active list COA/year: 39636
 - Active list GPA median: 3.87
 - Active list MCAT median: 517
-- Latest prompt cycle used here: Latest public prompt set found on Bright Doctor as of 2026-04-18
+- Latest prompt cycle used here: 2026-2027 live secondary portal prompts provided by applicant on 2026-06-30
 - Latest verified secondary deadline: November 3, 2025
 - Official admissions page: https://medschool.kp.org/admissions
-- Prompt source: https://thebrightdoctor.com/school/kaiser-permanente-bernard-j-tyson-md
+- Prompt source: https://applymedschool.kp.org/Security/Login.aspx
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,18 +17,18 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Prompt source is not Admit.org because the Admit prompt page was not surfaced cleanly in search results. Bright Doctor also reports no CASPer/PREview requirement on the captured guide page.
+- Updated from the applicant's Kaiser Permanente secondary portal. Portal link added to secondary portal data.
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
 - `schools/kaiser-permanente/essay-packet.typ`
 - `schools/kaiser-permanente/essays/prompt-01-unfavorable-outcome.md`
 - `schools/kaiser-permanente/essays/prompt-01.draft.md`
-- `schools/kaiser-permanente/essays/prompt-02-diversity-contribution.md`
+- `schools/kaiser-permanente/essays/prompt-02-mission-values-alignment.md`
 - `schools/kaiser-permanente/essays/prompt-02.draft.md`
 - `schools/kaiser-permanente/essays/prompt-03-lifelong-learning.md`
 - `schools/kaiser-permanente/essays/prompt-03.draft.md`
-- `schools/kaiser-permanente/essays/prompt-04-covid-impact.md`
+- `schools/kaiser-permanente/essays/prompt-04-social-drivers-community-advocacy.md`
 - `schools/kaiser-permanente/essays/prompt-04.draft.md`
 
 ## School Metadata

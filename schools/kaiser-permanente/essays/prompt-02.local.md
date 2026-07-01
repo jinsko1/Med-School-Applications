@@ -1,8 +1,9 @@
-# Kaiser Permanente Bernard J. Tyson School of Medicine - Diversity Contribution Local Notes
+# Kaiser Permanente Bernard J. Tyson School of Medicine - Mission and Values Alignment Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Candidate values: inquiry through microbiology research, innovation through AgarLens/problem-solving, and systems change through ASI advocacy or juvenile hall service.
+- Keep this distinct from the social drivers/community advocacy essay; this one should be about values and leadership, not primarily about one population.
+- Add one Kaiser-specific curricular or health-system detail from `../research.md` if it helps the argument.
 
 ## Final Check
 - Make sure the draft answers the actual wording of the prompt, not just the shared backbone.

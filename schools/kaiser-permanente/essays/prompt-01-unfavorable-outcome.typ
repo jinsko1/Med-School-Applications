@@ -5,12 +5,12 @@
 #section_label("Prompt metadata")
 - Title: Unfavorable Outcome
 - Limit: 250 words
-- Cycle used in this repo: Latest public prompt set found on Bright Doctor as of 2026-04-18
-- Source: https://thebrightdoctor.com/school/kaiser-permanente-bernard-j-tyson-md
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-06-30
+- Source: https://applymedschool.kp.org/Security/Login.aspx
 - Local notes file: prompt-01.local.md
 
 #section_label("Prompt text")
-During your career as a physician, you will potentially encounter obstacles, and be required to overcome challenges. Please describe your experience with a situation that had an unfavorable outcome, including your reaction, how you might have responded differently, and what you learned about yourself.
+During your career as a physician, you will likely encounter obstacles, and be required to overcome challenges. Please describe your experience with a situation that had an unfavorable outcome, including your reaction, how you might have responded differently, and what you learned about yourself.
 
 #section_label("Shared backbone files")
 - typst/shared/challenge.typ

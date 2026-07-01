@@ -31,9 +31,8 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## COVID Impact
 - Shared draft: `essays/shared-drafts/covid-impact.draft.md`
-- Linked prompts: 5
+- Linked prompts: 4
 - Schools/prompts sharing this draft:
-  - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 04: COVID Impact
   - Lewis Katz School of Medicine at Temple University - Prompt 05: COVID Impact
   - University of Wisconsin School of Medicine and Public Health - Prompt 05: COVID Impact
   - Tulane University School of Medicine - Prompt 07: COVID Impact
@@ -75,10 +74,9 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Diversity / Community Contribution
 - Shared draft: `essays/shared-drafts/diversity-community.draft.md`
-- Linked prompts: 16
+- Linked prompts: 15
 - Schools/prompts sharing this draft:
   - University of California San Diego School of Medicine - Prompt 06: Marginalization and Disparity
-  - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 02: Diversity Contribution
   - Vermont Larner College of Medicine - Prompt 02: Learning Across Difference
   - Medical College of Wisconsin - Prompt 01: Contribution to MCW
   - Sidney Kimmel Medical College at Thomas Jefferson University - Prompt 01: Diversity Contribution
@@ -119,8 +117,9 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Service / Public Health / Underserved
 - Shared draft: `essays/shared-drafts/service-public-health.draft.md`
-- Linked prompts: 12
+- Linked prompts: 13
 - Schools/prompts sharing this draft:
+  - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 04: Social Drivers and Community Advocacy
   - Emory University School of Medicine - Prompt 04: Service to Underserved Communities
   - University of Wisconsin School of Medicine and Public Health - Prompt 04: Health Equity Issue
   - Medical College of Wisconsin - Prompt 04: Health Equity

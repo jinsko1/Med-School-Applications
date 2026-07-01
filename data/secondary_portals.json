@@ -8,5 +8,10 @@
     "label": "Wake Forest Secondary Portal",
     "url": "https://www.applyweb.com/cgi-bin/ustat?school=wfamca",
     "status": "received"
+  },
+  "kaiser-permanente": {
+    "label": "Kaiser Permanente Secondary Portal",
+    "url": "https://applymedschool.kp.org/Security/Login.aspx",
+    "status": "received"
   }
 }

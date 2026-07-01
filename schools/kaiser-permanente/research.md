@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Pasadena, CA; cached accepted-student medians: GPA 3.87, MCAT 517.
-- Current list note: Prompt source is not Admit.org because the Admit prompt page was not surfaced cleanly in search results. Bright Doctor also reports no CASPer/PREview requirement on the captured guide page.
+- Current list note: Updated from the applicant's Kaiser Permanente secondary portal. Portal link added to secondary portal data.
 - Why-school fact: Kaiser integrates foundational, clinical, and health-systems science across all four years and starts clinical exposure within the first weeks at Los Angeles-area Kaiser Permanente medical centers.
 - Heuristic list estimate: ~2%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -20,9 +20,9 @@
 
 ## Prompt Strategy
 - `Unfavorable Outcome`: use a concrete moment of humility, then show the behavioral adjustment you made afterward.
-- `Diversity Contribution`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Lifelong Learning`: select the strongest matching activity and keep the reflection tied to medicine.
-- `COVID Impact`: select the strongest matching activity and keep the reflection tied to medicine.
+- `Mission and Values Alignment`: connect courageous leadership to a value you can prove: inquiry in microbiology research, innovation through AgarLens/experimental troubleshooting, or health-system change through ASI/student advocacy.
+- `Lifelong Learning`: use microbiology as intellectual exploration, but explicitly include reflection, feedback, and how your approach changed.
+- `Social Drivers and Community Advocacy`: use juvenile hall, hospice, or student health advocacy to show how lived context changes health behavior and how community advocacy should respond.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.
