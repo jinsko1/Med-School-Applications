@@ -1,3 +1,7 @@
 # Vermont Larner College of Medicine - Active Learning Fit Draft
 
-Write your current draft here.
+Active learning is well suited for me, as I do not wish to be a passive receiver of whatever an instructor decides to deliver. Instead, I wish to participate in the endeavor of learning itself, as in a student-centered curriculum. This shifts the emphasis from teaching to learning. I may not always wish to be taught, but I do wish to learn, which requires responsibility: identifying what I do not know, going out of my way to fix it, and contributing what I have learned to the people beside me. For this reason, I see peer co-learning not as a burden placed on individual students, but as a necessary methodology of how physicians must learn—with independent preparation, and the desire to further contribute.
+
+I have often employed this learning strategy while studying with my peers. Before a study session, we agree that all content should be reviewed individually beforehand. During the session itself, “studying” consists of coming up with exam-like questions and quizzing each other—which can become quite competitive, but remains enjoyable nonetheless. While preserving the ability to learn on my own, this method also incorporates and welcomes the minds of others to fill gaps in knowledge, assuring competency through collaboration.
+
+I strongly agree with Larner College’s philosophy of prioritizing active learning and peer collaboration, which I believe is among the most effective and enjoyable ways to learn.
