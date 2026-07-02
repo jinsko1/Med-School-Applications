@@ -1,8 +1,8 @@
-# Virginia Tech Carilion School of Medicine - Humility Local Notes
+# Virginia Tech Carilion School of Medicine - Right Thing Versus Rules Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Choose a story with ethical tension but no recklessness.
+- Show judgment, communication, and respect for systems while still defending the person affected.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

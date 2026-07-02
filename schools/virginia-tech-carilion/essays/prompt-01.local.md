@@ -1,8 +1,8 @@
-# Virginia Tech Carilion School of Medicine - Fictional Character Local Notes
+# Virginia Tech Carilion School of Medicine - Protecting a Vulnerable Trait Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- A good fit for curiosity, tenderness, or intellectual humility.
+- Use one concrete practice that will protect the trait during training.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

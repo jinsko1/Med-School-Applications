@@ -1,8 +1,8 @@
 # California Northstate University College of Medicine - Why CNUCOM Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Name Elk Grove/Sacramento/Central Valley fit only if you can make it concrete.
+- Connect CNUCOM's regional/social-accountability frame to California service and patient-facing work.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

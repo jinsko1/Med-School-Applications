@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Burlington, VT; cached accepted-student medians: GPA 3.8, MCAT 513.
-- Current list note: Prompt set is strongly mission-and-curriculum specific.
+- Current list note: Updated from the applicant's Vermont Larner secondary portal. Prompt 5 is optional.
 - Why-school fact: Larner's Vermont Integrated Curriculum begins patient interaction on the first day of orientation and emphasizes professionalism, cultural competence, prevention, and health systems.
 - Heuristic list estimate: ~2%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -19,11 +19,11 @@
 - Research fit: foreground UTI/women's-health microbiology research, AAS iron-quantification work, Frost Scholar support, ASM/CSU BIOTECH/WCBSURC presentations, and AgarLens software development.
 
 ## Prompt Strategy
-- `Active Learning Fit`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Learning Across Difference`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Professionalism`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Why Larner`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `Additional Information`: use N/A language unless you become a reapplicant.
+- `Active Learning Fit`: This should sound like your SPICES/active-learning beliefs.
+- `Learning Across Difference`: Choose a specific person or group that changed an assumption.
+- `Professionalism`: Use a concrete experience where professionalism became more than politeness or competence.
+- `Why Larner`: Use 2-3 unique Larner opportunities, then connect to your larger physician goal.
+- `Additional Information`: Optional; use only for clarification or meaningful update.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

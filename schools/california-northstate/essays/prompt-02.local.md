@@ -1,8 +1,8 @@
-# California Northstate University College of Medicine - Education Not Continuous Local Notes
+# California Northstate University College of Medicine - Diverse Populations and Central Valley Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- This should be standalone, not a generic diversity essay.
+- Strong choices: juvenile hall, hospice, student health, or ASI advocacy; end with readiness for Central Valley patients.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

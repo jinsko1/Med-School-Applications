@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/additional-info.draft.md
+../../../essays/shared-drafts/future-goals.draft.md

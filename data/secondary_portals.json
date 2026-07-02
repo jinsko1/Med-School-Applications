@@ -13,5 +13,25 @@
     "label": "Kaiser Permanente Secondary Portal",
     "url": "https://applymedschool.kp.org/Security/Login.aspx",
     "status": "received"
+  },
+  "california-northstate": {
+    "label": "California Northstate Secondary Portal",
+    "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80286/6387",
+    "status": "received"
+  },
+  "virginia-tech-carilion": {
+    "label": "Virginia Tech Carilion Secondary Portal",
+    "url": "https://apply-admissions.vtc.vt.edu/Security/Login.aspx",
+    "status": "received"
+  },
+  "jefferson-kimmel": {
+    "label": "Sidney Kimmel Secondary Portal",
+    "url": "https://amp.jefferson.edu/Security/Login.aspx",
+    "status": "received"
+  },
+  "vermont-larner": {
+    "label": "Vermont Larner Secondary Portal",
+    "url": "https://apply.med.uvm.edu/Security/Login.aspx",
+    "status": "received"
   }
 }

@@ -4,10 +4,10 @@
 - Active list COA/year: 102480
 - Active list GPA median: 3.89
 - Active list MCAT median: 514
-- Latest prompt cycle used here: 2024 archive on Admit.org
+- Latest prompt cycle used here: 2026-2027 live secondary portal prompt provided by applicant on 2026-07-01
 - Latest verified secondary deadline: January 1, 2026
 - Official admissions page: https://www.jefferson.edu/academics/colleges-schools-institutes/skmc/admissions.html
-- Prompt source: https://med.admit.org/secondary-essays/sidney-kimmel-medical-college-at-thomas-jefferson-university
+- Prompt source: https://amp.jefferson.edu/Security/Login.aspx
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,15 +17,13 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Only two prompts, so the diversity essay carries a lot of weight.
-- Secondary prompt count captured in this repo: 2
+- Updated from the applicant's Sidney Kimmel secondary portal. Only the diversity/equitable-care prompt was provided.
+- Secondary prompt count captured in this repo: 1
 
 ## Essay Packet
 - `schools/jefferson-kimmel/essay-packet.typ`
 - `schools/jefferson-kimmel/essays/prompt-01-diversity-contribution.md`
 - `schools/jefferson-kimmel/essays/prompt-01.draft.md`
-- `schools/jefferson-kimmel/essays/prompt-02-additional-information.md`
-- `schools/jefferson-kimmel/essays/prompt-02.draft.md`
 
 ## School Metadata
 - Why-school fact: Jefferson's JeffMD curriculum combines early longitudinal clinical experience, scholarly inquiry, and a humanities thread around the mission to serve, lead, and discover.

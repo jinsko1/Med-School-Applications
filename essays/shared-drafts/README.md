@@ -13,21 +13,20 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Albany Medical College - Prompt 02: Academic Inconsistencies
   - Frank H. Netter M.D. School of Medicine at Quinnipiac University - Prompt 06: Withdrawals or Breaks
   - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 03: Academic or Test Inconsistencies
-  - California Northstate University College of Medicine - Prompt 02: Education Not Continuous
+  - California Northstate University College of Medicine - Prompt 05: Education Not Continuous
 
 ## Additional Information
 - Shared draft: `essays/shared-drafts/additional-info.draft.md`
-- Linked prompts: 9
+- Linked prompts: 8
 - Schools/prompts sharing this draft:
   - Emory University School of Medicine - Prompt 05: Updates
-  - Sidney Kimmel Medical College at Thomas Jefferson University - Prompt 02: Additional Information
   - Albany Medical College - Prompt 07: Anything Else
   - Drexel University College of Medicine - Prompt 03: Extenuating Circumstances
   - Loyola University Chicago Stritch School of Medicine - Prompt 06: Updates and Context
   - University of California, Riverside School of Medicine - Prompt 05: Anything Else
   - University of Massachusetts Chan Medical School - Prompt 02: Further Explanation
   - Roseman University College of Medicine - Prompt 05: Application Updates
-  - California Northstate University College of Medicine - Prompt 04: Anything Else
+  - California Northstate University College of Medicine - Prompt 07: Anything Else
 
 ## COVID Impact
 - Shared draft: `essays/shared-drafts/covid-impact.draft.md`
@@ -40,10 +39,9 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Challenge / Resilience
 - Shared draft: `essays/shared-drafts/challenge-resilience.draft.md`
-- Linked prompts: 14
+- Linked prompts: 13
 - Schools/prompts sharing this draft:
   - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 01: Unfavorable Outcome
-  - Virginia Tech Carilion School of Medicine - Prompt 03: Being Corrected
   - Medical College of Wisconsin - Prompt 03: Decision You Regret
   - Wake Forest University School of Medicine - Prompt 02: Non-Academic Challenge
   - Albany Medical College - Prompt 04: Significant Challenge
@@ -101,7 +99,7 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Chicago Medical School at Rosalind Franklin University of Medicine and Science - Prompt 01: Why Medicine
   - University of California, Riverside School of Medicine - Prompt 03: Future Healthcare Setting
   - California University of Science and Medicine - Prompt 05: Ten Years from Now
-  - California Northstate University College of Medicine - Prompt 06: Future Direction of Healthcare
+  - California Northstate University College of Medicine - Prompt 04: Future Direction of Healthcare
 
 ## Reapplicant Update
 - Shared draft: `essays/shared-drafts/reapplicant-update.draft.md`
@@ -113,7 +111,7 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 05: Reapplicant Improvement
   - Thomas F. Frist, Jr. College of Medicine at Belmont University - Prompt 04: Reapplicant Changes
   - University of Illinois College of Medicine - Prompt 06: Reapplicant Update
-  - California Northstate University College of Medicine - Prompt 03: Reapplicant Accomplishments
+  - California Northstate University College of Medicine - Prompt 06: Reapplicant Accomplishments
 
 ## Service / Public Health / Underserved
 - Shared draft: `essays/shared-drafts/service-public-health.draft.md`

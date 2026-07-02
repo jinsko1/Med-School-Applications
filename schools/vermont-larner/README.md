@@ -4,10 +4,10 @@
 - Active list COA/year: 105472
 - Active list GPA median: 3.8
 - Active list MCAT median: 513
-- Latest prompt cycle used here: 2024 archive on Admit.org
+- Latest prompt cycle used here: 2026-2027 live secondary portal prompts provided by applicant on 2026-07-01
 - Latest verified secondary deadline: December 22, 2025
 - Official admissions page: https://www.uvm.edu/larnermed/admissions
-- Prompt source: https://med.admit.org/secondary-essays/university-of-vermont-college-of-medicine
+- Prompt source: https://apply.med.uvm.edu/Security/Login.aspx
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,7 +17,7 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Prompt set is strongly mission-and-curriculum specific.
+- Updated from the applicant's Vermont Larner secondary portal. Prompt 5 is optional.
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet

@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Roanoke, VA; cached accepted-student medians: GPA 3.82, MCAT 513.
-- Current list note: Current official page says 2026-2027 prompts will be posted in summer 2026. This workspace uses the latest public 2025-2026 prompt set.
+- Current list note: Updated from the applicant's Virginia Tech Carilion secondary portal.
 - Why-school fact: Virginia Tech Carilion requires every student to complete a hypothesis-driven research project guided by a mentoring team and presented in a scholarly format.
 - Heuristic list estimate: ~2%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -17,10 +17,9 @@
 - Leadership fit: use ASI University Student Governor, BCSM Ambassador outreach, lab trainee mentorship, and Learning Assistant work as proof of collaborative leadership.
 
 ## Prompt Strategy
-- `Fictional Character`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Humility`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Being Corrected`: use UTI research, AAS collaboration, conferences, Frost Scholar support, and AgarLens as one coherent research-growth arc.
-- `Publications`: use UTI research, AAS collaboration, conferences, Frost Scholar support, and AgarLens as one coherent research-growth arc.
+- `Protecting a Vulnerable Trait`: A good fit for curiosity, tenderness, or intellectual humility.
+- `Right Thing Versus Rules`: Choose a story with ethical tension but no recklessness.
+- `Greatest Generational Challenge`: Avoid a generic AI answer because the prompt excludes that lane.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

@@ -346,45 +346,38 @@
     "coa_per_year": "93201",
     "median_gpa": "3.82",
     "median_mcat": "513",
-    "secondary_cycle": "2025-2026 from ProspectiveDoctor / Med School Insiders / Virginia Tech admissions page",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-01",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://medicine.vtc.vt.edu/admissions/application-process.html",
-    "prompt_source": "https://www.prospectivedoctor.com/virginia-tech-carilion-school-of-medicine-secondary/",
-    "notes": "Current official page says 2026-2027 prompts will be posted in summer 2026. This workspace uses the latest public 2025-2026 prompt set.",
+    "prompt_source": "https://apply-admissions.vtc.vt.edu/Security/Login.aspx",
+    "notes": "Updated from the applicant's Virginia Tech Carilion secondary portal.",
     "prompts": [
       {
-        "title": "Fictional Character",
+        "title": "Protecting a Vulnerable Trait",
         "limit": "400 words",
         "themes": [
+          "values",
+          "professional-identity"
+        ],
+        "text": "Reflect on a trait or characteristic you are proud of that you feel is most vulnerable to being lost on your journey to becoming a physician. How do you plan to protect it?"
+      },
+      {
+        "title": "Right Thing Versus Rules",
+        "limit": "400 words",
+        "themes": [
+          "values",
+          "challenge"
+        ],
+        "text": "Describe a time when doing the \"right\" thing conflicted with rules, authority, or expectations. How did you handle it?"
+      },
+      {
+        "title": "Greatest Generational Challenge",
+        "limit": "400 words",
+        "themes": [
+          "future-goals",
           "values"
         ],
-        "text": "Who is a fictional character that is similar to you? Describe a time when you embodied that character."
-      },
-      {
-        "title": "Humility",
-        "limit": "400 words",
-        "themes": [
-          "service",
-          "community"
-        ],
-        "text": "What can a recovering addict who didn\u2019t finish high school teach their physician?"
-      },
-      {
-        "title": "Being Corrected",
-        "limit": "400 words",
-        "themes": [
-          "challenge",
-          "values"
-        ],
-        "text": "Describe a time (not related to research) when you were told you had done something wrong. How has the experience changed you?"
-      },
-      {
-        "title": "Publications",
-        "limit": "No narrative limit specified",
-        "themes": [
-          "research"
-        ],
-        "text": "Please list any publications in the appropriate citation format using the text box below."
+        "text": "Beyond the rise of AI, what do you consider the greatest challenge facing your generation, and how do you plan to address it?"
       }
     ],
     "why_school_fact": "Virginia Tech Carilion requires every student to complete a hypothesis-driven research project guided by a mentoring team and presented in a scholarly format.",
@@ -406,11 +399,11 @@
     "coa_per_year": "105472",
     "median_gpa": "3.8",
     "median_mcat": "513",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-01",
     "secondary_deadline": "December 22, 2025",
     "official_url": "https://www.uvm.edu/larnermed/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-vermont-college-of-medicine",
-    "notes": "Prompt set is strongly mission-and-curriculum specific.",
+    "prompt_source": "https://apply.med.uvm.edu/Security/Login.aspx",
+    "notes": "Updated from the applicant's Vermont Larner secondary portal. Prompt 5 is optional.",
     "prompts": [
       {
         "title": "Active Learning Fit",
@@ -419,7 +412,7 @@
           "mission-fit",
           "teamwork"
         ],
-        "text": "The Larner College of Medicine curriculum emphasizes active in-person participation and peer co-learning. Please share your thoughts on the suitability of active learning for you."
+        "text": "The Larner College of Medicine curriculum emphasizes active in-person participation and peer co-learning. This relies on individual students preparing for, and being actively involved in, participatory class sessions. Please share your thoughts on the suitability of active learning for you. Consider the points below to guide your response.\n\n- The value of balancing your learning with the teaching of your classmates.\n- Any potential challenges to this approach to learning.\n- Personal contributions to such a learning environment and areas of growth.\n- Examples of navigating a group learning process such as a flipped classroom experience."
       },
       {
         "title": "Learning Across Difference",
@@ -427,7 +420,7 @@
         "themes": [
           "diversity-equity"
         ],
-        "text": "Reflect on a time you learned something from someone or a group of people who are unlike yourself and how that challenged your preconceptions or biases. How will this experience influence your behavior in the future?"
+        "text": "The Larner College of Medicine at the University of Vermont recognizes that diversity extends beyond chosen and unchosen identities and encompasses an individual's entire experiences. Diverse environments can promote growth and provide an opportunity for reflection. Reflect on a time you learned something from someone or a group of people who are unlike yourself and how that challenged your preconceptions or biases. How will this experience influence your behavior in the future?"
       },
       {
         "title": "Professionalism",
@@ -435,7 +428,7 @@
         "themes": [
           "values"
         ],
-        "text": "How has your understanding of what professionalism means evolved over time? Reflect on a personal experience that contributed to your understanding of your own core values."
+        "text": "The Larner College of Medicine has core values that are reflected in our professionalism statement. How has your understanding of what professionalism means evolved over time? Reflect on a personal experience that contributed to your understanding of your own core values."
       },
       {
         "title": "Why Larner",
@@ -452,7 +445,7 @@
           "additional-info",
           "gap-year"
         ],
-        "text": "Use this space to share any information, not presented elsewhere, that will clarify any aspect of your application. If you are a reapplicant, you may choose to share what you have done since your previous application."
+        "text": "Optional: Use this space to share any information, not presented elsewhere, that will clarify any aspect of your application. If you are a reapplicant, you may choose to share what you have done since your previous application."
       }
     ],
     "why_school_fact": "Larner's Vermont Integrated Curriculum begins patient interaction on the first day of orientation and emphasizes professionalism, cultural competence, prevention, and health systems.",
@@ -610,27 +603,19 @@
     "coa_per_year": "102480",
     "median_gpa": "3.89",
     "median_mcat": "514",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompt provided by applicant on 2026-07-01",
     "secondary_deadline": "January 1, 2026",
     "official_url": "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc/admissions.html",
-    "prompt_source": "https://med.admit.org/secondary-essays/sidney-kimmel-medical-college-at-thomas-jefferson-university",
-    "notes": "Only two prompts, so the diversity essay carries a lot of weight.",
+    "prompt_source": "https://amp.jefferson.edu/Security/Login.aspx",
+    "notes": "Updated from the applicant's Sidney Kimmel secondary portal. Only the diversity/equitable-care prompt was provided.",
     "prompts": [
       {
         "title": "Diversity Contribution",
-        "limit": "2500 characters",
+        "limit": "Not listed in portal text provided",
         "themes": [
           "diversity-equity"
         ],
         "text": "Sidney Kimmel Medical College defines diversity as the richness in human differences. How will your own experiences allow you to contribute to the diversity of the student body and to provide equitable and inclusive care to your future patients?"
-      },
-      {
-        "title": "Additional Information",
-        "limit": "4000 characters",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "Do you have additional information that you would like to provide at this time?"
       }
     ],
     "why_school_fact": "Jefferson's JeffMD curriculum combines early longitudinal clinical experience, scholarly inquiry, and a humanities thread around the mission to serve, lead, and discover.",
@@ -2180,15 +2165,15 @@
     "coa_per_year": "113663",
     "median_gpa": "3.89",
     "median_mcat": "514",
-    "secondary_cycle": "2024-2025 latest public SDN prompt set",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-01",
     "secondary_deadline": "January 22, 2027 in cached 2027 MSAR",
     "official_url": "https://medicine.cnsu.edu/admissions/",
-    "prompt_source": "https://www.studentdoctor.net/schools-database/medical-school/essay-questions/CAL-NO",
-    "notes": "California MD option with favorable geography, but review financing carefully because the official admissions page says CNU does not participate in federal direct student loan programs.",
+    "prompt_source": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80286/6387",
+    "notes": "Updated from the applicant's California Northstate secondary portal. Portal text did not list a word limit for the pre-health advisor or standardized-tests prompt.",
     "prompts": [
       {
         "title": "Why CNUCOM",
-        "limit": "No word count specified in latest public prompt set",
+        "limit": "250 words",
         "themes": [
           "why-school",
           "mission-fit"
@@ -2196,8 +2181,35 @@
         "text": "Why have you chosen to apply to CNUCOM?"
       },
       {
+        "title": "Diverse Populations and Central Valley",
+        "limit": "250 words",
+        "themes": [
+          "mission-fit",
+          "community"
+        ],
+        "text": "In the medical profession, you will be exposed to students, faculty, colleagues, and patients of various cultures and socioeconomic backgrounds. How has your involvement with diverse populations prepared you for potentially four years in Elk Grove, the greater Sacramento area, and the rest of the Central Valley?"
+      },
+      {
+        "title": "Pre-Health Advisor Experience",
+        "limit": "Not listed in portal text provided",
+        "themes": [
+          "values",
+          "academic-context"
+        ],
+        "text": "Did you have a Pre-Health Advisor at your undergraduate institution? If so, please tell us about your experience. How did it help you in your journey to to apply to medical school? If not, please let us know how you worked independently to find out more about applying to medical school and the path of your journey to apply?"
+      },
+      {
+        "title": "Future Direction of Healthcare",
+        "limit": "250 words",
+        "themes": [
+          "future-goals",
+          "values"
+        ],
+        "text": "In which direction would you like to see healthcare progress over the next decade?"
+      },
+      {
         "title": "Education Not Continuous",
-        "limit": "No word count specified in latest public prompt set",
+        "limit": "250 words",
         "themes": [
           "gap-year",
           "academic-context"
@@ -2206,7 +2218,7 @@
       },
       {
         "title": "Reapplicant Accomplishments",
-        "limit": "No word count specified in latest public prompt set",
+        "limit": "250 words",
         "themes": [
           "additional-info",
           "gap-year"
@@ -2215,33 +2227,15 @@
       },
       {
         "title": "Anything Else",
-        "limit": "No word count specified in latest public prompt set",
+        "limit": "250 words",
         "themes": [
           "additional-info"
         ],
         "text": "Is there anything you would like the Admissions Committee to know that is not reflected elsewhere in your application?"
       },
       {
-        "title": "Pre-Health Advisor Experience",
-        "limit": "No word count specified in latest public prompt set",
-        "themes": [
-          "values",
-          "academic-context"
-        ],
-        "text": "Did you have a Pre-Health Advisor at your undergraduate institution? If so, please tell us about your experience. How did it help you in your journey to apply to medical school? If not, please let us know how you worked independently to find out more about applying to medical school and the path of your journey to apply."
-      },
-      {
-        "title": "Future Direction of Healthcare",
-        "limit": "No word count specified in latest public prompt set",
-        "themes": [
-          "future-goals",
-          "values"
-        ],
-        "text": "In which direction would you like to see healthcare progress over the next decade?"
-      },
-      {
         "title": "Standardized Tests and MCAT Preparation",
-        "limit": "No word count specified in latest public prompt set",
+        "limit": "Not listed in portal text provided",
         "themes": [
           "academic-context",
           "values"

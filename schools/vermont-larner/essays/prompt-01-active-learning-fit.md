@@ -3,41 +3,21 @@
 ## Prompt Metadata
 - Title: Active Learning Fit
 - Limit: 400 words
-- Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/university-of-vermont-college-of-medicine
-- Shared themes:
-- `../../../essays/shared/mission-fit.md`
-- `../../../essays/shared/teamwork.md`
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-07-01
+- Source: https://apply.med.uvm.edu/Security/Login.aspx
 - Local notes file: `prompt-01.local.md`
 - Draft file: `prompt-01.draft.md`
 
 ## Prompt Text
-The Larner College of Medicine curriculum emphasizes active in-person participation and peer co-learning. Please share your thoughts on the suitability of active learning for you.
+The Larner College of Medicine curriculum emphasizes active in-person participation and peer co-learning. This relies on individual students preparing for, and being actively involved in, participatory class sessions. Please share your thoughts on the suitability of active learning for you. Consider the points below to guide your response.
 
-## Synced Backbone
-# Mission Fit Backbone
+- The value of balancing your learning with the teaching of your classmates.
+- Any potential challenges to this approach to learning.
+- Personal contributions to such a learning environment and areas of growth.
+- Examples of navigating a group learning process such as a flipped classroom experience.
 
-## School Mission
-Name the part of the mission that genuinely overlaps with your path.
-
-## Evidence
-Pair each mission point with a concrete experience.
-
-## Future
-Explain how that mission fit continues in medical school and beyond.
-
-# Teamwork Backbone
-
-## Team Situation
-Pick a team-based example with visible interdependence.
-
-## Your Role
-- What role did you play?
-- What role did others play?
-- How did you adjust?
-
-## Outcome
-Show what good teamwork required from you.
+## Drafting Frame
+Use this packet page to verify the exact prompt and school-specific notes before writing the final response.
 
 ## School-Specific Tailoring
 Read `../research.md` and `prompt-01.local.md` before drafting a final version.

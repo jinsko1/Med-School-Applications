@@ -1,8 +1,8 @@
-# California Northstate University College of Medicine - Future Direction of Healthcare Local Notes
+# California Northstate University College of Medicine - Reapplicant Accomplishments Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Use N/A if not a reapplicant.
+- Do not spend writing energy here unless it applies.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

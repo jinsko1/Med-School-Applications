@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Elk Grove, CA; cached accepted-student medians: GPA 3.89, MCAT 514.
-- Current list note: California MD option with favorable geography, but review financing carefully because the official admissions page says CNU does not participate in federal direct student loan programs.
+- Current list note: Updated from the applicant's California Northstate secondary portal. Portal text did not list a word limit for the pre-health advisor or standardized-tests prompt.
 - Why-school fact: California Northstate uses a clinical-presentation-based curriculum and explicitly emphasizes primary care, patient-centeredness, and social accountability in Northern California.
 - Heuristic list estimate: ~13%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -18,13 +18,14 @@
 - Leadership fit: use ASI University Student Governor, BCSM Ambassador outreach, lab trainee mentorship, and Learning Assistant work as proof of collaborative leadership.
 
 ## Prompt Strategy
-- `Why CNUCOM`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `Education Not Continuous`: give a concise timeline of research, clinical work, service, and application-year responsibilities.
-- `Reapplicant Accomplishments`: use N/A language unless you become a reapplicant.
-- `Anything Else`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Pre-Health Advisor Experience`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Future Direction of Healthcare`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Standardized Tests and MCAT Preparation`: answer directly and factually; avoid overexplaining unless there is a real issue to contextualize.
+- `Why CNUCOM`: Name Elk Grove/Sacramento/Central Valley fit only if you can make it concrete.
+- `Diverse Populations and Central Valley`: This should be standalone, not a generic diversity essay.
+- `Pre-Health Advisor Experience`: Answer administratively and plainly; do not over-polish into a values essay.
+- `Future Direction of Healthcare`: Tie your answer to access, prevention, antimicrobial stewardship, women's health, or community-rooted care.
+- `Education Not Continuous`: Use N/A if continuous.
+- `Reapplicant Accomplishments`: Use N/A if not a reapplicant.
+- `Anything Else`: Use only if it adds real signal.
+- `Standardized Tests and MCAT Preparation`: Be factual, confident, and brief.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Philadelphia, PA; cached accepted-student medians: GPA 3.89, MCAT 514.
-- Current list note: Only two prompts, so the diversity essay carries a lot of weight.
+- Current list note: Updated from the applicant's Sidney Kimmel secondary portal. Only the diversity/equitable-care prompt was provided.
 - Why-school fact: Jefferson's JeffMD curriculum combines early longitudinal clinical experience, scholarly inquiry, and a humanities thread around the mission to serve, lead, and discover.
 - Heuristic list estimate: ~5%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -17,8 +17,7 @@
 - Service fit: center Hospice SLO and Restorative Partners juvenile hall work as sustained, direct service with vulnerable people rather than one-off volunteering.
 
 ## Prompt Strategy
-- `Diversity Contribution`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Additional Information`: select the strongest matching activity and keep the reflection tied to medicine.
+- `Diversity Contribution`: Use one close-contact story rather than a broad identity inventory.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

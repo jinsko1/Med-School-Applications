@@ -1,5 +1,1 @@
-# California Northstate University College of Medicine - Pre-Health Advisor Experience Draft
-
-_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
-
-Write your current draft here.
+../../../essays/shared-drafts/academic-context.draft.md

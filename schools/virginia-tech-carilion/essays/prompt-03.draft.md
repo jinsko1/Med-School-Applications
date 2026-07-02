@@ -1,1 +1,3 @@
-../../../essays/shared-drafts/challenge-resilience.draft.md
+# Virginia Tech Carilion School of Medicine - Greatest Generational Challenge Draft
+
+Write your current draft here.

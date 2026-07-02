@@ -1,8 +1,8 @@
-# California Northstate University College of Medicine - Standardized Tests and MCAT Preparation Local Notes
+# California Northstate University College of Medicine - Anything Else Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Use only if it adds real signal.
+- Avoid repeating the personal statement or school-fit essay.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

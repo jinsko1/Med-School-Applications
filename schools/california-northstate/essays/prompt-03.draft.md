@@ -1,1 +1,3 @@
-../../../essays/shared-drafts/reapplicant-update.draft.md
+# California Northstate University College of Medicine - Pre-Health Advisor Experience Draft
+
+Write your current draft here.

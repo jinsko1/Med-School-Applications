@@ -40,9 +40,9 @@
       {
         "school": "California Northstate University College of Medicine",
         "school_slug": "california-northstate",
-        "prompt_index": 2,
+        "prompt_index": 5,
         "prompt_title": "Education Not Continuous",
-        "draft_path": "schools/california-northstate/essays/prompt-02.draft.md",
+        "draft_path": "schools/california-northstate/essays/prompt-05.draft.md",
         "status": "linked"
       }
     ]
@@ -59,14 +59,6 @@
         "prompt_index": 5,
         "prompt_title": "Updates",
         "draft_path": "schools/emory/essays/prompt-05.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "Sidney Kimmel Medical College at Thomas Jefferson University",
-        "school_slug": "jefferson-kimmel",
-        "prompt_index": 2,
-        "prompt_title": "Additional Information",
-        "draft_path": "schools/jefferson-kimmel/essays/prompt-02.draft.md",
         "status": "linked"
       },
       {
@@ -120,9 +112,9 @@
       {
         "school": "California Northstate University College of Medicine",
         "school_slug": "california-northstate",
-        "prompt_index": 4,
+        "prompt_index": 7,
         "prompt_title": "Anything Else",
-        "draft_path": "schools/california-northstate/essays/prompt-04.draft.md",
+        "draft_path": "schools/california-northstate/essays/prompt-07.draft.md",
         "status": "linked"
       }
     ]
@@ -179,14 +171,6 @@
         "prompt_index": 1,
         "prompt_title": "Unfavorable Outcome",
         "draft_path": "schools/kaiser-permanente/essays/prompt-01.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "Virginia Tech Carilion School of Medicine",
-        "school_slug": "virginia-tech-carilion",
-        "prompt_index": 3,
-        "prompt_title": "Being Corrected",
-        "draft_path": "schools/virginia-tech-carilion/essays/prompt-03.draft.md",
         "status": "linked"
       },
       {
@@ -552,9 +536,9 @@
       {
         "school": "California Northstate University College of Medicine",
         "school_slug": "california-northstate",
-        "prompt_index": 6,
+        "prompt_index": 4,
         "prompt_title": "Future Direction of Healthcare",
-        "draft_path": "schools/california-northstate/essays/prompt-06.draft.md",
+        "draft_path": "schools/california-northstate/essays/prompt-04.draft.md",
         "status": "linked"
       }
     ]
@@ -616,9 +600,9 @@
       {
         "school": "California Northstate University College of Medicine",
         "school_slug": "california-northstate",
-        "prompt_index": 3,
+        "prompt_index": 6,
         "prompt_title": "Reapplicant Accomplishments",
-        "draft_path": "schools/california-northstate/essays/prompt-03.draft.md",
+        "draft_path": "schools/california-northstate/essays/prompt-06.draft.md",
         "status": "linked"
       }
     ]

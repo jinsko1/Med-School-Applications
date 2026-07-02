@@ -1,8 +1,8 @@
-# California Northstate University College of Medicine - Reapplicant Accomplishments Local Notes
+# California Northstate University College of Medicine - Pre-Health Advisor Experience Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Answer administratively and plainly; do not over-polish into a values essay.
+- If advisor support was limited, focus on independent resourcefulness without sounding resentful.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

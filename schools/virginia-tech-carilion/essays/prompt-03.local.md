@@ -1,8 +1,8 @@
-# Virginia Tech Carilion School of Medicine - Being Corrected Local Notes
+# Virginia Tech Carilion School of Medicine - Greatest Generational Challenge Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Avoid a generic AI answer because the prompt excludes that lane.
+- Good angles: distrust, social isolation, antimicrobial resistance, health inequity, or climate/health.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.

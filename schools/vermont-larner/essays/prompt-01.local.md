@@ -1,8 +1,8 @@
 # Vermont Larner College of Medicine - Active Learning Fit Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- This should sound like your SPICES/active-learning beliefs.
+- Mention teaching/classmate co-learning only if grounded in LA/ambassador/lab mentorship experience.
 
 ## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
+- Make sure the draft answers the actual wording of the prompt, not just a shared backbone.
