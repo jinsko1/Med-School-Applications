@@ -527,6 +527,62 @@ PAGE_TEMPLATE = Template(
       margin-top: 20px;
     }
 
+    .progress-card {
+      margin-top: 20px;
+      padding: 18px 20px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .progress-topline {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 14px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .progress-title {
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .progress-count {
+      color: #145a31;
+      font-size: 18px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .progress-track {
+      height: 13px;
+      margin-top: 12px;
+      overflow: hidden;
+      background: #efe7dc;
+      border: 1px solid rgba(216, 205, 193, 0.9);
+      border-radius: 999px;
+    }
+
+    .progress-fill {
+      width: var(--progress-percent);
+      height: 100%;
+      background: linear-gradient(90deg, #2f7d52, #7fb069);
+      border-radius: inherit;
+      box-shadow: 0 8px 18px rgba(47, 125, 82, 0.18);
+    }
+
+    .progress-note {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+    }
+
     .school-card {
       display: grid;
       gap: 12px;
@@ -743,6 +799,7 @@ PAGE_TEMPLATE = Template(
       .content { grid-template-columns: 1fr; }
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .school-grid { grid-template-columns: 1fr; }
+      .progress-topline { align-items: flex-start; flex-direction: column; gap: 4px; }
       .shell { width: min(100vw - 18px, 1080px); margin-top: 14px; }
       .hero { padding: 22px 20px; border-radius: 16px; }
       .card { padding: 20px; }
@@ -775,6 +832,18 @@ PAGE_TEMPLATE = Template(
           </a>
         </div>
       </section>
+      {% if progress %}
+      <section class="progress-card" aria-label="Secondary essay completion progress">
+        <div class="progress-topline">
+          <div class="progress-title">Secondary Progress</div>
+          <div class="progress-count">{{ progress.completed }} / {{ progress.total }} schools</div>
+        </div>
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="{{ progress.total }}" aria-valuenow="{{ progress.completed }}" aria-label="{{ progress.completed }} of {{ progress.total }} schools complete">
+          <div class="progress-fill" style="--progress-percent: {{ progress.percent }}%;"></div>
+        </div>
+        <p class="progress-note">{{ progress.remaining }} school{% if progress.remaining != 1 %}s{% endif %} remaining.</p>
+      </section>
+      {% endif %}
       {% if primary_entries %}
       <section class="index-list" style="margin-top: 20px;">
         <details class="index-group" open>
@@ -1372,12 +1441,21 @@ def build_index(drafts: list[Path], school_page_slugs: set[str] | None = None) -
             }
         )
     schools.sort(key=lambda school: school["name"].lower())
+    completed_count = sum(1 for school in schools if school.get("completion_status"))
+    total_count = len(schools)
+    progress = {
+        "completed": completed_count,
+        "total": total_count,
+        "remaining": max(total_count - completed_count, 0),
+        "percent": round((completed_count / total_count) * 100, 1) if total_count else 0,
+    }
 
     index_html = PAGE_TEMPLATE.render(
         kind="index",
         page_title="Essay Review Pages",
         primary_entries=primary_entries,
         schools=schools,
+        progress=progress,
     )
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     (OUTPUT_ROOT / "essays.html").write_text(index_html, encoding="utf-8")
