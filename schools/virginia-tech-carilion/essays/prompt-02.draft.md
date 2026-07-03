@@ -1,3 +1,7 @@
 # Virginia Tech Carilion School of Medicine - Right Thing Versus Rules Draft
 
-Write your current draft here.
+Understandably, at ninety-four years old, my hospice client did not enjoy the physical therapy exercises her daughter expected her to complete. Each time I visited, her daughter reminded me to ensure that the exercises were done, though my client always expressed clear reluctance.
+
+Accordingly, before her exercises, she would often coop herself up in the restroom, refusing to come out. Persistent knocking and questioning made little progress, and I was unsure how to respond. Her daughter insisted on the exercises, but at this rate, my client wasn’t completing them. This happened on multiple occasions, leaving her daughter disappointed that her mother had not completed the exercises—a warranted reaction, given that she simply wanted her mother to remain as healthy and strong as possible.
+
+By degrees, I discovered that persistence alone was ineffective. Rather than pressing her, strictly abiding by the “rules,” I waited patiently and allowed her to come out on her own terms, after which I completed the exercises alongside her, sharing the burden rather than merely making her endure them alone. As such, rules often subconsciously impose a rigid conception of what is right. Through this experience, however, I learned that the right thing can be rather flexible, often bending with careful thought and consideration in order to put the patient first.
