@@ -1,3 +1,7 @@
 # California Northstate University College of Medicine - Diverse Populations and Central Valley Draft
 
-Write your current draft here.
+My service in juvenile hall taught me how easily a person can be reduced to the most visible or troubling part of their history—and therefore prepared me to work with diverse populations. Among the youth I encountered, I was most struck by the lived difference between “A” and me. He had endured what no child deserves to endure, and yet, in casual conversation, one would never discern such a grave history.
+
+Though I am ashamed to admit, perhaps somewhere within myself, I had presumptuously assumed him to be somehow inherently different; so different from me that I could hardly comprehend the distance between us. Yet, by degrees, through card games, conversations, and his art, I came to know him beyond his charge. This challenged the way I understood circumstance and character. Had I been born into a childhood as adverse as “A’s,” even if I were fundamentally myself, my life could have gone astray. My fortunate circumstances were purely due to chance, not some inherent virtuous quality I possess.
+
+Through my education at CNUCOM, I hope to continue learning how social variables shape health. Opportunities like Clínica Tepati are attractive to me because they would allow me to carry this lesson into medicine: that no person should be reduced to the most visible part of their history. By asking questions and resisting the urge to form biases, I hope to provide care that is equitable, inclusive, and grounded in the dignity of the human before me.

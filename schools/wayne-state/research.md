@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Detroit, MI; cached accepted-student medians: GPA 3.88, MCAT 512.
-- Current list note: Urban mission and belonging prompts line up especially well with service, justice, and community work.
+- Current list note: Updated from the applicant's Wayne State secondary portal on 2026-07-06; urban mission and belonging prompts line up especially well with service, justice, and community work.
 - Why-school fact: Wayne State's Detroit setting is central to its identity, giving you a strong place to connect restorative justice, health equity, and urban underserved clinical interests.
 - Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -23,7 +23,6 @@
 - `Healthcare Challenges in Under-Resourced Communities`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
 - `Mission Alignment`: select the strongest matching activity and keep the reflection tied to medicine.
 - `Belonging and Class Contribution`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Growth Year`: give a concise timeline of research, clinical work, service, and application-year responsibilities.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

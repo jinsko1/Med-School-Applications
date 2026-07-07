@@ -1,5 +1,5 @@
 # Additional Information Shared Draft
 
-Use for optional updates or anything-else prompts. Keep it concise unless the school invites a substantive update.
+Despite constant practice during my juvenile hall visits, I remain a poor card-game player. Perhaps I am simply inept in this particular field of entertainment; I am not certain. In the coming year, I suppose the youth will test this through their usual taunting invitations.
 
-Write the reusable essay core here. Keep school-specific names, programs, and final tailoring in each school's local notes file.
+The point is—as I have not elaborated on this much elsewhere in my application—that I learned through regular contact with people that service often begins with the mundane and unglamorous. Something as ordinary as eating food together, playing card games, and sharing art may be the beginning of what matters most in service.

@@ -918,11 +918,11 @@
     "coa_per_year": "107533",
     "median_gpa": "3.88",
     "median_mcat": "512",
-    "secondary_cycle": "2025-2026 from Med School Insiders",
-    "secondary_deadline": "Advised within 2 weeks of request; final deadline February 8, 2026",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-06",
+    "secondary_deadline": "See secondary invite",
     "official_url": "https://www.med.wayne.edu/admissions",
-    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/wayne-state-university-school-of-medicine-secondary-essay-prompts/",
-    "notes": "Urban mission and belonging prompts line up especially well with service, justice, and community work.",
+    "prompt_source": "https://applicant.med.wayne.edu/security/login.aspx",
+    "notes": "Updated from the applicant's Wayne State secondary portal. Urban mission and belonging prompts line up especially well with service, justice, and community work.",
     "prompts": [
       {
         "title": "Motivation and Challenges of Medicine",
@@ -931,7 +931,7 @@
           "future-goals",
           "challenge"
         ],
-        "text": "When reflecting on the roles and responsibilities of a physician, please discuss what motivated your interest. What are potential challenges to pursuing a career in medicine?"
+        "text": "When reflecting on the roles and responsibilities of a physician, please discuss what motivated your interest in medicine? What are potential challenges to pursuing a career in medicine?"
       },
       {
         "title": "Healthcare Challenges in Under-Resourced Communities",
@@ -958,14 +958,6 @@
           "community"
         ],
         "text": "The Wayne State University School of Medicine aims to provide a rich, varied, and inclusive educational experience for all members of the class. How would you advance belonging and contribute to the educational experience of fellow medical students?"
-      },
-      {
-        "title": "Growth Year",
-        "limit": "No word count specified",
-        "themes": [
-          "gap-year"
-        ],
-        "text": "Please answer if you have had a gap or growth year (career change, re-applicant, additional education, etc.). A growth year is defined as a period of time between the end of your undergraduate education and a year or more prior to the start of medical school. What activities have you participated in or plan to participate in during this period? How does this relate to your future career in medicine?"
       }
     ],
     "why_school_fact": "Wayne State's Detroit setting is central to its identity, giving you a strong place to connect restorative justice, health equity, and urban underserved clinical interests.",

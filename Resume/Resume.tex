@@ -1,10 +1,15 @@
 % preamble ============================
-\documentclass{article}
+\documentclass[10pt]{article}
 \usepackage[T1]{fontenc}
-\usepackage{lipsum}  % produce dummy text as filler
-\usepackage[margin=2.5cm]{geometry}
-\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+\usepackage[top=1.2cm, bottom=1.2cm, left=1.25cm, right=1.25cm]{geometry}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue, pageanchor=false]{hyperref}
 \usepackage{enumitem}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.5pt}
+\setlist[itemize]{noitemsep, topsep=0.5pt, leftmargin=1.35em}
 % ====================================
 
 \begin{document}
@@ -12,167 +17,134 @@
 % Name and hyperlinks ===================
 \begin{center}
 {\huge Jin Saeki Ko}
-\large
 
 \href{mailto:jko23@calpoly.edu}{jko23@calpoly.edu} ·
 \href{https://jinsko.com/}{jinsko.com} ·
-(808) 796 - 8932\\
-
+(808) 796-8932
 \end{center}
 
 % Education section ======================
 \textbf{EDUCATION}
 \hrulefill\\
-
 \textbf{California Polytechnic State University San Luis Obispo}
-
-Bachelor of Science, Microbiology
 \hfill
-Expected graduation: June 2027
+Expected graduation: May 2027\\
+Bachelor of Science in Microbiology
+\hfill
+GPA: 3.73
 
-GPA: 3.73\\
-
-% Research section =======================
-\textbf{RESEARCH}
+% Clinical Experience section =======================
+\textbf{CLINICAL EXPERIENCE}
 \hrulefill\\
-
-\textbf{Microbiology Undergraduate Researcher}
-\hfill
-Feb 2024 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Dr. Alejandra Yep's Lab; inhibiting iron acquisition in uropathogenic Escherichia coli as a potential treatment option for UTIs; more details \href{https://jinsko.com/research/8-17-2025.html}{here}
-  \item Dr. Alejandra Yep's Lab; exploring the role of surfactants in swarming motility; more details \href{https://jinsko.com/research/9-17-2025.html}{here}
-  \item Individual Project; contributing to open source software using python to create an automated plate measuring software\\
-\end{itemize}
-
-\textbf{Chemistry Undergraduate Researcher}
-\hfill
-Sep 2025 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Dr. Corrine Lehr's Lab; came up with a protocol using Atomic Absorption Spectroscopy to measure intracellular iron in isogenic strains of Escherichia coli; more details \href{https://jinsko.com/research/ironQuant.html}{here}\\
-\end{itemize}
-
-% Conferences section =======================
-\textbf{CONFERECES}
-\hrulefill\\
-
-\textbf{American Society for Microbiology 2025}
-\hfill
-June 2025
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Poster Presentation; more details more details \href{https://jinsko.com/research/asm2025.html}{here}\\
-\end{itemize}
-
-\textbf{CSU BIOTECH Symposium}
-\hfill
-Jan 2026
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Poster Presentation\\
-\end{itemize}
-
-\textbf{West Coast Biological Sciences Undergraduate Research Conference}
-\hfill
-April 2025
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Poster Presentation\\
-\end{itemize}
-
-\textbf{BCSM Student Research Conference}
-\hfill
-May 2024, 2025, 2026
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Poster Presentation for College-wide conference\\
-\end{itemize}
-
-% Experience section =======================
-\textbf{EXPERIENCE}
-\hrulefill\\
-
 \textbf{Clinical Assistant}
 \hfill
-Aug 2024 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Collaborating with clinic staff to provide comprehensive healthcare services for Cal Poly students through the campus health center
-  \item Taking vitals, rooming patients, collecting urine samples, and cleaning exam rooms
+Sep 2024--Present
+\begin{itemize}
+  \item Support patient intake and clinical workflow at Cal Poly's student health center by rooming patients, collecting vitals, obtaining urine samples, preparing exam rooms, and collaborating with clinic staff to support timely, respectful care for student patients.
 \end{itemize}
 
 \textbf{Dignity Health Physician Mentorship Program}
 \hfill
-Jun 2024 - Aug 2024
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Shadowed physicians from pediatrics, nephrology, neonatology, cardiology, anesthesiology, and orthopedic surgery for 8 weeks, gaining insight into a myriad of medical disciplines
+Jun 2024--Sep 2024
+\begin{itemize}
+  \item Shadowed physicians in pediatrics, nephrology, neonatology, cardiology, anesthesiology, and orthopedic surgery for 8 weeks.
 \end{itemize}
 
-\textbf{Department of Chemistry and Biochemistry Learning Assistant}
-\hfill
-Jan 2024 - June 2024
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Worked with faculty to facilitate student discussion and problem solving 
-  \item Received training in working with students and significant experience in teaching in a college classroom\\
-\end{itemize}
-
-% Leadership section =======================
-\textbf{LEADERSHIP}
+% Research section =======================
+\textbf{RESEARCH}
 \hrulefill\\
-
-\textbf{ASI University Student Governor}
+\textbf{Microbiology Undergraduate Researcher, Yep Lab}
 \hfill
-May 2024 - June 2025
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item One of eight members working for \textit{Associated Students Inc.} representing the university student body on the University Union Advisory Board 
-  \item Voting on policy for ASI managed facilities
+Feb 2024--Present
+\begin{itemize}
+  \item Investigate \href{https://jinsko.com/research/8-17-2025.html}{iron acquisition pathways} in uropathogenic \textit{Escherichia coli} as potential therapeutic targets for urinary tract infections.
+  \item Study the \href{https://jinsko.com/research/9-17-2025.html}{role of surfactants in swarming motility} using bacterial motility assays.
+  \item Developed \href{https://jinsko.com/research/colony_counter/}{AgarLens}, a Python-based open-source desktop app using image analysis and a YOLO model to measure agar-plate growth, count colonies, and export annotated images.
 \end{itemize}
 
-\textbf{Bailey College of Science and Mathematics Ambassador}
+\textbf{Chemistry Undergraduate Researcher, Lehr Lab}
 \hfill
-Nov 2023 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Educating prospective students and guardians about college’s myriad opportunities through leading tours across campus
-  \item Representing Cal Poly’s College of Science and Mathematics through various university-wide outreach events
-\end{itemize}
-
-\textbf{University Committee for Diversity, Equity, and Inclusion}
-\hfill
-Nov 2023 - June 2024
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Partaking in student panels for prospective students to share college equity efforts
-  \item Working with faculty on the academic senate to create an inclusive and equitable college culture by addressing policies and practices that are barriers to student success
-  \item Planning university-wide DEI related events\\
-\end{itemize}
-
-% Volunteer section =======================
-\textbf{VOLUNTEERING}
-\hrulefill\\
-
-\textbf{Hospice San Luis Obispo County In-Home Hospice Volunteer}
-\hfill
-Oct 2023 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Received training in working with the elderly and people with cognitive disorders to aid clients in end-of-life journey
-  \item Visiting client homes biweekly to provide practical and emotional support
-\end{itemize}
-
-\textbf{Restorative Partners San Luis Obispo Volunteer}
-\hfill
-Aug 2024 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Received training in practicing restorative justice with the incarcerated youth at juvenile hall
-  \item Engaging in sports and connecting with the youth to offer emotional support
-  \item Currently programming on an online platform for juveniles to share their art with the public\\
+Sep 2025--Present
+\begin{itemize}
+  \item Developed an \href{https://jinsko.com/research/ironQuant.html}{atomic absorption spectroscopy protocol} to quantify intracellular iron in isogenic \textit{E. coli} strains.
 \end{itemize}
 
 % Awards section =======================
 \textbf{AWARDS AND SCHOLARSHIPS}
 \hrulefill\\
-
 \textbf{Frost Fellow}
 \hfill
-May 2025 - Present
-\begin{itemize}[noitemsep, topsep=0pt]
-  \item Scholarship of 10K annually to participate in research for the remainder of undergraduate career
-  \item Scholarship of 4.5K to conduct summer research
+May 2025--Present
+\begin{itemize}
+  \item Awarded \$10,000 annually to support undergraduate research through graduation.
+  \item Received \$9,000 in total summer research funding across two summers for continued microbiology research.
 \end{itemize}
 
+% Volunteer section =======================
+\textbf{SERVICE}
+\hrulefill\\
+\textbf{Hospice San Luis Obispo County, In-Home Hospice Volunteer}
+\hfill
+Oct 2023--Present
+\begin{itemize}
+  \item Visit clients biweekly to provide companionship, practical support, and emotional support during the end-of-life process.
+  \item Completed training in supporting older adults and clients with cognitive disorders.
+\end{itemize}
 
+\textbf{Restorative Partners San Luis Obispo, Juvenile Hall Volunteer}
+\hfill
+Aug 2024--Present
+\begin{itemize}
+  \item Build supportive relationships with youth in juvenile hall through sports, conversation, and restorative justice activities.
+  \item Help share youth artwork anonymously through newsletters distributed to guardians, donors, and volunteers.
+\end{itemize}
+
+% Leadership section =======================
+\textbf{LEADERSHIP}
+\hrulefill\\
+\textbf{ASI University Student Governor}
+\hfill
+May 2024--Jun 2025
+\begin{itemize}
+  \item Represented the student body as one of eight \textit{Associated Students Inc.} governors on the University Union Advisory Board.
+  \item Coauthored the proposal for \href{https://mustangnews.net/asi-installs-egal-pads-on-a-roll/}{Egal Pads on a Roll}, expanding access to menstrual products in University Union bathrooms.
+  \item Wrote a proposal and installed a battery recycling program supporting sustainable operations in the University Union and Recreation Center; voted on policy for ASI-managed facilities.
+\end{itemize}
+
+\textbf{Bailey College of Science and Mathematics Ambassador}
+\hfill
+Nov 2023--Present
+\begin{itemize}
+  \item Lead campus tours for prospective students and guardians, sharing academic opportunities, student resources, and the College of Science and Mathematics through university-wide outreach events.
+\end{itemize}
+
+\textbf{University Committee for Diversity, Equity, and Inclusion}
+\hfill
+Nov 2023--Jun 2024
+\begin{itemize}
+  \item Coauthored the \href{https://cosam.calpoly.edu/diversity/students}{Bailey College Student DEI Resources website} to share inclusive funding, research, teaching, academic, and volunteering opportunities with the student body.
+  \item Worked with faculty on Academic Senate initiatives addressing policies and practices that create barriers to student success.
+\end{itemize}
+
+% Presentations section =======================
+\textbf{POSTER PRESENTATIONS}
+\hrulefill
+\begin{itemize}
+  \item American Society for Microbiology \hfill \href{https://jinsko.com/conferences/asm.pdf}{Jun 2025}
+  \item CSU BIOTECH Symposium \hfill \href{https://jinsko.com/conferences/csu-biotech-poster.pdf}{Jan 2026}
+  \item West Coast Biological Sciences Undergraduate Research Conference \hfill \href{https://jinsko.com/conferences/west-coast-biological-sciences-undergraduate-research-conference.pdf}{Apr 2025}
+  \item BCSM Student Research Conference \hfill \href{https://jinsko.com/conferences/bcsm-2024.pdf}{May 2024}, \href{https://jinsko.com/conferences/bcsm-2025.pdf}{May 2025}, \href{https://jinsko.com/conferences/bcsm-2026.pdf}{May 2026}
+\end{itemize}
+
+% Teaching section =======================
+\textbf{TEACHING EXPERIENCE}
+\hrulefill\\
+\textbf{Department of Chemistry and Biochemistry Learning Assistant}
+\hfill
+Jan 2024--Jun 2024
+\begin{itemize}
+  \item Worked with faculty to facilitate student discussion and problem solving in a college classroom.
+  \item Completed training in student-centered teaching and classroom facilitation.
+\end{itemize}
 
 \end{document}

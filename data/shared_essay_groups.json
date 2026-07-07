@@ -302,14 +302,6 @@
         "status": "linked"
       },
       {
-        "school": "Wayne State University School of Medicine",
-        "school_slug": "wayne-state",
-        "prompt_index": 5,
-        "prompt_title": "Growth Year",
-        "draft_path": "schools/wayne-state/essays/prompt-05.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "Loyola University Chicago Stritch School of Medicine",
         "school_slug": "loyola-stritch",
         "prompt_index": 8,

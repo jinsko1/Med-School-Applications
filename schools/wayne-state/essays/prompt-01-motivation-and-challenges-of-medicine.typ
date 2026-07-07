@@ -5,12 +5,12 @@
 #section_label("Prompt metadata")
 - Title: Motivation and Challenges of Medicine
 - Limit: 1250 characters
-- Cycle used in this repo: 2025-2026 from Med School Insiders
-- Source: https://medschoolinsiders.com/medical-school-secondary-prompts-database/wayne-state-university-school-of-medicine-secondary-essay-prompts/
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-07-06
+- Source: https://applicant.med.wayne.edu/security/login.aspx
 - Local notes file: prompt-01.local.md
 
 #section_label("Prompt text")
-When reflecting on the roles and responsibilities of a physician, please discuss what motivated your interest. What are potential challenges to pursuing a career in medicine?
+When reflecting on the roles and responsibilities of a physician, please discuss what motivated your interest in medicine? What are potential challenges to pursuing a career in medicine?
 
 #section_label("Shared backbone files")
 - typst/shared/future-goals.typ

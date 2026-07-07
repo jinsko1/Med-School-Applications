@@ -33,5 +33,20 @@
     "label": "Vermont Larner Secondary Portal",
     "url": "https://apply.med.uvm.edu/Security/Login.aspx",
     "status": "received"
+  },
+  "wayne-state": {
+    "label": "Wayne State Secondary Portal",
+    "url": "https://applicant.med.wayne.edu/security/login.aspx",
+    "status": "received"
+  },
+  "miami-miller": {
+    "label": "Miami Miller Secondary Portal",
+    "url": "https://apply.med.miami.edu/security/login.aspx",
+    "status": "received"
+  },
+  "mcw": {
+    "label": "Medical College of Wisconsin Secondary Portal",
+    "url": "https://secondaryapplication.mcw.edu/security/login.aspx",
+    "status": "received"
   }
 }
