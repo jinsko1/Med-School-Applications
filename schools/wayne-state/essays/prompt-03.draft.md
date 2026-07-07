@@ -1,3 +1,9 @@
 # Wayne State University School of Medicine - Mission Alignment Draft
 
-Write your current draft here.
+I believe my research and community service in hospice care and juvenile hall closely align with the virtue extolled by WSU SOM, particularly clinical excellence, pioneering research, and local investment in our community.
+
+Wayne State’s mission of educating students in an urban setting within a culture of inclusion has contributed in my decision to apply as my service has taught me not to mistake circumstance for character. Community service has allowed me to get to know youth in juvenile hall beyond their charges, an experience which ultimately led to the opportunity to share their art through a weekly newsletter sent to volunteers, guardians, and donors. In doing so, I hoped to affirm the youths’ individuality while giving those outside juvenile hall a more human view of the community.
+
+My experience working in hospice care has also consolidated my interest in working with the local community, and fostered what I believe to be clinical excellence. Visiting a family twice a week has allowed me to appreciate consistency and consequently, the trust that is built upon such commitment. I believe Wayne State’s mission agrees with the values that I hold, and have therefore made the decision to apply.
+
+Participating in UTI research has made me aware of disparities in the literature, as I found the literature concerning UTIs in women shamefully sparse. Specifically, on top of the myriad health problems that post-menopausal women face, recurrent urinary tract infections cause significant discomfort and economic burden yet remain understudied, revealing a desperate need for trials that evaluate the treatment and prophylaxis of UTIs in women. This has strengthened my interest in pioneering research to address overlooked problems in medicine.
