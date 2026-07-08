@@ -1,3 +1,11 @@
 # University of Miami Leonard M. Miller School of Medicine - Why Miami Draft
 
-Write your current draft here.
+Because the NextGenMD curriculum is committed to research; case-based, small-group learning; and community involvement, I find my values and experiences well suited for a medical education at Miller.
+
+In particular, the emphasis on education consisting of active participation rather than passive reception aligns with my belief that the ability to educate oneself should extend beyond medical school and is indeed a lifelong journey—one that is self-directed, and therefore should become a habit from early on.
+
+Miller’s research infrastructure also has a large focus on my own field of interest: UTI and women’s health. My research in UTIs has made me aware of how sparse the literature concerning women’s health can be. As I researched Miller for this purpose, I found the OB/GYN research division’s emphasis on equitable models of care and its opportunities for students interested in women’s health research. Miller’s commitment to rectifying the lack of research in women’s health is also made apparent in the FemTech program, and for these reasons, I find Miller’s research especially attractive.
+
+I also would like to continue involving myself with the local community, and therefore appreciate Miller’s ample resources providing myriad service opportunities—in particular, DOCS and its outreach operations in medically underserved areas of South Florida. As I stated within my primary application, it is my dream to serve in underserved communities as a medical professional, and this is duly an opportunity that I would hope to take advantage of, as I believe it would greatly merit my education.
+
+Further, my love for reading—fiction and nonfiction—serves as an intellectual praxis. When reading fiction, one participates in an exchange of consciousnesses, as it were, temporarily occupying another mind. In this state, the reader is introduced to new experiences, social circumstances, and perspectives hitherto unknown. I believe this makes me more receptive to new ideas, more understanding of others, and more culturally aware, therefore making me a better peer for my fellow medical students, especially at Miller.
