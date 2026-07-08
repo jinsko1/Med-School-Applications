@@ -1,5 +1,5 @@
-# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Empathy in Difficult Times Draft
+# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Chicago and North Chicago Region Draft
 
-_Not linked to a shared essay draft: another Chicago Medical School at Rosalind Franklin University of Medicine and Science prompt already uses the Challenge / Resilience shared draft; same-school prompts stay separate_
+_Not linked to a shared essay draft: this is a regional-fit prompt._
 
 Write your current draft here.

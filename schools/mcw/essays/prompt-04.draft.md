@@ -1,5 +1,5 @@
-# Medical College of Wisconsin - Health Equity Draft
+# Medical College of Wisconsin - New Environment and Community Engagement Draft
 
-_Not linked to a shared essay draft: another Medical College of Wisconsin prompt already uses the Diversity / Community Contribution shared draft; same-school prompts stay separate_
+_Not linked to a shared essay draft: this MCW prompt asks for a school-specific adaptation and community-engagement story._
 
 Write your current draft here.

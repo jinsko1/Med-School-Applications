@@ -5,5 +5,4 @@
 - essays/prompt-01-contribution-to-mcw.typ
 - essays/prompt-02-why-mcw.typ
 - essays/prompt-03-decision-you-regret.typ
-- essays/prompt-04-health-equity.typ
-- essays/prompt-05-reapplicant.typ
+- essays/prompt-04-new-environment-and-community-engagement.typ

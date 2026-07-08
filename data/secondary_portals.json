@@ -46,7 +46,12 @@
   },
   "mcw": {
     "label": "Medical College of Wisconsin Secondary Portal",
-    "url": "https://secondaryapplication.mcw.edu/security/login.aspx",
+    "url": "https://secondaryapplication.mcw.edu/Security/Login.aspx",
+    "status": "received"
+  },
+  "rosalind-franklin": {
+    "label": "Rosalind Franklin Secondary Portal",
+    "url": "https://apply.rosalindfranklin.edu/account/login?pid=DjGKtUA_2gun6MIWwUQ2nmmoQVu1vCgWBHkHX-FUK7JrgrcSk-VZSDtnHOpbDLa02fdpuIyjLko",
     "status": "received"
   }
 }

@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: North Chicago, IL; cached accepted-student medians: GPA 3.79, MCAT 510.
-- Current list note: Very concise 150-word essays; useful to draft as tight vignettes instead of traditional long-form secondaries.
+- Current list note: Updated from the applicant's Rosalind Franklin secondary portal. Five concise 150-word prompts focused on service, school fit, regional fit, contribution, and feedback.
 - Why-school fact: Chicago Medical School sits within Rosalind Franklin's interprofessional health-sciences campus, which is useful for essays about teamwork and healthcare teams.
 - Heuristic list estimate: ~6%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -18,12 +18,11 @@
 - Leadership fit: use ASI University Student Governor, BCSM Ambassador outreach, lab trainee mentorship, and Learning Assistant work as proof of collaborative leadership.
 
 ## Prompt Strategy
-- `Why Medicine`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `Challenge or Setback`: use a concrete moment of humility, then show the behavioral adjustment you made afterward.
-- `Empathy in Difficult Times`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Self-Consciousness and Growth`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Two Passions`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Optional DEI Statement`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
+- `Service, Collaboration, and Community Engagement`: use one tight service or advocacy vignette, then name how you would continue it through CMS/RFU.
+- `Why Chicago Medical School`: name specific CMS/RFU opportunities and connect each to research, interprofessional training, community engagement, or your future goals.
+- `Chicago and North Chicago Region`: frame this as training-environment fit, not a personal regional tie; connect the region to community-facing medicine.
+- `Learning Environment Contribution`: choose a concrete contribution lane such as teaching, research communication, service, advocacy, or mentorship.
+- `Difficult or Unexpected Feedback`: use a compact humility/change story and emphasize the behavior you changed afterward.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

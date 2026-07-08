@@ -1,1 +1,0 @@
-../../../essays/shared-drafts/reapplicant-update.draft.md

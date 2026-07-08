@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Milwaukee, WI; cached accepted-student medians: GPA 3.87, MCAT 511.
-- Current list note: Strong overlap with diversity, school-fit, regret, and health equity themes.
+- Current list note: Updated from the applicant's MCW secondary portal. Live set has four required prompts and no reapplicant prompt in the pasted text.
 - Why-school fact: MCW has three Wisconsin campuses, including Milwaukee, Green Bay, and Central Wisconsin, allowing a why-school essay to connect campus choice with urban, regional, or community-facing medicine.
 - Heuristic list estimate: ~8%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -19,11 +19,10 @@
 - Growth/reflection fit: use the frustrating repeated growth-curve work, hospice expectations vs. reality, or first restorative-justice visits to show humility and changed behavior.
 
 ## Prompt Strategy
-- `Contribution to MCW`: select the strongest matching activity and keep the reflection tied to medicine.
+- `Contribution to MCW`: pick one or two MCW values you can prove through behavior; good pairings include curiosity/collaboration through research and caring/respect through hospice or juvenile hall.
 - `Why MCW`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
 - `Decision You Regret`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Health Equity`: lead with Restorative Partners, menstrual-product advocacy, hospice, or UTI/women's-health research depending on the wording.
-- `Reapplicant`: use N/A language unless you become a reapplicant.
+- `New Environment and Community Engagement`: tell a story of entering an unfamiliar environment, adapting, learning from the community, and becoming better prepared to serve.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

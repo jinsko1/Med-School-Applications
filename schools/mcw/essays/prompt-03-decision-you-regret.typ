@@ -4,9 +4,9 @@
 
 #section_label("Prompt metadata")
 - Title: Decision You Regret
-- Limit: 2000 characters
-- Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/medical-college-of-wisconsin
+- Limit: Not listed in portal text provided
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-07-08
+- Source: https://secondaryapplication.mcw.edu/Security/Login.aspx
 - Local notes file: prompt-03.local.md
 
 #section_label("Prompt text")

@@ -1,8 +1,9 @@
-# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Two Passions Local Notes
+# Chicago Medical School at Rosalind Franklin University of Medicine and Science - Difficult or Unexpected Feedback Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Choose a feedback story with a visible behavioral change.
+- Avoid sounding defensive; the center of gravity should be response and growth.
+- 150 words means no long setup.
 
 ## Final Check
 - Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
