@@ -19,15 +19,6 @@
 - Teaching/communication fit: use Chemistry Learning Assistant work, BCSM tours/panels, conference presentations, and the academic website to show clear explanation across audiences.
 
 ## Prompt Strategy
-- `Why Tulane`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `New Orleans Health Disparities`: select the strongest matching activity and keep the reflection tied to medicine.
-- `How Others Describe You`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Leadership Positions`: use ASI menstrual-product advocacy, lab training, Learning Assistant work, or BCSM Ambassador outreach as collaborative leadership.
-- `Hobbies and Interests`: answer directly and factually; avoid overexplaining unless there is a real issue to contextualize.
-- `Underrepresented Group`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `COVID Impact`: select the strongest matching activity and keep the reflection tied to medicine.
-
-## Details to Add Before Submission
-- Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.
-- Add one sentence explaining why that school detail fits your existing record rather than sounding like generic praise.
-- Avoid repeating the same activity in every prompt for this school; distribute research, clinical care, service, advocacy, and teaching across the packet.
+- `Why Tulane`: answer the live portal wording directly; use the limit (150 words) as the hard ceiling.
+- `New Orleans Health Disparities`: answer the live portal wording directly; use the limit (150 words) as the hard ceiling.
+- `How Others Describe You`: answer the live portal wording directly; use the limit (150 words) as the hard ceiling.

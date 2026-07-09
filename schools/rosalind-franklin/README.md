@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/rosalind-franklin/essay-packet.typ`
 - `schools/rosalind-franklin/essays/prompt-01-service-collaboration-and-community-engagement.md`
 - `schools/rosalind-franklin/essays/prompt-01.draft.md`
 - `schools/rosalind-franklin/essays/prompt-02-why-chicago-medical-school.md`

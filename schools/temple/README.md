@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/temple/essay-packet.typ`
 - `schools/temple/essays/prompt-01-why-temple.md`
 - `schools/temple/essays/prompt-01.draft.md`
 - `schools/temple/essays/prompt-02-what-makes-you-unique.md`

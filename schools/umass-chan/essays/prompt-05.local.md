@@ -1,4 +1,4 @@
-# University of Massachusetts Chan Medical School - Gap Year Activities Local Notes
+# University of Massachusetts Chan Medical School - Systemic Inequity in Health Care Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

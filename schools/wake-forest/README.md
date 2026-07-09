@@ -22,7 +22,6 @@
 - Secondary prompt count captured in this repo: 7
 
 ## Essay Packet
-- `schools/wake-forest/essay-packet.typ`
 - `schools/wake-forest/essays/prompt-01-improve-health-for-all.md`
 - `schools/wake-forest/essays/prompt-01.draft.md`
 - `schools/wake-forest/essays/prompt-02-non-academic-challenge.md`

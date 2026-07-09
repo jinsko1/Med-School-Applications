@@ -7,7 +7,7 @@
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: November 1, 2025
 - Official admissions page: https://medicine.tulane.edu/admissions
-- Prompt source: https://med.admit.org/secondary-essays/tulane-university
+- Prompt source: https://medapp.tulane.edu/Security/Login.aspx
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,26 +17,16 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Short prompts; useful to keep concise reusable blocks for why-school, New Orleans fit, leadership, and hobbies.
-- Secondary prompt count captured in this repo: 7
+- Updated from the applicant's Tulane secondary portal. Live pasted set contains three 150-word prompts.
+- Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/tulane/essay-packet.typ`
 - `schools/tulane/essays/prompt-01-why-tulane.md`
 - `schools/tulane/essays/prompt-01.draft.md`
 - `schools/tulane/essays/prompt-02-new-orleans-health-disparities.md`
 - `schools/tulane/essays/prompt-02.draft.md`
 - `schools/tulane/essays/prompt-03-how-others-describe-you.md`
 - `schools/tulane/essays/prompt-03.draft.md`
-- `schools/tulane/essays/prompt-04-leadership-positions.md`
-- `schools/tulane/essays/prompt-04.draft.md`
-- `schools/tulane/essays/prompt-05-hobbies-and-interests.md`
-- `schools/tulane/essays/prompt-05.draft.md`
-- `schools/tulane/essays/prompt-06-underrepresented-group.md`
-- `schools/tulane/essays/prompt-06.draft.md`
-- `schools/tulane/essays/prompt-07-covid-impact.md`
-- `schools/tulane/essays/prompt-07.draft.md`
 
-## School Metadata
-- Why-school fact: Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.
-- Heuristic list estimate: ~4%
+## Useful Why-School Fact
+- Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.

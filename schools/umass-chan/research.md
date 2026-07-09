@@ -19,14 +19,10 @@
 - Clinical fit: use the Cal Poly Health Center clinical assistant role, hospice companionship, and physician mentorship/shadowing to show patient-facing maturity.
 
 ## Prompt Strategy
-- `Professionalism Competencies`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Further Explanation`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Pipeline Programs`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Why UMass Chan`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `Gap Year Activities`: give a concise timeline of research, clinical work, service, and application-year responsibilities.
-- `Systemic Inequity in Health Care`: select the strongest matching activity and keep the reflection tied to medicine.
-
-## Details to Add Before Submission
-- Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.
-- Add one sentence explaining why that school detail fits your existing record rather than sounding like generic praise.
-- Avoid repeating the same activity in every prompt for this school; distribute research, clinical care, service, advocacy, and teaching across the packet.
+- `Diverse Community Contribution`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Perseverance Through Challenging Circumstances`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Project, Solution, and Effectiveness`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Self-Insight and Changed Approach`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Systemic Inequity in Health Care`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Reapplicant Candidacy Strengthening`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.
+- `Optional Further Explanation`: answer the live portal wording directly; use the limit (200 words) as the hard ceiling.

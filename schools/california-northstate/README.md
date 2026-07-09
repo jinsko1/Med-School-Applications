@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 8
 
 ## Essay Packet
-- `schools/california-northstate/essay-packet.typ`
 - `schools/california-northstate/essays/prompt-01-why-cnucom.md`
 - `schools/california-northstate/essays/prompt-01.draft.md`
 - `schools/california-northstate/essays/prompt-02-diverse-populations-and-central-valley.md`

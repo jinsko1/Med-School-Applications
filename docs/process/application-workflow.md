@@ -14,4 +14,3 @@
 - Edit `prompt-XX.local.md` when only one school needs the change.
 - Write your actual essay answer in `prompt-XX.draft.md`.
 - Treat generated `prompt-XX.md` files as synced working packets rather than the source of truth.
-- Treat generated `prompt-XX.typ` files as presentation-ready mirrors of the markdown packets.

@@ -7,7 +7,7 @@
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://medschool.ucsd.edu/education/md-program/admissions
-- Prompt source: https://med.admit.org/secondary-essays/university-of-california-san-diego-school-of-medicine
+- Prompt source: https://applymed.ucsd.edu/security/login.aspx
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,28 +17,12 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Large set with several program-specific prompts. Keep only the ones relevant to the programs you are actually applying to.
-- Secondary prompt count captured in this repo: 8
+- Updated from the applicant's UCSD secondary portal. Applicant pasted only the required autobiographical prompt, so program-specific prompts from the old archive were removed unless they are later selected in the portal.
+- Secondary prompt count captured in this repo: 1
 
 ## Essay Packet
-- `schools/ucsd/essay-packet.typ`
 - `schools/ucsd/essays/prompt-01-autobiographical-statement.md`
 - `schools/ucsd/essays/prompt-01.draft.md`
-- `schools/ucsd/essays/prompt-02-prime-heq.md`
-- `schools/ucsd/essays/prompt-02.draft.md`
-- `schools/ucsd/essays/prompt-03-global-health.md`
-- `schools/ucsd/essays/prompt-03.draft.md`
-- `schools/ucsd/essays/prompt-04-prime-tide.md`
-- `schools/ucsd/essays/prompt-04.draft.md`
-- `schools/ucsd/essays/prompt-05-tan-family-scholar-program.md`
-- `schools/ucsd/essays/prompt-05.draft.md`
-- `schools/ucsd/essays/prompt-06-marginalization-and-disparity.md`
-- `schools/ucsd/essays/prompt-06.draft.md`
-- `schools/ucsd/essays/prompt-07-additional-most-meaningful-activities.md`
-- `schools/ucsd/essays/prompt-07.draft.md`
-- `schools/ucsd/essays/prompt-08-career-pathway.md`
-- `schools/ucsd/essays/prompt-08.draft.md`
 
-## School Metadata
-- Why-school fact: UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.
-- Heuristic list estimate: ~4%
+## Useful Why-School Fact
+- UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.

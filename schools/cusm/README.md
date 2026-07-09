@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 6
 
 ## Essay Packet
-- `schools/cusm/essay-packet.typ`
 - `schools/cusm/essays/prompt-01-diversity-contribution.md`
 - `schools/cusm/essays/prompt-01.draft.md`
 - `schools/cusm/essays/prompt-02-criticism.md`

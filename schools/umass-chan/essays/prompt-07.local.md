@@ -1,4 +1,4 @@
-# University of Massachusetts Chan Medical School - Reapplicant Candidacy Strengthening Local Notes
+# University of Massachusetts Chan Medical School - Optional Further Explanation Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

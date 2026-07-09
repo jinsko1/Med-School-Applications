@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/mcw/essay-packet.typ`
 - `schools/mcw/essays/prompt-01-contribution-to-mcw.md`
 - `schools/mcw/essays/prompt-01.draft.md`
 - `schools/mcw/essays/prompt-02-why-mcw.md`

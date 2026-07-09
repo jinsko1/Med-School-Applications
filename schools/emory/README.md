@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/emory/essay-packet.typ`
 - `schools/emory/essays/prompt-01-curriculum-current-year-plan.md`
 - `schools/emory/essays/prompt-01.draft.md`
 - `schools/emory/essays/prompt-02-health-related-experiences.md`

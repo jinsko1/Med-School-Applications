@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/nova-southeastern-md/essay-packet.typ`
 - `schools/nova-southeastern-md/essays/prompt-01-teamwork-toward-a-common-objective.md`
 - `schools/nova-southeastern-md/essays/prompt-01.draft.md`
 - `schools/nova-southeastern-md/essays/prompt-02-challenges-and-helping-others.md`

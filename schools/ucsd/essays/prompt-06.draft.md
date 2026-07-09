@@ -1,1 +1,0 @@
-../../../essays/shared-drafts/diversity-community.draft.md

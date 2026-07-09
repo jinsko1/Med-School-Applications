@@ -4,7 +4,7 @@
 - Title: Autobiographical Statement
 - Limit: 6000 characters
 - Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/university-of-california-san-diego-school-of-medicine
+- Source: https://applymed.ucsd.edu/security/login.aspx
 - Shared themes:
 - `../../../essays/shared/challenge.md`
 - `../../../essays/shared/future-goals.md`
@@ -12,7 +12,7 @@
 - Draft file: `prompt-01.draft.md`
 
 ## Prompt Text
-This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you’ve done since completing your bachelor’s degree. You should also discuss the motivational factors which led you to a career in medicine, including any disadvantages or obstacles which might put your accomplishments into context.
+This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you’ve done since completing your bachelor’s degree. You should also discuss the motivational factors which led you to a career in medicine including any disadvantages or obstacles which might put your accomplishments into context. A repeat of your AMCAS statement will not be acceptable.
 
 ## Synced Backbone
 # Challenge / Adversity Backbone

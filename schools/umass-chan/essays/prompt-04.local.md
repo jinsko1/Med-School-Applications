@@ -1,4 +1,4 @@
-# University of Massachusetts Chan Medical School - Why UMass Chan Local Notes
+# University of Massachusetts Chan Medical School - Self-Insight and Changed Approach Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

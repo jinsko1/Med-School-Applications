@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 6
 
 ## Essay Packet
-- `schools/quinnipiac-netter/essay-packet.typ`
 - `schools/quinnipiac-netter/essays/prompt-01-application-year-plan.md`
 - `schools/quinnipiac-netter/essays/prompt-01.draft.md`
 - `schools/quinnipiac-netter/essays/prompt-02-specialty-interests-and-future-career.md`

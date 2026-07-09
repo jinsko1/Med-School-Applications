@@ -1,4 +1,4 @@
-# University of Massachusetts Chan Medical School - Further Explanation Local Notes
+# University of Massachusetts Chan Medical School - Perseverance Through Challenging Circumstances Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

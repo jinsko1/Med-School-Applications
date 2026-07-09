@@ -7,7 +7,7 @@
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://www.umassmed.edu/som/admissions/
-- Prompt source: https://med.admit.org/secondary-essays/university-of-massachusetts-medical-school
+- Prompt source: Applicant-provided UMass Chan secondary portal text on 2026-07-09
 
 ## Required Core Items
 - AMCAS primary application
@@ -17,24 +17,24 @@
 - School-specific secondary application when invited
 
 ## School-Specific Notes
-- Prompt 1 is a multi-response competency essay. Keep its planning notes separate.
-- Secondary prompt count captured in this repo: 6
+- Updated from applicant-provided UMass Chan secondary prompts. Seven prompts captured; Q7 is optional and Q6 is reapplicant/N/A.
+- Secondary prompt count captured in this repo: 7
 
 ## Essay Packet
-- `schools/umass-chan/essay-packet.typ`
-- `schools/umass-chan/essays/prompt-01-professionalism-competencies.md`
+- `schools/umass-chan/essays/prompt-01-diverse-community-contribution.md`
 - `schools/umass-chan/essays/prompt-01.draft.md`
-- `schools/umass-chan/essays/prompt-02-further-explanation.md`
+- `schools/umass-chan/essays/prompt-02-perseverance-through-challenging-circumstances.md`
 - `schools/umass-chan/essays/prompt-02.draft.md`
-- `schools/umass-chan/essays/prompt-03-pipeline-programs.md`
+- `schools/umass-chan/essays/prompt-03-project-solution-and-effectiveness.md`
 - `schools/umass-chan/essays/prompt-03.draft.md`
-- `schools/umass-chan/essays/prompt-04-why-umass-chan.md`
+- `schools/umass-chan/essays/prompt-04-self-insight-and-changed-approach.md`
 - `schools/umass-chan/essays/prompt-04.draft.md`
-- `schools/umass-chan/essays/prompt-05-gap-year-activities.md`
+- `schools/umass-chan/essays/prompt-05-systemic-inequity-in-health-care.md`
 - `schools/umass-chan/essays/prompt-05.draft.md`
-- `schools/umass-chan/essays/prompt-06-systemic-inequity-in-health-care.md`
+- `schools/umass-chan/essays/prompt-06-reapplicant-candidacy-strengthening.md`
 - `schools/umass-chan/essays/prompt-06.draft.md`
+- `schools/umass-chan/essays/prompt-07-optional-further-explanation.md`
+- `schools/umass-chan/essays/prompt-07.draft.md`
 
-## School Metadata
-- Why-school fact: UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.
-- Heuristic list estimate: ~4%
+## Useful Why-School Fact
+- UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.

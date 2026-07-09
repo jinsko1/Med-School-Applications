@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/drexel/essay-packet.typ`
 - `schools/drexel/essays/prompt-01-current-and-recent-activities.md`
 - `schools/drexel/essays/prompt-01.draft.md`
 - `schools/drexel/essays/prompt-02-why-drexel-and-mission-fit.md`

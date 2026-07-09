@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/additional-info.draft.md
+../../../essays/shared-drafts/challenge-resilience.draft.md

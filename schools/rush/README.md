@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/rush/essay-packet.typ`
 - `schools/rush/essays/prompt-01-worldview-and-understanding-difference.md`
 - `schools/rush/essays/prompt-01.draft.md`
 - `schools/rush/essays/prompt-02-distance-traveled-adversities.md`

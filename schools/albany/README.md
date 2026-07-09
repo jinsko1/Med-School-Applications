@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 8
 
 ## Essay Packet
-- `schools/albany/essay-packet.typ`
 - `schools/albany/essays/prompt-01-describe-yourself.md`
 - `schools/albany/essays/prompt-01.draft.md`
 - `schools/albany/essays/prompt-02-academic-inconsistencies.md`

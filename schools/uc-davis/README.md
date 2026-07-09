@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/uc-davis/essay-packet.typ`
 - `schools/uc-davis/essays/prompt-01-application-concerns.md`
 - `schools/uc-davis/essays/prompt-01.draft.md`
 - `schools/uc-davis/essays/prompt-02-regional-connection.md`

@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/miami-miller/essay-packet.typ`
 - `schools/miami-miller/essays/prompt-01-why-miami.md`
 - `schools/miami-miller/essays/prompt-01.draft.md`
 - `schools/miami-miller/essays/prompt-02-diverse-environments.md`

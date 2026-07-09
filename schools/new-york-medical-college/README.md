@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/new-york-medical-college/essay-packet.typ`
 - `schools/new-york-medical-college/essays/prompt-01-family-connection.md`
 - `schools/new-york-medical-college/essays/prompt-01.draft.md`
 - `schools/new-york-medical-college/essays/prompt-02-social-media-policy-explanation.md`

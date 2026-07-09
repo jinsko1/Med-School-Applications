@@ -1,4 +1,4 @@
-# University of Massachusetts Chan Medical School - Professionalism Competencies Local Notes
+# University of Massachusetts Chan Medical School - Diverse Community Contribution Local Notes
 
 ## School-Specific Tailoring
 - Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.

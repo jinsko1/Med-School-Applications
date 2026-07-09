@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/kaiser-permanente/essay-packet.typ`
 - `schools/kaiser-permanente/essays/prompt-01-unfavorable-outcome.md`
 - `schools/kaiser-permanente/essays/prompt-01.draft.md`
 - `schools/kaiser-permanente/essays/prompt-02-mission-values-alignment.md`

@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/eastern-virginia/essay-packet.typ`
 - `schools/eastern-virginia/essays/prompt-01-exposure-to-medicine.md`
 - `schools/eastern-virginia/essays/prompt-01.draft.md`
 - `schools/eastern-virginia/essays/prompt-02-what-you-will-like-best-about-being-a-physician.md`

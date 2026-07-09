@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/belmont-frist/essay-packet.typ`
 - `schools/belmont-frist/essays/prompt-01-most-energizing-belmont-value.md`
 - `schools/belmont-frist/essays/prompt-01.draft.md`
 - `schools/belmont-frist/essays/prompt-02-spiritual-experiences-faith-or-personal-beliefs.md`

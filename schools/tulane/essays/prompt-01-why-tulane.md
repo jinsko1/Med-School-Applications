@@ -4,7 +4,7 @@
 - Title: Why Tulane
 - Limit: 150 words
 - Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/tulane-university
+- Source: https://medapp.tulane.edu/Security/Login.aspx
 - Shared themes:
 - `../../../essays/shared/why-school.md`
 - `../../../essays/shared/mission-fit.md`
@@ -12,7 +12,7 @@
 - Draft file: `prompt-01.draft.md`
 
 ## Prompt Text
-Tulane University School of Medicine's mission statement states: We improve human health and foster healthy communities through discovery and translation of the best science into clinical practice and education; to deliver the highest quality patient care and prepare the next generation of distinguished clinical and scientific leaders. Briefly describe the reasons for your interest in Tulane University School of Medicine.
+Tulane University School of Medicine’s mission statement states: We improve human health and foster healthy communities through discovery and translation of the best science into clinical practice and education; to deliver the highest quality patient care and prepare the next generation of distinguished clinical and scientific leaders. Briefly describe how this statement resonates with your desire to attend Tulane University School of Medicine.
 
 ## Synced Backbone
 # Why This School Backbone

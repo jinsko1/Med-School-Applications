@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 7
 
 ## Essay Packet
-- `schools/george-washington/essay-packet.typ`
 - `schools/george-washington/essays/prompt-01-regional-medical-campus-interest.md`
 - `schools/george-washington/essays/prompt-01.draft.md`
 - `schools/george-washington/essays/prompt-02-application-through-matriculation-activities.md`

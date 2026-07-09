@@ -4,7 +4,7 @@
 - Title: New Orleans Health Disparities
 - Limit: 150 words
 - Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/tulane-university
+- Source: https://medapp.tulane.edu/Security/Login.aspx
 - Shared themes:
 - `../../../essays/shared/service.md`
 - `../../../essays/shared/diversity-equity.md`
@@ -12,7 +12,7 @@
 - Draft file: `prompt-02.draft.md`
 
 ## Prompt Text
-What disparities in health do you believe are pertinent to the New Orleans patient population? How would you attempt to address them as a medical student at Tulane? You may support your answer by using past involvement working in a similar patient population to compare and/or describe your interest in any student activities offered at Tulane or in New Orleans.
+What disparities in health do you believe are pertinent to the New Orleans community or similar patient populations? How would you attempt to address them as a medical student at Tulane? You may support your answer by using demonstrated past involvement working with similar patient populations to compare and/or describe your interest in any student experience offered at TUSOM or in New Orleans.
 
 ## Synced Backbone
 # Service / Underserved Backbone

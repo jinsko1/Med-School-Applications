@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 1
 
 ## Essay Packet
-- `schools/jefferson-kimmel/essay-packet.typ`
 - `schools/jefferson-kimmel/essays/prompt-01-diversity-contribution.md`
 - `schools/jefferson-kimmel/essays/prompt-01.draft.md`
 

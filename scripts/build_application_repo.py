@@ -886,59 +886,17 @@ SCHOOLS = [
     {
         "name": "University of California San Diego School of Medicine",
         "slug": "ucsd",
-        "secondary_cycle": "2024 archive on Admit.org",
+        "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
         "secondary_deadline": None,
         "official_url": "https://medschool.ucsd.edu/education/md-program/admissions",
-        "prompt_source": "https://med.admit.org/secondary-essays/university-of-california-san-diego-school-of-medicine",
-        "notes": "Large set with several program-specific prompts. Keep only the ones relevant to the programs you are actually applying to.",
+        "prompt_source": "https://applymed.ucsd.edu/security/login.aspx",
+        "notes": "Updated from the applicant's UCSD secondary portal. Applicant pasted only the required autobiographical prompt, so program-specific prompts from the old archive were removed unless they are later selected in the portal.",
         "prompts": [
             {
                 "title": "Autobiographical Statement",
                 "limit": "6000 characters",
                 "themes": ["challenge", "future-goals"],
-                "text": "This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you’ve done since completing your bachelor’s degree. You should also discuss the motivational factors which led you to a career in medicine, including any disadvantages or obstacles which might put your accomplishments into context.",
-            },
-            {
-                "title": "PRIME-HEq",
-                "limit": "4800 characters",
-                "themes": ["service"],
-                "text": "For PRIME-HEq: Please describe your interest in the PRIME-HEq program.",
-            },
-            {
-                "title": "Global Health",
-                "limit": "4800 characters",
-                "themes": ["future-goals", "service"],
-                "text": "For GHAC: Please describe your interest in Global Health.",
-            },
-            {
-                "title": "PRIME-TIDE",
-                "limit": "4800 characters",
-                "themes": ["service", "why-school"],
-                "text": "For PRIME-TIDE: Describe your interest in the Program in Medicine - Transforming Indigenous Doctor Education.",
-            },
-            {
-                "title": "Tan Family Scholar Program",
-                "limit": "4800 characters",
-                "themes": ["future-goals"],
-                "text": "For the Tan Family Scholar Program: Please describe your interest in Compassion and Empathy.",
-            },
-            {
-                "title": "Marginalization and Disparity",
-                "limit": "4800 characters",
-                "themes": ["diversity-equity"],
-                "text": "Do you consider yourself to be a member of a group that is marginalized in a way that systemically affects access to quality education or healthcare? Please describe how educational disparity, health disparity and/or marginalization has impacted you and your community.",
-            },
-            {
-                "title": "Additional Most Meaningful Activities",
-                "limit": "100 characters",
-                "themes": ["clinical", "service"],
-                "text": "In addition to the three most meaningful experiences on AMCAS, are there any additional activities you would consider among your most meaningful?",
-            },
-            {
-                "title": "Career Pathway",
-                "limit": "400 characters",
-                "themes": ["future-goals"],
-                "text": "Please select a potential career pathway and provide a brief description of your future career goals.",
+                "text": "This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you’ve done since completing your bachelor’s degree. You should also discuss the motivational factors which led you to a career in medicine including any disadvantages or obstacles which might put your accomplishments into context. A repeat of your AMCAS statement will not be acceptable.",
             },
         ],
     },
@@ -1355,47 +1313,53 @@ SCHOOLS = [
     {
         "name": "University of Massachusetts Chan Medical School",
         "slug": "umass-chan",
-        "secondary_cycle": "2024 archive on Admit.org",
+        "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
         "secondary_deadline": None,
         "official_url": "https://www.umassmed.edu/som/admissions/",
-        "prompt_source": "https://med.admit.org/secondary-essays/university-of-massachusetts-medical-school",
-        "notes": "Prompt 1 is a multi-response competency essay. Keep its planning notes separate.",
+        "prompt_source": "Applicant-provided UMass Chan secondary portal text on 2026-07-09",
+        "notes": "Updated from applicant-provided UMass Chan secondary prompts. Seven prompts captured; Q7 is optional and Q6 is reapplicant/N/A.",
         "prompts": [
             {
-                "title": "Professionalism Competencies",
-                "limit": "600 words total",
-                "themes": ["values", "teamwork", "challenge", "diversity-equity"],
-                "text": "Respond to the required Diversity prompt and then select three of the other professionalism prompts: leadership, teamwork, empathy/compassion, communication, inquiry, or persistence/grit.",
-            },
-            {
-                "title": "Further Explanation",
-                "limit": "250 words",
-                "themes": ["academic-context", "additional-info"],
-                "text": "Please discuss any part of your application that you feel requires further explanation.",
-            },
-            {
-                "title": "Pipeline Programs",
+                "title": "Diverse Community Contribution",
                 "limit": "200 words",
-                "themes": ["why-school"],
-                "text": "If you have participated in sponsored UMass pipeline programs, please describe how these programs helped you decide to apply.",
+                "themes": ["diversity-equity"],
+                "text": "How will your lived experiences, your background, your identity or that which makes you unique contribute to the diverse community and learning environment at UMass Chan?",
             },
             {
-                "title": "Why UMass Chan",
+                "title": "Perseverance Through Challenging Circumstances",
                 "limit": "200 words",
-                "themes": ["why-school"],
-                "text": "Why did you apply to T.H. Chan SOM?",
+                "themes": ["challenge"],
+                "text": "Describe a specific situation in which you persevered through more than usually challenging circumstances. What did you learn from that experience that you have continued to use?",
             },
             {
-                "title": "Gap Year Activities",
+                "title": "Project, Solution, and Effectiveness",
                 "limit": "200 words",
-                "themes": ["gap-year"],
-                "text": "If you are currently taking a gap year, in what activities are you engaged?",
+                "themes": ["research", "leadership"],
+                "text": "Describe your role in a project that identified a problem, studied it, launched a solution and tested its effectiveness.",
+            },
+            {
+                "title": "Self-Insight and Changed Approach",
+                "limit": "200 words",
+                "themes": ["values", "challenge"],
+                "text": "Describe a situation where you learned something important about yourself that you did not previously know. How did you use that insight to change your approach in the future?",
             },
             {
                 "title": "Systemic Inequity in Health Care",
                 "limit": "200 words",
-                "themes": ["diversity-equity"],
-                "text": "Please describe an example of your personal and/or professional experience with and understanding of systemic inequity, exclusion, or lack of representation in health care in the United States.",
+                "themes": ["diversity-equity", "service"],
+                "text": "Please describe an example of your personal and/or professional experience with and understanding of systemic inequity, exclusion, or lack of representation in health care in the United States. How did you arrive at this understanding?",
+            },
+            {
+                "title": "Reapplicant Candidacy Strengthening",
+                "limit": "200 words",
+                "themes": ["additional-info", "gap-year"],
+                "text": "If you have previously applied to medical school, describe how you have strengthened your candidacy. If you have not previously applied to medical school please enter \"N/A\".",
+            },
+            {
+                "title": "Optional Further Explanation",
+                "limit": "200 words",
+                "themes": ["academic-context", "additional-info"],
+                "text": "Optional: Please discuss any part of your application that you believe requires further explanation such as low grades or scores or gaps in time that are not explained elsewhere.",
             },
         ],
     },
@@ -1548,69 +1512,10 @@ def render_shared_section(themes: list[str]) -> str:
     return "\n\n".join(parts).strip()
 
 
-def escape_typst(text: str) -> str:
-    return (
-        text.replace("\\", "\\\\")
-        .replace('"', '\\"')
-        .replace("#", "\\#")
-        .replace("$", "\\$")
-    )
-
-
-def markdown_to_typst(text: str) -> str:
-    converted = []
-    for raw_line in text.splitlines():
-        line = raw_line.rstrip()
-        if line.startswith("# "):
-            converted.append("= " + line[2:])
-        elif line.startswith("## "):
-            converted.append("== " + line[3:])
-        elif line.startswith("### "):
-            converted.append("=== " + line[4:])
-        elif line.startswith("#### "):
-            converted.append("==== " + line[5:])
-        else:
-            converted.append(line)
-    return "\n".join(converted).strip()
-
-
 def create_shared_files() -> None:
     for theme, meta in SHARED_THEMES.items():
         path = ROOT / "essays" / "shared" / f"{theme}.md"
         write_text(path, meta["body"], overwrite=False)
-
-
-def create_typst_shared_files() -> None:
-    write_text(
-        ROOT / "typst" / "README.md",
-        """# Typst Assets
-
-This folder contains generated Typst mirrors for the shared essay backbones.
-
-- `theme.typ` contains lightweight page styling used by the per-school prompt mirrors.
-- `shared/*.typ` mirrors the content in `essays/shared/*.md`.
-
-The Typst CLI is not installed in this workspace right now, so these files are prepared for later rendering rather than compiled here.
-""",
-    )
-    write_text(
-        ROOT / "typst" / "theme.typ",
-        """#set page(margin: (x: 0.72in, y: 0.78in))
-#set text(size: 10.5pt)
-#set par(justify: false, leading: 0.62em)
-
-#let section_label(title) = [
-  #block(fill: luma(245), inset: 8pt, radius: 4pt)[*#title*]
-]
-""",
-    )
-    for theme in SHARED_THEMES:
-        md_path = ROOT / "essays" / "shared" / f"{theme}.md"
-        typ_path = ROOT / "typst" / "shared" / f"{theme}.typ"
-        if not md_path.exists():
-            continue
-        body = markdown_to_typst(md_path.read_text(encoding="utf-8"))
-        write_text(typ_path, body)
 
 
 def build_primary_docs() -> None:
@@ -1760,27 +1665,6 @@ Primary source: `{AMCAS_GUIDE}`
 - Edit `prompt-XX.local.md` when only one school needs the change.
 - Write your actual essay answer in `prompt-XX.draft.md`.
 - Treat generated `prompt-XX.md` files as synced working packets rather than the source of truth.
-- Treat generated `prompt-XX.typ` files as presentation-ready mirrors of the markdown packets.
-""",
-    )
-    write_text(
-        ROOT / "docs" / "process" / "typst-workflow.md",
-        """# Typst Workflow
-
-## Why Typst Is In This Repo
-- Markdown remains the easiest place to draft and diff essay content.
-- Typst mirrors each prompt packet so you can later render cleaner review packets without manually reformatting everything.
-- Shared essay backbones still live in `essays/shared/`; Typst is layered on top rather than replacing that source of truth.
-
-## Current State
-- Typst source files are generated in `typst/` and beside each prompt file in `schools/*/essays/`.
-- The Typst CLI is not installed in this workspace right now, so these files are ready for later rendering but were not compiled here.
-
-## Recommended Use
-1. Draft and revise in Markdown first.
-2. Keep overlapping essays synced through `essays/shared/`.
-3. Use `python3 scripts/render_review_site.py` for clean HTML review pages right now.
-4. When you want cleaner PDF-style packets later, render the matching `.typ` files once Typst is installed.
 """,
     )
     write_text(
@@ -1845,8 +1729,6 @@ def build_school_files(stats: dict[str, dict[str, str]]) -> list[dict[str, objec
                 "## Essay Packet",
             ]
         )
-        school_readme_lines.append(f"- `schools/{school['slug']}/essay-packet.typ`")
-
         if not prompt_list:
             school_readme_lines.append("- No essay-style secondary prompts captured; keep tracking this school's non-essay secondary requirements.")
 
@@ -1923,57 +1805,9 @@ Read `../research.md` and `{local_name}` before drafting a final version.
 """
             write_text(generated_path, prompt_body)
 
-            typst_shared_files = [f"- typst/shared/{theme}.typ" for theme in prompt["themes"]]
-            typst_shared_body_parts = []
-            for theme in prompt["themes"]:
-                typst_shared_path = ROOT / "typst" / "shared" / f"{theme}.typ"
-                if typst_shared_path.exists():
-                    typst_shared_body_parts.append(
-                        f'#section_label("{escape_typst(theme)} backbone")\n'
-                        + typst_shared_path.read_text(encoding="utf-8").strip()
-                    )
-            typst_body = f"""#import "../../../typst/theme.typ": section_label
-
-= {escape_typst(school['name'])} - Prompt {idx:02d}
-
-#section_label("Prompt metadata")
-- Title: {escape_typst(prompt['title'])}
-- Limit: {escape_typst(prompt['limit'])}
-- Cycle used in this repo: {escape_typst(school['secondary_cycle'])}
-- Source: {escape_typst(school['prompt_source'])}
-- Local notes file: {escape_typst(local_name)}
-
-#section_label("Prompt text")
-{markdown_to_typst(prompt['text'])}
-
-#section_label("Shared backbone files")
-{chr(10).join(typst_shared_files) if typst_shared_files else "- none"}
-
-{chr(10).join(typst_shared_body_parts) if typst_shared_body_parts else '#section_label("Shared backbone content")\\n_No shared backbone linked yet._'}
-
-#section_label("School-specific tailoring")
-Read `../research.md` and `{local_name}` before drafting a final version.
-
-#section_label("Draft workspace")
-Use this Typst mirror for cleaner review packets once Typst is installed.
-"""
-            write_text(school_dir / "essays" / f"prompt-{idx:02d}-{prompt_slug}.typ", typst_body)
-
             school_readme_lines.append(f"- `{generated_path.relative_to(ROOT)}`")
             school_readme_lines.append(f"- `{draft_path.relative_to(ROOT)}`")
             exported_school["prompts"].append(prompt)
-
-        packet_lines = [
-            '#import "../../typst/theme.typ": section_label',
-            f"= {escape_typst(school['name'])} Essay Packet",
-            "",
-            '#section_label("Prompt files")',
-        ]
-        for idx, prompt in enumerate(prompt_list, start=1):
-            packet_lines.append(f'- essays/prompt-{idx:02d}-{slugify(prompt["title"])}.typ')
-        if not prompt_list:
-            packet_lines.append("- No essay-style secondary prompts currently tracked for this school.")
-        write_text(school_dir / "essay-packet.typ", "\n".join(packet_lines))
 
         write_text(school_dir / "README.md", "\n".join(school_readme_lines))
         exported.append(exported_school)
@@ -1994,7 +1828,7 @@ This repository was generated on {BUILD_DATE} to support your VS Code + Codex wo
 - Creates school-by-school secondary packets
 - Syncs overlapping prompts through shared backbone files in `essays/shared/`
 - Preserves school-specific customization in local note files
-- Generates Typst mirrors for cleaner review packets later
+- Renders clean HTML review pages from Markdown drafts
 
 ## Quick Start
 1. Draft primary materials in `essays/primary/`.
@@ -2012,13 +1846,10 @@ python3 scripts/build_application_repo.py
 python3 scripts/render_review_site.py
 ```
 
-7. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
-
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on {BUILD_DATE}. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
 - The active MD school list currently includes {school_count} schools.
-- Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.
 """,
     )
 
@@ -2026,7 +1857,6 @@ python3 scripts/render_review_site.py
 def main() -> None:
     ensure_dir(ROOT / "scripts")
     create_shared_files()
-    create_typst_shared_files()
     build_primary_docs()
     build_process_docs()
     stats = load_preliminary_stats()

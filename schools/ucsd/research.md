@@ -19,16 +19,4 @@
 - Research fit: foreground UTI/women's-health microbiology research, AAS iron-quantification work, Frost Scholar support, ASM/CSU BIOTECH/WCBSURC presentations, and AgarLens software development.
 
 ## Prompt Strategy
-- `Autobiographical Statement`: select the strongest matching activity and keep the reflection tied to medicine.
-- `PRIME-HEq`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Global Health`: select the strongest matching activity and keep the reflection tied to medicine.
-- `PRIME-TIDE`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Tan Family Scholar Program`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Marginalization and Disparity`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Additional Most Meaningful Activities`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Career Pathway`: select the strongest matching activity and keep the reflection tied to medicine.
-
-## Details to Add Before Submission
-- Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.
-- Add one sentence explaining why that school detail fits your existing record rather than sounding like generic praise.
-- Avoid repeating the same activity in every prompt for this school; distribute research, clinical care, service, advocacy, and teaching across the packet.
+- `Autobiographical Statement`: answer the live portal wording directly; use the limit (6000 characters) as the hard ceiling.

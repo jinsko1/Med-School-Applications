@@ -96,9 +96,9 @@
       {
         "school": "University of Massachusetts Chan Medical School",
         "school_slug": "umass-chan",
-        "prompt_index": 2,
-        "prompt_title": "Further Explanation",
-        "draft_path": "schools/umass-chan/essays/prompt-02.draft.md",
+        "prompt_index": 7,
+        "prompt_title": "Optional Further Explanation",
+        "draft_path": "schools/umass-chan/essays/prompt-07.draft.md",
         "status": "linked"
       },
       {
@@ -139,14 +139,6 @@
         "prompt_index": 5,
         "prompt_title": "COVID Impact",
         "draft_path": "schools/wisconsin/essays/prompt-05.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "Tulane University School of Medicine",
-        "school_slug": "tulane",
-        "prompt_index": 7,
-        "prompt_title": "COVID Impact",
-        "draft_path": "schools/tulane/essays/prompt-07.draft.md",
         "status": "linked"
       },
       {
@@ -246,6 +238,14 @@
         "status": "linked"
       },
       {
+        "school": "University of Massachusetts Chan Medical School",
+        "school_slug": "umass-chan",
+        "prompt_index": 2,
+        "prompt_title": "Perseverance Through Challenging Circumstances",
+        "draft_path": "schools/umass-chan/essays/prompt-02.draft.md",
+        "status": "linked"
+      },
+      {
         "school": "Roseman University College of Medicine",
         "school_slug": "roseman",
         "prompt_index": 1,
@@ -318,14 +318,6 @@
         "status": "linked"
       },
       {
-        "school": "University of Massachusetts Chan Medical School",
-        "school_slug": "umass-chan",
-        "prompt_index": 5,
-        "prompt_title": "Gap Year Activities",
-        "draft_path": "schools/umass-chan/essays/prompt-05.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
         "school_slug": "nova-southeastern-md",
         "prompt_index": 4,
@@ -357,14 +349,6 @@
     "description": "Use for prompts about perspective, belonging, difference, community identity, and class contribution.",
     "shared_draft": "essays/shared-drafts/diversity-community.draft.md",
     "members": [
-      {
-        "school": "University of California San Diego School of Medicine",
-        "school_slug": "ucsd",
-        "prompt_index": 6,
-        "prompt_title": "Marginalization and Disparity",
-        "draft_path": "schools/ucsd/essays/prompt-06.draft.md",
-        "status": "linked"
-      },
       {
         "school": "Vermont Larner College of Medicine",
         "school_slug": "vermont-larner",
@@ -406,14 +390,6 @@
         "status": "linked"
       },
       {
-        "school": "Tulane University School of Medicine",
-        "school_slug": "tulane",
-        "prompt_index": 6,
-        "prompt_title": "Underrepresented Group",
-        "draft_path": "schools/tulane/essays/prompt-06.draft.md",
-        "status": "skipped-existing-draft"
-      },
-      {
         "school": "Rush Medical College at Rush University",
         "school_slug": "rush",
         "prompt_index": 1,
@@ -432,9 +408,9 @@
       {
         "school": "University of Massachusetts Chan Medical School",
         "school_slug": "umass-chan",
-        "prompt_index": 6,
-        "prompt_title": "Systemic Inequity in Health Care",
-        "draft_path": "schools/umass-chan/essays/prompt-06.draft.md",
+        "prompt_index": 1,
+        "prompt_title": "Diverse Community Contribution",
+        "draft_path": "schools/umass-chan/essays/prompt-01.draft.md",
         "status": "linked"
       },
       {
@@ -531,6 +507,14 @@
         "prompt_index": 9,
         "prompt_title": "Reapplicant Improvement",
         "draft_path": "schools/loyola-stritch/essays/prompt-09.draft.md",
+        "status": "linked"
+      },
+      {
+        "school": "University of Massachusetts Chan Medical School",
+        "school_slug": "umass-chan",
+        "prompt_index": 6,
+        "prompt_title": "Reapplicant Candidacy Strengthening",
+        "draft_path": "schools/umass-chan/essays/prompt-06.draft.md",
         "status": "linked"
       },
       {
@@ -644,6 +628,14 @@
         "prompt_title": "Privilege and Health Equity",
         "draft_path": "schools/rush/essays/prompt-04.draft.md",
         "status": "skipped-existing-draft"
+      },
+      {
+        "school": "University of Massachusetts Chan Medical School",
+        "school_slug": "umass-chan",
+        "prompt_index": 5,
+        "prompt_title": "Systemic Inequity in Health Care",
+        "draft_path": "schools/umass-chan/essays/prompt-05.draft.md",
+        "status": "linked"
       },
       {
         "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",

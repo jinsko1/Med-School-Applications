@@ -9,7 +9,7 @@ This repository was generated on 2026-05-30 to support your VS Code + Codex work
 - Syncs overlapping prompts through shared backbone files in `essays/shared/`
 - Links functionally similar essay drafts through `essays/shared-drafts/`
 - Preserves school-specific customization in local note files
-- Generates Typst mirrors for cleaner review packets later
+- Renders clean HTML review pages from Markdown drafts
 
 ## Quick Start
 1. Draft primary materials in `essays/primary/`.
@@ -61,8 +61,6 @@ Targeted rendering updates the matching essay page(s), any affected school dashb
 python3 scripts/fetch_school_research_papers.py
 ```
 
-10. If you want presentation-ready packets later, open the matching `.typ` files in `schools/*/essays/`.
-
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
 - Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
@@ -73,4 +71,3 @@ python3 scripts/fetch_school_research_papers.py
 - Major contribution cards live in `data/school_major_contributions.json`; read the writer note because some are alumni, parent-university, namesake, or health-system contributions rather than discoveries made directly inside the current MD program.
 - Live secondary portal links live in `data/secondary_portals.json`; add new schools there as portals arrive.
 - Completed secondary essay checkmarks live in `data/school_completion_status.json`; add a school slug there when every secondary essay for that school is done.
-- Typst source files are generated, but the Typst CLI is not installed in this workspace right now, so rendering was not run here.

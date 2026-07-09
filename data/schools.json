@@ -58,11 +58,11 @@
     "coa_per_year": "75043",
     "median_gpa": "3.92",
     "median_mcat": "516",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
     "secondary_deadline": null,
     "official_url": "https://medschool.ucsd.edu/education/md-program/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-california-san-diego-school-of-medicine",
-    "notes": "Large set with several program-specific prompts. Keep only the ones relevant to the programs you are actually applying to.",
+    "prompt_source": "https://applymed.ucsd.edu/security/login.aspx",
+    "notes": "Updated from the applicant's UCSD secondary portal. Applicant pasted only the required autobiographical prompt, so program-specific prompts from the old archive were removed unless they are later selected in the portal.",
     "prompts": [
       {
         "title": "Autobiographical Statement",
@@ -71,66 +71,7 @@
           "challenge",
           "future-goals"
         ],
-        "text": "This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you\u2019ve done since completing your bachelor\u2019s degree. You should also discuss the motivational factors which led you to a career in medicine, including any disadvantages or obstacles which might put your accomplishments into context."
-      },
-      {
-        "title": "PRIME-HEq",
-        "limit": "4800 characters",
-        "themes": [
-          "service"
-        ],
-        "text": "For PRIME-HEq: Please describe your interest in the PRIME-HEq program."
-      },
-      {
-        "title": "Global Health",
-        "limit": "4800 characters",
-        "themes": [
-          "future-goals",
-          "service"
-        ],
-        "text": "For GHAC: Please describe your interest in Global Health."
-      },
-      {
-        "title": "PRIME-TIDE",
-        "limit": "4800 characters",
-        "themes": [
-          "service",
-          "why-school"
-        ],
-        "text": "For PRIME-TIDE: Describe your interest in the Program in Medicine - Transforming Indigenous Doctor Education."
-      },
-      {
-        "title": "Tan Family Scholar Program",
-        "limit": "4800 characters",
-        "themes": [
-          "future-goals"
-        ],
-        "text": "For the Tan Family Scholar Program: Please describe your interest in Compassion and Empathy."
-      },
-      {
-        "title": "Marginalization and Disparity",
-        "limit": "4800 characters",
-        "themes": [
-          "diversity-equity"
-        ],
-        "text": "Do you consider yourself to be a member of a group that is marginalized in a way that systemically affects access to quality education or healthcare? Please describe how educational disparity, health disparity and/or marginalization has impacted you and your community."
-      },
-      {
-        "title": "Additional Most Meaningful Activities",
-        "limit": "100 characters",
-        "themes": [
-          "clinical",
-          "service"
-        ],
-        "text": "In addition to the three most meaningful experiences on AMCAS, are there any additional activities you would consider among your most meaningful?"
-      },
-      {
-        "title": "Career Pathway",
-        "limit": "400 characters",
-        "themes": [
-          "future-goals"
-        ],
-        "text": "Please select a potential career pathway and provide a brief description of your future career goals."
+        "text": "This should be a true autobiographical statement. Topics to be included are family, childhood, primary and secondary school years, undergraduate years, and, if applicable, what you\u2019ve done since completing your bachelor\u2019s degree. You should also discuss the motivational factors which led you to a career in medicine including any disadvantages or obstacles which might put your accomplishments into context. A repeat of your AMCAS statement will not be acceptable."
       }
     ],
     "why_school_fact": "UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.",
@@ -1151,11 +1092,11 @@
     "coa_per_year": "114804",
     "median_gpa": "3.84",
     "median_mcat": "512",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
     "secondary_deadline": "November 1, 2025",
     "official_url": "https://medicine.tulane.edu/admissions",
-    "prompt_source": "https://med.admit.org/secondary-essays/tulane-university",
-    "notes": "Short prompts; useful to keep concise reusable blocks for why-school, New Orleans fit, leadership, and hobbies.",
+    "prompt_source": "https://medapp.tulane.edu/Security/Login.aspx",
+    "notes": "Updated from the applicant's Tulane secondary portal. Live pasted set contains three 150-word prompts.",
     "prompts": [
       {
         "title": "Why Tulane",
@@ -1164,7 +1105,7 @@
           "why-school",
           "mission-fit"
         ],
-        "text": "Tulane University School of Medicine's mission statement states: We improve human health and foster healthy communities through discovery and translation of the best science into clinical practice and education; to deliver the highest quality patient care and prepare the next generation of distinguished clinical and scientific leaders. Briefly describe the reasons for your interest in Tulane University School of Medicine."
+        "text": "Tulane University School of Medicine\u2019s mission statement states: We improve human health and foster healthy communities through discovery and translation of the best science into clinical practice and education; to deliver the highest quality patient care and prepare the next generation of distinguished clinical and scientific leaders. Briefly describe how this statement resonates with your desire to attend Tulane University School of Medicine."
       },
       {
         "title": "New Orleans Health Disparities",
@@ -1173,7 +1114,7 @@
           "service",
           "diversity-equity"
         ],
-        "text": "What disparities in health do you believe are pertinent to the New Orleans patient population? How would you attempt to address them as a medical student at Tulane? You may support your answer by using past involvement working in a similar patient population to compare and/or describe your interest in any student activities offered at Tulane or in New Orleans."
+        "text": "What disparities in health do you believe are pertinent to the New Orleans community or similar patient populations? How would you attempt to address them as a medical student at Tulane? You may support your answer by using demonstrated past involvement working with similar patient populations to compare and/or describe your interest in any student experience offered at TUSOM or in New Orleans."
       },
       {
         "title": "How Others Describe You",
@@ -1182,39 +1123,6 @@
           "values"
         ],
         "text": "Who knows you best and how would they describe you?"
-      },
-      {
-        "title": "Leadership Positions",
-        "limit": "100 words",
-        "themes": [
-          "teamwork",
-          "values"
-        ],
-        "text": "Please list any leadership positions (clubs, organizations, paid work) you may have held."
-      },
-      {
-        "title": "Hobbies and Interests",
-        "limit": "150 words",
-        "themes": [
-          "community"
-        ],
-        "text": "Please list your hobbies and major non-academic interests."
-      },
-      {
-        "title": "Underrepresented Group",
-        "limit": "60 words",
-        "themes": [
-          "diversity-equity"
-        ],
-        "text": "Tulane University School of Medicine values the diversity of its patients, faculty, staff, and students. Do you identify with a particular group that you believe is underrepresented among medical professionals?"
-      },
-      {
-        "title": "COVID Impact",
-        "limit": "150 words",
-        "themes": [
-          "additional-info"
-        ],
-        "text": "In what ways did the COVID-19 pandemic alter or interrupt your medical school application?"
       }
     ],
     "why_school_fact": "Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.",
@@ -1435,7 +1343,7 @@
     "coa_per_year": "102045",
     "median_gpa": "3.89",
     "median_mcat": "517",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-06-28",
     "secondary_deadline": "December 15, 2025",
     "official_url": "https://www.nymc.edu/school-of-medicine-som/admissions/",
     "prompt_source": "https://med.admit.org/secondary-essays/new-york-medical-college",
@@ -1636,63 +1544,72 @@
     "coa_per_year": "113221",
     "median_gpa": "3.86",
     "median_mcat": "514",
-    "secondary_cycle": "2024 archive on Admit.org",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
     "secondary_deadline": null,
     "official_url": "https://www.umassmed.edu/som/admissions/",
-    "prompt_source": "https://med.admit.org/secondary-essays/university-of-massachusetts-medical-school",
-    "notes": "Prompt 1 is a multi-response competency essay. Keep its planning notes separate.",
+    "prompt_source": "Applicant-provided UMass Chan secondary portal text on 2026-07-09",
+    "notes": "Updated from applicant-provided UMass Chan secondary prompts. Seven prompts captured; Q7 is optional and Q6 is reapplicant/N/A.",
     "prompts": [
       {
-        "title": "Professionalism Competencies",
-        "limit": "600 words total",
+        "title": "Diverse Community Contribution",
+        "limit": "200 words",
         "themes": [
-          "values",
-          "teamwork",
-          "challenge",
           "diversity-equity"
         ],
-        "text": "Respond to the required Diversity prompt and then select three of the other professionalism prompts: leadership, teamwork, empathy/compassion, communication, inquiry, or persistence/grit."
+        "text": "How will your lived experiences, your background, your identity or that which makes you unique contribute to the diverse community and learning environment at UMass Chan?"
       },
       {
-        "title": "Further Explanation",
-        "limit": "250 words",
-        "themes": [
-          "academic-context",
-          "additional-info"
-        ],
-        "text": "Please discuss any part of your application that you feel requires further explanation."
-      },
-      {
-        "title": "Pipeline Programs",
+        "title": "Perseverance Through Challenging Circumstances",
         "limit": "200 words",
         "themes": [
-          "why-school"
+          "challenge"
         ],
-        "text": "If you have participated in sponsored UMass pipeline programs, please describe how these programs helped you decide to apply."
+        "text": "Describe a specific situation in which you persevered through more than usually challenging circumstances. What did you learn from that experience that you have continued to use?"
       },
       {
-        "title": "Why UMass Chan",
+        "title": "Project, Solution, and Effectiveness",
         "limit": "200 words",
         "themes": [
-          "why-school"
+          "research",
+          "leadership"
         ],
-        "text": "Why did you apply to T.H. Chan SOM?"
+        "text": "Describe your role in a project that identified a problem, studied it, launched a solution and tested its effectiveness."
       },
       {
-        "title": "Gap Year Activities",
+        "title": "Self-Insight and Changed Approach",
         "limit": "200 words",
         "themes": [
-          "gap-year"
+          "values",
+          "challenge"
         ],
-        "text": "If you are currently taking a gap year, in what activities are you engaged?"
+        "text": "Describe a situation where you learned something important about yourself that you did not previously know. How did you use that insight to change your approach in the future?"
       },
       {
         "title": "Systemic Inequity in Health Care",
         "limit": "200 words",
         "themes": [
-          "diversity-equity"
+          "diversity-equity",
+          "service"
         ],
-        "text": "Please describe an example of your personal and/or professional experience with and understanding of systemic inequity, exclusion, or lack of representation in health care in the United States."
+        "text": "Please describe an example of your personal and/or professional experience with and understanding of systemic inequity, exclusion, or lack of representation in health care in the United States. How did you arrive at this understanding?"
+      },
+      {
+        "title": "Reapplicant Candidacy Strengthening",
+        "limit": "200 words",
+        "themes": [
+          "additional-info",
+          "gap-year"
+        ],
+        "text": "If you have previously applied to medical school, describe how you have strengthened your candidacy. If you have not previously applied to medical school please enter \"N/A\"."
+      },
+      {
+        "title": "Optional Further Explanation",
+        "limit": "200 words",
+        "themes": [
+          "academic-context",
+          "additional-info"
+        ],
+        "text": "Optional: Please discuss any part of your application that you believe requires further explanation such as low grades or scores or gaps in time that are not explained elsewhere."
       }
     ],
     "why_school_fact": "UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.",

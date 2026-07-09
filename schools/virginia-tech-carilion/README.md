@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/virginia-tech-carilion/essay-packet.typ`
 - `schools/virginia-tech-carilion/essays/prompt-01-protecting-a-vulnerable-trait.md`
 - `schools/virginia-tech-carilion/essays/prompt-01.draft.md`
 - `schools/virginia-tech-carilion/essays/prompt-02-right-thing-versus-rules.md`

@@ -1,1 +1,0 @@
-../../../essays/shared-drafts/covid-impact.draft.md

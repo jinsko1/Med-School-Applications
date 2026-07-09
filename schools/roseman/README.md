@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/roseman/essay-packet.typ`
 - `schools/roseman/essays/prompt-01-obstacles-on-the-journey-to-medicine.md`
 - `schools/roseman/essays/prompt-01.draft.md`
 - `schools/roseman/essays/prompt-02-social-determinants-of-health-in-future-practice.md`

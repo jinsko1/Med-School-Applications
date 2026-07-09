@@ -22,7 +22,6 @@
 - Secondary prompt count captured in this repo: 4
 
 ## Essay Packet
-- `schools/wayne-state/essay-packet.typ`
 - `schools/wayne-state/essays/prompt-01-motivation-and-challenges-of-medicine.md`
 - `schools/wayne-state/essays/prompt-01.draft.md`
 - `schools/wayne-state/essays/prompt-02-healthcare-challenges-in-under-resourced-communities.md`

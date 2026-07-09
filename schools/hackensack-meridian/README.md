@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 3
 
 ## Essay Packet
-- `schools/hackensack-meridian/essay-packet.typ`
 - `schools/hackensack-meridian/essays/prompt-01-why-hackensack-meridian.md`
 - `schools/hackensack-meridian/essays/prompt-01.draft.md`
 - `schools/hackensack-meridian/essays/prompt-02-engaging-with-difference.md`

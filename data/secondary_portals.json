@@ -53,5 +53,15 @@
     "label": "Rosalind Franklin Secondary Portal",
     "url": "https://apply.rosalindfranklin.edu/account/login?pid=DjGKtUA_2gun6MIWwUQ2nmmoQVu1vCgWBHkHX-FUK7JrgrcSk-VZSDtnHOpbDLa02fdpuIyjLko",
     "status": "received"
+  },
+  "tulane": {
+    "label": "Tulane Secondary Portal",
+    "url": "https://medapp.tulane.edu/Security/Login.aspx",
+    "status": "received"
+  },
+  "ucsd": {
+    "label": "UCSD Secondary Portal",
+    "url": "https://applymed.ucsd.edu/security/login.aspx",
+    "status": "received"
   }
 }

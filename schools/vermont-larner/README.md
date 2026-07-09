@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/vermont-larner/essay-packet.typ`
 - `schools/vermont-larner/essays/prompt-01-active-learning-fit.md`
 - `schools/vermont-larner/essays/prompt-01.draft.md`
 - `schools/vermont-larner/essays/prompt-02-learning-across-difference.md`

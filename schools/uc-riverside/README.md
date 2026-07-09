@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/uc-riverside/essay-packet.typ`
 - `schools/uc-riverside/essays/prompt-01-mission-fit-and-class-contribution.md`
 - `schools/uc-riverside/essays/prompt-01.draft.md`
 - `schools/uc-riverside/essays/prompt-02-school-value-in-practice.md`

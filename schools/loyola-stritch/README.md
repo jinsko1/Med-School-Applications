@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 9
 
 ## Essay Packet
-- `schools/loyola-stritch/essay-packet.typ`
 - `schools/loyola-stritch/essays/prompt-01-jesuit-mission-resonance.md`
 - `schools/loyola-stritch/essays/prompt-01.draft.md`
 - `schools/loyola-stritch/essays/prompt-02-why-medicine.md`

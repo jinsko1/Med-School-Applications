@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/diversity-community.draft.md
+../../../essays/shared-drafts/reapplicant-update.draft.md

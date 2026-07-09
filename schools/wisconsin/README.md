@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 5
 
 ## Essay Packet
-- `schools/wisconsin/essay-packet.typ`
 - `schools/wisconsin/essays/prompt-01-mission-fit.md`
 - `schools/wisconsin/essays/prompt-01.draft.md`
 - `schools/wisconsin/essays/prompt-02-competency-1.md`

@@ -21,7 +21,6 @@
 - Secondary prompt count captured in this repo: 7
 
 ## Essay Packet
-- `schools/uicom/essay-packet.typ`
 - `schools/uicom/essays/prompt-01-conflict-and-change.md`
 - `schools/uicom/essays/prompt-01.draft.md`
 - `schools/uicom/essays/prompt-02-why-uicom.md`

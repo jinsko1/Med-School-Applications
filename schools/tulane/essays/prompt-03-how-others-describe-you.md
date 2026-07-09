@@ -4,7 +4,7 @@
 - Title: How Others Describe You
 - Limit: 150 words
 - Cycle used in this repo: 2024 archive on Admit.org
-- Source: https://med.admit.org/secondary-essays/tulane-university
+- Source: https://medapp.tulane.edu/Security/Login.aspx
 - Shared themes:
 - `../../../essays/shared/values.md`
 - Local notes file: `prompt-03.local.md`
