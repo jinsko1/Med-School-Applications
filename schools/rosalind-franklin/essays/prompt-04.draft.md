@@ -1,5 +1,3 @@
 # Chicago Medical School at Rosalind Franklin University of Medicine and Science - Learning Environment Contribution Draft
 
-_Not linked to a shared essay draft: this prompt is school-specific._
-
-Write your current draft here.
+I'm mainly interested in working with the Interprofessional Community Clinic and Initiative. As I've stated, I look forward to a career serving underserved populations, and participating in these opportunities would greatly help me. Due to my interest in reading and writing prose, I also would like to contribute to the Synapses creative journal and further reflect on my experiences, as a career in medicine constantly requires introspection and, consequently, refinement of practice. I believe taking the initiative to conduct research through the Distinction in Research program would further my education and contribute to the learning environment as well.

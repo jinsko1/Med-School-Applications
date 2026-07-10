@@ -1,5 +1,3 @@
 # Chicago Medical School at Rosalind Franklin University of Medicine and Science - Service, Collaboration, and Community Engagement Draft
 
-_Not linked to a shared essay draft: this CMS prompt asks for a school-specific service/collaboration/community-engagement example._
-
-Write your current draft here.
+Aside from what is already mentioned in subsequent essays, during my service in student government, I coauthored a proposal to install sanitary pads in restrooms of the university union and recreation center, fostering a more inclusive campus. My term also saw the installation of three healthcare product vending machines across campus, making products from birth control to analgesics available for students. Both efforts began with issues identified through student interaction and required initiative, collaboration, and inclusive practice. In medical school, I hope to further these values by actively engaging in student-led advocacy and community engagement efforts.

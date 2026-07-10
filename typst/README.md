@@ -1,4 +1,4 @@
-# Typst Assets
+Typst Assets
 
 This folder contains generated Typst mirrors for the shared essay backbones.
 
