@@ -1,3 +1,25 @@
 # University of California San Diego School of Medicine - Autobiographical Statement Draft
 
-Write your current draft here.
+Much like the microscopic undulations on his wrist, his heartbeat kept pace with the ball being dribbled across the court. I told him that’s where the arteries were, beneath the correctional uniform. So his fingers rested there while we watched the haphazard game—Ruthy, the dog, had already joined by then—fizzle out into a languid conversation. He wasn’t allowed to exert himself, and didn’t want to anyway—or that was what he told me. There was sugar in his blood.
+
+Blood.
+
+Indeed, it reminded me of my childhood, when I first learned of blood. Grandmother taught me that if I rested my hand over the flashlight, my hand would turn red. She showed me first, her quivering hand red, fingers swollen at the joints, after which I tried, bemused and utterly riveted. I smiled at her and she smiled back, a warm, wrinkled smile. Mother then told me that it was dinner time and my grandmother was promptly wheeled away. She cooked food for her on account of the sugar in her blood. I imagined that my grandmother’s sweetness came from it, that it imbued her with the kind disposition I was so familiar with. Mother prepared dinner while grandmother watched from her chair near the low table. Beside her, still entertaining my new discovery, I flicked the flashlight on and off as the smell of soup and grilled fish filled the room.
+
+It was not as if my mother had much time, and in fact, she often took time off from teaching to take care of grandmother. It occurs to me now that my mother did not explain compassion as an idea. She practiced it while tired, busy, and inconvenienced, yet she made it look ordinary.
+
+As such, in primary school, I came to understand that an illness did not only belong to the person afflicted, but to the entire household. It shaped what was cooked, how adults spoke in lowered voices, cautioning me not to ask about the tubes running from the nostrils. I only understood what was occurring through the fragments of clues available to a child of modest means.
+
+By middle school, nascent compassion had extended its influence into curiosity. I remember picking up Medical Detectives by Berton Roueché, delighted by the elegance of how the cases were solved, a tier above the Sherlock Holmes novels that I had come to love by then. I was completely absorbed by the way each piece of a medical mystery began to fit together: primary care doctors consulted chemists, epidemiologists, and public health officials, each discipline contributing a different clue.
+
+In secondary school, my curiosity was given a more concrete form through formal biology and chemistry education, though rudimentary. The basics established, I went on to read further, perusing comprehensible portions of medical textbooks and memoirs from distinguished physicians. I consider the memoirs my main entry point into a career in medicine: I became more aware that knowledge alone was not enough. By and by, I understood that this agreed with how my mother cared for my grandmother.
+
+During my undergraduate years at Cal Poly, I continued to further both sides of that interest. I completed courses pertinent to my medical interests, while learning how to read clinical trials on my own through writing about different topics like sham surgeries, drug classes, and surrogate endpoints. Through my research on UTIs, I learned to ask meaningful questions and develop my patience, as research often requires. Whilst research gave structure to my curiosity, service gave it direction.
+
+That direction became clearest through my volunteering at juvenile hall. Compassion was not merely an abstract concept: it meant showing up consistently, getting to know the youth beyond their charges, entire histories that were only visible in fragments—habits, jokes, silences—which sometimes manifested themselves in estranging, previously unknown ways. I believe I began to understand why medicine attracts me beyond the academic or intellectual pursuit. The work asks for scientific curiosity, but it also requires the ability to remain present with another person’s fear or pain, even when it is uncomfortable or inconvenient.
+
+And now, back to the present, I’m stirring the pan and he’s beside me, watching. The regimen is rather restricted but it’s still tasty: half non-starchy vegetables, one quarter protein, one quarter high-fiber carb, plus water. Lemon-garlic salmon over fluffy quinoa with roasted vegetables. Quite scrumptious. We ate together. In fact, we share a meal every week.
+
+In those shared meals, I see the line that runs from my grandmother to the present. My mother tacitly taught me that compassion is often ordinary and found among the seemingly mundane. It can be a meal cooked after work, or one prepared beside an incarcerated youth. By degrees, latent compassion became curiosity; and curiosity became research, service, and action. At the intersection of all these commitments: medicine.
+
+I hope to practice medicine with the curiosity that began when I first watched light pass through my hand, and the compassion learnt from my tired mother. Only later did I understand that sweetness was never in the blood itself, but in the quiet acts of care that surrounded it.
