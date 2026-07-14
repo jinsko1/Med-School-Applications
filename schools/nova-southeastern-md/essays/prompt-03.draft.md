@@ -1,1 +1,1 @@
-../../../essays/shared-drafts/academic-context.draft.md
+../../../essays/shared-drafts/diversity-community.draft.md

@@ -1,8 +1,8 @@
-# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Challenges and Helping Others Local Notes
+# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Problem Solving in Team or PBL Environment Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Do not reuse the same essay as Prompt 01; this one should foreground PBL readiness.
+- Emphasize reasoning through uncertainty, listening to teammates, testing ideas, and adapting.
 
 ## Final Check
 - Make sure the draft answers the actual wording of the prompt, not just the shared backbone.

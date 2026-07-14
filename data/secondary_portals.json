@@ -68,5 +68,10 @@
     "label": "UMass Chan Secondary Portal",
     "url": "https://wsa-prd.erp.umasscs.net/psp/wsaprd92/EMPLOYEE/SA/?cmd=logout",
     "status": "received"
+  },
+  "nova-southeastern-md": {
+    "label": "Nova Southeastern MD Secondary Portal",
+    "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80515/6387",
+    "status": "received"
   }
 }

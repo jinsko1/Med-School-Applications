@@ -1631,54 +1631,47 @@
     "coa_per_year": "113686",
     "median_gpa": "3.85",
     "median_mcat": "513",
-    "secondary_cycle": "2025-2026 from Med School Insiders / SDN school-specific thread",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-14",
     "secondary_deadline": "January 31, 2026",
     "official_url": "https://md.nova.edu/admissions/md/",
-    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/nova-southeastern-university-dr-kiran-c-patel-college-of-allopathic-medicine-secondary-essay-prompts/",
-    "notes": "Private Florida option with friendlier stats than many peers and no obvious regional-ties screen, though it is still a newer program.",
+    "prompt_source": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80515/6387",
+    "notes": "Updated from the applicant's Nova Southeastern MD secondary portal. Live set contains four prompts focused on teamwork, PBL readiness, unique perspective, and advanced academic/service-learning preparation.",
     "prompts": [
       {
         "title": "Teamwork Toward a Common Objective",
-        "limit": "4000 characters",
+        "limit": "Not listed in portal text provided",
         "themes": [
           "teamwork",
           "values"
         ],
-        "text": "Please provide an example that indicates your ability to function effectively as a productive member of a team working toward a common objective."
+        "text": "Please provide an example that indicates your ability to function effectively as a productive member of a team working toward a common objective. Elaborate on leadership roles you held in this capacity and how you solved problems that arose. Indicate highlights learned from this experience."
       },
       {
-        "title": "Challenges and Helping Others",
-        "limit": "4000 characters",
+        "title": "Problem Solving in Team or PBL Environment",
+        "limit": "Not listed in portal text provided",
         "themes": [
-          "challenge",
+          "teamwork",
+          "challenge"
+        ],
+        "text": "Please share some personal examples of problem solving in a team environment and/or leadership experience that would lead to your success in a Problem Based Learning environment."
+      },
+      {
+        "title": "Unique Perspective",
+        "limit": "Not listed in portal text provided",
+        "themes": [
+          "diversity-equity",
+          "values"
+        ],
+        "text": "At the NSU MD program, we value the unique perspective that each applicant brings. Identify any traits, life experiences, or interests that a professor or advisor would not normally know about you."
+      },
+      {
+        "title": "Advanced Academic Work and Humanism",
+        "limit": "Not listed in portal text provided",
+        "themes": [
+          "academic-context",
           "service"
         ],
-        "text": "If applicable, please describe how your experience with challenges has informed your perspective, decision-making, or approach to helping others. You may include reflections on your educational path, life experiences, or other formative events. If not applicable, please type NA."
-      },
-      {
-        "title": "Academic or Test Inconsistencies",
-        "limit": "4000 characters",
-        "themes": [
-          "academic-context"
-        ],
-        "text": "Do you have any gaps or inconsistencies in either academic or standardized test performances throughout your undergraduate, graduate, or post-graduate career? If yes, please explain. If no, please type NA."
-      },
-      {
-        "title": "Time Gap Before Matriculation",
-        "limit": "4000 characters",
-        "themes": [
-          "gap-year"
-        ],
-        "text": "Is there a time gap between earning your last degree (baccalaureate or other) and the expected time of your medical school matriculation? If yes, please explain. If no, please type NA."
-      },
-      {
-        "title": "Reapplicant Improvement",
-        "limit": "4000 characters",
-        "themes": [
-          "additional-info",
-          "gap-year"
-        ],
-        "text": "Have you previously applied to any medical school (M.D., D.O., international)? If yes, please explain what steps you have taken to improve your overall application profile for this admissions cycle. If no, please type NA."
+        "text": "How has your academic work beyond the \u201ctraditional\u201d pre-medical school requirements (i.e., introductory biology, general chemistry, organic chemistry, and introductory physics) prepared you for medical school and for a career in medicine? Please highlight any service-learning activities that align with humanism in medicine."
       }
     ],
     "why_school_fact": "NSU MD uses a hybrid case- and problem-based curriculum that places patients at the center of learning and rewards applicants who can reason through ambiguity.",

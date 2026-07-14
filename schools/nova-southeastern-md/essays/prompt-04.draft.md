@@ -1,5 +1,5 @@
-# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Time Gap Before Matriculation Draft
+# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Advanced Academic Work and Humanism Draft
 
-_Not linked to a shared essay draft: another Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine prompt already uses the Current Activities / Gap Year shared draft; same-school prompts stay separate_
+_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
 
 Write your current draft here.

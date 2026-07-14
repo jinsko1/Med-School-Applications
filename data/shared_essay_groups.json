@@ -30,14 +30,6 @@
         "status": "linked"
       },
       {
-        "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
-        "school_slug": "nova-southeastern-md",
-        "prompt_index": 3,
-        "prompt_title": "Academic or Test Inconsistencies",
-        "draft_path": "schools/nova-southeastern-md/essays/prompt-03.draft.md",
-        "status": "linked"
-      },
-      {
         "school": "California Northstate University College of Medicine",
         "school_slug": "california-northstate",
         "prompt_index": 5,
@@ -318,14 +310,6 @@
         "status": "linked"
       },
       {
-        "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
-        "school_slug": "nova-southeastern-md",
-        "prompt_index": 4,
-        "prompt_title": "Time Gap Before Matriculation",
-        "draft_path": "schools/nova-southeastern-md/essays/prompt-04.draft.md",
-        "status": "skipped-existing-draft"
-      },
-      {
         "school": "Roseman University College of Medicine",
         "school_slug": "roseman",
         "prompt_index": 4,
@@ -411,6 +395,14 @@
         "prompt_index": 1,
         "prompt_title": "Diverse Community Contribution",
         "draft_path": "schools/umass-chan/essays/prompt-01.draft.md",
+        "status": "linked"
+      },
+      {
+        "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
+        "school_slug": "nova-southeastern-md",
+        "prompt_index": 3,
+        "prompt_title": "Unique Perspective",
+        "draft_path": "schools/nova-southeastern-md/essays/prompt-03.draft.md",
         "status": "linked"
       },
       {
@@ -515,14 +507,6 @@
         "prompt_index": 6,
         "prompt_title": "Reapplicant Candidacy Strengthening",
         "draft_path": "schools/umass-chan/essays/prompt-06.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
-        "school_slug": "nova-southeastern-md",
-        "prompt_index": 5,
-        "prompt_title": "Reapplicant Improvement",
-        "draft_path": "schools/nova-southeastern-md/essays/prompt-05.draft.md",
         "status": "linked"
       },
       {
@@ -635,14 +619,6 @@
         "prompt_index": 5,
         "prompt_title": "Systemic Inequity in Health Care",
         "draft_path": "schools/umass-chan/essays/prompt-05.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine",
-        "school_slug": "nova-southeastern-md",
-        "prompt_index": 2,
-        "prompt_title": "Challenges and Helping Others",
-        "draft_path": "schools/nova-southeastern-md/essays/prompt-02.draft.md",
         "status": "linked"
       },
       {

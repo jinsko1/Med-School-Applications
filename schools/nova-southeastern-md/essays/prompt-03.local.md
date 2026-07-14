@@ -1,8 +1,8 @@
-# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Academic or Test Inconsistencies Local Notes
+# Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Unique Perspective Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Choose something a professor or advisor would not normally know from coursework or recommendation letters.
+- Connect the trait, experience, or interest to how you will contribute to classmates or patients.
 
 ## Final Check
 - Make sure the draft answers the actual wording of the prompt, not just the shared backbone.

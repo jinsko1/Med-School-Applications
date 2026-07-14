@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Davie, FL; cached accepted-student medians: GPA 3.85, MCAT 513.
-- Current list note: Private Florida option with friendlier stats than many peers and no obvious regional-ties screen, though it is still a newer program.
+- Current list note: Updated from the applicant's Nova Southeastern MD secondary portal. Live set contains four prompts focused on teamwork, PBL readiness, unique perspective, and advanced academic/service-learning preparation.
 - Why-school fact: NSU MD uses a hybrid case- and problem-based curriculum that places patients at the center of learning and rewards applicants who can reason through ambiguity.
 - Heuristic list estimate: ~4%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -19,11 +19,10 @@
 - Growth/reflection fit: use the frustrating repeated growth-curve work, hospice expectations vs. reality, or first restorative-justice visits to show humility and changed behavior.
 
 ## Prompt Strategy
-- `Teamwork Toward a Common Objective`: use ASI menstrual-product advocacy, lab training, Learning Assistant work, or BCSM Ambassador outreach as collaborative leadership.
-- `Challenges and Helping Others`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Academic or Test Inconsistencies`: give a concise timeline of research, clinical work, service, and application-year responsibilities.
-- `Time Gap Before Matriculation`: give a concise timeline of research, clinical work, service, and application-year responsibilities.
-- `Reapplicant Improvement`: use N/A language unless you become a reapplicant.
+- `Teamwork Toward a Common Objective`: use ASI menstrual-product advocacy, lab training, Learning Assistant work, or BCSM Ambassador outreach as collaborative leadership; include the problem that arose and what you learned.
+- `Problem Solving in Team or PBL Environment`: choose a different story or angle than Prompt 01, focused on reasoning through uncertainty, listening, and iterating with a group.
+- `Unique Perspective`: identify something a professor/advisor would not normally know, such as fiction/reading as empathy practice, hospice communication beyond words, or the perspective gained from restorative-justice service.
+- `Advanced Academic Work and Humanism`: connect upper-division microbiology/research training with service-learning through Hospice SLO, Restorative Partners, student health work, or teaching.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

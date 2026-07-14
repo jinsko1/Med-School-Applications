@@ -7,12 +7,11 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Academic Context
 - Shared draft: `essays/shared-drafts/academic-context.draft.md`
-- Linked prompts: 5
+- Linked prompts: 4
 - Schools/prompts sharing this draft:
   - UC Davis School of Medicine - Prompt 01: Application Concerns
   - Albany Medical College - Prompt 02: Academic Inconsistencies
   - Frank H. Netter M.D. School of Medicine at Quinnipiac University - Prompt 06: Withdrawals or Breaks
-  - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 03: Academic or Test Inconsistencies
   - California Northstate University College of Medicine - Prompt 05: Education Not Continuous
 
 ## Additional Information
@@ -57,20 +56,19 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Current Activities / Gap Year
 - Shared draft: `essays/shared-drafts/current-and-gap-year.draft.md`
-- Linked prompts: 8
+- Linked prompts: 7
 - Schools/prompts sharing this draft:
   - Lewis Katz School of Medicine at Temple University - Prompt 04: Current Year Plans
   - Emory University School of Medicine - Prompt 01: Curriculum / Current Year Plan
   - Drexel University College of Medicine - Prompt 01: Current and Recent Activities
   - Loyola University Chicago Stritch School of Medicine - Prompt 08: If Out of Coursework for Two Years
   - Frank H. Netter M.D. School of Medicine at Quinnipiac University - Prompt 01: Application Year Plan
-  - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 04: Time Gap Before Matriculation
   - Roseman University College of Medicine - Prompt 04: Gap Time Explanation
   - George Washington University School of Medicine & Health Sciences - Prompt 02: Application Through Matriculation Activities
 
 ## Diversity / Community Contribution
 - Shared draft: `essays/shared-drafts/diversity-community.draft.md`
-- Linked prompts: 11
+- Linked prompts: 12
 - Schools/prompts sharing this draft:
   - Vermont Larner College of Medicine - Prompt 02: Learning Across Difference
   - Sidney Kimmel Medical College at Thomas Jefferson University - Prompt 01: Diversity Contribution
@@ -80,6 +78,7 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Rush Medical College at Rush University - Prompt 01: Worldview and Understanding Difference
   - California University of Science and Medicine - Prompt 01: Diversity Contribution
   - University of Massachusetts Chan Medical School - Prompt 01: Diverse Community Contribution
+  - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 03: Unique Perspective
   - Roseman University College of Medicine - Prompt 03: Cross-Cultural Interaction
   - Hackensack Meridian School of Medicine - Prompt 02: Engaging with Difference
   - University of Illinois College of Medicine - Prompt 04: Prejudice, Injustice, and the Bystander
@@ -96,19 +95,18 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Reapplicant Update
 - Shared draft: `essays/shared-drafts/reapplicant-update.draft.md`
-- Linked prompts: 7
+- Linked prompts: 6
 - Schools/prompts sharing this draft:
   - Vermont Larner College of Medicine - Prompt 05: Additional Information
   - Loyola University Chicago Stritch School of Medicine - Prompt 09: Reapplicant Improvement
   - University of Massachusetts Chan Medical School - Prompt 06: Reapplicant Candidacy Strengthening
-  - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 05: Reapplicant Improvement
   - Thomas F. Frist, Jr. College of Medicine at Belmont University - Prompt 04: Reapplicant Changes
   - University of Illinois College of Medicine - Prompt 06: Reapplicant Update
   - California Northstate University College of Medicine - Prompt 06: Reapplicant Accomplishments
 
 ## Service / Public Health / Underserved
 - Shared draft: `essays/shared-drafts/service-public-health.draft.md`
-- Linked prompts: 12
+- Linked prompts: 11
 - Schools/prompts sharing this draft:
   - Kaiser Permanente Bernard J. Tyson School of Medicine - Prompt 04: Social Drivers and Community Advocacy
   - Emory University School of Medicine - Prompt 04: Service to Underserved Communities
@@ -120,7 +118,6 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Tulane University School of Medicine - Prompt 02: New Orleans Health Disparities
   - Rush Medical College at Rush University - Prompt 04: Privilege and Health Equity
   - University of Massachusetts Chan Medical School - Prompt 05: Systemic Inequity in Health Care
-  - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 02: Challenges and Helping Others
   - Roseman University College of Medicine - Prompt 02: Social Determinants of Health in Future Practice
 
 ## Teamwork / Leadership
