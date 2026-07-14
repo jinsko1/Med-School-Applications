@@ -1,5 +1,9 @@
 # Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Advanced Academic Work and Humanism Draft
 
-_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
+Much of my interests extend beyond the requirements observed, namely philosophy and ethics. These disciplines have forced me to confront ambiguity and analyze discordant values. I feel this has contributed to my desire to pursue a career in medicine, as I understand medicine to not only be the application of scientific knowledge, but the judgement and human understanding of values.
 
-Write your current draft here.
+My hospice volunteering helped make this clearer. Understandably, at ninety-four years old, my hospice client did not enjoy the physical therapy exercises her daughter expected her to complete. Each time I visited, her daughter reminded me to ensure that the exercises were done, though my client always expressed clear reluctance.
+
+Before her exercises, she would often coop herself up in the restroom, refusing to come out. Persistent knocking and questioning made little progress, and I was unsure how to respond. This happened on multiple occasions, leaving her daughter disappointed that her mother had not completed the exercises—a warranted reaction, given that she simply wanted her mother to remain as healthy and strong as possible.
+
+Perhaps feeling pressured by this, I initially understood perseverance as continuing to press my client to complete her exercises. In retrospect, I should have responded with more flexibility. Gradually, rather than pressing her, I waited patiently and allowed her to come out on her own terms, after which I completed the exercises alongside her, sharing the burden rather than merely making her endure them alone. I learnt that humanism in medicine often begins with this kind of adjustment: remaining committed, while recognizing when persistence becomes an imposition.
