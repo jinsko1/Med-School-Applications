@@ -63,5 +63,10 @@
     "label": "UCSD Secondary Portal",
     "url": "https://applymed.ucsd.edu/security/login.aspx",
     "status": "received"
+  },
+  "umass-chan": {
+    "label": "UMass Chan Secondary Portal",
+    "url": "https://wsa-prd.erp.umasscs.net/psp/wsaprd92/EMPLOYEE/SA/?cmd=logout",
+    "status": "received"
   }
 }

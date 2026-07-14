@@ -1,5 +1,5 @@
 # University of Massachusetts Chan Medical School - Self-Insight and Changed Approach Draft
 
-_Not linked to a shared essay draft: another University of Massachusetts Chan Medical School prompt already uses the Challenge / Resilience shared draft; same-school prompts stay separate_
+As a learning assistant working in chemistry—which is not an easy subject—it was not uncommon to encounter a student struggling with the material. While most confusions and ambiguities were quickly resolved, some were not, especially during the thermodynamics unit. When such troubles arose, I often sought the help of my peer learning assistants to better support the student. I thought this was for the student and therefore a good thing; however, my professor pointed out that requesting immediate assistance could tacitly signal that I had given up on them, a discouraging impression.
 
-Write your current draft here.
+I was much struck by this feedback, but realized they were right. I learned that I was more uncomfortable with uncertainty than I had understood, and that my instinct to find help quickly could sometimes become a form of retreat. From that point on, rather than requesting immediate assistance from my peers, I tried to explain concepts in as many ways as possible and persist despite the seemingly swift solution.

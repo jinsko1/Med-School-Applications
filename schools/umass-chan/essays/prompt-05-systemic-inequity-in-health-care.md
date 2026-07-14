@@ -4,7 +4,7 @@
 - Title: Systemic Inequity in Health Care
 - Limit: 200 words
 - Cycle used in this repo: 2024 archive on Admit.org
-- Source: Applicant-provided UMass Chan secondary portal text on 2026-07-09
+- Source: https://wsa-prd.erp.umasscs.net/psp/wsaprd92/EMPLOYEE/SA/?cmd=logout
 - Shared themes:
 - `../../../essays/shared/diversity-equity.md`
 - `../../../essays/shared/service.md`

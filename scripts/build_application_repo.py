@@ -1316,7 +1316,7 @@ SCHOOLS = [
         "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-09",
         "secondary_deadline": None,
         "official_url": "https://www.umassmed.edu/som/admissions/",
-        "prompt_source": "Applicant-provided UMass Chan secondary portal text on 2026-07-09",
+        "prompt_source": "https://wsa-prd.erp.umasscs.net/psp/wsaprd92/EMPLOYEE/SA/?cmd=logout",
         "notes": "Updated from applicant-provided UMass Chan secondary prompts. Seven prompts captured; Q7 is optional and Q6 is reapplicant/N/A.",
         "prompts": [
             {

@@ -7,7 +7,7 @@
 - Latest prompt cycle used here: 2024 archive on Admit.org
 - Latest verified secondary deadline: See admissions source
 - Official admissions page: https://www.umassmed.edu/som/admissions/
-- Prompt source: Applicant-provided UMass Chan secondary portal text on 2026-07-09
+- Prompt source: https://wsa-prd.erp.umasscs.net/psp/wsaprd92/EMPLOYEE/SA/?cmd=logout
 
 ## Required Core Items
 - AMCAS primary application
