@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Norfolk, VA; cached accepted-student medians: GPA 3.82, MCAT 513.
-- Current list note: Directly aligned to exposure to medicine, future self, and school-specific rationale.
+- Current list note: Updated from the applicant's Eastern Virginia secondary portal. Live pasted set contains two prompts focused on exposure to medicine and what you will like best about being a physician.
 - Why-school fact: EVMS is community-oriented in Norfolk and makes exposure to medicine, future physician identity, and practical clinical fit central to its secondary prompts.
 - Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -18,10 +18,7 @@
 
 ## Prompt Strategy
 - `Exposure to Medicine`: select the strongest matching activity and keep the reflection tied to medicine.
-- `What You Will Like Best About Being a Physician`: select the strongest matching activity and keep the reflection tied to medicine.
-- `What You Will Like Least About Being a Physician`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Ten Years from Now`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Why EVMS`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
+- `What You Will Like Best About Being a Physician`: connect the part of physician work you expect to value most to real exposure from clinical care, hospice, service, teaching, or research.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

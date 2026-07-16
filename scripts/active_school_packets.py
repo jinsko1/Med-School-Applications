@@ -126,7 +126,7 @@ NEW_SCHOOLS = [
     {
         "name": "Wayne State University School of Medicine",
         "slug": "wayne-state",
-        "secondary_cycle": "2025-2026 from Med School Insiders",
+        "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-14",
         "secondary_deadline": "Advised within 2 weeks of request; final deadline February 8, 2026",
         "official_url": "https://www.med.wayne.edu/admissions",
         "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/wayne-state-university-school-of-medicine-secondary-essay-prompts/",
@@ -311,8 +311,8 @@ NEW_SCHOOLS = [
         "secondary_cycle": "2025-2026 from Med School Insiders",
         "secondary_deadline": "December 31, 2025",
         "official_url": "https://www.evms.edu/education/medical_programs/doctor_of_medicine/admissions/",
-        "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/eastern-virginia-med-school-secondary-essay-prompts/",
-        "notes": "Directly aligned to exposure to medicine, future self, and school-specific rationale.",
+        "prompt_source": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80341/6387",
+        "notes": "Updated from the applicant's Eastern Virginia secondary portal. Live pasted set contains two prompts focused on exposure to medicine and what you will like best about being a physician.",
         "prompts": [
             {
                 "title": "Exposure to Medicine",
@@ -325,24 +325,6 @@ NEW_SCHOOLS = [
                 "limit": "2000 characters",
                 "themes": ["future-goals"],
                 "text": "What do you think you will like best about being a physician?",
-            },
-            {
-                "title": "What You Will Like Least About Being a Physician",
-                "limit": "2000 characters",
-                "themes": ["challenge", "future-goals"],
-                "text": "What do you think you will like least about being a physician?",
-            },
-            {
-                "title": "Ten Years from Now",
-                "limit": "2000 characters",
-                "themes": ["future-goals"],
-                "text": "Describe yourself and your medical career as you see it ten years from now.",
-            },
-            {
-                "title": "Why EVMS",
-                "limit": "2000 characters",
-                "themes": ["why-school"],
-                "text": "Please indicate your reasons for applying to VHS-EVMS at ODU.",
             },
         ],
     },

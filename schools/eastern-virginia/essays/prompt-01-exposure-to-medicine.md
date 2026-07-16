@@ -3,8 +3,8 @@
 ## Prompt Metadata
 - Title: Exposure to Medicine
 - Limit: 2000 characters
-- Cycle used in this repo: 2025-2026 from Med School Insiders
-- Source: https://medschoolinsiders.com/medical-school-secondary-prompts-database/eastern-virginia-med-school-secondary-essay-prompts/
+- Cycle used in this repo: 2026-2027 live secondary portal prompts provided by applicant on 2026-07-14
+- Source: https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80341/6387
 - Shared themes:
 - `../../../essays/shared/clinical.md`
 - Local notes file: `prompt-01.local.md`
@@ -14,15 +14,7 @@
 Briefly describe your exposure to medicine.
 
 ## Synced Backbone
-# Clinical Exposure Backbone
-
-## Best Experience
-Choose the single clinical experience that best changed your understanding of medicine.
-
-## Learning
-- What did you observe about patient care?
-- What did you learn about physicians?
-- What did you learn about yourself?
+Use the clinical exposure backbone, but keep this direct and concrete. Prioritize patient-facing roles and what each showed you about physician work.
 
 ## School-Specific Tailoring
 Read `../research.md` and `prompt-01.local.md` before drafting a final version.

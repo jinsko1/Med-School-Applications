@@ -73,5 +73,10 @@
     "label": "Nova Southeastern MD Secondary Portal",
     "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80515/6387",
     "status": "received"
+  },
+  "eastern-virginia": {
+    "label": "Eastern Virginia Secondary Portal",
+    "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80341/6387",
+    "status": "received"
   }
 }

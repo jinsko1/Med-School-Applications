@@ -476,7 +476,7 @@
     "coa_per_year": "109187",
     "median_gpa": "3.87",
     "median_mcat": "511",
-    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-08",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-14",
     "secondary_deadline": "December 8, 2025",
     "official_url": "https://www.mcw.edu/education/medical-school/admissions",
     "prompt_source": "https://secondaryapplication.mcw.edu/Security/Login.aspx",
@@ -1147,8 +1147,8 @@
     "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-08",
     "secondary_deadline": "December 31, 2025",
     "official_url": "https://www.evms.edu/education/medical_programs/doctor_of_medicine/admissions/",
-    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/eastern-virginia-med-school-secondary-essay-prompts/",
-    "notes": "Directly aligned to exposure to medicine, future self, and school-specific rationale.",
+    "prompt_source": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80341/6387",
+    "notes": "Updated from the applicant's Eastern Virginia secondary portal. Live pasted set contains two prompts focused on exposure to medicine and what you will like best about being a physician.",
     "prompts": [
       {
         "title": "Exposure to Medicine",
@@ -1165,31 +1165,6 @@
           "future-goals"
         ],
         "text": "What do you think you will like best about being a physician?"
-      },
-      {
-        "title": "What You Will Like Least About Being a Physician",
-        "limit": "2000 characters",
-        "themes": [
-          "challenge",
-          "future-goals"
-        ],
-        "text": "What do you think you will like least about being a physician?"
-      },
-      {
-        "title": "Ten Years from Now",
-        "limit": "2000 characters",
-        "themes": [
-          "future-goals"
-        ],
-        "text": "Describe yourself and your medical career as you see it ten years from now."
-      },
-      {
-        "title": "Why EVMS",
-        "limit": "2000 characters",
-        "themes": [
-          "why-school"
-        ],
-        "text": "Please indicate your reasons for applying to VHS-EVMS at ODU."
       }
     ],
     "why_school_fact": "EVMS is community-oriented in Norfolk and makes exposure to medicine, future physician identity, and practical clinical fit central to its secondary prompts.",
