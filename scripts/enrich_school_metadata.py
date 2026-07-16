@@ -271,7 +271,7 @@ def main() -> None:
         slug = school["slug"]
         profile = profiles.get(slug)
         school["why_school_fact"] = WHY_SCHOOL_FACTS[slug]
-        school["why_school_fact_source"] = "Cached 2027 MSAR profile plus official admissions page listed in this school packet."
+        school["why_school_fact_source"] = "Cached 2027 MSAR profile plus official admissions page listed in this school metadata."
         school.update(estimate_chance(school, profile))
         update_school_readme(school)
     SCHOOLS_JSON.write_text(json.dumps(schools, indent=2), encoding="utf-8")

@@ -5,36 +5,25 @@ This repository was generated on 2026-05-30 to support your VS Code + Codex work
 ## What This Repo Does
 - Normalizes your active school list into a reusable local dataset
 - Creates primary essay planning files
-- Creates school-by-school secondary packets
-- Syncs overlapping prompts through shared backbone files in `essays/shared/`
 - Links functionally similar essay drafts through `essays/shared-drafts/`
-- Preserves school-specific customization in local note files
 - Renders clean HTML review pages from Markdown drafts
 
 ## Quick Start
 1. Draft primary materials in `essays/primary/`.
-2. Review fit-focused school research notes in `schools/*/research.md`.
-3. Edit reusable backbones in `essays/shared/`.
-4. Write actual essay drafts in `*.draft.md`. Some are linked to shared source drafts in `essays/shared-drafts/`.
-5. Regenerate the repo packet files with:
-
-```bash
-python3 scripts/build_application_repo.py
-```
-6. Refresh shared essay links after packet regeneration with:
+2. Write actual essay drafts in `*.draft.md`. Some are linked to shared source drafts in `essays/shared-drafts/`.
+3. Refresh shared essay links after school-list or prompt changes with:
 
 ```bash
 python3 scripts/sync_shared_essay_drafts.py
 ```
 
-7. Refresh school fit notes from the current school list and work/activities themes with:
+4. Refresh school metadata from the current school list and work/activities themes with:
 
 ```bash
 python3 scripts/enrich_school_metadata.py
-python3 scripts/populate_school_research_notes.py
 ```
 
-8. Render polished review pages from your markdown drafts with:
+5. Render polished review pages from your markdown drafts with:
 
 ```bash
 python3 scripts/render_review_site.py
@@ -46,11 +35,10 @@ For a faster targeted rebuild after editing one school, use:
 python3 scripts/render_review_site.py --school wake-forest
 ```
 
-You can also target a single draft or prompt packet:
+You can also target a single draft:
 
 ```bash
 python3 scripts/render_review_site.py schools/wake-forest/essays/prompt-05.draft.md
-python3 scripts/render_review_site.py schools/wake-forest/essays/prompt-05-commitment.md
 ```
 
 Targeted rendering updates the matching essay page(s), any affected school dashboard(s), and `review/essays.html` without regenerating every essay page.
@@ -63,7 +51,7 @@ python3 scripts/fetch_school_research_papers.py
 
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on 2026-05-30. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
-- Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
+- Treat prompt metadata as a drafting aid, not as a substitute for checking each school’s live portal when secondaries open.
 - The active MD school list currently includes 32 schools.
 - Shared draft sync details live in `docs/process/shared-essay-sync.md`.
 - School-list percentages are heuristic prioritization estimates, not real admissions probabilities. Details live in `docs/process/school-list-estimates.md`.

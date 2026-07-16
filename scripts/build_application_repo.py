@@ -784,7 +784,7 @@ SCHOOLS = [
         "secondary_deadline": None,
         "official_url": "https://medicine.tufts.edu/admissions-financial-aid/admissions",
         "prompt_source": "https://med.admit.org/secondary-essays/tufts-university-school-of-medicine",
-        "notes": "Tufts has a large prompt set but much of it maps cleanly to shared backbones.",
+        "notes": "Tufts has a large prompt set but much of it maps cleanly to shared draft sources.",
         "prompts": [
             {
                 "title": "Why Tufts",
@@ -1457,7 +1457,7 @@ for _school_name in ACTIVE_SCHOOL_NAMES:
         _merged_schools.append(_school)
 
 if _missing_school_names:
-    raise RuntimeError(f"Missing school packet data for: {', '.join(_missing_school_names)}")
+    raise RuntimeError(f"Missing school metadata for: {', '.join(_missing_school_names)}")
 
 SCHOOLS = _merged_schools
 
@@ -1501,21 +1501,6 @@ def write_text(path: Path, text: str, *, overwrite: bool = True) -> None:
         return
     ensure_dir(path.parent)
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
-
-
-def render_shared_section(themes: list[str]) -> str:
-    parts = []
-    for theme in themes:
-        shared_path = ROOT / "essays" / "shared" / f"{theme}.md"
-        if shared_path.exists():
-            parts.append(shared_path.read_text(encoding="utf-8").strip())
-    return "\n\n".join(parts).strip()
-
-
-def create_shared_files() -> None:
-    for theme, meta in SHARED_THEMES.items():
-        path = ROOT / "essays" / "shared" / f"{theme}.md"
-        write_text(path, meta["body"], overwrite=False)
 
 
 def build_primary_docs() -> None:
@@ -1644,7 +1629,7 @@ Primary source: `{AMCAS_GUIDE}`
 - Submit AMCAS as early as your primary is truly ready; verification timing is the main bottleneck.
 - Track transcript arrival separately from letter arrival.
 - Draft secondaries before invitations land, especially for your highest-priority schools.
-- Preserve reusable language in shared backbones, then customize school-specific wrappers.
+- Preserve reusable language in shared draft sources, then customize final school drafts directly.
 """,
     )
     write_text(
@@ -1653,18 +1638,15 @@ Primary source: `{AMCAS_GUIDE}`
 
 ## Recommended Order
 1. Finish AMCAS personal statement and Work/Activities.
-2. Fill school research files in `schools/*/research.md`.
-3. Draft shared backbone essays in `essays/shared/`.
-4. Write actual drafts in `*.draft.md` files so regeneration never overwrites your essay text.
-5. Run `python3 scripts/build_application_repo.py` whenever you want regenerated school packets.
-6. Add school-specific tailoring in each `prompt-XX.local.md` file.
-7. Render clean review pages from your markdown drafts with `python3 scripts/render_review_site.py`.
+2. Write actual drafts in `*.draft.md` files so regeneration never overwrites your essay text.
+3. Edit shared draft sources in `essays/shared-drafts/` when multiple schools use the same answer.
+4. Run `python3 scripts/sync_shared_essay_drafts.py` after school-list or prompt changes.
+5. Render clean review pages from your markdown drafts with `python3 scripts/render_review_site.py`.
 
 ## Editing Rules For This Repo
-- Edit shared themes when multiple schools overlap.
-- Edit `prompt-XX.local.md` when only one school needs the change.
 - Write your actual essay answer in `prompt-XX.draft.md`.
-- Treat generated `prompt-XX.md` files as synced working packets rather than the source of truth.
+- If a school draft is a symlink, editing it also edits the shared source in `essays/shared-drafts/`.
+- Prompt titles and limits come from `data/schools.json`.
 """,
     )
     write_text(
@@ -1690,19 +1672,6 @@ def build_school_files(stats: dict[str, dict[str, str]]) -> list[dict[str, objec
         school_dir = ROOT / "schools" / school["slug"]
         ensure_dir(school_dir / "essays")
 
-        research_stub = f"""# {school['name']} Research Notes
-
-## Mission / Fit Notes
-- Add named programs, curricular elements, clinical sites, and population focus areas here.
-
-## Interview / Logistics Notes
-- Add deadline reminders, fees, tracks, and residency or regional notes here.
-
-## Why This School Evidence
-- Replace generic claims with details that would still be true after the secondary is updated for the next cycle.
-"""
-        write_text(school_dir / "research.md", research_stub, overwrite=False)
-
         prompt_list = school["prompts"]
         school_readme_lines = [
             f"# {school['name']}",
@@ -1726,7 +1695,7 @@ def build_school_files(stats: dict[str, dict[str, str]]) -> list[dict[str, objec
                 f"- {school['notes']}",
                 f"- Secondary prompt count captured in this repo: {len(prompt_list)}",
                 "",
-                "## Essay Packet",
+                "## Essay Drafts",
             ]
         )
         if not prompt_list:
@@ -1748,27 +1717,8 @@ def build_school_files(stats: dict[str, dict[str, str]]) -> list[dict[str, objec
         }
 
         for idx, prompt in enumerate(prompt_list, start=1):
-            theme_slug = prompt["themes"][0] if prompt["themes"] else "custom"
-            prompt_slug = slugify(prompt["title"])
-            local_name = f"prompt-{idx:02d}.local.md"
             draft_name = f"prompt-{idx:02d}.draft.md"
-            generated_name = f"prompt-{idx:02d}-{prompt_slug}.md"
-            local_path = school_dir / "essays" / local_name
             draft_path = school_dir / "essays" / draft_name
-            generated_path = school_dir / "essays" / generated_name
-            write_text(
-                local_path,
-                f"""# {school['name']} - {prompt['title']} Local Notes
-
-## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
-
-## Final Check
-- Make sure the draft answers the actual wording of the prompt, not just the shared backbone.
-""",
-                overwrite=False,
-            )
             write_text(
                 draft_path,
                 f"""# {school['name']} - {prompt['title']} Draft
@@ -1778,34 +1728,6 @@ Write your current draft here.
                 overwrite=False,
             )
 
-            shared_links = "\n".join(
-                [f"- `../../../essays/shared/{theme}.md`" for theme in prompt["themes"]]
-            )
-            shared_body = render_shared_section(prompt["themes"]) or "_No shared backbone linked yet._"
-            prompt_body = f"""# {school['name']} - Prompt {idx:02d}
-
-## Prompt Metadata
-- Title: {prompt['title']}
-- Limit: {prompt['limit']}
-- Cycle used in this repo: {school['secondary_cycle']}
-- Source: {school['prompt_source']}
-- Shared themes:
-{shared_links if shared_links else '- none'}
-- Local notes file: `{local_name}`
-- Draft file: `{draft_name}`
-
-## Prompt Text
-{prompt['text']}
-
-## Synced Backbone
-{shared_body}
-
-## School-Specific Tailoring
-Read `../research.md` and `{local_name}` before drafting a final version.
-"""
-            write_text(generated_path, prompt_body)
-
-            school_readme_lines.append(f"- `{generated_path.relative_to(ROOT)}`")
             school_readme_lines.append(f"- `{draft_path.relative_to(ROOT)}`")
             exported_school["prompts"].append(prompt)
 
@@ -1825,22 +1747,19 @@ This repository was generated on {BUILD_DATE} to support your VS Code + Codex wo
 ## What This Repo Does
 - Normalizes your active school list into a reusable local dataset
 - Creates primary essay planning files
-- Creates school-by-school secondary packets
-- Syncs overlapping prompts through shared backbone files in `essays/shared/`
-- Preserves school-specific customization in local note files
+- Creates school-by-school secondary draft placeholders
+- Links functionally similar essay drafts through `essays/shared-drafts/`
 - Renders clean HTML review pages from Markdown drafts
 
 ## Quick Start
 1. Draft primary materials in `essays/primary/`.
-2. Fill school research notes in `schools/*/research.md`.
-3. Edit reusable backbones in `essays/shared/`.
-4. Write actual essay drafts in `*.draft.md`.
-5. Regenerate the repo packet files with:
+2. Write actual essay drafts in `*.draft.md`. Some are linked to shared source drafts in `essays/shared-drafts/`.
+3. Refresh shared essay links after school-list or prompt changes with:
 
 ```bash
-python3 scripts/build_application_repo.py
+python3 scripts/sync_shared_essay_drafts.py
 ```
-6. Render polished review pages from your markdown drafts with:
+4. Render polished review pages from your markdown drafts with:
 
 ```bash
 python3 scripts/render_review_site.py
@@ -1848,7 +1767,7 @@ python3 scripts/render_review_site.py
 
 ## Important Notes
 - Prompt sets in this repo use the latest public sources I could verify on {BUILD_DATE}. Some schools are using 2024 Admit.org archives; a smaller number use newer 2025-2026 prompts from alternate public advising sources where Admit.org did not expose the full prompt text.
-- Treat every school packet as a strong drafting head start, not as a substitute for checking each school’s live portal when secondaries open.
+- Treat prompt metadata as a drafting aid, not as a substitute for checking each school’s live portal when secondaries open.
 - The active MD school list currently includes {school_count} schools.
 """,
     )
@@ -1856,7 +1775,6 @@ python3 scripts/render_review_site.py
 
 def main() -> None:
     ensure_dir(ROOT / "scripts")
-    create_shared_files()
     build_primary_docs()
     build_process_docs()
     stats = load_preliminary_stats()

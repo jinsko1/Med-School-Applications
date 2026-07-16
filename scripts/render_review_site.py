@@ -469,46 +469,6 @@ PAGE_TEMPLATE = Template(
       font-size: 15px;
     }
 
-    .packet-section {
-      margin: 0 0 16px;
-      padding: 14px 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: #fffaf1;
-    }
-
-    .packet-section h3 {
-      margin: 0 0 8px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent);
-    }
-
-    .packet-meta-list {
-      display: grid;
-      gap: 8px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .packet-meta-list li {
-      display: grid;
-      grid-template-columns: minmax(120px, 180px) minmax(0, 1fr);
-      gap: 10px;
-      border-bottom: 1px dashed rgba(216, 205, 193, 0.8);
-      padding-bottom: 8px;
-    }
-
-    .packet-meta-key {
-      color: var(--muted);
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-    }
-
     .note {
       margin-top: 16px;
       padding: 14px 16px;
@@ -985,7 +945,6 @@ PAGE_TEMPLATE = Template(
                 <span class="chip">Actual: {{ item.char_count }} characters</span>
                 {% if item.shared_group %}<span class="chip">Shared: {{ item.shared_group }}</span>{% endif %}
               </div>
-              {% if item.prompt_text_excerpt %}<p>{{ item.prompt_text_excerpt }}</p>{% endif %}
             </a>
             {% endfor %}
           </div>
@@ -1015,30 +974,6 @@ PAGE_TEMPLATE = Template(
       <details class="context-panel" open>
         <summary>Synced Draft Source</summary>
         <div class="details-body context">{{ synced_source_html | safe }}</div>
-      </details>
-      {% endif %}
-      {% if prompt_text_html %}
-      <details class="context-panel">
-        <summary>Prompt</summary>
-        <div class="details-body context">{{ prompt_text_html | safe }}</div>
-      </details>
-      {% endif %}
-      {% if local_notes_html %}
-      <details class="context-panel">
-        <summary>Local Notes</summary>
-        <div class="details-body context">{{ local_notes_html | safe }}</div>
-      </details>
-      {% endif %}
-      {% if research_html %}
-      <details class="context-panel">
-        <summary>School Fit Research</summary>
-        <div class="details-body context">{{ research_html | safe }}</div>
-      </details>
-      {% endif %}
-      {% if packet_html %}
-      <details class="context-panel">
-        <summary>Prompt Packet Outline</summary>
-        <div class="details-body context">{{ packet_html | safe }}</div>
       </details>
       {% endif %}
       <section class="content">
@@ -1094,93 +1029,6 @@ def char_count(text: str) -> int:
     return len(strip_markdown(text))
 
 
-def section_map(text: str) -> dict[str, str]:
-    sections: dict[str, list[str]] = {}
-    current = "__preamble__"
-    sections[current] = []
-    for line in text.splitlines():
-        if line.startswith("## "):
-            current = line[3:].strip()
-            sections.setdefault(current, [])
-            continue
-        sections.setdefault(current, []).append(line)
-    return {key: "\n".join(value).strip() for key, value in sections.items()}
-
-
-def parse_prompt_packet(packet_text: str) -> dict[str, str]:
-    sections = section_map(packet_text)
-    metadata_text = sections.get("Prompt Metadata", "")
-    metadata = {}
-    for line in metadata_text.splitlines():
-        if not line.startswith("- "):
-            continue
-        body = line[2:]
-        if ":" in body:
-            key, value = body.split(":", 1)
-            metadata[key.strip()] = value.strip()
-    return {
-        "title": metadata.get("Title", ""),
-        "limit": metadata.get("Limit", ""),
-        "source": metadata.get("Source", ""),
-        "prompt_text": sections.get("Prompt Text", ""),
-    }
-
-
-def render_packet_html(packet_text: str) -> str:
-    sections = section_map(packet_text)
-    parts: list[str] = []
-
-    metadata_text = sections.get("Prompt Metadata", "")
-    metadata_items = []
-    for line in metadata_text.splitlines():
-        if not line.startswith("- "):
-            continue
-        body = line[2:]
-        if ":" in body:
-            key, value = body.split(":", 1)
-            metadata_items.append((key.strip(), value.strip()))
-        elif body.strip():
-            metadata_items.append(("Shared resource", body.strip()))
-    if metadata_items:
-        items_html = "".join(
-            "<li>"
-            f"<span class=\"packet-meta-key\">{html.escape(key)}</span>"
-            f"<span>{html.escape(value)}</span>"
-            "</li>"
-            for key, value in metadata_items
-        )
-        parts.append(
-            "<section class=\"packet-section\">"
-            "<h3>Metadata</h3>"
-            f"<ul class=\"packet-meta-list\">{items_html}</ul>"
-            "</section>"
-        )
-
-    prompt_text = sections.get("Prompt Text", "")
-    if prompt_text:
-        parts.append(
-            "<section class=\"packet-section\">"
-            "<h3>Prompt Text</h3>"
-            f"{render_md(prompt_text)}"
-            "</section>"
-        )
-
-    for title, body in sections.items():
-        if title in {"__preamble__", "Prompt Metadata", "Prompt Text"} or not body:
-            continue
-        clean_title = title
-        if title == "Synced Backbone":
-            clean_title = "Reusable Planning Backbone"
-        parts.append(
-            "<section class=\"packet-section\">"
-            f"<h3>{html.escape(clean_title)}</h3>"
-            f"{render_md(body)}"
-            "</section>"
-        )
-
-    return "\n".join(parts)
-
-
 def first_limit(text: str) -> str | None:
     match = re.search(r"\b\d[\d,]*\s+(?:characters?|words?)\b(?:\s+including\s+spaces)?", text, flags=re.I)
     if match:
@@ -1202,17 +1050,30 @@ def render_md(text: str) -> str:
     return markdown(text)
 
 
+def prompt_metadata_for_draft(draft_path: Path, school_slug: str) -> dict[str, str] | None:
+    match = re.fullmatch(r"prompt-(\d{2})\.draft\.md", draft_path.name)
+    if not match:
+        return None
+    school = school_metadata_by_slug().get(school_slug)
+    if not school:
+        return None
+    prompts = school.get("prompts") or []
+    prompt_index = int(match.group(1)) - 1
+    if prompt_index < 0 or prompt_index >= len(prompts):
+        return None
+    prompt = prompts[prompt_index]
+    return {
+        "title": prompt.get("title", ""),
+        "limit": prompt.get("limit", ""),
+    }
+
+
 def companion_context(draft_path: Path) -> dict[str, str | None]:
     result: dict[str, str | None] = {
         "school": None,
         "limit": None,
         "subtitle": "",
-        "prompt_text_html": None,
-        "prompt_text_raw": None,
         "reference_html": None,
-        "local_notes_html": None,
-        "research_html": None,
-        "packet_html": None,
         "prompt_title": None,
         "synced_source_html": None,
         "school_slug": None,
@@ -1231,28 +1092,10 @@ def companion_context(draft_path: Path) -> dict[str, str | None]:
             result["school"] = first_heading(read_text(readme_path), school_dir.name.replace("-", " "))
         else:
             result["school"] = school_dir.name.replace("-", " ")
-        prefix = draft_path.name.replace(".draft.md", "")
-        packet_matches = sorted(
-            p
-            for p in draft_path.parent.glob(f"{prefix}-*.md")
-            if not p.name.endswith(".local.md") and not p.name.endswith(".draft.md")
-        )
-        if packet_matches:
-            packet_path = packet_matches[0]
-            packet_text = read_text(packet_path)
-            packet_data = parse_prompt_packet(packet_text)
-            result["prompt_title"] = packet_data["title"] or None
-            result["limit"] = packet_data["limit"] or None
-            if packet_data["prompt_text"]:
-                result["prompt_text_raw"] = packet_data["prompt_text"]
-                result["prompt_text_html"] = render_md(packet_data["prompt_text"])
-            result["packet_html"] = render_packet_html(packet_text)
-        local_path = draft_path.with_name(f"{prefix}.local.md")
-        if local_path.exists():
-            result["local_notes_html"] = render_md(read_text(local_path))
-        research_path = school_dir / "research.md"
-        if research_path.exists():
-            result["research_html"] = render_md(read_text(research_path))
+        prompt_metadata = prompt_metadata_for_draft(draft_path, school_dir.name)
+        if prompt_metadata:
+            result["prompt_title"] = prompt_metadata["title"] or None
+            result["limit"] = prompt_metadata["limit"] or None
         result["subtitle"] = ""
         return result
 
@@ -1345,11 +1188,7 @@ def render_draft_page(draft_path: Path) -> Path:
         limit=context["limit"],
         relative_path=relative_to_root(draft_path),
         draft_html=render_md(draft_text),
-        prompt_text_html=context["prompt_text_html"],
         reference_html=context["reference_html"],
-        local_notes_html=context["local_notes_html"],
-        research_html=context["research_html"],
-        packet_html=context["packet_html"],
         synced_source_html=context["synced_source_html"],
     )
     output_path.write_text(html_text, encoding="utf-8")
@@ -1410,7 +1249,6 @@ def entry_for_draft(draft_path: Path) -> tuple[dict[str, object], str | None]:
         "word_count": word_count(draft_text),
         "char_count": char_count(draft_text),
         "relative_path": relative_to_root(draft_path),
-        "prompt_text_excerpt": prompt_excerpt(context.get("prompt_text_raw")),
         "shared_group": shared_group_title_for_draft(draft_path),
     }
     return entry, context.get("school_slug")
@@ -1545,15 +1383,6 @@ def school_display_name(name: str) -> str:
     if percent is None:
         return name
     return f"{name} - ~{percent}%"
-
-
-def prompt_excerpt(prompt_text: str | None) -> str | None:
-    if not prompt_text:
-        return None
-    text = strip_markdown(prompt_text)
-    if len(text) <= 220:
-        return text
-    return text[:217].rsplit(" ", 1)[0] + "..."
 
 
 def shared_group_title_for_draft(draft_path: Path) -> str | None:

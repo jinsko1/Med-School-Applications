@@ -3,7 +3,7 @@
 Edit these files when multiple schools ask functionally similar prompts.
 Linked school draft files are symlinks, so opening one of those school drafts edits the shared source directly.
 
-Use each school's `prompt-XX.local.md` file for school-specific names, programs, and final tailoring.
+Use each school dashboard and official portal for school-specific names, programs, and final tailoring.
 
 ## Academic Context
 - Shared draft: `essays/shared-drafts/academic-context.draft.md`

@@ -5,7 +5,7 @@ Use this when multiple schools ask functionally similar secondary prompts.
 ## Source Files
 - Shared essay drafts live in `essays/shared-drafts/*.draft.md`.
 - Group membership lives in `data/shared_essay_groups.json`.
-- School-specific facts and tailoring still live in each school's `prompt-XX.local.md`.
+- School-specific facts and tailoring should be added directly to the final school draft.
 
 ## How It Works
 Some school `prompt-XX.draft.md` files are symlinks to a shared draft. Editing the school draft or the shared draft edits the same file.
@@ -16,12 +16,12 @@ For example, if several schools ask for a challenge essay, they can all point to
 essays/shared-drafts/challenge-resilience.draft.md
 ```
 
-The review site still renders a separate page for each school prompt, with the actual prompt and local notes shown above the shared draft.
+The review site still renders a separate page for each school prompt, with a shared-source notice when the draft is linked.
 
 Shared drafts are only shared across schools. If two prompts at the same school match the same theme, only one is linked and the other stays as a standalone school-specific draft.
 
 ## Commands
-Refresh the shared links after rebuilding school packets:
+Refresh the shared links after school-list or prompt changes:
 
 ```bash
 python3 scripts/sync_shared_essay_drafts.py

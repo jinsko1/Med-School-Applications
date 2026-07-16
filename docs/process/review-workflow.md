@@ -5,9 +5,9 @@ Write in markdown, but show mentors and reviewers something much cleaner than ra
 
 ## Source Files
 - Write actual essay drafts in `*.draft.md`
-- Keep reusable language in `essays/shared/*.md`
-- Keep school-specific strategy in `prompt-XX.local.md`
-- Treat generated `prompt-XX-*.md` files as prompt/reference packets
+- Keep reusable shared essay answers in `essays/shared-drafts/*.draft.md`
+- Add school-specific strategy directly in the relevant `prompt-XX.draft.md`
+- Use `data/schools.json` as the canonical prompt-title and limit source
 
 ## Render Review Pages
 From the repo root:
@@ -26,8 +26,8 @@ python3 scripts/render_review_site.py schools/uc-riverside
 
 ## What Reviewers Will See
 - Your draft in a clean reading layout
-- Prompt text when the draft belongs to a school secondary
-- Local notes and school research in expandable sections
+- Basic title, limit, word-count, and character-count metadata
+- Shared-source information when multiple schools use the same linked draft
 - A review index page at `review/index.html`
 
 ## Best Practice
