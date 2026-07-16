@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import shutil
 from functools import lru_cache
@@ -41,6 +42,8 @@ HOME_TEMPLATE = Template(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
   <title>Jin's Recommendation Materials</title>
   <style>
     :root {
@@ -240,6 +243,8 @@ PAGE_TEMPLATE = Template(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="{{ favicon_href }}">
+  <link rel="shortcut icon" type="image/png" href="{{ favicon_href }}">
   <title>{{ page_title }}</title>
   <style>
     :root {
@@ -1060,6 +1065,10 @@ def relative_to_root(path: Path) -> str:
         return str(path)
 
 
+def favicon_href_for_output(output_path: Path) -> str:
+    return Path(os.path.relpath(OUTPUT_ROOT / "favicon.png", output_path.parent)).as_posix()
+
+
 def first_heading(text: str, fallback: str) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
@@ -1328,6 +1337,7 @@ def render_draft_page(draft_path: Path) -> Path:
     html_text = PAGE_TEMPLATE.render(
         kind="page",
         page_title=title,
+        favicon_href=favicon_href_for_output(output_path),
         eyebrow="Essay Review Page",
         subtitle=context["subtitle"],
         word_count=word_count(draft_text),
@@ -1453,6 +1463,7 @@ def build_index(drafts: list[Path], school_page_slugs: set[str] | None = None) -
     index_html = PAGE_TEMPLATE.render(
         kind="index",
         page_title="Essay Review Pages",
+        favicon_href="favicon.png",
         primary_entries=primary_entries,
         schools=schools,
         progress=progress,
@@ -1584,6 +1595,7 @@ def build_school_pages(
         page_html = PAGE_TEMPLATE.render(
             kind="school",
             page_title=school_display_name(school["name"]),
+            favicon_href=favicon_href_for_output(page_path),
             school=school,
             papers=papers_by_slug.get(slug, []),
             major_contribution=contributions_by_slug.get(slug),
