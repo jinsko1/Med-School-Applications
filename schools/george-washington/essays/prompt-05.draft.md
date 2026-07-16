@@ -1,3 +1,7 @@
 # George Washington University School of Medicine & Health Sciences - Specific Interest in GW Draft
 
-Write your current draft here.
+I am mainly interested in GW because its curriculum is geared toward training that would help me become the kind of physician I hope to be. As a future physician, I hope to understand disease within its context; that is, I hope to remain attentive to the social determinants that produce and exacerbate it. GW's curriculum underscores Clinical Public Health, which is especially meaningful to me, as my experiences in juvenile hall service, hospice care, student advocacy, and research have taught me that illness is not solely biological.
+
+As such, I hope to take advantage of opportunities like the Patients, Populations, and Systems courses and Clinical Public Health Summits, as they would allow me to gain early exposure to the settings and methods of practice I hope to continue. My service values would consequently be placed into a more concrete, tangible framework. I am also greatly interested in the Community Urban Health and Health Policy scholarly concentrations, as I hope to practice medicine in underserved communities where need is greatest but care is often sparse. Likewise, the GW Healing Clinic also attracts me, as it joins primary care and student learning with service to underserved patients.
+
+Lastly, I would like to continue asking clinically pertinent questions through UTI research. GW's medical student research opportunities would allow me to preserve this habit of curiosity.

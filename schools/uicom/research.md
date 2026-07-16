@@ -4,7 +4,7 @@
 
 ## Applicant Fit Snapshot
 - School context: Chicago, IL; cached accepted-student medians: GPA 3.85, MCAT 512.
-- Current list note: Public school with some out-of-state risk, but current prompts align unusually well with your justice, diversity, and campus-research interests.
+- Current list note: Updated from the applicant's UIC secondary portal. Live pasted set contains five prompts focused on resilience, why UI COM, campuses, injustice, and perspective/contribution.
 - Why-school fact: UIC enrolls students across Chicago, Peoria, and Rockford and explicitly prepares physicians for both rural and urban practice with cultural humility.
 - Heuristic list estimate: ~3%
 - Core applicant narrative: research persistence, patient-facing humility, service with vulnerable communities, student advocacy, teaching/mentorship, and thoughtful communication.
@@ -19,13 +19,11 @@
 - Growth/reflection fit: use the frustrating repeated growth-curve work, hospice expectations vs. reality, or first restorative-justice visits to show humility and changed behavior.
 
 ## Prompt Strategy
-- `Conflict and Change`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Why UICOM`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
-- `Two Campuses`: select the strongest matching activity and keep the reflection tied to medicine.
-- `Prejudice, Injustice, and the Bystander`: lead with Restorative Partners, menstrual-product advocacy, hospice, or UTI/women's-health research depending on the wording.
+- `Conflict and Change`: show the qualities that helped you navigate conflict, change, or unfamiliarity, then explicitly name resiliency and growth mindset.
+- `Why UICOM`: name UI COM qualities that map to your service, research, clinical, or teaching record.
+- `Two Campuses`: describe at least two campuses specifically; avoid turning this into a generic why-school response.
+- `Injustice, Values, and Physician Role`: lead with Restorative Partners, menstrual-product advocacy, hospice, or UTI/women's-health research depending on the wording; address causes, consequences, values, and future physician role.
 - `Perspective and Contribution to UICOM`: choose one close-contact story and focus on what changed in your behavior rather than making a broad diversity claim.
-- `Reapplicant Update`: use N/A language unless you become a reapplicant.
-- `Incomplete Prior Program`: tie the school mission to your research-service throughline, then add two named programs or clinical/community sites before submission.
 
 ## Details to Add Before Submission
 - Add exact school names for the program, clinic, curriculum element, or community partnership you would actually use in a final essay.

@@ -77,6 +77,7 @@ DO_NOT_SHARE_TITLE_PATTERNS = (
     "standardized tests",
     "tan family",
     "technical standards",
+    "two campuses",
     "two passions",
     "uc davis-relevant activities",
     "underloaded terms",

@@ -1,5 +1,3 @@
 # George Washington University School of Medicine & Health Sciences - Uniqueness, Challenges, and Learning Draft
 
-_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
-
-Write your current draft here.
+What makes me unique is not merely a single trait, but a collection of habits in gestault form that distinguishes me. For instance, I am persistently curious about the interior lives of others, a natural inclination, but I further this through my reading of both fiction and non-fiction to broaden perspectives hitherto unknown. In this way, character is transfigured by habit. But then, the main challenge has been learning that I may never fully understand another person's lived experience. It is not uncommon to encounter distance and fear not easily resolved in juvenile hall and hospice care. Fortunately, I have learned to remain with that discomfort, ask questions carefully, and avoid mistaking circumstance for character. I hope this makes me a more receptive peer.

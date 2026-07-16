@@ -78,5 +78,10 @@
     "label": "Eastern Virginia Secondary Portal",
     "url": "https://gateway.aamc.liaisoncas.com/app-gateway/#/login/80341/6387",
     "status": "received"
+  },
+  "uicom": {
+    "label": "UIC Secondary Portal",
+    "url": "https://uicomapp.com.uic.edu/security/login.aspx",
+    "status": "received"
   }
 }

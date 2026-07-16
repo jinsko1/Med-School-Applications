@@ -1,8 +1,8 @@
-# University of Illinois College of Medicine - Prejudice, Injustice, and the Bystander Local Notes
+# University of Illinois College of Medicine - Injustice, Values, and Physician Role Local Notes
 
 ## School-Specific Tailoring
-- Add named programs, clinics, mentors, tracks, or population notes from `../research.md`.
-- Add concrete story choices and angle decisions here.
+- Use a concrete injustice lens from Restorative Partners, student advocacy, hospice, or women's-health/UTI research.
+- Address all parts: causes, consequences, response as values/character, and your future role.
 
 ## Final Check
 - Make sure the draft answers the actual wording of the prompt, not just the shared backbone.

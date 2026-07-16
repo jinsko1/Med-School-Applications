@@ -1,5 +1,3 @@
 # George Washington University School of Medicine & Health Sciences - Clinical Public Health Interests Draft
 
-_Not linked to a shared essay draft: this prompt is too school-specific or personally open-ended to share safely_
-
-Write your current draft here.
+Broadly speaking, my interests lay in how upstream conditions manifest to become clinical realities. Service in juvenile hall, hospice care, student advocacy, and research have sparked an interest and illuminated the dire need for emphasis in population health as ways of alleviating illness without neglecting the circumstances that beget them.

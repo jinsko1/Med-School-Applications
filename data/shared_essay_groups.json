@@ -323,7 +323,7 @@
         "prompt_index": 2,
         "prompt_title": "Application Through Matriculation Activities",
         "draft_path": "schools/george-washington/essays/prompt-02.draft.md",
-        "status": "linked"
+        "status": "skipped-existing-draft"
       }
     ]
   },
@@ -424,10 +424,10 @@
       {
         "school": "University of Illinois College of Medicine",
         "school_slug": "uicom",
-        "prompt_index": 4,
-        "prompt_title": "Prejudice, Injustice, and the Bystander",
-        "draft_path": "schools/uicom/essays/prompt-04.draft.md",
-        "status": "linked"
+        "prompt_index": 5,
+        "prompt_title": "Perspective and Contribution to UICOM",
+        "draft_path": "schools/uicom/essays/prompt-05.draft.md",
+        "status": "skipped-existing-draft"
       }
     ]
   },
@@ -515,14 +515,6 @@
         "prompt_index": 4,
         "prompt_title": "Reapplicant Changes",
         "draft_path": "schools/belmont-frist/essays/prompt-04.draft.md",
-        "status": "linked"
-      },
-      {
-        "school": "University of Illinois College of Medicine",
-        "school_slug": "uicom",
-        "prompt_index": 6,
-        "prompt_title": "Reapplicant Update",
-        "draft_path": "schools/uicom/essays/prompt-06.draft.md",
         "status": "linked"
       },
       {

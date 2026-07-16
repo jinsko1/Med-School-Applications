@@ -81,7 +81,7 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
   - Nova Southeastern University Dr. Kiran C. Patel College of Allopathic Medicine - Prompt 03: Unique Perspective
   - Roseman University College of Medicine - Prompt 03: Cross-Cultural Interaction
   - Hackensack Meridian School of Medicine - Prompt 02: Engaging with Difference
-  - University of Illinois College of Medicine - Prompt 04: Prejudice, Injustice, and the Bystander
+  - University of Illinois College of Medicine - Prompt 05: Perspective and Contribution to UICOM
 
 ## Future Goals
 - Shared draft: `essays/shared-drafts/future-goals.draft.md`
@@ -95,13 +95,12 @@ Use each school's `prompt-XX.local.md` file for school-specific names, programs,
 
 ## Reapplicant Update
 - Shared draft: `essays/shared-drafts/reapplicant-update.draft.md`
-- Linked prompts: 6
+- Linked prompts: 5
 - Schools/prompts sharing this draft:
   - Vermont Larner College of Medicine - Prompt 05: Additional Information
   - Loyola University Chicago Stritch School of Medicine - Prompt 09: Reapplicant Improvement
   - University of Massachusetts Chan Medical School - Prompt 06: Reapplicant Candidacy Strengthening
   - Thomas F. Frist, Jr. College of Medicine at Belmont University - Prompt 04: Reapplicant Changes
-  - University of Illinois College of Medicine - Prompt 06: Reapplicant Update
   - California Northstate University College of Medicine - Prompt 06: Reapplicant Accomplishments
 
 ## Service / Public Health / Underserved

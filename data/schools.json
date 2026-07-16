@@ -913,7 +913,7 @@
     "coa_per_year": "107024",
     "median_gpa": "3.87",
     "median_mcat": "513",
-    "secondary_cycle": "2025-2026 from Med School Insiders",
+    "secondary_cycle": "2026-2027 live secondary portal prompts provided by applicant on 2026-07-16",
     "secondary_deadline": "December 12, 2025",
     "official_url": "https://www.luc.edu/stritch/admissions/",
     "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/loyola-university-secondary-essay-prompts/",
@@ -1854,8 +1854,8 @@
     "secondary_cycle": "2025-2026 from Med School Insiders",
     "secondary_deadline": "October 31, 2025",
     "official_url": "https://medicine.uic.edu/admissions/",
-    "prompt_source": "https://medschoolinsiders.com/medical-school-secondary-prompts-database/university-of-illinois-college-of-medicine-secondary-essay-prompts/",
-    "notes": "Public school with some out-of-state risk, but current prompts align unusually well with your justice, diversity, and campus-research interests.",
+    "prompt_source": "https://uicomapp.com.uic.edu/security/login.aspx",
+    "notes": "Updated from the applicant's UIC secondary portal. Live pasted set contains five prompts focused on resilience, why UI COM, campuses, injustice, and perspective/contribution.",
     "prompts": [
       {
         "title": "Conflict and Change",
@@ -1864,7 +1864,7 @@
           "challenge",
           "values"
         ],
-        "text": "What characteristics, qualities, or attributes do you possess that have helped you to deal with conflict and change?"
+        "text": "What characteristics, qualities, or attributes do you possess that have helped you navigate conflict, change, or unfamiliar situations? In your response, reflect on how you demonstrate resiliency and a growth mindset in your approach to personal and professional development."
       },
       {
         "title": "Why UICOM",
@@ -1872,7 +1872,7 @@
         "themes": [
           "why-school"
         ],
-        "text": "Which characteristics, qualities, or attributes of UICOM attracted you to apply for medical school here?"
+        "text": "Which characteristics, qualities, or attributes of UI COM attracted you to apply for medical school here?"
       },
       {
         "title": "Two Campuses",
@@ -1881,16 +1881,16 @@
           "why-school",
           "mission-fit"
         ],
-        "text": "An important part of UICOM's identity is the concept of \"one college, three campuses.\" The curriculum is identical on each campus; however, each campus has unique characteristics. Please describe what you have learned about at least two of our three campuses."
+        "text": "An important part of UI COM\u2019s identity is the concept of \u201cone college, three campuses.\u201d The curriculum is identical on each campus; however, each campus has unique characteristics. Please describe what you have learned about at least two of our three campuses."
       },
       {
-        "title": "Prejudice, Injustice, and the Bystander",
+        "title": "Injustice, Values, and Physician Role",
         "limit": "No character limit indicated",
         "themes": [
           "diversity-equity",
           "values"
         ],
-        "text": "What are some of the causes and consequences of prejudice and injustice? What does an individual's response to prejudice and injustice reveal about their character? What is the role of a bystander who witnesses prejudice or injustice?"
+        "text": "Injustice can take many forms and impact individuals and communities in profound ways. Reflect on some of the causes and consequences of injustice you have observed or learned about. What does an individual\u2019s response to injustice reveal about their values and character? How do you see your role\u2014as a future physician and member of society\u2014in recognizing and addressing injustice when you encounter it?"
       },
       {
         "title": "Perspective and Contribution to UICOM",
@@ -1899,25 +1899,7 @@
           "diversity-equity",
           "community"
         ],
-        "text": "UICOM values a wide range of perspectives. Describe an aspect of your own perspective, value system, or lived experience that is important to you and how it would contribute to the diverse and collaborative community at UICOM."
-      },
-      {
-        "title": "Reapplicant Update",
-        "limit": "No character limit indicated",
-        "themes": [
-          "additional-info",
-          "gap-year"
-        ],
-        "text": "If you are reapplying this year please describe what you have done during the past year."
-      },
-      {
-        "title": "Incomplete Prior Program",
-        "limit": "No character limit indicated",
-        "themes": [
-          "academic-context",
-          "additional-info"
-        ],
-        "text": "If you have ever matriculated into and not completed a professional/graduate program, please describe the circumstances of why you did not complete the program of study."
+        "text": "UI COM thrives when students bring a variety of perspectives, values, and ways of thinking to the learning environment. Describe an aspect of your perspective, value system, or experience that is especially meaningful to you. How would this shape your contribution to a collaborative and enriching learning environment at our medical school?"
       }
     ],
     "why_school_fact": "UIC enrolls students across Chicago, Peoria, and Rockford and explicitly prepares physicians for both rural and urban practice with cultural humility.",
