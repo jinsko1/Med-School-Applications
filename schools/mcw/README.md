@@ -32,4 +32,4 @@
 
 ## School Metadata
 - Why-school fact: MCW has three Wisconsin campuses, including Milwaukee, Green Bay, and Central Wisconsin, allowing a why-school essay to connect campus choice with urban, regional, or community-facing medicine.
-- Heuristic list estimate: ~8%
+- Heuristic list estimate: ~7%

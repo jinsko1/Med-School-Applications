@@ -12,7 +12,6 @@ on:
       - "schools/**"
       - "scripts/enrich_school_metadata.py"
       - "scripts/fetch_school_research_papers.py"
-      - "scripts/populate_school_research_notes.py"
       - "scripts/render_review_site.py"
       - "scripts/sync_shared_essay_drafts.py"
   workflow_dispatch:
@@ -38,13 +37,12 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install renderer dependencies
-        run: python -m pip install -r requirements.txt
+        run: python3 -m pip install -r requirements.txt
       - name: Build review site
         run: |
-          python scripts/enrich_school_metadata.py
-          python scripts/populate_school_research_notes.py
-          python scripts/sync_shared_essay_drafts.py
-          python scripts/render_review_site.py
+          python3 scripts/enrich_school_metadata.py
+          python3 scripts/sync_shared_essay_drafts.py
+          python3 scripts/render_review_site.py
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

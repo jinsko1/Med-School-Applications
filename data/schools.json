@@ -78,7 +78,7 @@
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
     "estimated_admit_chance_percent": 4,
     "estimated_admit_chance_label": "reach",
-    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (5548 applied, 646 interviewed, 103 matriculated when available), school medians GPA 3.92 / MCAT 516, California resident applying in-state, and research alignment, service alignment, clinical alignment.",
+    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (5548 applied, 646 interviewed, 103 matriculated when available), school medians GPA 3.92 / MCAT 516, California resident applying in-state, and research alignment, service alignment.",
     "estimated_admit_chance_assumptions": {
       "resident_state": "CA",
       "gpa": 3.73,
@@ -139,7 +139,7 @@
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
     "estimated_admit_chance_percent": 2,
     "estimated_admit_chance_label": "reach",
-    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (3926 applied, 310 interviewed, 35 matriculated when available), school medians GPA 3.87 / MCAT 517, California resident applying in-state, and general mission fit.",
+    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style res applicant/interview/matriculant counts (3926 applied, 310 interviewed, 35 matriculated when available), school medians GPA 3.87 / MCAT 517, California resident applying in-state, and service alignment.",
     "estimated_admit_chance_assumptions": {
       "resident_state": "CA",
       "gpa": 3.73,
@@ -520,9 +520,9 @@
     ],
     "why_school_fact": "MCW has three Wisconsin campuses, including Milwaukee, Green Bay, and Central Wisconsin, allowing a why-school essay to connect campus choice with urban, regional, or community-facing medicine.",
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
-    "estimated_admit_chance_percent": 8,
-    "estimated_admit_chance_label": "reasonable",
-    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (10711 applied, 812 interviewed, 274 matriculated when available), school medians GPA 3.87 / MCAT 511, private or geography-neutral pool, and research alignment, service alignment, health-equity alignment.",
+    "estimated_admit_chance_percent": 7,
+    "estimated_admit_chance_label": "possible",
+    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (10711 applied, 812 interviewed, 274 matriculated when available), school medians GPA 3.87 / MCAT 511, private or geography-neutral pool, and research alignment, service alignment, community alignment.",
     "estimated_admit_chance_assumptions": {
       "resident_state": "CA",
       "gpa": 3.73,
@@ -689,7 +689,7 @@
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
     "estimated_admit_chance_percent": 4,
     "estimated_admit_chance_label": "reach",
-    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12800 applied, 718 interviewed, 194 matriculated when available), school medians GPA 3.87 / MCAT 512, private or geography-neutral pool, and community alignment, clinical alignment.",
+    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (12800 applied, 718 interviewed, 194 matriculated when available), school medians GPA 3.87 / MCAT 512, private or geography-neutral pool, and service alignment, community alignment, clinical alignment.",
     "estimated_admit_chance_assumptions": {
       "resident_state": "CA",
       "gpa": 3.73,
@@ -1129,7 +1129,7 @@
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
     "estimated_admit_chance_percent": 4,
     "estimated_admit_chance_label": "reach",
-    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13814 applied, 585 interviewed, 190 matriculated when available), school medians GPA 3.84 / MCAT 512, private or geography-neutral pool, and service alignment, leadership alignment, community alignment.",
+    "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (13814 applied, 585 interviewed, 190 matriculated when available), school medians GPA 3.84 / MCAT 512, private or geography-neutral pool, and service alignment, clinical alignment.",
     "estimated_admit_chance_assumptions": {
       "resident_state": "CA",
       "gpa": 3.73,
@@ -1651,7 +1651,7 @@
     ],
     "why_school_fact": "NSU MD uses a hybrid case- and problem-based curriculum that places patients at the center of learning and rewards applicants who can reason through ambiguity.",
     "why_school_fact_source": "Cached 2027 MSAR profile plus official admissions page listed in this school metadata.",
-    "estimated_admit_chance_percent": 4,
+    "estimated_admit_chance_percent": 3,
     "estimated_admit_chance_label": "reach",
     "estimated_admit_chance_basis": "Heuristic, not a true admissions probability. Assumes CA resident, GPA 3.73, MCAT 520, and strong research/service/clinical fit. Uses cached 2027 MSAR-style total applicant/interview/matriculant counts (5790 applied, 395 interviewed, 65 matriculated when available), school medians GPA 3.85 / MCAT 513, private or geography-neutral pool, and research alignment, service alignment, community alignment.",
     "estimated_admit_chance_assumptions": {

@@ -32,4 +32,4 @@
 
 ## School Metadata
 - Why-school fact: NSU MD uses a hybrid case- and problem-based curriculum that places patients at the center of learning and rewards applicants who can reason through ambiguity.
-- Heuristic list estimate: ~4%
+- Heuristic list estimate: ~3%

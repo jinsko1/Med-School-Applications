@@ -30,3 +30,7 @@
 
 ## Useful Why-School Fact
 - Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.
+
+## School Metadata
+- Why-school fact: Tulane's New Orleans context makes community health, disaster/public-health awareness, and local health disparities unusually central to secondary essays.
+- Heuristic list estimate: ~4%

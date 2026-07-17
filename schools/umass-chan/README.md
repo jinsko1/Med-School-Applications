@@ -38,3 +38,7 @@
 
 ## Useful Why-School Fact
 - UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.
+
+## School Metadata
+- Why-school fact: UMass Chan's Vista Curriculum emphasizes biomedical, clinical, and health-systems science, with longitudinal preceptors starting in the first weeks and a public-sector/underserved mission.
+- Heuristic list estimate: ~4%

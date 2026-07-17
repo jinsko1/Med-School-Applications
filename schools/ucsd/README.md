@@ -26,3 +26,7 @@
 
 ## Useful Why-School Fact
 - UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.
+
+## School Metadata
+- Why-school fact: UCSD introduces students to outpatient patient care in the first year through Clinical Foundations and ambulatory care apprenticeship, while offering focused PRIME pathways for equity, global health, and Indigenous health interests.
+- Heuristic list estimate: ~4%
