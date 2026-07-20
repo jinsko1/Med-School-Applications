@@ -83,5 +83,40 @@
     "label": "UIC Secondary Portal",
     "url": "https://uicomapp.com.uic.edu/security/login.aspx",
     "status": "received"
+  },
+  "loyola-stritch": {
+    "label": "Loyola Stritch Secondary Portal",
+    "url": "https://ssomadmissions.luc.edu/Security/Login.aspx?ReturnUrl=%2f",
+    "status": "received"
+  },
+  "temple": {
+    "label": "Lewis Katz Secondary Portal",
+    "url": "https://apply.medicine.temple.edu/Security/Login.aspx?ReturnUrl=%2f",
+    "status": "received"
+  },
+  "uc-riverside": {
+    "label": "UC Riverside Secondary Portal",
+    "url": "https://amp.medsch.ucr.edu/Security/Login.aspx?ReturnUrl=%2f",
+    "status": "received"
+  },
+  "rush": {
+    "label": "Rush Secondary Portal",
+    "url": "https://applyrmc.rush.edu/Security/Login.aspx?ReturnUrl=%2f",
+    "status": "received"
+  },
+  "george-washington": {
+    "label": "George Washington Secondary Portal",
+    "url": "https://portal.smhs.gwu.edu/AdmissionsOfficeWeb/",
+    "status": "received"
+  },
+  "albany": {
+    "label": "Albany Secondary Portal",
+    "url": "https://mdadmissions.amc.edu/Security/Login.aspx/Create",
+    "status": "received"
+  },
+  "drexel": {
+    "label": "Drexel Secondary Portal",
+    "url": "https://apply.med.drexel.edu/Security/Login.aspx/create",
+    "status": "received"
   }
 }
