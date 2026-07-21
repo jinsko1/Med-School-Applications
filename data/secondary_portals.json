@@ -118,5 +118,10 @@
     "label": "Drexel Secondary Portal",
     "url": "https://apply.med.drexel.edu/Security/Login.aspx/create",
     "status": "received"
+  },
+  "belmont-frist": {
+    "label": "Belmont Frist Secondary Portal",
+    "url": "https://applymed.belmont.edu/Security/Login.aspx",
+    "status": "received"
   }
 }
