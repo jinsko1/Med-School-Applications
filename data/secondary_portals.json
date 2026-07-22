@@ -128,5 +128,10 @@
     "label": "University of Wisconsin Secondary Portal",
     "url": "https://admissions.med.wisc.edu/Security/Login.aspx",
     "status": "received"
+  },
+  "quinnipiac-netter": {
+    "label": "Quinnipiac Netter Secondary Portal",
+    "url": "https://admissions.medicine.quinnipiac.edu/Security/Login.aspx",
+    "status": "received"
   }
 }
