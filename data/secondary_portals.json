@@ -133,5 +133,10 @@
     "label": "Quinnipiac Netter Secondary Portal",
     "url": "https://admissions.medicine.quinnipiac.edu/Security/Login.aspx",
     "status": "received"
+  },
+  "uc-davis": {
+    "label": "UC Davis Secondary Portal",
+    "url": "https://applymd.ucdmc.ucdavis.edu/Security/Login.aspx",
+    "status": "received"
   }
 }
