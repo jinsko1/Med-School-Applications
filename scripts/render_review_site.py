@@ -1450,20 +1450,25 @@ def build_home_page() -> None:
     (OUTPUT_ROOT / "index.html").write_text(HOME_TEMPLATE.render(), encoding="utf-8")
 
 
+def copy_public_asset(source: Path, destination: Path) -> None:
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temp_destination = destination.with_name(f".{destination.name}.tmp")
+    shutil.copy2(source, temp_destination)
+    os.replace(temp_destination, destination)
+
+
 def copy_public_assets() -> None:
     resume_source = ROOT / "Resume" / "Resume.pdf"
     if resume_source.exists():
-        resume_output = OUTPUT_ROOT / "Resume" / "Resume.pdf"
-        resume_output.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(resume_source, resume_output)
+        copy_public_asset(resume_source, OUTPUT_ROOT / "Resume" / "Resume.pdf")
 
     mcat_source = ROOT / "MCAT Score.pdf"
     if mcat_source.exists():
-        shutil.copy2(mcat_source, OUTPUT_ROOT / "MCAT Score.pdf")
+        copy_public_asset(mcat_source, OUTPUT_ROOT / "MCAT Score.pdf")
 
     medicine_logo_source = ROOT / "download-caduceus-black-medical-symbol-silhouette-png-704081694709769t2p1dqthbh.png"
     if medicine_logo_source.exists():
-        shutil.copy2(medicine_logo_source, OUTPUT_ROOT / "medicine-logo.png")
+        copy_public_asset(medicine_logo_source, OUTPUT_ROOT / "medicine-logo.png")
 
     robots_text = "\n".join(
         [

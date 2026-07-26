@@ -143,5 +143,10 @@
     "label": "Emory Secondary Portal",
     "url": "https://mdadmission.emory.edu/Security/Login.aspx?ReturnUrl=%2f",
     "status": "received"
+  },
+  "hackensack-meridian": {
+    "label": "Hackensack Meridian Secondary Portal",
+    "url": "https://applymd.hmsom.org/et.ashx?e=146059&uc=1&url=jZsExuQ88F3u5jP7UoEzrb7F8qxv2cFUI3sOVUnTWJsvOnWir1uCgvlzBISTDnIVM4Qvxfaw8I5c8YSNORY8z%2bGbLXmdzr8rzgNuL4L7LpM%3d",
+    "status": "received"
   }
 }

@@ -110,5 +110,13 @@
   "uc-davis": {
     "secondary_essays": "complete",
     "completed_on": "2026-07-24"
+  },
+  "emory": {
+    "secondary_essays": "complete",
+    "completed_on": "2026-07-27"
+  },
+  "hackensack-meridian": {
+    "secondary_essays": "complete",
+    "completed_on": "2026-07-27"
   }
 }
