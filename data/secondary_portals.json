@@ -138,5 +138,10 @@
     "label": "UC Davis Secondary Portal",
     "url": "https://applymd.ucdmc.ucdavis.edu/Security/Login.aspx",
     "status": "received"
+  },
+  "emory": {
+    "label": "Emory Secondary Portal",
+    "url": "https://mdadmission.emory.edu/Security/Login.aspx?ReturnUrl=%2f",
+    "status": "received"
   }
 }
